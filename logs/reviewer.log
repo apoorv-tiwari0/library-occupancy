@@ -1,0 +1,341 @@
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO Deleted seat_LAB1
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO Adding new polygon.
+[2026-06-07 10:54:19] [reviewer] INFO Polygon confirmed: seat_LAB4
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO Redrawing seat_LAB2
+[2026-06-07 10:54:19] [reviewer] INFO Polygon confirmed: seat_LAB2
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO Adding new polygon.
+[2026-06-07 10:54:19] [reviewer] INFO Draw cancelled.
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO Adding new polygon.
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO Deleted seat_LAB1
+[2026-06-07 10:54:19] [reviewer] INFO Saved → C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json (2 section(s), 3 total seats)
+[2026-06-07 10:54:19] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_il1kgyuq\roi_polygons.json
+[2026-06-07 10:54:19] [reviewer] INFO Selected seat_LAB1
+[2026-06-07 10:54:48] [reviewer] INFO ROIReviewer | section=cad_lab polygons=24 output=data/roi/roi_polygons.json
+[2026-06-07 10:56:39] [reviewer] INFO Selected seat_LAB19
+[2026-06-07 10:56:47] [reviewer] INFO Deleted seat_LAB19
+[2026-06-07 10:56:52] [reviewer] INFO Selected seat_LAB13
+[2026-06-07 10:57:03] [reviewer] INFO Deleted seat_LAB13
+[2026-06-07 10:57:08] [reviewer] INFO Selected seat_LAB21
+[2026-06-07 10:57:09] [reviewer] INFO Deleted seat_LAB21
+[2026-06-07 10:57:24] [reviewer] INFO Selected seat_LAB11
+[2026-06-07 10:57:26] [reviewer] INFO Deleted seat_LAB11
+[2026-06-07 10:57:34] [reviewer] INFO Selected seat_LAB16
+[2026-06-07 10:57:36] [reviewer] INFO Deleted seat_LAB16
+[2026-06-07 10:57:37] [reviewer] INFO Selected seat_LAB24
+[2026-06-07 10:57:38] [reviewer] INFO Deleted seat_LAB24
+[2026-06-07 10:57:43] [reviewer] INFO Selected seat_LAB4
+[2026-06-07 10:57:43] [reviewer] INFO Deleted seat_LAB4
+[2026-06-07 10:57:45] [reviewer] INFO Selected seat_LAB9
+[2026-06-07 10:57:46] [reviewer] INFO Deleted seat_LAB9
+[2026-06-07 10:57:50] [reviewer] INFO Selected seat_LAB15
+[2026-06-07 10:57:51] [reviewer] INFO Deleted seat_LAB15
+[2026-06-07 10:58:40] [reviewer] INFO Adding new polygon.
+[2026-06-07 10:58:56] [reviewer] INFO Polygon confirmed: seat_LAB25
+[2026-06-07 10:59:11] [reviewer] INFO Selected seat_LAB10
+[2026-06-07 10:59:16] [reviewer] INFO Deleted seat_LAB10
+[2026-06-07 10:59:21] [reviewer] INFO Saved → data\roi\roi_polygons.json (1 section(s), 15 total seats)
+[2026-06-07 10:59:25] [reviewer] INFO Saved → data\roi\roi_polygons.json (1 section(s), 15 total seats)
+[2026-06-07 10:59:55] [reviewer] INFO ROIReviewer | section=cad_lab polygons=24 output=data/roi/roi_polygons.json
+[2026-06-07 11:00:28] [reviewer] INFO Selected seat_LAB13
+[2026-06-07 11:00:38] [reviewer] INFO Saved → data\roi\roi_polygons.json (1 section(s), 24 total seats)
+[2026-06-07 11:00:49] [reviewer] INFO ROIReviewer | section=cad_lab polygons=24 output=data/roi/roi_polygons.json
+[2026-06-07 11:00:50] [reviewer] INFO Selected seat_LAB13
+[2026-06-07 11:00:51] [reviewer] INFO Deleted seat_LAB13
+[2026-06-07 11:00:53] [reviewer] INFO Selected seat_LAB21
+[2026-06-07 11:00:53] [reviewer] INFO Deleted seat_LAB21
+[2026-06-07 11:00:57] [reviewer] INFO Selected seat_LAB19
+[2026-06-07 11:00:58] [reviewer] INFO Deleted seat_LAB19
+[2026-06-07 11:00:59] [reviewer] INFO Selected seat_LAB4
+[2026-06-07 11:00:59] [reviewer] INFO Deleted seat_LAB4
+[2026-06-07 11:01:00] [reviewer] INFO Selected seat_LAB9
+[2026-06-07 11:01:00] [reviewer] INFO Deleted seat_LAB9
+[2026-06-07 11:01:02] [reviewer] INFO Selected seat_LAB16
+[2026-06-07 11:01:03] [reviewer] INFO Deleted seat_LAB16
+[2026-06-07 11:01:04] [reviewer] INFO Selected seat_LAB24
+[2026-06-07 11:01:05] [reviewer] INFO Deleted seat_LAB24
+[2026-06-07 11:01:13] [reviewer] INFO Selected seat_LAB11
+[2026-06-07 11:01:13] [reviewer] INFO Deleted seat_LAB11
+[2026-06-07 11:01:22] [reviewer] INFO Selected seat_LAB15
+[2026-06-07 11:01:23] [reviewer] INFO Deleted seat_LAB15
+[2026-06-07 11:01:28] [reviewer] INFO Selected seat_LAB10
+[2026-06-07 11:01:30] [reviewer] INFO Deleted seat_LAB10
+[2026-06-07 11:01:34] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:01:56] [reviewer] INFO Polygon confirmed: seat_LAB25
+[2026-06-07 11:02:03] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:02:18] [reviewer] INFO Polygon confirmed: seat_LAB26
+[2026-06-07 11:02:53] [reviewer] INFO Saved → data\roi\roi_polygons.json (1 section(s), 16 total seats)
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO Deleted seat_LAB1
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:05:51] [reviewer] INFO Polygon confirmed: seat_LAB4
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO Redrawing seat_LAB2
+[2026-06-07 11:05:51] [reviewer] INFO Polygon confirmed: seat_LAB2
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:05:51] [reviewer] INFO Draw cancelled.
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO Deleted seat_LAB1
+[2026-06-07 11:05:51] [reviewer] INFO Saved → C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json (2 section(s), 3 total seats)
+[2026-06-07 11:05:51] [reviewer] INFO ROIReviewer | section=cad_lab polygons=3 output=C:\Users\apoor\AppData\Local\Temp\cp10_abfkls2o\roi_polygons.json
+[2026-06-07 11:05:51] [reviewer] INFO Selected seat_LAB1
+[2026-06-07 11:12:52] [reviewer] INFO ROIReviewer | section=focused_reading_area polygons=22 output=data/roi/roi_polygons.json
+[2026-06-07 11:12:58] [reviewer] INFO Selected seat_AREA11
+[2026-06-07 11:13:00] [reviewer] INFO Deleted seat_AREA11
+[2026-06-07 11:13:06] [reviewer] INFO Selected seat_AREA22
+[2026-06-07 11:13:07] [reviewer] INFO Deleted seat_AREA22
+[2026-06-07 11:13:10] [reviewer] INFO Selected seat_AREA19
+[2026-06-07 11:13:11] [reviewer] INFO Deleted seat_AREA19
+[2026-06-07 11:13:13] [reviewer] INFO Selected seat_AREA18
+[2026-06-07 11:13:14] [reviewer] INFO Deleted seat_AREA18
+[2026-06-07 11:13:15] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:13:43] [reviewer] INFO Polygon confirmed: seat_AREA23
+[2026-06-07 11:13:46] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:14:06] [reviewer] INFO Polygon confirmed: seat_AREA24
+[2026-06-07 11:14:13] [reviewer] INFO Selected seat_AREA8
+[2026-06-07 11:14:15] [reviewer] INFO Deleted seat_AREA8
+[2026-06-07 11:14:22] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:14:34] [reviewer] INFO Polygon confirmed: seat_AREA25
+[2026-06-07 11:14:41] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:14:53] [reviewer] INFO Polygon confirmed: seat_AREA26
+[2026-06-07 11:14:59] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:15:10] [reviewer] INFO Polygon confirmed: seat_AREA27
+[2026-06-07 11:15:20] [reviewer] INFO Selected seat_AREA14
+[2026-06-07 11:15:23] [reviewer] INFO Selected seat_AREA16
+[2026-06-07 11:15:25] [reviewer] INFO Deleted seat_AREA16
+[2026-06-07 11:15:30] [reviewer] INFO Selected seat_AREA6
+[2026-06-07 11:15:32] [reviewer] INFO Deleted seat_AREA6
+[2026-06-07 11:15:36] [reviewer] INFO Selected seat_AREA20
+[2026-06-07 11:15:37] [reviewer] INFO Selected seat_AREA15
+[2026-06-07 11:15:38] [reviewer] INFO Selected seat_AREA20
+[2026-06-07 11:15:41] [reviewer] INFO Deleted seat_AREA20
+[2026-06-07 11:15:43] [reviewer] INFO Selected seat_AREA3
+[2026-06-07 11:15:43] [reviewer] INFO Deleted seat_AREA3
+[2026-06-07 11:15:47] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:16:22] [reviewer] INFO Polygon confirmed: seat_AREA28
+[2026-06-07 11:16:32] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:17:01] [reviewer] INFO Polygon confirmed: seat_AREA29
+[2026-06-07 11:17:08] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:17:20] [reviewer] INFO Polygon confirmed: seat_AREA30
+[2026-06-07 11:17:26] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:17:48] [reviewer] INFO Polygon confirmed: seat_AREA31
+[2026-06-07 11:17:56] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:18:03] [reviewer] INFO Polygon confirmed: seat_AREA32
+[2026-06-07 11:18:08] [reviewer] INFO Saved → data\roi\roi_polygons.json (2 section(s), 47 total seats)
+[2026-06-07 11:19:08] [reviewer] INFO ROIReviewer | section=g_hall_2 polygons=48 output=data/roi/roi_polygons.json
+[2026-06-07 11:19:23] [reviewer] INFO Selected seat_233
+[2026-06-07 11:19:25] [reviewer] INFO Deleted seat_233
+[2026-06-07 11:19:34] [reviewer] INFO Selected seat_245
+[2026-06-07 11:19:35] [reviewer] INFO Deleted seat_245
+[2026-06-07 11:20:13] [reviewer] INFO Saved → data\roi\roi_polygons.json (3 section(s), 92 total seats)
+[2026-06-07 11:20:55] [reviewer] INFO ROIReviewer | section=g_huss polygons=32 output=data/roi/roi_polygons.json
+[2026-06-07 11:21:04] [reviewer] INFO Selected seat_HUSS30
+[2026-06-07 11:21:06] [reviewer] INFO Deleted seat_HUSS30
+[2026-06-07 11:21:09] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:21:23] [reviewer] INFO Polygon confirmed: seat_HUSS33
+[2026-06-07 11:21:29] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:21:49] [reviewer] INFO Polygon confirmed: seat_HUSS34
+[2026-06-07 11:22:12] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:22:28] [reviewer] INFO Polygon confirmed: seat_HUSS35
+[2026-06-07 11:22:36] [reviewer] INFO Saved → data\roi\roi_polygons.json (4 section(s), 128 total seats)
+[2026-06-07 11:23:39] [reviewer] INFO ROIReviewer | section=hindi_section polygons=80 output=data/roi/roi_polygons.json
+[2026-06-07 11:23:45] [reviewer] INFO Selected seat_SECTION62
+[2026-06-07 11:23:47] [reviewer] INFO Deleted seat_SECTION62
+[2026-06-07 11:23:50] [reviewer] INFO Selected seat_SECTION15
+[2026-06-07 11:23:50] [reviewer] INFO Deleted seat_SECTION15
+[2026-06-07 11:23:54] [reviewer] INFO Selected seat_SECTION19
+[2026-06-07 11:23:56] [reviewer] INFO Selected seat_SECTION5
+[2026-06-07 11:23:57] [reviewer] INFO Selected seat_SECTION12
+[2026-06-07 11:23:58] [reviewer] INFO Selected seat_SECTION6
+[2026-06-07 11:24:00] [reviewer] INFO Selected seat_SECTION7
+[2026-06-07 11:24:02] [reviewer] INFO Selected seat_SECTION30
+[2026-06-07 11:24:07] [reviewer] INFO Selected seat_SECTION7
+[2026-06-07 11:24:17] [reviewer] INFO Redrawing seat_SECTION7
+[2026-06-07 11:24:25] [reviewer] INFO Draw cancelled.
+[2026-06-07 11:24:37] [reviewer] INFO Selected seat_SECTION30
+[2026-06-07 11:24:40] [reviewer] INFO Redrawing seat_SECTION30
+[2026-06-07 11:25:00] [reviewer] INFO Polygon confirmed: seat_SECTION30
+[2026-06-07 11:25:05] [reviewer] INFO Selected seat_SECTION65
+[2026-06-07 11:25:07] [reviewer] INFO Deleted seat_SECTION65
+[2026-06-07 11:25:10] [reviewer] INFO Selected seat_SECTION24
+[2026-06-07 11:25:13] [reviewer] INFO Selected seat_SECTION24
+[2026-06-07 11:25:18] [reviewer] INFO Selected seat_SECTION66
+[2026-06-07 11:25:21] [reviewer] INFO Selected seat_SECTION24
+[2026-06-07 11:25:23] [reviewer] INFO Deleted seat_SECTION24
+[2026-06-07 11:25:24] [reviewer] INFO Selected seat_SECTION66
+[2026-06-07 11:25:27] [reviewer] INFO Selected seat_SECTION59
+[2026-06-07 11:25:28] [reviewer] INFO Deleted seat_SECTION59
+[2026-06-07 11:25:29] [reviewer] INFO Selected seat_SECTION66
+[2026-06-07 11:25:38] [reviewer] INFO Selected seat_SECTION66
+[2026-06-07 11:25:41] [reviewer] INFO Selected seat_SECTION67
+[2026-06-07 11:25:45] [reviewer] INFO Deleted seat_SECTION67
+[2026-06-07 11:25:52] [reviewer] INFO Selected seat_SECTION79
+[2026-06-07 11:25:53] [reviewer] INFO Deleted seat_SECTION79
+[2026-06-07 11:25:57] [reviewer] INFO Selected seat_SECTION68
+[2026-06-07 11:25:59] [reviewer] INFO Selected seat_SECTION8
+[2026-06-07 11:26:03] [reviewer] INFO Selected seat_SECTION13
+[2026-06-07 11:26:04] [reviewer] INFO Selected seat_SECTION9
+[2026-06-07 11:26:05] [reviewer] INFO Deleted seat_SECTION9
+[2026-06-07 11:26:07] [reviewer] INFO Selected seat_SECTION50
+[2026-06-07 11:26:09] [reviewer] INFO Selected seat_SECTION54
+[2026-06-07 11:26:13] [reviewer] INFO Selected seat_SECTION50
+[2026-06-07 11:26:13] [reviewer] INFO Deleted seat_SECTION50
+[2026-06-07 11:26:15] [reviewer] INFO Selected seat_SECTION54
+[2026-06-07 11:26:18] [reviewer] INFO Selected seat_SECTION60
+[2026-06-07 11:26:19] [reviewer] INFO Deleted seat_SECTION60
+[2026-06-07 11:26:23] [reviewer] INFO Selected seat_SECTION68
+[2026-06-07 11:26:24] [reviewer] INFO Deleted seat_SECTION68
+[2026-06-07 11:26:29] [reviewer] INFO Selected seat_SECTION77
+[2026-06-07 11:26:29] [reviewer] INFO Deleted seat_SECTION77
+[2026-06-07 11:26:39] [reviewer] INFO Selected seat_SECTION80
+[2026-06-07 11:26:40] [reviewer] INFO Deleted seat_SECTION80
+[2026-06-07 11:26:42] [reviewer] INFO Selected seat_SECTION52
+[2026-06-07 11:26:43] [reviewer] INFO Deleted seat_SECTION52
+[2026-06-07 11:26:46] [reviewer] INFO Selected seat_SECTION56
+[2026-06-07 11:26:47] [reviewer] INFO Deleted seat_SECTION56
+[2026-06-07 11:26:51] [reviewer] INFO Selected seat_SECTION26
+[2026-06-07 11:26:53] [reviewer] INFO Selected seat_SECTION26
+[2026-06-07 11:26:54] [reviewer] INFO Selected seat_SECTION26
+[2026-06-07 11:26:55] [reviewer] INFO Selected seat_SECTION26
+[2026-06-07 11:26:56] [reviewer] INFO Selected seat_SECTION26
+[2026-06-07 11:26:57] [reviewer] INFO Selected seat_SECTION26
+[2026-06-07 11:27:00] [reviewer] INFO Selected seat_SECTION11
+[2026-06-07 11:27:02] [reviewer] INFO Selected seat_SECTION47
+[2026-06-07 11:27:03] [reviewer] INFO Deleted seat_SECTION47
+[2026-06-07 11:27:12] [reviewer] INFO Selected seat_SECTION20
+[2026-06-07 11:27:13] [reviewer] INFO Deleted seat_SECTION20
+[2026-06-07 11:27:19] [reviewer] INFO Selected seat_SECTION49
+[2026-06-07 11:27:21] [reviewer] INFO Selected seat_SECTION29
+[2026-06-07 11:27:22] [reviewer] INFO Deleted seat_SECTION29
+[2026-06-07 11:27:25] [reviewer] INFO Selected seat_SECTION33
+[2026-06-07 11:27:25] [reviewer] INFO Deleted seat_SECTION33
+[2026-06-07 11:27:34] [reviewer] INFO Selected seat_SECTION64
+[2026-06-07 11:27:34] [reviewer] INFO Deleted seat_SECTION64
+[2026-06-07 11:27:36] [reviewer] INFO Selected seat_SECTION11
+[2026-06-07 11:27:37] [reviewer] INFO Deleted seat_SECTION11
+[2026-06-07 11:27:39] [reviewer] INFO Selected seat_SECTION45
+[2026-06-07 11:27:39] [reviewer] INFO Deleted seat_SECTION45
+[2026-06-07 11:27:48] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:27:56] [reviewer] INFO Draw cancelled.
+[2026-06-07 11:27:58] [reviewer] INFO Selected seat_SECTION43
+[2026-06-07 11:27:59] [reviewer] INFO Redrawing seat_SECTION43
+[2026-06-07 11:28:15] [reviewer] INFO Polygon confirmed: seat_SECTION43
+[2026-06-07 11:28:20] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:28:47] [reviewer] INFO Polygon confirmed: seat_SECTION81
+[2026-06-07 11:28:53] [reviewer] INFO Selected seat_SECTION10
+[2026-06-07 11:28:57] [reviewer] INFO Deleted seat_SECTION10
+[2026-06-07 11:29:02] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:29:16] [reviewer] INFO Polygon confirmed: seat_SECTION82
+[2026-06-07 11:29:26] [reviewer] INFO Selected seat_SECTION21
+[2026-06-07 11:29:29] [reviewer] INFO Selected seat_SECTION39
+[2026-06-07 11:29:31] [reviewer] INFO Selected seat_SECTION21
+[2026-06-07 11:29:32] [reviewer] INFO Selected seat_SECTION61
+[2026-06-07 11:29:35] [reviewer] INFO Selected seat_SECTION70
+[2026-06-07 11:29:37] [reviewer] INFO Deleted seat_SECTION70
+[2026-06-07 11:29:39] [reviewer] INFO Selected seat_SECTION61
+[2026-06-07 11:29:41] [reviewer] INFO Selected seat_SECTION21
+[2026-06-07 11:29:43] [reviewer] INFO Selected seat_SECTION53
+[2026-06-07 11:29:45] [reviewer] INFO Selected seat_SECTION46
+[2026-06-07 11:29:47] [reviewer] INFO Selected seat_SECTION55
+[2026-06-07 11:29:50] [reviewer] INFO Selected seat_SECTION35
+[2026-06-07 11:29:51] [reviewer] INFO Selected seat_SECTION58
+[2026-06-07 11:29:57] [reviewer] INFO Selected seat_SECTION28
+[2026-06-07 11:29:57] [reviewer] INFO Deleted seat_SECTION28
+[2026-06-07 11:30:01] [reviewer] INFO Selected seat_SECTION41
+[2026-06-07 11:30:03] [reviewer] INFO Selected seat_SECTION25
+[2026-06-07 11:30:05] [reviewer] INFO Selected seat_SECTION75
+[2026-06-07 11:30:06] [reviewer] INFO Deleted seat_SECTION75
+[2026-06-07 11:30:08] [reviewer] INFO Selected seat_SECTION72
+[2026-06-07 11:30:09] [reviewer] INFO Deleted seat_SECTION72
+[2026-06-07 11:30:20] [reviewer] INFO Selected seat_SECTION51
+[2026-06-07 11:30:20] [reviewer] INFO Deleted seat_SECTION51
+[2026-06-07 11:30:23] [reviewer] INFO Selected seat_SECTION74
+[2026-06-07 11:30:24] [reviewer] INFO Deleted seat_SECTION74
+[2026-06-07 11:30:27] [reviewer] INFO Selected seat_SECTION54
+[2026-06-07 11:30:29] [reviewer] INFO Deleted seat_SECTION54
+[2026-06-07 11:30:38] [reviewer] INFO Saved → data\roi\roi_polygons.json (5 section(s), 177 total seats)
+[2026-06-07 11:31:40] [reviewer] INFO ROIReviewer | section=ip_camera_19 polygons=6 output=data/roi/roi_polygons.json
+[2026-06-07 11:31:45] [reviewer] INFO Selected seat_195
+[2026-06-07 11:31:46] [reviewer] INFO Deleted seat_195
+[2026-06-07 11:31:49] [reviewer] INFO Selected seat_191
+[2026-06-07 11:31:52] [reviewer] INFO Selected seat_192
+[2026-06-07 11:31:54] [reviewer] INFO Redrawing seat_192
+[2026-06-07 11:32:30] [reviewer] INFO Polygon confirmed: seat_192
+[2026-06-07 11:32:46] [reviewer] INFO Adding new polygon.
+[2026-06-07 11:32:59] [reviewer] INFO Polygon confirmed: seat_197
+[2026-06-07 11:35:14] [reviewer] INFO Saved → data\roi\roi_polygons.json (6 section(s), 212 total seats)
+[2026-06-09 14:25:57] [reviewer] INFO ROIReviewer | section=ipc polygons=13 output=data/roi/roi_polygons.json
+[2026-06-09 14:25:59] [reviewer] INFO Selected seat_IPC4
+[2026-06-09 14:26:01] [reviewer] INFO Deleted seat_IPC4
+[2026-06-09 14:26:03] [reviewer] INFO Selected seat_IPC10
+[2026-06-09 14:26:04] [reviewer] INFO Deleted seat_IPC10
+[2026-06-09 14:26:05] [reviewer] INFO Selected seat_IPC6
+[2026-06-09 14:26:06] [reviewer] INFO Selected seat_IPC3
+[2026-06-09 14:26:07] [reviewer] INFO Selected seat_IPC7
+[2026-06-09 14:26:08] [reviewer] INFO Selected seat_IPC5
+[2026-06-09 14:26:12] [reviewer] INFO Selected seat_IPC13
+[2026-06-09 14:26:12] [reviewer] INFO Deleted seat_IPC13
+[2026-06-09 14:26:22] [reviewer] INFO Adding new polygon.
+[2026-06-09 14:26:28] [reviewer] INFO Draw cancelled.
+[2026-06-09 14:26:29] [reviewer] INFO Adding new polygon.
+[2026-06-09 14:26:42] [reviewer] INFO Polygon confirmed: seat_IPC14
+[2026-06-09 14:26:48] [reviewer] INFO Saved → data\roi\roi_polygons.json (7 section(s), 223 total seats)
+[2026-06-09 14:28:20] [reviewer] INFO ROIReviewer | section=main_computer_room polygons=9 output=data/roi/roi_polygons.json
+[2026-06-09 14:28:21] [reviewer] INFO Selected seat_ROOM6
+[2026-06-09 14:28:23] [reviewer] INFO Deleted seat_ROOM6
+[2026-06-09 14:28:24] [reviewer] INFO Selected seat_ROOM9
+[2026-06-09 14:28:25] [reviewer] INFO Deleted seat_ROOM9
+[2026-06-09 14:28:27] [reviewer] INFO Selected seat_ROOM8
+[2026-06-09 14:28:27] [reviewer] INFO Deleted seat_ROOM8
+[2026-06-09 14:28:31] [reviewer] INFO Selected seat_ROOM2
+[2026-06-09 14:28:33] [reviewer] INFO Redrawing seat_ROOM2
+[2026-06-09 14:29:10] [reviewer] INFO Polygon confirmed: seat_ROOM2
+[2026-06-09 14:29:13] [reviewer] INFO Adding new polygon.
+[2026-06-09 14:29:37] [reviewer] INFO Polygon confirmed: seat_ROOM10
+[2026-06-09 14:29:46] [reviewer] INFO Adding new polygon.
+[2026-06-09 14:29:58] [reviewer] INFO Polygon confirmed: seat_ROOM11
+[2026-06-09 14:30:01] [reviewer] INFO Saved → data\roi\roi_polygons.json (8 section(s), 233 total seats)
+[2026-06-09 14:31:11] [reviewer] INFO ROIReviewer | section=reference_2 polygons=15 output=data/roi/roi_polygons.json
+[2026-06-09 14:31:15] [reviewer] INFO Selected seat_25
+[2026-06-09 14:31:16] [reviewer] INFO Deleted seat_25
+[2026-06-09 14:31:20] [reviewer] INFO Selected seat_211
+[2026-06-09 14:31:20] [reviewer] INFO Deleted seat_211
+[2026-06-09 14:31:22] [reviewer] INFO Selected seat_26
+[2026-06-09 14:31:23] [reviewer] INFO Deleted seat_26
+[2026-06-09 14:31:29] [reviewer] INFO Selected seat_24
+[2026-06-09 14:31:30] [reviewer] INFO Redrawing seat_24
+[2026-06-09 14:31:50] [reviewer] INFO Polygon confirmed: seat_24
+[2026-06-09 14:31:58] [reviewer] INFO Saved → data\roi\roi_polygons.json (9 section(s), 246 total seats)
+[2026-06-09 14:32:40] [reviewer] INFO ROIReviewer | section=reference_area polygons=8 output=data/roi/roi_polygons.json
+[2026-06-09 14:32:42] [reviewer] INFO Selected seat_AREA4
+[2026-06-09 14:32:43] [reviewer] INFO Deleted seat_AREA4
+[2026-06-09 14:32:47] [reviewer] INFO Selected seat_AREA6
+[2026-06-09 14:32:47] [reviewer] INFO Deleted seat_AREA6
+[2026-06-09 14:32:50] [reviewer] INFO Selected seat_AREA8
+[2026-06-09 14:32:50] [reviewer] INFO Deleted seat_AREA8
+[2026-06-09 14:32:55] [reviewer] INFO Adding new polygon.
+[2026-06-09 14:33:09] [reviewer] INFO Polygon confirmed: seat_AREA9
+[2026-06-09 14:33:12] [reviewer] INFO Saved → data\roi\roi_polygons.json (10 section(s), 255 total seats)
+[2026-06-09 14:34:49] [reviewer] INFO ROIReviewer | section=weeding_out_area polygons=9 output=data/roi/roi_polygons.json
+[2026-06-09 14:34:50] [reviewer] INFO Selected seat_AREA6
+[2026-06-09 14:34:52] [reviewer] INFO Deleted seat_AREA6
+[2026-06-09 14:34:53] [reviewer] INFO Selected seat_AREA4
+[2026-06-09 14:34:54] [reviewer] INFO Deleted seat_AREA4
+[2026-06-09 14:34:57] [reviewer] INFO Selected seat_AREA1
+[2026-06-09 14:34:58] [reviewer] INFO Selected seat_AREA2
+[2026-06-09 14:35:04] [reviewer] INFO Adding new polygon.
+[2026-06-09 14:35:22] [reviewer] INFO Polygon confirmed: seat_AREA10
+[2026-06-09 14:35:25] [reviewer] INFO Saved → data\roi\roi_polygons.json (11 section(s), 265 total seats)

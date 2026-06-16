@@ -1,0 +1,774 @@
+[2026-06-04 20:28:25] [auto_calibrator] INFO Removed 1 duplicate DINO detections (IoU > 0.5).
+[2026-06-04 20:28:25] [auto_calibrator] INFO Visualisation saved → C:\Users\apoor\AppData\Local\Temp\cp09_rds25lgs\vis_test.jpg
+[2026-06-04 20:30:28] [auto_calibrator] INFO Frame loaded: C:\IITD_Internship\library-occupancy\data\sample_frames\cad_lab.jpg (1918x1076)
+[2026-06-07 09:49:25] [auto_calibrator] INFO Removed 1 duplicate DINO detections (IoU > 0.5).
+[2026-06-07 09:49:25] [auto_calibrator] INFO Visualisation saved → C:\Users\apoor\AppData\Local\Temp\cp09_uha_rufj\vis_test.jpg
+[2026-06-07 09:50:25] [auto_calibrator] INFO Frame loaded: C:\IITD_Internship\library-occupancy\data\sample_frames\cad_lab.jpg (1918x1076)
+[2026-06-07 10:12:40] [auto_calibrator] INFO Frame loaded: data\sample_frames\cad_lab.jpg (1918x1076)
+[2026-06-07 10:12:43] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 10:22:26] [auto_calibrator] INFO Frame loaded: data\sample_frames\cad_lab.jpg (1918x1076)
+[2026-06-07 10:22:28] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 10:23:42] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.57 box=[400, 622, 621, 909]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.53 box=[964, 501, 1169, 755]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.56 box=[1587, 438, 1739, 627]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.47 box=[720, 870, 1561, 1075]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[38, 440, 148, 619]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[436, 366, 500, 414]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[648, 421, 725, 483]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[515, 375, 586, 452]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.45 box=[1487, 621, 1769, 1028]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[1686, 300, 1743, 343]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[725, 359, 803, 430]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[330, 518, 468, 759]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[39, 439, 140, 575]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.47 box=[131, 462, 940, 928]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[833, 321, 894, 344]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[799, 288, 871, 342]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1430, 368, 1605, 577]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.53 box=[140, 527, 334, 766]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[1430, 368, 1671, 577]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[625, 395, 660, 457]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.36 box=[750, 421, 1247, 710]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1579, 390, 1711, 559]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[339, 446, 442, 534]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[128, 478, 216, 692]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[793, 467, 949, 600]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[331, 519, 422, 758]
+[2026-06-07 10:23:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1430, 367, 1789, 577]
+[2026-06-07 10:23:45] [auto_calibrator] INFO Grounding DINO: 27 seat candidates detected.
+[2026-06-07 10:23:45] [auto_calibrator] INFO Removed 3 duplicate DINO detections (IoU > 0.5).
+[2026-06-07 10:23:45] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 10:25:56] [auto_calibrator] INFO Frame loaded: data\sample_frames\cad_lab.jpg (1918x1076)
+[2026-06-07 10:25:57] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 10:25:59] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.57 box=[400, 622, 621, 909]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.53 box=[964, 501, 1169, 755]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.56 box=[1587, 438, 1739, 627]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.47 box=[720, 870, 1561, 1075]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[38, 440, 148, 619]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[436, 366, 500, 414]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[648, 421, 725, 483]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[515, 375, 586, 452]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.45 box=[1487, 621, 1769, 1028]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[1686, 300, 1743, 343]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[725, 359, 803, 430]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[330, 518, 468, 759]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[39, 439, 140, 575]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.47 box=[131, 462, 940, 928]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[833, 321, 894, 344]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[799, 288, 871, 342]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1430, 368, 1605, 577]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.53 box=[140, 527, 334, 766]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[1430, 368, 1671, 577]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[625, 395, 660, 457]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.36 box=[750, 421, 1247, 710]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1579, 390, 1711, 559]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[339, 446, 442, 534]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[128, 478, 216, 692]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[793, 467, 949, 600]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[331, 519, 422, 758]
+[2026-06-07 10:26:02] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1430, 367, 1789, 577]
+[2026-06-07 10:26:02] [auto_calibrator] INFO Grounding DINO: 27 seat candidates detected.
+[2026-06-07 10:26:02] [auto_calibrator] INFO Removed 3 duplicate DINO detections (IoU > 0.5).
+[2026-06-07 10:26:02] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 10:34:38] [auto_calibrator] INFO Frame loaded: data\sample_frames\cad_lab.jpg (1918x1076)
+[2026-06-07 10:34:40] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 10:34:42] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.57 box=[400, 622, 621, 909]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.53 box=[964, 501, 1169, 755]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.56 box=[1587, 438, 1739, 627]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.47 box=[720, 870, 1561, 1075]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[38, 440, 148, 619]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[436, 366, 500, 414]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[648, 421, 725, 483]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[515, 375, 586, 452]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.45 box=[1487, 621, 1769, 1028]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[1686, 300, 1743, 343]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[725, 359, 803, 430]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[330, 518, 468, 759]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[39, 439, 140, 575]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.47 box=[131, 462, 940, 928]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[833, 321, 894, 344]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[799, 288, 871, 342]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1430, 368, 1605, 577]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.53 box=[140, 527, 334, 766]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[1430, 368, 1671, 577]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[625, 395, 660, 457]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.36 box=[750, 421, 1247, 710]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1579, 390, 1711, 559]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[339, 446, 442, 534]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[128, 478, 216, 692]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[793, 467, 949, 600]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[331, 519, 422, 758]
+[2026-06-07 10:34:45] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1430, 367, 1789, 577]
+[2026-06-07 10:34:45] [auto_calibrator] INFO Grounding DINO: 27 seat candidates detected.
+[2026-06-07 10:34:45] [auto_calibrator] INFO Removed 3 duplicate DINO detections (IoU > 0.5).
+[2026-06-07 10:34:45] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 10:42:53] [auto_calibrator] INFO Frame loaded: data\sample_frames\cad_lab.jpg (1918x1076)
+[2026-06-07 10:42:55] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 10:42:57] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.57 box=[400, 622, 621, 909]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.53 box=[964, 501, 1169, 755]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.56 box=[1587, 438, 1739, 627]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.47 box=[720, 870, 1561, 1075]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[38, 440, 148, 619]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[436, 366, 500, 414]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[648, 421, 725, 483]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[515, 375, 586, 452]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.45 box=[1487, 621, 1769, 1028]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[1686, 300, 1743, 343]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[725, 359, 803, 430]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[330, 518, 468, 759]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[39, 439, 140, 575]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.47 box=[131, 462, 940, 928]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[833, 321, 894, 344]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[799, 288, 871, 342]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1430, 368, 1605, 577]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.53 box=[140, 527, 334, 766]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[1430, 368, 1671, 577]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[625, 395, 660, 457]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.36 box=[750, 421, 1247, 710]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1579, 390, 1711, 559]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[339, 446, 442, 534]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[128, 478, 216, 692]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[793, 467, 949, 600]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[331, 519, 422, 758]
+[2026-06-07 10:42:59] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1430, 367, 1789, 577]
+[2026-06-07 10:42:59] [auto_calibrator] INFO Grounding DINO: 27 seat candidates detected.
+[2026-06-07 10:42:59] [auto_calibrator] INFO Removed 3 duplicate DINO detections (IoU > 0.5).
+[2026-06-07 10:42:59] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 10:43:01] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 0: SAM2 polygon with 13 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 1: SAM2 polygon with 9 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 2: SAM2 polygon with 12 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 3: SAM2 polygon with 6 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 4: SAM2 polygon with 9 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 5: SAM2 polygon with 5 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 6: SAM2 polygon with 7 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 7: SAM2 polygon with 7 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 8: SAM2 polygon with 10 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 9: SAM2 polygon with 6 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 10: SAM2 polygon with 7 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 11: SAM2 polygon with 8 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 12: SAM2 polygon with 9 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 13: SAM2 polygon with 7 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 14: SAM2 polygon with 6 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 15: SAM2 polygon with 9 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 16: SAM2 polygon with 11 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 17: SAM2 polygon with 5 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 18: SAM2 polygon with 6 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 19: SAM2 polygon with 11 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 20: SAM2 polygon with 7 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 21: SAM2 polygon with 6 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 22: SAM2 polygon with 11 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO   Box 23: SAM2 polygon with 9 vertices.
+[2026-06-07 10:43:02] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (24 seats detected in cad_lab)
+[2026-06-07 10:43:02] [auto_calibrator] INFO Visualisation saved → data\roi_previews\cad_lab_auto_calibration.jpg
+[2026-06-07 11:12:04] [auto_calibrator] INFO Frame loaded: data\sample_frames\focused_reading_area.jpg (1918x1077)
+[2026-06-07 11:12:06] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 11:12:08] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[777, 981, 1049, 1076]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.48 box=[177, 799, 458, 1036]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.46 box=[1428, 678, 1917, 1075]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.45 box=[1594, 863, 1917, 1076]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[1698, 595, 1825, 696]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.41 box=[1075, 435, 1578, 767]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair seat' conf=0.42 box=[208, 1032, 521, 1076]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.33 box=[190, 195, 387, 318]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.41 box=[287, 483, 467, 584]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.43 box=[574, 811, 926, 1074]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.33 box=[149, 576, 918, 904]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[975, 320, 1176, 532]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[935, 139, 1013, 188]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[202, 419, 370, 580]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[1572, 559, 1699, 622]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.37 box=[877, 266, 1363, 514]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.44 box=[1251, 578, 1562, 862]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.36 box=[183, 313, 641, 480]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[410, 391, 585, 482]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1530, 612, 1670, 709]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[807, 133, 887, 175]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.36 box=[148, 575, 925, 1005]
+[2026-06-07 11:12:11] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[403, 468, 582, 571]
+[2026-06-07 11:12:11] [auto_calibrator] INFO Grounding DINO: 23 seat candidates detected.
+[2026-06-07 11:12:11] [auto_calibrator] INFO Removed 1 duplicate DINO detections (IoU > 0.5).
+[2026-06-07 11:12:11] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 11:12:13] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-07 11:12:13] [auto_calibrator] INFO   Box 0: SAM2 polygon with 6 vertices.
+[2026-06-07 11:12:13] [auto_calibrator] INFO   Box 1: SAM2 polygon with 4 vertices.
+[2026-06-07 11:12:13] [auto_calibrator] INFO   Box 2: SAM2 polygon with 12 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 3: SAM2 polygon with 11 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 4: SAM2 polygon with 4 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 5: SAM2 polygon with 7 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 6: SAM2 polygon with 4 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 7: SAM2 polygon with 9 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 8: SAM2 polygon with 4 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 9: SAM2 polygon with 10 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 10: SAM2 polygon with 9 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 11: SAM2 polygon with 10 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 12: SAM2 polygon with 8 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 13: SAM2 polygon with 7 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 14: SAM2 polygon with 4 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 15: SAM2 polygon with 7 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 16: SAM2 polygon with 10 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 17: SAM2 polygon with 9 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 18: SAM2 polygon with 6 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 19: SAM2 polygon with 7 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 20: SAM2 polygon with 7 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO   Box 21: SAM2 polygon with 8 vertices.
+[2026-06-07 11:12:14] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 2
+[2026-06-07 11:12:14] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (22 seats detected in focused_reading_area)
+[2026-06-07 11:12:14] [auto_calibrator] INFO Visualisation saved → data\roi_previews\focused_reading_area_auto_calibration.jpg
+[2026-06-07 11:18:44] [auto_calibrator] INFO Frame loaded: data\sample_frames\g_hall_2.jpg (1918x1078)
+[2026-06-07 11:18:47] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 11:18:49] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.52 box=[484, 962, 719, 1077]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.50 box=[1024, 558, 1196, 673]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.55 box=[613, 824, 914, 1077]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.54 box=[957, 909, 1203, 1077]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.47 box=[1235, 369, 1305, 445]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.57 box=[339, 734, 613, 962]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.42 box=[605, 514, 724, 607]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[456, 493, 551, 573]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.47 box=[1111, 529, 1256, 672]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.43 box=[868, 336, 926, 399]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[536, 320, 579, 365]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.47 box=[661, 495, 828, 612]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[30, 616, 103, 702]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[240, 852, 464, 1077]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[640, 325, 705, 372]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[183, 409, 226, 443]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.49 box=[73, 645, 233, 799]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.42 box=[197, 440, 262, 508]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[643, 309, 716, 339]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.41 box=[910, 323, 1007, 404]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.40 box=[332, 418, 408, 467]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[928, 507, 1065, 642]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[733, 241, 775, 261]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[0, 598, 55, 659]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[355, 466, 421, 543]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[74, 885, 255, 1073]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[615, 256, 660, 280]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.45 box=[567, 459, 746, 573]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[427, 325, 459, 360]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1197, 197, 1238, 222]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.42 box=[241, 930, 454, 1077]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[891, 215, 937, 232]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[1056, 254, 1086, 277]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[178, 530, 1306, 1074]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[397, 438, 582, 540]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.32 box=[0, 878, 168, 1077]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[1203, 220, 1244, 244]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[237, 420, 291, 460]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[0, 654, 31, 697]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[236, 420, 294, 488]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[875, 201, 919, 224]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.52 box=[198, 668, 422, 863]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[844, 242, 909, 282]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[980, 217, 1020, 239]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[401, 441, 583, 555]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[922, 181, 954, 198]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[841, 208, 873, 227]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.30 box=[496, 373, 1321, 564]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[934, 206, 977, 229]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[639, 324, 709, 414]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[181, 530, 1307, 907]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[276, 465, 420, 546]
+[2026-06-07 11:18:51] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[397, 437, 537, 519]
+[2026-06-07 11:18:51] [auto_calibrator] INFO Grounding DINO: 53 seat candidates detected.
+[2026-06-07 11:18:51] [auto_calibrator] INFO Removed 5 duplicate DINO detections (IoU > 0.5).
+[2026-06-07 11:18:51] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 11:18:53] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-07 11:18:53] [auto_calibrator] INFO   Box 0: SAM2 polygon with 8 vertices.
+[2026-06-07 11:18:53] [auto_calibrator] INFO   Box 1: SAM2 polygon with 5 vertices.
+[2026-06-07 11:18:53] [auto_calibrator] INFO   Box 2: SAM2 polygon with 11 vertices.
+[2026-06-07 11:18:53] [auto_calibrator] INFO   Box 3: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:53] [auto_calibrator] INFO   Box 4: SAM2 polygon with 6 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 5: SAM2 polygon with 8 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 6: SAM2 polygon with 5 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 7: SAM2 polygon with 6 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 8: SAM2 polygon with 9 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 9: SAM2 polygon with 6 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 10: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 11: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 12: SAM2 polygon with 6 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 13: SAM2 polygon with 8 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 14: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 15: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 16: SAM2 polygon with 10 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 17: SAM2 polygon with 10 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 18: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 19: SAM2 polygon with 5 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 20: SAM2 polygon with 4 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 21: SAM2 polygon with 9 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 22: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 23: SAM2 polygon with 9 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 24: SAM2 polygon with 4 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 25: SAM2 polygon with 9 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 26: SAM2 polygon with 8 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 27: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 28: SAM2 polygon with 8 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 29: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 30: SAM2 polygon with 6 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 31: SAM2 polygon with 9 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 32: SAM2 polygon with 8 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 33: SAM2 polygon with 10 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 34: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 35: SAM2 polygon with 5 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 36: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 37: SAM2 polygon with 6 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 38: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 39: SAM2 polygon with 8 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 40: SAM2 polygon with 9 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 41: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] WARNING   Box 42: SAM2 mask too small, using bbox fallback.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 43: SAM2 polygon with 6 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 44: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 45: SAM2 polygon with 7 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 46: SAM2 polygon with 8 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO   Box 47: SAM2 polygon with 6 vertices.
+[2026-06-07 11:18:54] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 3
+[2026-06-07 11:18:54] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (48 seats detected in g_hall_2)
+[2026-06-07 11:18:54] [auto_calibrator] INFO Visualisation saved → data\roi_previews\g_hall_2_auto_calibration.jpg
+[2026-06-07 11:20:35] [auto_calibrator] INFO Frame loaded: data\sample_frames\g_huss.jpg (1918x1078)
+[2026-06-07 11:20:37] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 11:20:41] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.44 box=[441, 705, 640, 860]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.40 box=[85, 465, 205, 565]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[634, 559, 847, 807]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[463, 382, 546, 437]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[80, 337, 157, 387]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[1195, 487, 1290, 581]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[202, 308, 295, 358]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[473, 344, 573, 399]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[72, 309, 150, 353]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.41 box=[1755, 599, 1900, 784]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.44 box=[1396, 787, 1700, 1041]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1288, 452, 1333, 502]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[212, 276, 287, 318]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[940, 298, 1016, 347]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1035, 280, 1108, 316]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.49 box=[1133, 923, 1511, 1077]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[348, 277, 437, 331]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[649, 234, 714, 284]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.41 box=[382, 604, 621, 823]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[445, 257, 503, 296]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1600, 722, 1749, 888]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1503, 447, 1524, 512]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[351, 262, 431, 283]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[854, 224, 893, 252]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[1090, 310, 1170, 393]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1022, 554, 1178, 690]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[686, 246, 719, 284]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[776, 635, 820, 758]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[1166, 306, 1202, 362]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[1601, 628, 1811, 815]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[107, 421, 233, 515]
+[2026-06-07 11:20:43] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[776, 627, 1013, 758]
+[2026-06-07 11:20:43] [auto_calibrator] INFO Grounding DINO: 32 seat candidates detected.
+[2026-06-07 11:20:43] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 11:20:45] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 0: SAM2 polygon with 7 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 1: SAM2 polygon with 4 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 2: SAM2 polygon with 9 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 3: SAM2 polygon with 5 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 4: SAM2 polygon with 8 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 5: SAM2 polygon with 8 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 6: SAM2 polygon with 7 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 7: SAM2 polygon with 4 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 8: SAM2 polygon with 4 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 9: SAM2 polygon with 7 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 10: SAM2 polygon with 9 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 11: SAM2 polygon with 6 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 12: SAM2 polygon with 4 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 13: SAM2 polygon with 8 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 14: SAM2 polygon with 9 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 15: SAM2 polygon with 5 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 16: SAM2 polygon with 9 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 17: SAM2 polygon with 5 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 18: SAM2 polygon with 8 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 19: SAM2 polygon with 8 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 20: SAM2 polygon with 9 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 21: SAM2 polygon with 5 vertices.
+[2026-06-07 11:20:45] [auto_calibrator] INFO   Box 22: SAM2 polygon with 4 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 23: SAM2 polygon with 5 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 24: SAM2 polygon with 9 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 25: SAM2 polygon with 6 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 26: SAM2 polygon with 6 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 27: SAM2 polygon with 8 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 28: SAM2 polygon with 9 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 29: SAM2 polygon with 9 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 30: SAM2 polygon with 7 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO   Box 31: SAM2 polygon with 7 vertices.
+[2026-06-07 11:20:46] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 4
+[2026-06-07 11:20:46] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (32 seats detected in g_huss)
+[2026-06-07 11:20:46] [auto_calibrator] INFO Visualisation saved → data\roi_previews\g_huss_auto_calibration.jpg
+[2026-06-07 11:23:11] [auto_calibrator] INFO Frame loaded: data\sample_frames\hindi_section.jpg (1918x1078)
+[2026-06-07 11:23:13] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 11:23:15] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.52 box=[1380, 514, 1634, 744]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.60 box=[588, 455, 810, 760]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.60 box=[1300, 680, 1625, 1013]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.42 box=[769, 261, 820, 309]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[466, 280, 559, 334]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.40 box=[578, 248, 664, 302]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.47 box=[665, 262, 777, 336]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.43 box=[1743, 383, 1823, 518]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.40 box=[1662, 207, 1808, 298]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.45 box=[1035, 211, 1100, 249]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.41 box=[1288, 274, 1360, 329]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.45 box=[559, 289, 667, 366]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.42 box=[1609, 208, 1666, 280]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.44 box=[1544, 261, 1601, 326]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.46 box=[296, 198, 827, 484]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.67 box=[982, 747, 1386, 1076]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[1799, 349, 1842, 399]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[750, 492, 920, 638]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[419, 323, 536, 405]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1057, 314, 1228, 483]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.41 box=[631, 161, 702, 211]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[1146, 312, 1228, 373]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[317, 203, 380, 246]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.55 box=[917, 368, 1079, 552]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[530, 121, 592, 159]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1471, 275, 1526, 342]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.42 box=[1583, 279, 1787, 384]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[687, 104, 732, 141]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[1329, 354, 1403, 430]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[686, 222, 794, 284]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[1065, 169, 1117, 190]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[1013, 489, 1137, 550]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1128, 439, 1203, 493]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1548, 464, 1727, 667]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[979, 119, 1037, 154]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.33 box=[1079, 242, 1262, 314]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[466, 201, 575, 255]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1001, 186, 1065, 228]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[568, 182, 637, 223]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[796, 415, 950, 546]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[444, 138, 504, 177]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[1481, 222, 1553, 287]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[1357, 254, 1422, 302]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[870, 124, 914, 142]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[1280, 318, 1348, 374]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.40 box=[743, 136, 798, 170]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1464, 329, 1517, 363]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1058, 188, 1105, 215]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[1283, 336, 1335, 431]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[1742, 246, 1800, 299]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[1695, 161, 1732, 200]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[1403, 269, 1482, 340]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[658, 146, 718, 184]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1790, 265, 1836, 320]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[873, 138, 925, 173]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[1443, 237, 1493, 276]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[725, 99, 767, 127]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1025, 113, 1071, 143]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[772, 244, 1260, 441]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.33 box=[1001, 242, 1261, 314]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1765, 273, 1836, 355]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[720, 158, 782, 206]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.53 box=[402, 319, 920, 692]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1720, 408, 1780, 521]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.42 box=[796, 416, 950, 586]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1340, 296, 1407, 372]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[772, 258, 1131, 441]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.40 box=[735, 304, 1700, 1069]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[737, 478, 1481, 1071]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1416, 237, 1492, 276]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[923, 319, 1087, 478]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1469, 275, 1553, 344]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[949, 319, 1087, 400]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1760, 321, 1800, 385]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[283, 230, 410, 404]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[770, 169, 835, 217]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1201, 209, 1247, 247]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[300, 181, 347, 221]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1244, 171, 1287, 206]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.30 box=[1809, 215, 1853, 254]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.37 box=[224, 131, 742, 369]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[417, 324, 589, 535]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[1700, 408, 1779, 558]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1809, 319, 1836, 354]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.45 box=[1129, 359, 1223, 493]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[1481, 513, 1694, 712]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[416, 323, 606, 614]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[466, 280, 567, 358]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[1057, 357, 1217, 489]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1609, 461, 1728, 634]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[286, 229, 413, 427]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[753, 475, 941, 639]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1464, 275, 1525, 362]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1461, 483, 1724, 720]
+[2026-06-07 11:23:18] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.32 box=[1200, 195, 1482, 255]
+[2026-06-07 11:23:18] [auto_calibrator] INFO Grounding DINO: 95 seat candidates detected.
+[2026-06-07 11:23:18] [auto_calibrator] INFO Removed 15 duplicate DINO detections (IoU > 0.5).
+[2026-06-07 11:23:18] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 11:23:19] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 0: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 1: SAM2 polygon with 12 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 2: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 3: SAM2 polygon with 5 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 4: SAM2 polygon with 4 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 5: SAM2 polygon with 4 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 6: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 7: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 8: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 9: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 10: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 11: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 12: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 13: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 14: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 15: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 16: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 17: SAM2 polygon with 5 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 18: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 19: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 20: SAM2 polygon with 4 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 21: SAM2 polygon with 4 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 22: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 23: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 24: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 25: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 26: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 27: SAM2 polygon with 4 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 28: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 29: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 30: SAM2 polygon with 5 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 31: SAM2 polygon with 4 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 32: SAM2 polygon with 14 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 33: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 34: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 35: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 36: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 37: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:20] [auto_calibrator] INFO   Box 38: SAM2 polygon with 10 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 39: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 40: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 41: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 42: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 43: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 44: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 45: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 46: SAM2 polygon with 4 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 47: SAM2 polygon with 5 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 48: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 49: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 50: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 51: SAM2 polygon with 10 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 52: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 53: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 54: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 55: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 56: SAM2 polygon with 5 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 57: SAM2 polygon with 8 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 58: SAM2 polygon with 12 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 59: SAM2 polygon with 10 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 60: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 61: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 62: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 63: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 64: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 65: SAM2 polygon with 10 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 66: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 67: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 68: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 69: SAM2 polygon with 11 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 70: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 71: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 72: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 73: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 74: SAM2 polygon with 11 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 75: SAM2 polygon with 7 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 76: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 77: SAM2 polygon with 6 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 78: SAM2 polygon with 11 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO   Box 79: SAM2 polygon with 9 vertices.
+[2026-06-07 11:23:21] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 5
+[2026-06-07 11:23:21] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (80 seats detected in hindi_section)
+[2026-06-07 11:23:21] [auto_calibrator] INFO Visualisation saved → data\roi_previews\hindi_section_auto_calibration.jpg
+[2026-06-07 11:31:16] [auto_calibrator] INFO Frame loaded: data\sample_frames\ip_camera_19.jpg (1902x1067)
+[2026-06-07 11:31:18] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-07 11:31:21] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-07 11:31:23] [auto_calibrator] INFO   DINO detected: 'chair seat' conf=0.54 box=[914, 793, 1229, 1066]
+[2026-06-07 11:31:23] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.49 box=[867, 591, 1144, 906]
+[2026-06-07 11:31:23] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[1723, 232, 1787, 331]
+[2026-06-07 11:31:23] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[857, 248, 944, 344]
+[2026-06-07 11:31:23] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.33 box=[554, 398, 939, 1065]
+[2026-06-07 11:31:23] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[864, 224, 920, 314]
+[2026-06-07 11:31:23] [auto_calibrator] INFO Grounding DINO: 6 seat candidates detected.
+[2026-06-07 11:31:23] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-07 11:31:25] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-07 11:31:25] [auto_calibrator] INFO   Box 0: SAM2 polygon with 9 vertices.
+[2026-06-07 11:31:25] [auto_calibrator] INFO   Box 1: SAM2 polygon with 6 vertices.
+[2026-06-07 11:31:25] [auto_calibrator] INFO   Box 2: SAM2 polygon with 6 vertices.
+[2026-06-07 11:31:26] [auto_calibrator] INFO   Box 3: SAM2 polygon with 10 vertices.
+[2026-06-07 11:31:26] [auto_calibrator] INFO   Box 4: SAM2 polygon with 12 vertices.
+[2026-06-07 11:31:26] [auto_calibrator] INFO   Box 5: SAM2 polygon with 8 vertices.
+[2026-06-07 11:31:26] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 6
+[2026-06-07 11:31:26] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (6 seats detected in ip_camera_19)
+[2026-06-07 11:31:26] [auto_calibrator] INFO Visualisation saved → data\roi_previews\ip_camera_19_auto_calibration.jpg
+[2026-06-09 14:24:54] [auto_calibrator] INFO Frame loaded: data\sample_frames\ipc.jpg (1918x1078)
+[2026-06-09 14:24:58] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-09 14:25:01] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.57 box=[683, 848, 929, 1059]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.60 box=[1027, 815, 1292, 1006]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.44 box=[905, 605, 1048, 691]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.40 box=[534, 676, 1292, 1076]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[621, 625, 800, 699]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.35 box=[534, 675, 1291, 994]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.44 box=[1008, 591, 1138, 683]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.41 box=[724, 585, 877, 695]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[835, 454, 905, 520]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.40 box=[967, 453, 1059, 519]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[853, 516, 1143, 610]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.32 box=[714, 516, 1144, 609]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[797, 392, 846, 432]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[618, 625, 801, 909]
+[2026-06-09 14:25:04] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[770, 419, 1072, 515]
+[2026-06-09 14:25:04] [auto_calibrator] INFO Grounding DINO: 15 seat candidates detected.
+[2026-06-09 14:25:04] [auto_calibrator] INFO Removed 2 duplicate DINO detections (IoU > 0.5).
+[2026-06-09 14:25:04] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-09 14:25:06] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-09 14:25:06] [auto_calibrator] INFO   Box 0: SAM2 polygon with 11 vertices.
+[2026-06-09 14:25:06] [auto_calibrator] INFO   Box 1: SAM2 polygon with 8 vertices.
+[2026-06-09 14:25:06] [auto_calibrator] INFO   Box 2: SAM2 polygon with 6 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 3: SAM2 polygon with 7 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 4: SAM2 polygon with 6 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 5: SAM2 polygon with 5 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 6: SAM2 polygon with 7 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 7: SAM2 polygon with 7 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 8: SAM2 polygon with 6 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 9: SAM2 polygon with 7 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 10: SAM2 polygon with 6 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 11: SAM2 polygon with 5 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO   Box 12: SAM2 polygon with 9 vertices.
+[2026-06-09 14:25:07] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 7
+[2026-06-09 14:25:07] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (13 seats detected in ipc)
+[2026-06-09 14:25:07] [auto_calibrator] INFO Visualisation saved → data\roi_previews\ipc_auto_calibration.jpg
+[2026-06-09 14:27:34] [auto_calibrator] INFO Frame loaded: data\sample_frames\main_computer_room.jpg (1918x1078)
+[2026-06-09 14:27:36] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-09 14:27:38] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.48 box=[765, 834, 1087, 1014]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[174, 731, 507, 1013]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.38 box=[660, 439, 856, 542]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.49 box=[0, 998, 1240, 1077]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[358, 432, 534, 539]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.55 box=[122, 536, 1040, 1000]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[685, 394, 852, 442]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.32 box=[298, 355, 663, 487]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[513, 437, 875, 863]
+[2026-06-09 14:27:41] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.33 box=[181, 763, 503, 1011]
+[2026-06-09 14:27:41] [auto_calibrator] INFO Grounding DINO: 10 seat candidates detected.
+[2026-06-09 14:27:41] [auto_calibrator] INFO Removed 1 duplicate DINO detections (IoU > 0.5).
+[2026-06-09 14:27:41] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-09 14:27:42] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 0: SAM2 polygon with 9 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 1: SAM2 polygon with 10 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 2: SAM2 polygon with 4 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 3: SAM2 polygon with 4 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 4: SAM2 polygon with 8 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 5: SAM2 polygon with 11 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 6: SAM2 polygon with 5 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 7: SAM2 polygon with 11 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO   Box 8: SAM2 polygon with 4 vertices.
+[2026-06-09 14:27:43] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 8
+[2026-06-09 14:27:43] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (9 seats detected in main_computer_room)
+[2026-06-09 14:27:43] [auto_calibrator] INFO Visualisation saved → data\roi_previews\main_computer_room_auto_calibration.jpg
+[2026-06-09 14:30:32] [auto_calibrator] INFO Frame loaded: data\sample_frames\reference_2.jpg (1918x1078)
+[2026-06-09 14:30:34] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-09 14:30:36] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.51 box=[519, 765, 767, 1077]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.58 box=[1373, 734, 1768, 1077]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.45 box=[1214, 602, 1384, 848]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.42 box=[1077, 349, 1233, 530]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.43 box=[1201, 501, 1371, 692]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'stool' conf=0.51 box=[109, 664, 356, 935]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[506, 591, 755, 890]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1088, 270, 1192, 360]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[583, 238, 725, 367]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[585, 454, 674, 593]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.39 box=[712, 79, 1433, 1076]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[577, 317, 727, 477]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.40 box=[402, 390, 612, 749]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.31 box=[1827, 336, 1917, 427]
+[2026-06-09 14:30:37] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[510, 287, 684, 471]
+[2026-06-09 14:30:37] [auto_calibrator] INFO Grounding DINO: 15 seat candidates detected.
+[2026-06-09 14:30:37] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-09 14:30:39] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 0: SAM2 polygon with 9 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 1: SAM2 polygon with 10 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 2: SAM2 polygon with 5 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 3: SAM2 polygon with 10 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 4: SAM2 polygon with 8 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 5: SAM2 polygon with 9 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 6: SAM2 polygon with 5 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 7: SAM2 polygon with 6 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 8: SAM2 polygon with 7 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 9: SAM2 polygon with 4 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 10: SAM2 polygon with 8 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 11: SAM2 polygon with 9 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 12: SAM2 polygon with 9 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 13: SAM2 polygon with 11 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO   Box 14: SAM2 polygon with 9 vertices.
+[2026-06-09 14:30:40] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 9
+[2026-06-09 14:30:40] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (15 seats detected in reference_2)
+[2026-06-09 14:30:40] [auto_calibrator] INFO Visualisation saved → data\roi_previews\reference_2_auto_calibration.jpg
+[2026-06-09 14:32:15] [auto_calibrator] INFO Frame loaded: data\sample_frames\reference_area.jpg (1918x1078)
+[2026-06-09 14:32:17] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-09 14:32:20] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.51 box=[1650, 906, 1854, 1077]
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.45 box=[1036, 525, 1248, 738]
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.57 box=[990, 661, 1283, 1069]
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'table desk' conf=0.45 box=[725, 513, 1054, 1077]
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1098, 381, 1146, 467]
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.34 box=[1204, 971, 1438, 1077]
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.32 box=[1005, 381, 1147, 523]
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.35 box=[1058, 258, 1130, 320]
+[2026-06-09 14:32:22] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.36 box=[1032, 524, 1247, 797]
+[2026-06-09 14:32:22] [auto_calibrator] INFO Grounding DINO: 9 seat candidates detected.
+[2026-06-09 14:32:22] [auto_calibrator] INFO Removed 1 duplicate DINO detections (IoU > 0.5).
+[2026-06-09 14:32:22] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-09 14:32:23] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-09 14:32:24] [auto_calibrator] INFO   Box 0: SAM2 polygon with 5 vertices.
+[2026-06-09 14:32:24] [auto_calibrator] INFO   Box 1: SAM2 polygon with 6 vertices.
+[2026-06-09 14:32:24] [auto_calibrator] INFO   Box 2: SAM2 polygon with 10 vertices.
+[2026-06-09 14:32:24] [auto_calibrator] INFO   Box 3: SAM2 polygon with 10 vertices.
+[2026-06-09 14:32:24] [auto_calibrator] INFO   Box 4: SAM2 polygon with 7 vertices.
+[2026-06-09 14:32:24] [auto_calibrator] INFO   Box 5: SAM2 polygon with 7 vertices.
+[2026-06-09 14:32:24] [auto_calibrator] INFO   Box 6: SAM2 polygon with 8 vertices.
+[2026-06-09 14:32:24] [auto_calibrator] INFO   Box 7: SAM2 polygon with 9 vertices.
+[2026-06-09 14:32:24] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 10
+[2026-06-09 14:32:24] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (8 seats detected in reference_area)
+[2026-06-09 14:32:24] [auto_calibrator] INFO Visualisation saved → data\roi_previews\reference_area_auto_calibration.jpg
+[2026-06-09 14:33:52] [auto_calibrator] INFO Frame loaded: data\sample_frames\weeding_out_area.jpg (1918x1078)
+[2026-06-09 14:33:53] [auto_calibrator] INFO Loading Grounding DINO model...
+[2026-06-09 14:33:56] [auto_calibrator] INFO Grounding DINO loaded.
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.49 box=[946, 687, 1286, 1075]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.49 box=[1001, 870, 1396, 1077]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.46 box=[968, 492, 1240, 792]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.41 box=[787, 277, 994, 387]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[941, 374, 1075, 566]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.34 box=[683, 277, 994, 661]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.39 box=[991, 314, 1134, 481]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'desk' conf=0.32 box=[684, 384, 945, 662]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.37 box=[995, 128, 1028, 158]
+[2026-06-09 14:33:58] [auto_calibrator] INFO   DINO detected: 'chair' conf=0.31 box=[980, 219, 1055, 343]
+[2026-06-09 14:33:58] [auto_calibrator] INFO Grounding DINO: 10 seat candidates detected.
+[2026-06-09 14:33:58] [auto_calibrator] INFO Removed 1 duplicate DINO detections (IoU > 0.5).
+[2026-06-09 14:33:58] [auto_calibrator] INFO Loading SAM2 model...
+[2026-06-09 14:33:59] [auto_calibrator] INFO SAM2 loaded.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 0: SAM2 polygon with 11 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 1: SAM2 polygon with 9 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 2: SAM2 polygon with 8 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 3: SAM2 polygon with 4 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 4: SAM2 polygon with 12 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 5: SAM2 polygon with 4 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 6: SAM2 polygon with 12 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 7: SAM2 polygon with 7 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO   Box 8: SAM2 polygon with 8 vertices.
+[2026-06-09 14:34:00] [auto_calibrator] INFO Merged with existing ROI file. Total sections: 11
+[2026-06-09 14:34:00] [auto_calibrator] INFO Draft ROI saved → data\roi\roi_auto_draft.json (9 seats detected in weeding_out_area)
+[2026-06-09 14:34:00] [auto_calibrator] INFO Visualisation saved → data\roi_previews\weeding_out_area_auto_calibration.jpg

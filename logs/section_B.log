@@ -1,0 +1,196 @@
+[2026-05-20 12:16:37] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_pmasr8gv\section_B.avi
+[2026-05-20 12:16:37] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:16:37] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:16:37] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:16:37] [section_B] INFO [cam_02] Video file exhausted after 40 frames.
+[2026-05-20 12:16:37] [section_B] INFO [cam_02] Capture released. Total frames read: 40, sampled: 10, dropped (queue full): 0.
+[2026-05-20 12:16:37] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:18:18] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_7qk3gbc6\section_B.avi
+[2026-05-20 12:18:18] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:18:18] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:18:18] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:18:18] [section_B] INFO [cam_02] Video file exhausted after 120 frames.
+[2026-05-20 12:18:18] [section_B] INFO [cam_02] Capture released. Total frames read: 120, sampled: 30, dropped (queue full): 0.
+[2026-05-20 12:18:21] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:19:18] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\dbg_m761ro1s\test.avi
+[2026-05-20 12:19:18] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:19:18] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:19:18] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:19:18] [section_B] INFO [cam_02] Video file exhausted after 30 frames.
+[2026-05-20 12:19:18] [section_B] INFO [cam_02] Capture released. Total frames read: 30, sampled: 7, dropped (queue full): 0.
+[2026-05-20 12:19:23] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:20:44] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_k1nii6_p\section_B.avi
+[2026-05-20 12:20:44] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:20:44] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:20:44] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:20:44] [section_B] INFO [cam_02] Video file exhausted after 120 frames.
+[2026-05-20 12:20:44] [section_B] INFO [cam_02] Capture released. Total frames read: 120, sampled: 30, dropped (queue full): 0.
+[2026-05-20 12:20:44] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:20:44] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 12:20:47] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_k1nii6_p\section_B_iso.avi
+[2026-05-20 12:20:47] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:20:47] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:20:47] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:20:47] [section_B] INFO [cam_02] Video file exhausted after 120 frames.
+[2026-05-20 12:20:47] [section_B] INFO [cam_02] Capture released. Total frames read: 120, sampled: 30, dropped (queue full): 0.
+[2026-05-20 12:20:53] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:20:54] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 12:20:55] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_k1nii6_p\section_B_qs.avi
+[2026-05-20 12:20:55] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:20:55] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:20:55] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:20:55] [section_B] INFO [cam_02] Video file exhausted after 60 frames.
+[2026-05-20 12:20:55] [section_B] INFO [cam_02] Capture released. Total frames read: 60, sampled: 15, dropped (queue full): 0.
+[2026-05-20 12:20:55] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:20:55] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 12:20:56] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_k1nii6_p\section_B_shut.avi
+[2026-05-20 12:20:56] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:20:56] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:20:56] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:20:56] [section_B] INFO [cam_02] Video file exhausted after 30 frames.
+[2026-05-20 12:20:56] [section_B] INFO [cam_02] Capture released. Total frames read: 30, sampled: 7, dropped (queue full): 0.
+[2026-05-20 12:20:57] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:20:57] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 12:23:46] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_19j8bpe5\section_B_online.avi
+[2026-05-20 12:23:46] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:23:46] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:23:46] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:23:46] [section_B] INFO [cam_02] Video file exhausted after 90 frames.
+[2026-05-20 12:23:46] [section_B] INFO [cam_02] Capture released. Total frames read: 90, sampled: 22, dropped (queue full): 0.
+[2026-05-20 12:23:47] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:23:47] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 12:23:51] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_19j8bpe5\section_B_short.avi
+[2026-05-20 12:23:51] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:23:51] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:23:51] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:23:51] [section_B] INFO [cam_02] Video file exhausted after 15 frames.
+[2026-05-20 12:23:51] [section_B] INFO [cam_02] Capture released. Total frames read: 15, sampled: 3, dropped (queue full): 0.
+[2026-05-20 12:24:00] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_19j8bpe5\section_B_reconnect.avi
+[2026-05-20 12:24:00] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:24:00] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:24:00] [section_B] INFO [cam_02] Video file exhausted after 90 frames.
+[2026-05-20 12:24:00] [section_B] INFO [cam_02] Capture released. Total frames read: 90, sampled: 22, dropped (queue full): 0.
+[2026-05-20 12:24:03] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:24:03] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 12:24:04] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_19j8bpe5\section_B_api.avi
+[2026-05-20 12:24:04] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:24:04] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:24:04] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:24:04] [section_B] INFO [cam_02] Video file exhausted after 60 frames.
+[2026-05-20 12:24:04] [section_B] INFO [cam_02] Capture released. Total frames read: 60, sampled: 15, dropped (queue full): 0.
+[2026-05-20 12:24:05] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:24:05] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 12:24:11] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_19j8bpe5\section_B_shut.avi
+[2026-05-20 12:24:11] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 12:24:11] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 12:24:11] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 12:24:11] [section_B] INFO [cam_02] Video file exhausted after 60 frames.
+[2026-05-20 12:24:11] [section_B] INFO [cam_02] Capture released. Total frames read: 60, sampled: 15, dropped (queue full): 0.
+[2026-05-20 12:24:11] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 12:24:11] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 17:28:42] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_o3b77csh\section_B.avi
+[2026-05-20 17:28:42] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:28:42] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 17:28:42] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:28:42] [section_B] INFO [cam_02] Video file exhausted after 120 frames.
+[2026-05-20 17:28:42] [section_B] INFO [cam_02] Capture released. Total frames read: 120, sampled: 30, dropped (queue full): 0.
+[2026-05-20 17:28:42] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 17:28:42] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 17:28:49] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_o3b77csh\section_B_iso.avi
+[2026-05-20 17:28:49] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:28:49] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 17:28:49] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:28:49] [section_B] INFO [cam_02] Video file exhausted after 120 frames.
+[2026-05-20 17:28:49] [section_B] INFO [cam_02] Capture released. Total frames read: 120, sampled: 30, dropped (queue full): 0.
+[2026-05-20 17:28:56] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 17:28:56] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 17:28:57] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_o3b77csh\section_B_qs.avi
+[2026-05-20 17:28:57] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:28:57] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 17:28:57] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:28:57] [section_B] INFO [cam_02] Video file exhausted after 60 frames.
+[2026-05-20 17:28:57] [section_B] INFO [cam_02] Capture released. Total frames read: 60, sampled: 15, dropped (queue full): 0.
+[2026-05-20 17:28:58] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 17:28:58] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 17:29:03] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp06_o3b77csh\section_B_shut.avi
+[2026-05-20 17:29:03] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:29:03] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 17:29:03] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:29:03] [section_B] INFO [cam_02] Video file exhausted after 30 frames.
+[2026-05-20 17:29:03] [section_B] INFO [cam_02] Capture released. Total frames read: 30, sampled: 7, dropped (queue full): 0.
+[2026-05-20 17:29:04] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 17:29:04] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 17:29:21] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_ceocqfkq\section_B_online.avi
+[2026-05-20 17:29:21] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:29:21] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 17:29:21] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:29:21] [section_B] INFO [cam_02] Video file exhausted after 90 frames.
+[2026-05-20 17:29:21] [section_B] INFO [cam_02] Capture released. Total frames read: 90, sampled: 22, dropped (queue full): 0.
+[2026-05-20 17:29:22] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 17:29:22] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 17:29:26] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_ceocqfkq\section_B_short.avi
+[2026-05-20 17:29:26] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:29:26] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 17:29:26] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:29:26] [section_B] INFO [cam_02] Video file exhausted after 15 frames.
+[2026-05-20 17:29:26] [section_B] INFO [cam_02] Capture released. Total frames read: 15, sampled: 3, dropped (queue full): 0.
+[2026-05-20 17:29:35] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_ceocqfkq\section_B_reconnect.avi
+[2026-05-20 17:29:35] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:29:35] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:29:35] [section_B] INFO [cam_02] Video file exhausted after 90 frames.
+[2026-05-20 17:29:35] [section_B] INFO [cam_02] Capture released. Total frames read: 90, sampled: 22, dropped (queue full): 0.
+[2026-05-20 17:29:38] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 17:29:38] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 17:29:39] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_ceocqfkq\section_B_api.avi
+[2026-05-20 17:29:39] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:29:39] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 17:29:39] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:29:39] [section_B] INFO [cam_02] Video file exhausted after 60 frames.
+[2026-05-20 17:29:39] [section_B] INFO [cam_02] Capture released. Total frames read: 60, sampled: 15, dropped (queue full): 0.
+[2026-05-20 17:29:40] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 17:29:40] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-05-20 17:29:46] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_ceocqfkq\section_B_shut.avi
+[2026-05-20 17:29:46] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-05-20 17:29:46] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-05-20 17:29:46] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-05-20 17:29:46] [section_B] INFO [cam_02] Video file exhausted after 60 frames.
+[2026-05-20 17:29:46] [section_B] INFO [cam_02] Capture released. Total frames read: 60, sampled: 15, dropped (queue full): 0.
+[2026-05-20 17:29:46] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-05-20 17:29:46] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-06-04 17:06:53] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_13pwmu20\section_B_online.avi
+[2026-06-04 17:06:53] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-06-04 17:06:53] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-06-04 17:06:53] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-06-04 17:06:53] [section_B] INFO [cam_02] Video file exhausted after 90 frames.
+[2026-06-04 17:06:53] [section_B] INFO [cam_02] Capture released. Total frames read: 90, sampled: 22, dropped (queue full): 0.
+[2026-06-04 17:06:54] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-06-04 17:06:54] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-06-04 17:06:59] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_13pwmu20\section_B_short.avi
+[2026-06-04 17:06:59] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-06-04 17:06:59] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-06-04 17:06:59] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-06-04 17:06:59] [section_B] INFO [cam_02] Video file exhausted after 15 frames.
+[2026-06-04 17:06:59] [section_B] INFO [cam_02] Capture released. Total frames read: 15, sampled: 3, dropped (queue full): 0.
+[2026-06-04 17:07:08] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_13pwmu20\section_B_reconnect.avi
+[2026-06-04 17:07:08] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-06-04 17:07:08] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-06-04 17:07:08] [section_B] INFO [cam_02] Video file exhausted after 90 frames.
+[2026-06-04 17:07:08] [section_B] INFO [cam_02] Capture released. Total frames read: 90, sampled: 22, dropped (queue full): 0.
+[2026-06-04 17:07:11] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-06-04 17:07:11] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-06-04 17:07:12] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_13pwmu20\section_B_api.avi
+[2026-06-04 17:07:12] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-06-04 17:07:12] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-06-04 17:07:12] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-06-04 17:07:12] [section_B] INFO [cam_02] Video file exhausted after 60 frames.
+[2026-06-04 17:07:12] [section_B] INFO [cam_02] Capture released. Total frames read: 60, sampled: 15, dropped (queue full): 0.
+[2026-06-04 17:07:13] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-06-04 17:07:13] [section_B] INFO [section_B] Preprocessor worker stopped.
+[2026-06-04 17:07:18] [section_B] INFO [cam_02] Opening source: C:\Users\apoor\AppData\Local\Temp\cp07_13pwmu20\section_B_shut.avi
+[2026-06-04 17:07:18] [section_B] INFO FrameExtractor started | camera=cam_02 section=section_B sample_rate=1/4
+[2026-06-04 17:07:18] [section_B] INFO [section_B] Preprocessor worker started.
+[2026-06-04 17:07:18] [section_B] INFO [cam_02] Source opened: 640x480 @ 30.0 fps
+[2026-06-04 17:07:18] [section_B] INFO [cam_02] Video file exhausted after 60 frames.
+[2026-06-04 17:07:18] [section_B] INFO [cam_02] Capture released. Total frames read: 60, sampled: 15, dropped (queue full): 0.
+[2026-06-04 17:07:19] [section_B] INFO FrameExtractor stopped | camera=cam_02
+[2026-06-04 17:07:19] [section_B] INFO [section_B] Preprocessor worker stopped.

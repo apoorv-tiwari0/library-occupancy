@@ -1,0 +1,918 @@
+[2026-05-19 19:03:08] [system] INFO CP-03 logger test — INFO
+[2026-05-19 19:03:08] [system] WARNING CP-03 logger test — WARNING
+[2026-05-19 19:03:08] [system] ERROR CP-03 logger test — ERROR
+[2026-05-19 19:16:19] [system] INFO ============================================================
+[2026-05-19 19:16:19] [system] INFO CP-04 — Single camera frame extractor — self-test
+[2026-05-19 19:16:19] [system] INFO ============================================================
+[2026-05-19 19:16:19] [system] INFO Stream URL is RTSP (rtsp://192.168.1.101:554/stream1). Generating synthetic test video as offline fallback...
+[2026-05-19 19:16:19] [system] INFO Synthetic video written to C:\Users\apoor\AppData\Local\Temp\cp04_test.avi
+[2026-05-19 19:16:19] [system] INFO ------------------------------------------------------------
+[2026-05-19 19:16:19] [system] INFO ✅  Received 5 FramePacket(s). Showing first 5:
+[2026-05-19 19:16:19] [system] INFO   [1] camera='cam_01'  section='section_A'  frame_no=4  shape=(480, 640, 3)  timestamp=2026-05-19T13:46:19.642324+00:00
+[2026-05-19 19:16:19] [system] INFO   [2] camera='cam_01'  section='section_A'  frame_no=8  shape=(480, 640, 3)  timestamp=2026-05-19T13:46:19.644515+00:00
+[2026-05-19 19:16:19] [system] INFO   [3] camera='cam_01'  section='section_A'  frame_no=12  shape=(480, 640, 3)  timestamp=2026-05-19T13:46:19.646495+00:00
+[2026-05-19 19:16:19] [system] INFO   [4] camera='cam_01'  section='section_A'  frame_no=16  shape=(480, 640, 3)  timestamp=2026-05-19T13:46:19.648496+00:00
+[2026-05-19 19:16:19] [system] INFO   [5] camera='cam_01'  section='section_A'  frame_no=20  shape=(480, 640, 3)  timestamp=2026-05-19T13:46:19.650492+00:00
+[2026-05-19 19:16:19] [system] INFO ------------------------------------------------------------
+[2026-05-19 19:16:19] [system] INFO 🎉  CP-04 PASSED — frame extractor working correctly
+[2026-05-20 11:59:28] [system] INFO CP-03 logger test — INFO
+[2026-05-20 11:59:28] [system] WARNING CP-03 logger test — WARNING
+[2026-05-20 11:59:28] [system] ERROR CP-03 logger test — ERROR
+[2026-05-20 11:59:39] [system] INFO ============================================================
+[2026-05-20 11:59:39] [system] INFO CP-04 — Single camera frame extractor — self-test
+[2026-05-20 11:59:39] [system] INFO ============================================================
+[2026-05-20 11:59:39] [system] INFO Stream URL is RTSP (r"C:\IITD_Internship\library-occupancy\resources\vid1_sectionA.mp4"). Generating synthetic test video as offline fallback...
+[2026-05-20 11:59:39] [system] INFO Synthetic video written to C:\Users\apoor\AppData\Local\Temp\cp04_test.avi
+[2026-05-20 11:59:39] [system] INFO ------------------------------------------------------------
+[2026-05-20 11:59:39] [system] INFO ✅  Received 5 FramePacket(s). Showing first 5:
+[2026-05-20 11:59:39] [system] INFO   [1] camera='cam_01'  section='section_A'  frame_no=4  shape=(480, 640, 3)  timestamp=2026-05-20T06:29:39.716292+00:00
+[2026-05-20 11:59:39] [system] INFO   [2] camera='cam_01'  section='section_A'  frame_no=8  shape=(480, 640, 3)  timestamp=2026-05-20T06:29:39.718294+00:00
+[2026-05-20 11:59:39] [system] INFO   [3] camera='cam_01'  section='section_A'  frame_no=12  shape=(480, 640, 3)  timestamp=2026-05-20T06:29:39.720796+00:00
+[2026-05-20 11:59:39] [system] INFO   [4] camera='cam_01'  section='section_A'  frame_no=16  shape=(480, 640, 3)  timestamp=2026-05-20T06:29:39.722801+00:00
+[2026-05-20 11:59:39] [system] INFO   [5] camera='cam_01'  section='section_A'  frame_no=20  shape=(480, 640, 3)  timestamp=2026-05-20T06:29:39.725801+00:00
+[2026-05-20 11:59:39] [system] INFO ------------------------------------------------------------
+[2026-05-20 11:59:39] [system] INFO 🎉  CP-04 PASSED — frame extractor working correctly
+[2026-05-20 12:01:35] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=10 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:01:37] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=10 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:01:37] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=10 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:01:38] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=10 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:01:38] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=10 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:01:38] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=10 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:05:09] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=6 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:05:10] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=6 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:05:10] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=6 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:05:10] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=6 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:05:10] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=6 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:05:10] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=6 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:06:33] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:06:33] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:06:33] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:07:03] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:07:04] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:07:04] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:07:17] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:07:17] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:07:18] [system] INFO Preprocessor ready | gamma=1.2 nlm_h=4 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:10:01] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:10:01] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:10:01] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:10:58] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:10:59] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:10:59] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:11:39] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:11:39] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:11:39] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:14:07] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:14:07] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:14:08] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:14:08] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:14:08] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:14:08] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:16:36] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:16:37] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:16:37] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:16:37] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=ON
+[2026-05-20 12:16:37] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:18:15] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:18:18] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:18:18] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:18:18] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=ON
+[2026-05-20 12:18:21] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:19:17] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:19:18] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:19:18] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:19:18] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=ON
+[2026-05-20 12:19:23] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:20:42] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:20:44] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:20:44] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:20:44] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 12:20:44] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=ON
+[2026-05-20 12:20:44] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:20:47] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:20:47] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 12:20:54] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:20:55] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:20:55] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 12:20:55] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:20:56] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:20:56] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 12:20:57] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:23:46] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:23:46] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 12:23:46] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 12:23:51] [system] INFO HealthMonitor stopped.
+[2026-05-20 12:23:51] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:23:51] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:23:51] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 12:23:51] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 12:23:56] [system] ERROR [section_A] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-05-20 12:23:56] [system] INFO [section_A] Waiting 2.0s before reconnect...
+[2026-05-20 12:23:58] [system] INFO [section_A] ✅ Reconnected — new extractor started (camera=cam_01)
+[2026-05-20 12:23:58] [system] INFO [section_A] StreamManager notified of reconnect — pipeline resuming normally.
+[2026-05-20 12:23:58] [system] ERROR [section_B] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-05-20 12:23:58] [system] INFO [section_B] Waiting 2.0s before reconnect...
+[2026-05-20 12:24:00] [system] INFO [section_B] ✅ Reconnected — new extractor started (camera=cam_02)
+[2026-05-20 12:24:00] [system] INFO [section_B] StreamManager notified of reconnect — pipeline resuming normally.
+[2026-05-20 12:24:02] [system] ERROR [section_A] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-05-20 12:24:02] [system] INFO [section_A] Waiting 2.0s before reconnect...
+[2026-05-20 12:24:03] [system] INFO HealthMonitor stopped.
+[2026-05-20 12:24:03] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:24:04] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:24:04] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 12:24:04] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 12:24:09] [system] INFO HealthMonitor stopped.
+[2026-05-20 12:24:09] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 12:24:11] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 12:24:11] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 12:24:11] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 12:24:16] [system] INFO HealthMonitor stopped.
+[2026-05-20 12:24:16] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 17:25:37] [system] INFO CP-03 logger test — INFO
+[2026-05-20 17:25:37] [system] WARNING CP-03 logger test — WARNING
+[2026-05-20 17:25:37] [system] ERROR CP-03 logger test — ERROR
+[2026-05-20 17:26:58] [system] INFO ============================================================
+[2026-05-20 17:26:58] [system] INFO CP-04 — Single camera frame extractor — self-test
+[2026-05-20 17:26:58] [system] INFO ============================================================
+[2026-05-20 17:26:58] [system] INFO Stream URL is RTSP (r"C:\IITD_Internship\library-occupancy\resources\vid1_sectionA.mp4"). Generating synthetic test video as offline fallback...
+[2026-05-20 17:26:58] [system] INFO Synthetic video written to C:\Users\apoor\AppData\Local\Temp\cp04_test.avi
+[2026-05-20 17:26:58] [system] INFO ------------------------------------------------------------
+[2026-05-20 17:26:58] [system] INFO ✅  Received 5 FramePacket(s). Showing first 5:
+[2026-05-20 17:26:58] [system] INFO   [1] camera='cam_01'  section='section_A'  frame_no=4  shape=(480, 640, 3)  timestamp=2026-05-20T11:56:58.861695+00:00
+[2026-05-20 17:26:58] [system] INFO   [2] camera='cam_01'  section='section_A'  frame_no=8  shape=(480, 640, 3)  timestamp=2026-05-20T11:56:58.863695+00:00
+[2026-05-20 17:26:58] [system] INFO   [3] camera='cam_01'  section='section_A'  frame_no=12  shape=(480, 640, 3)  timestamp=2026-05-20T11:56:58.864695+00:00
+[2026-05-20 17:26:58] [system] INFO   [4] camera='cam_01'  section='section_A'  frame_no=16  shape=(480, 640, 3)  timestamp=2026-05-20T11:56:58.866695+00:00
+[2026-05-20 17:26:58] [system] INFO   [5] camera='cam_01'  section='section_A'  frame_no=20  shape=(480, 640, 3)  timestamp=2026-05-20T11:56:58.868698+00:00
+[2026-05-20 17:26:58] [system] INFO ------------------------------------------------------------
+[2026-05-20 17:26:58] [system] INFO 🎉  CP-04 PASSED — frame extractor working correctly
+[2026-05-20 17:27:51] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 17:27:51] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 17:27:51] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 17:27:51] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 17:27:51] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 17:27:51] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 17:28:39] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:28:42] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:28:42] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 17:28:42] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-05-20 17:28:42] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 17:28:42] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=ON
+[2026-05-20 17:28:47] [system] INFO HealthMonitor stopped.
+[2026-05-20 17:28:47] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 17:28:49] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:28:49] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 17:28:49] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 17:28:54] [system] ERROR [section_A] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 10s...
+[2026-05-20 17:28:54] [system] INFO [section_A] Waiting 10s before reconnect...
+[2026-05-20 17:28:56] [system] INFO HealthMonitor stopped.
+[2026-05-20 17:28:56] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 17:28:57] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:28:57] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 17:28:57] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 17:29:02] [system] INFO HealthMonitor stopped.
+[2026-05-20 17:29:02] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 17:29:03] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:29:03] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 17:29:03] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 17:29:08] [system] INFO HealthMonitor stopped.
+[2026-05-20 17:29:08] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 17:29:21] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:29:21] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 17:29:21] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 17:29:26] [system] INFO HealthMonitor stopped.
+[2026-05-20 17:29:26] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 17:29:26] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:29:26] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 17:29:26] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 17:29:31] [system] ERROR [section_A] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-05-20 17:29:31] [system] INFO [section_A] Waiting 2.0s before reconnect...
+[2026-05-20 17:29:33] [system] INFO [section_A] ✅ Reconnected — new extractor started (camera=cam_01)
+[2026-05-20 17:29:33] [system] INFO [section_A] StreamManager notified of reconnect — pipeline resuming normally.
+[2026-05-20 17:29:33] [system] ERROR [section_B] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-05-20 17:29:33] [system] INFO [section_B] Waiting 2.0s before reconnect...
+[2026-05-20 17:29:35] [system] INFO [section_B] ✅ Reconnected — new extractor started (camera=cam_02)
+[2026-05-20 17:29:35] [system] INFO [section_B] StreamManager notified of reconnect — pipeline resuming normally.
+[2026-05-20 17:29:37] [system] ERROR [section_A] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-05-20 17:29:37] [system] INFO [section_A] Waiting 2.0s before reconnect...
+[2026-05-20 17:29:38] [system] INFO HealthMonitor stopped.
+[2026-05-20 17:29:38] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 17:29:39] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:29:39] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 17:29:39] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 17:29:44] [system] INFO HealthMonitor stopped.
+[2026-05-20 17:29:44] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-05-20 17:29:46] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-05-20 17:29:46] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-05-20 17:29:46] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-05-20 17:29:51] [system] INFO HealthMonitor stopped.
+[2026-05-20 17:29:51] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-06-04 17:06:53] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-06-04 17:06:53] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-06-04 17:06:53] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-06-04 17:06:58] [system] INFO HealthMonitor stopped.
+[2026-06-04 17:06:58] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-06-04 17:06:59] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-06-04 17:06:59] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-06-04 17:06:59] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-06-04 17:07:04] [system] ERROR [section_A] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-06-04 17:07:04] [system] INFO [section_A] Waiting 2.0s before reconnect...
+[2026-06-04 17:07:06] [system] INFO [section_A] ✅ Reconnected — new extractor started (camera=cam_01)
+[2026-06-04 17:07:06] [system] INFO [section_A] StreamManager notified of reconnect — pipeline resuming normally.
+[2026-06-04 17:07:06] [system] ERROR [section_B] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-06-04 17:07:06] [system] INFO [section_B] Waiting 2.0s before reconnect...
+[2026-06-04 17:07:08] [system] INFO [section_B] ✅ Reconnected — new extractor started (camera=cam_02)
+[2026-06-04 17:07:08] [system] INFO [section_B] StreamManager notified of reconnect — pipeline resuming normally.
+[2026-06-04 17:07:10] [system] ERROR [section_A] ❌ Camera OFFLINE — extractor thread has exited. Attempting reconnect in 2.0s...
+[2026-06-04 17:07:10] [system] INFO [section_A] Waiting 2.0s before reconnect...
+[2026-06-04 17:07:11] [system] INFO HealthMonitor stopped.
+[2026-06-04 17:07:11] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-06-04 17:07:12] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-06-04 17:07:12] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-06-04 17:07:12] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-06-04 17:07:17] [system] INFO HealthMonitor stopped.
+[2026-06-04 17:07:17] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-06-04 17:07:18] [system] INFO Built 2 extractor(s): ['section_A', 'section_B']
+[2026-06-04 17:07:18] [system] INFO HealthMonitor started | check_interval=5s reconnect_timeout=10s watching=['section_A', 'section_B']
+[2026-06-04 17:07:18] [system] INFO StreamManager started | cameras=2 sections=['section_A', 'section_B'] preprocessing=OFF
+[2026-06-04 17:07:23] [system] INFO HealthMonitor stopped.
+[2026-06-04 17:07:23] [system] INFO StreamManager stopped — all camera threads shut down.
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_A source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_A1 (1 total seats in section_A)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_A2 (2 total seats in section_A)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi.json (1 section(s), 2 total seats)
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_B source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_struct.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_B1 (1 total seats in section_B)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_struct.json (1 section(s), 1 total seats)
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_A source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_append.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_A1 (1 total seats in section_A)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_append.json (1 section(s), 1 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_append.json (1 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_B source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_append.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_B1 (1 total seats in section_B)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_append.json (2 section(s), 2 total seats)
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_C source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_min.json existing_seats=0
+[2026-06-04 19:24:01] [system] WARNING Need at least 3 points for a polygon (have 2). Keep clicking.
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_D source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_undo.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_D1 (1 total seats in section_D)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_D2 (2 total seats in section_D)
+[2026-06-04 19:24:01] [system] INFO Undid polygon: seat_D2
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_A source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_A1 (1 total seats in section_A)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_A2 (2 total seats in section_A)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (1 section(s), 2 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (1 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_B source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_B1 (1 total seats in section_B)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_B2 (2 total seats in section_B)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (2 section(s), 4 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (2 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_C source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_C1 (1 total seats in section_C)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_C2 (2 total seats in section_C)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (3 section(s), 6 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (3 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_D source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_D1 (1 total seats in section_D)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_D2 (2 total seats in section_D)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (4 section(s), 8 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (4 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_E source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_E1 (1 total seats in section_E)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_E2 (2 total seats in section_E)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (5 section(s), 10 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (5 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_F source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_F1 (1 total seats in section_F)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_F2 (2 total seats in section_F)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (6 section(s), 12 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (6 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_G source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_G1 (1 total seats in section_G)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_G2 (2 total seats in section_G)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (7 section(s), 14 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (7 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_H source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_H1 (1 total seats in section_H)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_H2 (2 total seats in section_H)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (8 section(s), 16 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (8 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_I source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_I1 (1 total seats in section_I)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_I2 (2 total seats in section_I)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (9 section(s), 18 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (9 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_J source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_J1 (1 total seats in section_J)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_J2 (2 total seats in section_J)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (10 section(s), 20 total seats)
+[2026-06-04 19:24:01] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (10 section(s))
+[2026-06-04 19:24:01] [system] INFO ROIAnnotator | section=section_K source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json existing_seats=0
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_K1 (1 total seats in section_K)
+[2026-06-04 19:24:01] [system] INFO Polygon saved as seat_K2 (2 total seats in section_K)
+[2026-06-04 19:24:01] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_ikr19lor\roi_full.json (11 section(s), 22 total seats)
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_A source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_A1 (1 total seats in section_A)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_A2 (2 total seats in section_A)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi.json (1 section(s), 2 total seats)
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_B source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_struct.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_B1 (1 total seats in section_B)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_struct.json (1 section(s), 1 total seats)
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_A source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_append.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_A1 (1 total seats in section_A)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_append.json (1 section(s), 1 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_append.json (1 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_B source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_append.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_B1 (1 total seats in section_B)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_append.json (2 section(s), 2 total seats)
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_C source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_min.json existing_seats=0
+[2026-06-04 20:07:47] [system] WARNING Need at least 3 points for a polygon (have 2). Keep clicking.
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_D source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_undo.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_D1 (1 total seats in section_D)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_D2 (2 total seats in section_D)
+[2026-06-04 20:07:47] [system] INFO Undid polygon: seat_D2
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_A source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_A1 (1 total seats in section_A)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_A2 (2 total seats in section_A)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (1 section(s), 2 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (1 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_B source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_B1 (1 total seats in section_B)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_B2 (2 total seats in section_B)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (2 section(s), 4 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (2 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_C source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_C1 (1 total seats in section_C)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_C2 (2 total seats in section_C)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (3 section(s), 6 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (3 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_D source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_D1 (1 total seats in section_D)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_D2 (2 total seats in section_D)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (4 section(s), 8 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (4 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_E source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_E1 (1 total seats in section_E)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_E2 (2 total seats in section_E)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (5 section(s), 10 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (5 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_F source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_F1 (1 total seats in section_F)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_F2 (2 total seats in section_F)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (6 section(s), 12 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (6 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_G source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_G1 (1 total seats in section_G)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_G2 (2 total seats in section_G)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (7 section(s), 14 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (7 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_H source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_H1 (1 total seats in section_H)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_H2 (2 total seats in section_H)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (8 section(s), 16 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (8 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_I source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_I1 (1 total seats in section_I)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_I2 (2 total seats in section_I)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (9 section(s), 18 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (9 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_J source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_J1 (1 total seats in section_J)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_J2 (2 total seats in section_J)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (10 section(s), 20 total seats)
+[2026-06-04 20:07:47] [system] INFO Loaded existing ROI file: C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (10 section(s))
+[2026-06-04 20:07:47] [system] INFO ROIAnnotator | section=section_K source=0 roi_path=C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json existing_seats=0
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_K1 (1 total seats in section_K)
+[2026-06-04 20:07:47] [system] INFO Polygon saved as seat_K2 (2 total seats in section_K)
+[2026-06-04 20:07:47] [system] INFO ROI saved → C:\Users\apoor\AppData\Local\Temp\cp08_h781n3cv\roi_full.json (11 section(s), 22 total seats)
+[2026-06-09 15:00:53] [system] INFO Loading YOLOv10 | weights=models/yolov10n.pt device=cuda conf=0.4
+[2026-06-09 15:00:54] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:00:55] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:00:55] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:00:55] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:06:01] [system] INFO Loading YOLOv10 | weights=models/yolov10n.pt device=cuda conf=0.25
+[2026-06-09 15:06:02] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:06:03] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:06:03] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:06:03] [system] INFO YOLO inference | persons=5 objects=0
+[2026-06-09 15:13:05] [system] INFO Loading YOLOv10 | weights=models/yolov10s.pt device=cuda conf=0.25
+[2026-06-09 15:13:06] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:13:07] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:13:07] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:13:07] [system] INFO YOLO inference | persons=6 objects=3
+[2026-06-09 15:14:41] [system] INFO Loading YOLOv10 | weights=models/yolov10s.pt device=cuda conf=0.25
+[2026-06-09 15:14:43] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:14:43] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:14:44] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:14:44] [system] INFO YOLO inference | persons=15 objects=16
+[2026-06-09 15:23:54] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:23:56] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:23:57] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:23:57] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:23:57] [system] INFO YOLO inference | persons=20 objects=19
+[2026-06-09 15:28:31] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:28:32] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:28:33] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:28:34] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:28:34] [system] INFO YOLO inference | persons=8 objects=14
+[2026-06-09 15:29:23] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:29:25] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:29:26] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:29:26] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:29:26] [system] INFO YOLO inference | persons=8 objects=14
+[2026-06-09 15:30:42] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:30:43] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:30:44] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:30:44] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:30:44] [system] INFO YOLO inference | persons=9 objects=13
+[2026-06-09 15:31:28] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:31:30] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:31:31] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:31:31] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:31:31] [system] INFO YOLO inference | persons=5 objects=4
+[2026-06-09 15:31:55] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:31:57] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:31:58] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:31:58] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:31:58] [system] INFO YOLO inference | persons=5 objects=4
+[2026-06-09 15:32:41] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:32:43] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:32:44] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:32:44] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:32:44] [system] INFO YOLO inference | persons=2 objects=1
+[2026-06-09 15:33:17] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:33:19] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:33:20] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:33:20] [system] INFO YOLO inference | persons=0 objects=0
+[2026-06-09 15:33:20] [system] INFO YOLO inference | persons=5 objects=5
+[2026-06-09 15:39:14] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:39:15] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:39:17] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:39:17] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:39:17] [system] INFO YOLO inference | section=cad_lab persons=9 objects=3
+[2026-06-09 15:40:40] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:40:42] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:40:43] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:40:44] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:40:44] [system] INFO YOLO inference | section=cad_lab persons=41 objects=61
+[2026-06-09 15:42:23] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:42:25] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:42:26] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:42:27] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:42:27] [system] INFO YOLO inference | section=cad_lab persons=1 objects=3
+[2026-06-09 15:43:00] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:43:01] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:43:03] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:43:03] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:43:03] [system] INFO YOLO inference | section=cad_lab persons=10 objects=11
+[2026-06-09 15:45:58] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:45:59] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:46:01] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:46:02] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:46:02] [system] INFO YOLO inference | section=cad_lab persons=10 objects=10
+[2026-06-09 15:47:32] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:47:33] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:47:35] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:47:35] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:47:36] [system] INFO YOLO inference | section=cad_lab persons=8 objects=13
+[2026-06-09 15:48:14] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:48:15] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:48:17] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:48:18] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:48:18] [system] INFO YOLO inference | section=cad_lab persons=15 objects=35
+[2026-06-09 15:49:17] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:49:19] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:49:20] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:49:21] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:49:21] [system] INFO YOLO inference | section=cad_lab persons=9 objects=12
+[2026-06-09 15:49:54] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:49:55] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:49:57] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:49:57] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:49:58] [system] INFO YOLO inference | section=cad_lab persons=7 objects=4
+[2026-06-09 15:50:34] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:50:35] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:50:37] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:50:37] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:50:38] [system] INFO YOLO inference | section=cad_lab persons=13 objects=21
+[2026-06-09 15:51:08] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:51:10] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:51:12] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:51:13] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:51:13] [system] INFO YOLO inference | section=cad_lab persons=27 objects=40
+[2026-06-09 15:51:42] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:51:43] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:51:45] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:51:45] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:51:46] [system] INFO YOLO inference | section=cad_lab persons=55 objects=74
+[2026-06-09 15:52:24] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:52:26] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:52:27] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:52:28] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:52:28] [system] INFO YOLO inference | section=cad_lab persons=42 objects=58
+[2026-06-09 15:52:59] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-09 15:53:01] [system] INFO YOLOv10 loaded.
+[2026-06-09 15:53:02] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:53:03] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-09 15:53:03] [system] INFO YOLO inference | section=cad_lab persons=9 objects=19
+[2026-06-10 17:28:42] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-10 17:28:44] [system] INFO YOLOv10 loaded.
+[2026-06-10 17:28:46] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 17:28:47] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 17:29:32] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-10 17:29:34] [system] INFO YOLOv10 loaded.
+[2026-06-10 17:29:35] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 17:29:36] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 17:29:36] [system] INFO YOLO inference | section=cad_lab persons=9 objects=24
+[2026-06-10 17:33:30] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-10 17:33:32] [system] INFO YOLOv10 loaded.
+[2026-06-10 17:33:59] [system] INFO Loading YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.25
+[2026-06-10 17:34:01] [system] INFO YOLOv10 loaded.
+[2026-06-10 17:34:02] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 17:34:03] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 17:34:03] [system] INFO YOLO inference | section=cad_lab persons=10 objects=3
+[2026-06-10 18:59:01] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.25
+[2026-06-10 18:59:03] [system] INFO YOLOv10 loaded.
+[2026-06-10 18:59:44] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.25
+[2026-06-10 18:59:46] [system] INFO YOLOv10 loaded.
+[2026-06-10 19:02:59] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.25
+[2026-06-10 19:03:01] [system] INFO YOLOv10 loaded.
+[2026-06-10 19:03:03] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:03:04] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:03:04] [system] INFO YOLO inference | section=cad_lab persons=8 objects=3
+[2026-06-10 19:04:14] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.25
+[2026-06-10 19:04:16] [system] INFO YOLOv10 loaded.
+[2026-06-10 19:04:18] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:04:19] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:04:19] [system] INFO YOLO inference | section=cad_lab persons=8 objects=31
+[2026-06-10 19:22:21] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-10 19:22:23] [system] INFO YOLOv10 loaded.
+[2026-06-10 19:22:24] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:22:25] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:23:08] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-10 19:23:10] [system] INFO YOLOv10 loaded.
+[2026-06-10 19:23:12] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:23:12] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:23:12] [system] INFO YOLO inference | section=focused_reading_area persons=12 objects=28
+[2026-06-10 19:24:36] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-10 19:24:38] [system] INFO YOLOv10 loaded.
+[2026-06-10 19:24:47] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-10 19:24:48] [system] INFO YOLOv10 loaded.
+[2026-06-10 19:24:49] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:24:50] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:24:50] [system] INFO YOLO inference | section=focused_reading_area persons=12 objects=28
+[2026-06-10 19:26:36] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-10 19:26:38] [system] INFO YOLOv10 loaded.
+[2026-06-10 19:26:39] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:26:40] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-10 19:26:40] [system] INFO YOLO inference | section=focused_reading_area persons=39 objects=70
+[2026-06-11 11:19:44] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:19:46] [system] INFO YOLOv10 loaded.
+[2026-06-11 11:19:48] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:19:48] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:23:21] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:23:23] [system] INFO YOLOv10 loaded.
+[2026-06-11 11:23:25] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:23:25] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:23:25] [system] INFO YOLO inference | section=focused_reading_area persons=47 objects=61
+[2026-06-11 11:24:49] [system] INFO Loading YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:24:51] [system] INFO YOLOv10 loaded.
+[2026-06-11 11:24:52] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:24:52] [system] INFO YOLO inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:24:52] [system] INFO YOLO inference | section=focused_reading_area persons=9 objects=4
+[2026-06-11 11:34:05] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:34:09] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:34:11] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:34:11] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:34:12] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 11:35:20] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:35:25] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:35:27] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:35:27] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:35:28] [system] INFO Inference | section=focused_reading_area persons=15 objects=13
+[2026-06-11 11:36:44] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:36:49] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:36:50] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:36:51] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:36:52] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 11:37:19] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.2
+[2026-06-11 11:37:24] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:37:25] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:37:25] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:37:26] [system] INFO Inference | section=focused_reading_area persons=10 objects=1
+[2026-06-11 11:37:50] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10s.pt device=cuda conf=0.2
+[2026-06-11 11:37:55] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:37:56] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:37:56] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:37:57] [system] INFO Inference | section=focused_reading_area persons=12 objects=4
+[2026-06-11 11:38:14] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.2
+[2026-06-11 11:38:18] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:38:19] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:38:19] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:38:20] [system] INFO Inference | section=focused_reading_area persons=10 objects=1
+[2026-06-11 11:44:01] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10m.pt device=cuda conf=0.2
+[2026-06-11 11:44:05] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:44:06] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:44:06] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:44:07] [system] INFO Inference | section=focused_reading_area persons=10 objects=1
+[2026-06-11 11:45:05] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:45:09] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:45:11] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:45:11] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:45:12] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 11:45:32] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:45:35] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:45:37] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:45:38] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:45:38] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 11:46:56] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:47:00] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:47:02] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:47:03] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:47:03] [system] INFO Inference | section=focused_reading_area persons=60 objects=25
+[2026-06-11 11:51:22] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:51:26] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:51:28] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:51:28] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:51:29] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 11:57:13] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:57:17] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:57:19] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:57:19] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:57:20] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 11:58:14] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 11:58:19] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 11:58:21] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:58:21] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 11:58:22] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 12:08:35] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 12:08:41] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:08:43] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:08:44] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:08:45] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 12:17:28] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 12:17:29] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:17:31] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:17:32] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:17:33] [system] INFO Inference | section=focused_reading_area persons=13 objects=0
+[2026-06-11 12:28:33] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 12:28:35] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:28:37] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:28:37] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:28:40] [system] INFO Inference | section=cad_lab persons=13 objects=0
+[2026-06-11 12:32:59] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 12:33:00] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:33:01] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:33:02] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:33:03] [system] INFO Inference | section=cad_lab persons=1 objects=0
+[2026-06-11 12:35:53] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.2
+[2026-06-11 12:35:55] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:35:57] [system] INFO Inference | section=cad_lab persons=13 objects=0
+[2026-06-11 12:37:30] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:37:32] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:37:35] [system] INFO Inference | section=cad_lab persons=11 objects=0
+[2026-06-11 12:37:47] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:37:49] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:37:51] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:37:51] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 12:37:52] [system] INFO Inference | section=cad_lab persons=1 objects=0
+[2026-06-11 12:38:35] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:38:37] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:38:39] [system] INFO Inference | section=cad_lab persons=11 objects=0
+[2026-06-11 12:43:31] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:43:33] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:43:36] [system] INFO Inference | section=cad_lab persons=11 objects=0
+[2026-06-11 12:46:09] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:46:11] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:46:14] [system] INFO Inference | section=cad_lab persons=8 objects=0
+[2026-06-11 12:47:06] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:47:08] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:47:11] [system] INFO Inference | section=cad_lab persons=8 objects=0
+[2026-06-11 12:47:47] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:47:49] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:47:51] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-06-11 12:48:40] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:48:42] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:48:45] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-06-11 12:49:28] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:49:29] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:49:33] [system] INFO Inference | section=reference_area persons=5 objects=1
+[2026-06-11 12:50:16] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 12:50:18] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 12:50:22] [system] INFO Inference | section=reference_2 persons=10 objects=8
+[2026-06-11 14:16:55] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:16:57] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:17:00] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-06-11 14:18:08] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:18:10] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:18:12] [system] INFO Inference | section=focused_reading_area persons=8 objects=6
+[2026-06-11 14:19:01] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:19:03] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:19:05] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-06-11 14:19:41] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:19:43] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:19:46] [system] INFO Inference | section=reference_area persons=5 objects=1
+[2026-06-11 14:20:25] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:20:27] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:20:29] [system] INFO Inference | section=reference_2 persons=10 objects=8
+[2026-06-11 14:21:35] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:21:37] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:21:39] [system] INFO Inference | section=main_computer_room persons=5 objects=4
+[2026-06-11 14:22:58] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:23:00] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:23:03] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-06-11 14:24:06] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:24:08] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:24:10] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-06-11 14:24:39] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:24:41] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:24:44] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-06-11 14:25:41] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:25:43] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:25:45] [system] INFO Inference | section=hindi_section persons=17 objects=6
+[2026-06-11 14:27:26] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:27:28] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:27:30] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 14:27:30] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 14:27:31] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-06-11 14:37:02] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-11 14:37:04] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-11 14:37:06] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 14:37:06] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-11 14:37:07] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-06-13 19:59:56] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 19:59:56] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=0
+[2026-06-13 19:59:56] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 19:59:56] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 19:59:56] [system] INFO Classified 1 seats | occupied=0 reserved=1 free=0 headcount=0
+[2026-06-13 19:59:56] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 19:59:56] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=1
+[2026-06-13 19:59:56] [system] INFO Classified 3 seats | occupied=1 reserved=1 free=1 headcount=1
+[2026-06-13 19:59:56] [system] INFO Classified 2 seats | occupied=2 reserved=0 free=0 headcount=5
+[2026-06-13 19:59:56] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=3
+[2026-06-13 19:59:56] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=15
+[2026-06-13 20:00:01] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:00:03] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:00:06] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-06-13 20:00:06] [system] INFO Classified 24 seats | occupied=1 reserved=0 free=23 headcount=7
+[2026-06-13 20:01:51] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:01:51] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=0
+[2026-06-13 20:01:51] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:01:51] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:01:51] [system] INFO Classified 1 seats | occupied=0 reserved=1 free=0 headcount=0
+[2026-06-13 20:01:51] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:01:51] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=1
+[2026-06-13 20:01:51] [system] INFO Classified 3 seats | occupied=1 reserved=1 free=1 headcount=1
+[2026-06-13 20:01:51] [system] INFO Classified 2 seats | occupied=2 reserved=0 free=0 headcount=5
+[2026-06-13 20:01:51] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=3
+[2026-06-13 20:01:51] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=15
+[2026-06-13 20:01:53] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:01:55] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:01:57] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-06-13 20:01:57] [system] INFO Classified 24 seats | occupied=1 reserved=0 free=23 headcount=7
+[2026-06-13 20:05:58] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:05:58] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=0
+[2026-06-13 20:05:58] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:05:58] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:05:58] [system] INFO Classified 1 seats | occupied=0 reserved=1 free=0 headcount=0
+[2026-06-13 20:05:58] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:05:58] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=1
+[2026-06-13 20:05:58] [system] INFO Classified 3 seats | occupied=1 reserved=1 free=1 headcount=1
+[2026-06-13 20:05:58] [system] INFO Classified 2 seats | occupied=2 reserved=0 free=0 headcount=5
+[2026-06-13 20:05:58] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=3
+[2026-06-13 20:05:58] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=15
+[2026-06-13 20:06:01] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:06:03] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:06:05] [system] INFO Inference | section=focused_reading_area persons=8 objects=6
+[2026-06-13 20:06:05] [system] INFO Classified 22 seats | occupied=0 reserved=0 free=22 headcount=8
+[2026-06-13 20:09:50] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:09:50] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=0
+[2026-06-13 20:09:50] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:09:50] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:09:50] [system] INFO Classified 1 seats | occupied=0 reserved=1 free=0 headcount=0
+[2026-06-13 20:09:50] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:09:50] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=1
+[2026-06-13 20:09:50] [system] INFO Classified 3 seats | occupied=1 reserved=1 free=1 headcount=1
+[2026-06-13 20:09:50] [system] INFO Classified 2 seats | occupied=2 reserved=0 free=0 headcount=5
+[2026-06-13 20:09:50] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=3
+[2026-06-13 20:09:50] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=15
+[2026-06-13 20:09:52] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:09:54] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:09:57] [system] INFO Inference | section=reference_area persons=5 objects=1
+[2026-06-13 20:09:57] [system] INFO Classified 8 seats | occupied=1 reserved=0 free=7 headcount=5
+[2026-06-13 20:11:22] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:11:22] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=0
+[2026-06-13 20:11:22] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:11:22] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:11:22] [system] INFO Classified 1 seats | occupied=0 reserved=1 free=0 headcount=0
+[2026-06-13 20:11:22] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:11:22] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=1
+[2026-06-13 20:11:22] [system] INFO Classified 3 seats | occupied=1 reserved=1 free=1 headcount=1
+[2026-06-13 20:11:22] [system] INFO Classified 2 seats | occupied=2 reserved=0 free=0 headcount=5
+[2026-06-13 20:11:22] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=3
+[2026-06-13 20:11:22] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=15
+[2026-06-13 20:11:24] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:11:26] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:11:28] [system] INFO Inference | section=reference_2 persons=10 objects=8
+[2026-06-13 20:11:28] [system] INFO Classified 15 seats | occupied=2 reserved=0 free=13 headcount=10
+[2026-06-13 20:25:32] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:25:34] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:25:35] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-13 20:25:35] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-13 20:25:36] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-06-13 20:34:34] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:34:34] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=0
+[2026-06-13 20:34:34] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:34:34] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:34:34] [system] INFO Classified 1 seats | occupied=0 reserved=1 free=0 headcount=0
+[2026-06-13 20:34:34] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=1
+[2026-06-13 20:34:34] [system] INFO Classified 1 seats | occupied=0 reserved=0 free=1 headcount=1
+[2026-06-13 20:34:34] [system] INFO Classified 3 seats | occupied=1 reserved=1 free=1 headcount=1
+[2026-06-13 20:34:34] [system] INFO Classified 2 seats | occupied=2 reserved=0 free=0 headcount=5
+[2026-06-13 20:34:34] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=3
+[2026-06-13 20:34:34] [system] INFO Classified 1 seats | occupied=1 reserved=0 free=0 headcount=15
+[2026-06-13 20:34:36] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:34:38] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:34:41] [system] INFO Inference | section=reference_2 persons=10 objects=8
+[2026-06-13 20:34:41] [system] INFO Classified 15 seats | occupied=2 reserved=0 free=13 headcount=10
+[2026-06-13 20:38:54] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:38:56] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:38:56] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-13 20:38:56] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:38:56] [system] INFO SectionPipeline ready | section=cad_lab seats=24 max_capacity=24
+[2026-06-13 20:38:58] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-13 20:38:58] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-13 20:38:58] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=1706ms inference=1498ms
+[2026-06-13 20:38:58] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-13 20:38:58] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-13 20:38:58] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=336ms inference=202ms
+[2026-06-13 20:38:58] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-13 20:38:58] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-13 20:38:58] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=337ms inference=201ms
+[2026-06-13 20:38:59] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-13 20:38:59] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-13 20:38:59] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=335ms inference=201ms
+[2026-06-13 20:38:59] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-13 20:38:59] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-13 20:38:59] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=362ms inference=220ms
+[2026-06-13 20:39:00] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-13 20:39:00] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-13 20:39:00] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=337ms inference=207ms
+[2026-06-13 20:39:00] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-13 20:39:00] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-13 20:39:00] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=cad_lab seats=24 max_capacity=18
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=focused_reading_area seats=22 max_capacity=27
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=g_hall_2 seats=48 max_capacity=30
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=g_huss seats=32 max_capacity=30
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=hindi_section seats=80 max_capacity=30
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=ip_camera_19 seats=6 max_capacity=11
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=ipc seats=13 max_capacity=16
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=main_computer_room seats=9 max_capacity=13
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=reference_2 seats=15 max_capacity=18
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=reference_area seats=8 max_capacity=8
+[2026-06-13 20:39:00] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-13 20:39:00] [system] INFO SectionPipeline ready | section=weeding_out_area seats=8 max_capacity=8
+[2026-06-13 20:39:00] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-06-13 20:39:01] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-13 20:39:01] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-13 20:39:01] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=18 occupied=0 free=24 pipeline=802ms inference=658ms
+[2026-06-13 20:39:01] [system] INFO Inference | section=focused_reading_area persons=0 objects=0
+[2026-06-13 20:39:01] [system] INFO Classified 22 seats | occupied=0 reserved=0 free=22 headcount=0
+[2026-06-13 20:39:01] [system] INFO [focused_reading_area] Pipeline | headcount=0 vacancy=27 occupied=0 free=22 pipeline=350ms inference=206ms
+[2026-06-13 20:39:01] [system] INFO Inference | section=g_hall_2 persons=0 objects=0
+[2026-06-13 20:39:01] [system] INFO Classified 48 seats | occupied=0 reserved=0 free=48 headcount=0
+[2026-06-13 20:39:01] [system] INFO [g_hall_2] Pipeline | headcount=0 vacancy=30 occupied=0 free=48 pipeline=346ms inference=204ms
+[2026-06-13 20:39:02] [system] INFO Inference | section=g_huss persons=0 objects=0
+[2026-06-13 20:39:02] [system] INFO Classified 32 seats | occupied=0 reserved=0 free=32 headcount=0
+[2026-06-13 20:39:02] [system] INFO [g_huss] Pipeline | headcount=0 vacancy=30 occupied=0 free=32 pipeline=350ms inference=209ms
+[2026-06-13 20:39:02] [system] INFO Inference | section=hindi_section persons=0 objects=0
+[2026-06-13 20:39:02] [system] INFO Classified 80 seats | occupied=0 reserved=0 free=80 headcount=0
+[2026-06-13 20:39:02] [system] INFO [hindi_section] Pipeline | headcount=0 vacancy=30 occupied=0 free=80 pipeline=341ms inference=202ms
+[2026-06-13 20:39:02] [system] INFO Inference | section=ip_camera_19 persons=0 objects=0
+[2026-06-13 20:39:02] [system] INFO Classified 6 seats | occupied=0 reserved=0 free=6 headcount=0
+[2026-06-13 20:39:02] [system] INFO [ip_camera_19] Pipeline | headcount=0 vacancy=11 occupied=0 free=6 pipeline=345ms inference=206ms
+[2026-06-13 20:39:03] [system] INFO Inference | section=ipc persons=0 objects=0
+[2026-06-13 20:39:03] [system] INFO Classified 13 seats | occupied=0 reserved=0 free=13 headcount=0
+[2026-06-13 20:39:03] [system] INFO [ipc] Pipeline | headcount=0 vacancy=16 occupied=0 free=13 pipeline=338ms inference=201ms
+[2026-06-13 20:39:03] [system] INFO Inference | section=main_computer_room persons=0 objects=0
+[2026-06-13 20:39:03] [system] INFO Classified 9 seats | occupied=0 reserved=0 free=9 headcount=0
+[2026-06-13 20:39:03] [system] INFO [main_computer_room] Pipeline | headcount=0 vacancy=13 occupied=0 free=9 pipeline=346ms inference=206ms
+[2026-06-13 20:39:03] [system] INFO Inference | section=reference_2 persons=0 objects=0
+[2026-06-13 20:39:03] [system] INFO Classified 15 seats | occupied=0 reserved=0 free=15 headcount=0
+[2026-06-13 20:39:03] [system] INFO [reference_2] Pipeline | headcount=0 vacancy=18 occupied=0 free=15 pipeline=341ms inference=202ms
+[2026-06-13 20:39:04] [system] INFO Inference | section=reference_area persons=0 objects=0
+[2026-06-13 20:39:04] [system] INFO Classified 8 seats | occupied=0 reserved=0 free=8 headcount=0
+[2026-06-13 20:39:04] [system] INFO [reference_area] Pipeline | headcount=0 vacancy=8 occupied=0 free=8 pipeline=341ms inference=200ms
+[2026-06-13 20:39:04] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-13 20:39:04] [system] INFO Classified 8 seats | occupied=0 reserved=0 free=8 headcount=0
+[2026-06-13 20:39:04] [system] INFO [weeding_out_area] Pipeline | headcount=0 vacancy=8 occupied=0 free=8 pipeline=340ms inference=202ms

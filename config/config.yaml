@@ -1,0 +1,236 @@
+# ============================================================
+# Library Occupancy Detection System — Central Configuration
+# IIT Delhi Internship Project
+# ============================================================
+
+# ----------------------------------------------------------
+# CAMERAS & SECTIONS
+# Add one entry per camera/section. Duplicate the block for
+# each additional section.
+# ----------------------------------------------------------
+# cameras:
+#   - camera_id: "cam_01"
+#     section_id: "section_A"
+#     # stream_url: "rtsp://192.168.1.101:554/stream1"   # Replace with actual RTSP URL
+#     stream_url: r"C:\IITD_Internship\library-occupancy\resources\vid1_sectionA.mp4"   # Uncomment for local video file testing
+#     enabled: true
+
+#   - camera_id: "cam_02"
+#     section_id: "section_B"
+#     # stream_url: "rtsp://192.168.1.102:554/stream1"
+#     stream_url: r"C:\IITD_Internship\library-occupancy\resources\vid1_sectionB.mp4"   # Uncomment for local video file testing
+#     enabled: true
+cameras:
+  - camera_id: "cam_01"
+    section_id: "cad_lab"
+    stream_url: "rtsp://192.168.1.101:554/stream1"
+    enabled: true
+    max_capacity: 18
+    sahi_slicing:
+      slice_height: 512
+      slice_width: 512
+      overlap_ratio: 0.20
+
+  - camera_id: "cam_02"
+    section_id: "focused_reading_area"
+    stream_url: "rtsp://192.168.1.102:554/stream1"
+    enabled: true
+    max_capacity: 27
+    sahi_slicing:
+      slice_height: 512
+      slice_width: 512
+      overlap_ratio: 0.20
+
+  - camera_id: "cam_03"
+    section_id: "g_hall_2"
+    stream_url: "rtsp://192.168.1.103:554/stream1"
+    enabled: true
+    max_capacity: 30
+    sahi_slicing:
+      slice_height: 384
+      slice_width: 384
+      overlap_ratio: 0.25
+
+  - camera_id: "cam_04"
+    section_id: "g_huss"
+    stream_url: "rtsp://192.168.1.104:554/stream1"
+    enabled: true
+    max_capacity: 30
+    sahi_slicing:
+      slice_height: 384
+      slice_width: 384
+      overlap_ratio: 0.25
+
+  - camera_id: "cam_05"
+    section_id: "hindi_section"
+    stream_url: "rtsp://192.168.1.105:554/stream1"
+    enabled: true
+    max_capacity: 30
+    sahi_slicing:
+      slice_height: 384
+      slice_width: 384
+      overlap_ratio: 0.25
+
+  - camera_id: "cam_06"
+    section_id: "ip_camera_19"
+    stream_url: "rtsp://192.168.1.106:554/stream1"
+    enabled: true
+    max_capacity: 11
+    sahi_slicing:
+      slice_height: 384
+      slice_width: 384
+      overlap_ratio: 0.25
+
+  - camera_id: "cam_07"
+    section_id: "ipc"
+    stream_url: "rtsp://192.168.1.107:554/stream1"
+    enabled: true
+    max_capacity: 16
+    sahi_slicing:
+      slice_height: 384
+      slice_width: 384
+      overlap_ratio: 0.25
+
+  - camera_id: "cam_08"
+    section_id: "main_computer_room"
+    stream_url: "rtsp://192.168.1.108:554/stream1"
+    enabled: true
+    max_capacity: 13
+    sahi_slicing:
+      slice_height: 512
+      slice_width: 512
+      overlap_ratio: 0.25
+
+  - camera_id: "cam_09"
+    section_id: "reference_2"
+    stream_url: "rtsp://192.168.1.109:554/stream1"
+    enabled: true
+    max_capacity: 18
+    sahi_slicing:
+      slice_height: 384
+      slice_width: 384
+      overlap_ratio: 0.25
+
+  - camera_id: "cam_10"
+    section_id: "reference_area"
+    stream_url: "rtsp://192.168.1.110:554/stream1"
+    enabled: true
+    max_capacity: 8
+    sahi_slicing:
+      slice_height: 384
+      slice_width: 384
+      overlap_ratio: 0.25
+
+  - camera_id: "cam_11"
+    section_id: "weeding_out_area"
+    stream_url: "rtsp://192.168.1.111:554/stream1"
+    enabled: true
+    max_capacity: 8
+    sahi_slicing:
+      slice_height: 512
+      slice_width: 512
+      overlap_ratio: 0.20
+    
+
+# ----------------------------------------------------------
+# FRAME INGESTION
+# ----------------------------------------------------------
+ingestion:
+  frame_sample_rate: 4          # Process every Nth frame (3–5 recommended)
+  frame_queue_maxsize: 30       # Max frames buffered per camera before dropping
+  reconnect_timeout_sec: 10     # Wait before retrying a dropped stream
+  health_check_interval_sec: 5  # How often the watchdog checks each stream
+
+# ----------------------------------------------------------
+# PREPROCESSING
+# ----------------------------------------------------------
+# preprocessing:
+#   target_width: 640
+#   target_height: 640
+#   gamma: 1.2                    # >1 brightens dark scenes; <1 darkens bright ones
+#   clahe_clip_limit: 2.0         # CLAHE contrast cap (2.0–4.0 typical)
+#   clahe_tile_grid_size: [8, 8]  # CLAHE tile grid (smaller = finer local contrast)
+#   nlm_h: 4                     # NLM denoising filter strength (higher = more smoothing)
+#   nlm_template_window: 5        # NLM template patch size (must be odd)
+#   nlm_search_window: 7         # NLM search window size (must be odd)
+
+preprocessing:
+  target_width: 640
+  target_height: 640
+  gamma: 1.2
+  clahe_clip_limit: 2.0
+  clahe_tile_grid_size: [8, 8]  # Bilateral filter (replaces NLM — much faster, still edge-preserving)
+  bilateral_d: 9              # diameter of pixel neighbourhood
+  bilateral_sigma_color: 75   # filter sigma in colour space
+  bilateral_sigma_space: 75   # filter sigma in coordinate space
+
+# ----------------------------------------------------------
+# ROI CALIBRATION
+# ----------------------------------------------------------
+roi:
+  roi_save_path: "data/roi/roi_polygons.json"
+  annotation_window_name: "ROI Annotator"
+  polygon_color: [0, 255, 0]    # BGR — green
+  polygon_thickness: 2
+
+# ----------------------------------------------------------
+# DETECTION MODEL
+# ----------------------------------------------------------
+model:
+  weights_path: "models/yolov10x.pt"     # Path to YOLOv10 weights file
+  confidence_threshold: 0.45              # Minimum detection confidence
+  device: "cuda"                         # "cuda" or "cpu"
+  input_size: 640
+  iou_threshold: 0.40                    # NMS IoU threshold for duplicate removal
+
+# Seat occupancy classification thresholds
+classifier:
+  iou_threshold: 0.3             # IoU above this → seat is Occupied
+  object_iou_threshold: 0.2             # IoU above this → seat is Reserved
+
+# ----------------------------------------------------------
+# TEMPORAL SMOOTHING
+# ----------------------------------------------------------
+smoothing:
+  window_size: 10               # Number of past frames to use for majority vote
+
+# ----------------------------------------------------------
+# STORAGE — REDIS (live state)
+# ----------------------------------------------------------
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: null                # Set to a string if auth is enabled, else null
+  state_ttl_sec: 300            # Seconds before a key auto-expires (safety net)
+
+# ----------------------------------------------------------
+# STORAGE — POSTGRESQL + TIMESCALEDB (history)
+# ----------------------------------------------------------
+database:
+  host: "localhost"
+  port: 5432
+  name: "library_occupancy"
+  user: "occupancy_user"
+  password: "changeme"          # Change before any deployment
+  pool_min: 2
+  pool_max: 10
+
+# ----------------------------------------------------------
+# API SERVER
+# ----------------------------------------------------------
+api:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins:
+    - "http://localhost:3000"   # React dev server
+    - "http://localhost:5173"   # Vite dev server (alternative)
+
+# ----------------------------------------------------------
+# LOGGING
+# ----------------------------------------------------------
+logging:
+  log_dir: "logs"
+  log_level: "INFO"             # DEBUG | INFO | WARNING | ERROR
+  max_bytes: 5242880            # 5 MB per log file before rotation
+  backup_count: 3               # Keep last 3 rotated files
