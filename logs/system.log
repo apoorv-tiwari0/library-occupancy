@@ -916,3 +916,1608 @@
 [2026-06-13 20:39:04] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
 [2026-06-13 20:39:04] [system] INFO Classified 8 seats | occupied=0 reserved=0 free=8 headcount=0
 [2026-06-13 20:39:04] [system] INFO [weeding_out_area] Pipeline | headcount=0 vacancy=8 occupied=0 free=8 pipeline=340ms inference=202ms
+[2026-06-17 16:58:42] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-17 16:58:45] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-17 16:58:45] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-17 16:58:45] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-17 16:58:45] [system] INFO SectionPipeline ready | section=cad_lab seats=24 max_capacity=24
+[2026-06-17 16:58:47] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 16:58:47] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 16:58:47] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=2396ms inference=2178ms
+[2026-06-17 16:58:48] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 16:58:48] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 16:58:48] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=342ms inference=202ms
+[2026-06-17 16:58:48] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 16:58:48] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 16:58:48] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=339ms inference=202ms
+[2026-06-17 16:58:48] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 16:58:48] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 16:58:48] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=336ms inference=200ms
+[2026-06-17 17:56:23] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-17 17:56:25] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-17 17:56:25] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-17 17:56:25] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-17 17:56:25] [system] INFO SectionPipeline ready | section=cad_lab seats=24 max_capacity=24
+[2026-06-17 17:56:27] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 17:56:27] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 17:56:27] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=1840ms inference=1640ms
+[2026-06-17 17:56:27] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 17:56:27] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 17:56:27] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=367ms inference=212ms
+[2026-06-17 17:56:28] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 17:56:28] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 17:56:28] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=346ms inference=207ms
+[2026-06-17 17:56:28] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 17:56:28] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 17:56:28] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=340ms inference=204ms
+[2026-06-17 17:56:28] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-17 17:56:28] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-17 17:56:28] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=386ms inference=251ms
+[2026-06-17 17:57:06] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-17 17:57:08] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-17 17:57:08] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-17 17:57:08] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-17 17:57:08] [system] INFO SectionPipeline ready | section=cad_lab seats=24 max_capacity=24
+[2026-06-17 17:57:10] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 17:57:10] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 17:57:10] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=1735ms inference=1532ms
+[2026-06-17 17:57:10] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 17:57:10] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 17:57:10] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=344ms inference=207ms
+[2026-06-17 17:57:11] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 17:57:11] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 17:57:11] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=335ms inference=202ms
+[2026-06-17 17:57:11] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 17:57:11] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 17:57:11] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=335ms inference=201ms
+[2026-06-17 17:57:11] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-17 17:57:11] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-17 17:57:11] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=363ms inference=233ms
+[2026-06-17 17:57:12] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-17 17:57:12] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-17 17:57:12] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=342ms inference=208ms
+[2026-06-17 18:02:39] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-17 18:02:41] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-17 18:03:38] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-17 18:03:40] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-17 18:03:40] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-17 18:03:40] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-17 18:03:40] [system] INFO SectionPipeline ready | section=cad_lab seats=24 max_capacity=24
+[2026-06-17 18:03:42] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 18:03:42] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 18:03:42] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=1789ms inference=1582ms
+[2026-06-17 18:03:42] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 18:03:42] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 18:03:42] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=339ms inference=202ms
+[2026-06-17 18:03:42] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 18:03:42] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 18:03:42] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=338ms inference=202ms
+[2026-06-17 18:03:43] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-17 18:03:43] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-17 18:03:43] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=345ms inference=209ms
+[2026-06-17 18:03:43] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-17 18:03:43] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-17 18:03:43] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=354ms inference=222ms
+[2026-06-17 18:03:43] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-17 18:03:43] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-17 18:03:43] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=343ms inference=211ms
+[2026-06-18 11:34:45] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-18 11:34:48] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-18 11:34:48] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-18 11:34:48] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:48] [system] INFO SectionPipeline ready | section=cad_lab seats=24 max_capacity=24
+[2026-06-18 11:34:51] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:34:51] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-18 11:34:51] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=3243ms inference=2998ms
+[2026-06-18 11:34:51] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:34:51] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-18 11:34:51] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=409ms inference=265ms
+[2026-06-18 11:34:52] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:34:52] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-18 11:34:52] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=407ms inference=272ms
+[2026-06-18 11:34:52] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:34:52] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-18 11:34:52] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=24 occupied=0 free=24 pipeline=399ms inference=261ms
+[2026-06-18 11:34:53] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:34:53] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-18 11:34:53] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=470ms inference=324ms
+[2026-06-18 11:34:53] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:34:53] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=6
+[2026-06-18 11:34:53] [system] INFO [cad_lab] Pipeline | headcount=6 vacancy=18 occupied=0 free=24 pipeline=414ms inference=280ms
+[2026-06-18 11:34:53] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-18 11:34:53] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-18 11:34:53] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=cad_lab seats=24 max_capacity=18
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=focused_reading_area seats=22 max_capacity=27
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=g_hall_2 seats=48 max_capacity=30
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=g_huss seats=32 max_capacity=30
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=hindi_section seats=80 max_capacity=30
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=ip_camera_19 seats=6 max_capacity=11
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=ipc seats=13 max_capacity=16
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=main_computer_room seats=9 max_capacity=13
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=reference_2 seats=15 max_capacity=18
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=reference_area seats=8 max_capacity=8
+[2026-06-18 11:34:53] [system] INFO SeatClassifier ready | iou_threshold=0.3 use_centroid=True
+[2026-06-18 11:34:53] [system] INFO SectionPipeline ready | section=weeding_out_area seats=8 max_capacity=8
+[2026-06-18 11:34:53] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-06-18 11:34:54] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:34:54] [system] INFO Classified 24 seats | occupied=0 reserved=0 free=24 headcount=0
+[2026-06-18 11:34:54] [system] INFO [cad_lab] Pipeline | headcount=0 vacancy=18 occupied=0 free=24 pipeline=966ms inference=825ms
+[2026-06-18 11:34:55] [system] INFO Inference | section=focused_reading_area persons=0 objects=0
+[2026-06-18 11:34:55] [system] INFO Classified 22 seats | occupied=0 reserved=0 free=22 headcount=0
+[2026-06-18 11:34:55] [system] INFO [focused_reading_area] Pipeline | headcount=0 vacancy=27 occupied=0 free=22 pipeline=410ms inference=272ms
+[2026-06-18 11:34:55] [system] INFO Inference | section=g_hall_2 persons=0 objects=0
+[2026-06-18 11:34:55] [system] INFO Classified 48 seats | occupied=0 reserved=0 free=48 headcount=0
+[2026-06-18 11:34:55] [system] INFO [g_hall_2] Pipeline | headcount=0 vacancy=30 occupied=0 free=48 pipeline=397ms inference=253ms
+[2026-06-18 11:34:56] [system] INFO Inference | section=g_huss persons=0 objects=0
+[2026-06-18 11:34:56] [system] INFO Classified 32 seats | occupied=0 reserved=0 free=32 headcount=0
+[2026-06-18 11:34:56] [system] INFO [g_huss] Pipeline | headcount=0 vacancy=30 occupied=0 free=32 pipeline=406ms inference=259ms
+[2026-06-18 11:34:56] [system] INFO Inference | section=hindi_section persons=0 objects=0
+[2026-06-18 11:34:56] [system] INFO Classified 80 seats | occupied=0 reserved=0 free=80 headcount=0
+[2026-06-18 11:34:56] [system] INFO [hindi_section] Pipeline | headcount=0 vacancy=30 occupied=0 free=80 pipeline=420ms inference=276ms
+[2026-06-18 11:34:56] [system] INFO Inference | section=ip_camera_19 persons=0 objects=0
+[2026-06-18 11:34:56] [system] INFO Classified 6 seats | occupied=0 reserved=0 free=6 headcount=0
+[2026-06-18 11:34:56] [system] INFO [ip_camera_19] Pipeline | headcount=0 vacancy=11 occupied=0 free=6 pipeline=403ms inference=256ms
+[2026-06-18 11:34:57] [system] INFO Inference | section=ipc persons=0 objects=0
+[2026-06-18 11:34:57] [system] INFO Classified 13 seats | occupied=0 reserved=0 free=13 headcount=0
+[2026-06-18 11:34:57] [system] INFO [ipc] Pipeline | headcount=0 vacancy=16 occupied=0 free=13 pipeline=396ms inference=261ms
+[2026-06-18 11:34:57] [system] INFO Inference | section=main_computer_room persons=0 objects=0
+[2026-06-18 11:34:57] [system] INFO Classified 9 seats | occupied=0 reserved=0 free=9 headcount=0
+[2026-06-18 11:34:57] [system] INFO [main_computer_room] Pipeline | headcount=0 vacancy=13 occupied=0 free=9 pipeline=399ms inference=260ms
+[2026-06-18 11:34:58] [system] INFO Inference | section=reference_2 persons=0 objects=0
+[2026-06-18 11:34:58] [system] INFO Classified 15 seats | occupied=0 reserved=0 free=15 headcount=0
+[2026-06-18 11:34:58] [system] INFO [reference_2] Pipeline | headcount=0 vacancy=18 occupied=0 free=15 pipeline=391ms inference=255ms
+[2026-06-18 11:34:58] [system] INFO Inference | section=reference_area persons=0 objects=0
+[2026-06-18 11:34:58] [system] INFO Classified 8 seats | occupied=0 reserved=0 free=8 headcount=0
+[2026-06-18 11:34:58] [system] INFO [reference_area] Pipeline | headcount=0 vacancy=8 occupied=0 free=8 pipeline=414ms inference=277ms
+[2026-06-18 11:34:58] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:34:58] [system] INFO Classified 8 seats | occupied=0 reserved=0 free=8 headcount=0
+[2026-06-18 11:34:58] [system] INFO [weeding_out_area] Pipeline | headcount=0 vacancy=8 occupied=0 free=8 pipeline=393ms inference=259ms
+[2026-06-18 11:44:17] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-18 11:44:19] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-18 11:44:19] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-18 11:44:19] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:21] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:44:21] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=1718ms pipeline=1929ms
+[2026-06-18 11:44:21] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:44:21] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=257ms pipeline=451ms
+[2026-06-18 11:44:22] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:44:22] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=257ms pipeline=393ms
+[2026-06-18 11:44:22] [system] INFO [cad_lab] headcount=23 max_capacity=18 vacancy=0 inference=0ms pipeline=157ms
+[2026-06-18 11:44:22] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:44:22] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=280ms pipeline=413ms
+[2026-06-18 11:44:22] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-18 11:44:22] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-18 11:44:22] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=reference_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:44:22] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-06-18 11:44:23] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-18 11:44:23] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=774ms pipeline=915ms
+[2026-06-18 11:44:24] [system] INFO Inference | section=focused_reading_area persons=0 objects=0
+[2026-06-18 11:44:24] [system] INFO [focused_reading_area] headcount=0 max_capacity=27 vacancy=27 inference=256ms pipeline=405ms
+[2026-06-18 11:44:24] [system] INFO Inference | section=g_hall_2 persons=0 objects=0
+[2026-06-18 11:44:24] [system] INFO [g_hall_2] headcount=0 max_capacity=30 vacancy=30 inference=252ms pipeline=396ms
+[2026-06-18 11:44:25] [system] INFO Inference | section=g_huss persons=0 objects=0
+[2026-06-18 11:44:25] [system] INFO [g_huss] headcount=0 max_capacity=30 vacancy=30 inference=255ms pipeline=390ms
+[2026-06-18 11:44:25] [system] INFO Inference | section=hindi_section persons=0 objects=0
+[2026-06-18 11:44:25] [system] INFO [hindi_section] headcount=0 max_capacity=30 vacancy=30 inference=271ms pipeline=411ms
+[2026-06-18 11:44:25] [system] INFO Inference | section=ip_camera_19 persons=0 objects=0
+[2026-06-18 11:44:25] [system] INFO [ip_camera_19] headcount=0 max_capacity=11 vacancy=11 inference=247ms pipeline=385ms
+[2026-06-18 11:44:26] [system] INFO Inference | section=ipc persons=0 objects=0
+[2026-06-18 11:44:26] [system] INFO [ipc] headcount=0 max_capacity=16 vacancy=16 inference=261ms pipeline=403ms
+[2026-06-18 11:44:26] [system] INFO Inference | section=main_computer_room persons=0 objects=0
+[2026-06-18 11:44:26] [system] INFO [main_computer_room] headcount=0 max_capacity=13 vacancy=13 inference=261ms pipeline=420ms
+[2026-06-18 11:44:27] [system] INFO Inference | section=reference_2 persons=0 objects=0
+[2026-06-18 11:44:27] [system] INFO [reference_2] headcount=0 max_capacity=18 vacancy=18 inference=257ms pipeline=393ms
+[2026-06-18 11:44:27] [system] INFO Inference | section=reference_area persons=0 objects=0
+[2026-06-18 11:44:27] [system] INFO [reference_area] headcount=0 max_capacity=8 vacancy=8 inference=259ms pipeline=398ms
+[2026-06-18 11:44:27] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:44:27] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=254ms pipeline=391ms
+[2026-06-18 11:55:14] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-18 11:55:16] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-18 11:55:16] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=reference_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:55:16] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-06-18 11:55:16] [system] INFO [cad_lab] Worker started | source=cad_lab.mp4
+[2026-06-18 11:55:16] [system] INFO [focused_reading_area] Worker started | source=focused_reading_area.mp4
+[2026-06-18 11:55:16] [system] INFO [g_hall_2] Worker started | source=g_hall_2.mp4
+[2026-06-18 11:55:17] [system] INFO [g_huss] Worker started | source=g_huss.mp4
+[2026-06-18 11:55:17] [system] INFO [hindi_section] Worker started | source=hindi_section.mp4
+[2026-06-18 11:55:17] [system] INFO [ip_camera_19] Worker started | source=ip_camera_19.mp4
+[2026-06-18 11:55:17] [system] INFO [ipc] Worker started | source=ipc.mp4
+[2026-06-18 11:55:17] [system] INFO [main_computer_room] Worker started | source=main_computer_room.mp4
+[2026-06-18 11:55:17] [system] INFO [reference_2] Worker started | source=reference_2.mp4
+[2026-06-18 11:55:17] [system] INFO [reference_area] Worker started | source=reference_area.mp4
+[2026-06-18 11:55:17] [system] INFO [weeding_out_area] Worker started | source=weeding_out_area.mp4
+[2026-06-18 11:55:25] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:25] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=8279ms pipeline=8429ms
+[2026-06-18 11:55:26] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:26] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=8019ms pipeline=8278ms
+[2026-06-18 11:55:26] [system] INFO Inference | section=reference_2 persons=8 objects=9
+[2026-06-18 11:55:26] [system] INFO [reference_2] headcount=8 max_capacity=18 vacancy=10 inference=8021ms pipeline=8303ms
+[2026-06-18 11:55:26] [system] INFO Inference | section=hindi_section persons=10 objects=4
+[2026-06-18 11:55:26] [system] INFO [hindi_section] headcount=10 max_capacity=30 vacancy=20 inference=8096ms pipeline=8292ms
+[2026-06-18 11:55:26] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:26] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=8651ms pipeline=8823ms
+[2026-06-18 11:55:26] [system] INFO Inference | section=ip_camera_19 persons=4 objects=1
+[2026-06-18 11:55:26] [system] INFO [ip_camera_19] headcount=4 max_capacity=11 vacancy=7 inference=8563ms pipeline=8930ms
+[2026-06-18 11:55:27] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:27] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=1465ms pipeline=1557ms
+[2026-06-18 11:55:27] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:27] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=1635ms pipeline=1841ms
+[2026-06-18 11:55:28] [system] INFO Inference | section=reference_2 persons=9 objects=10
+[2026-06-18 11:55:28] [system] INFO [reference_2] headcount=9 max_capacity=18 vacancy=9 inference=1734ms pipeline=1929ms
+[2026-06-18 11:55:28] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-06-18 11:55:28] [system] INFO [weeding_out_area] headcount=1 max_capacity=8 vacancy=7 inference=10150ms pipeline=10464ms
+[2026-06-18 11:55:28] [system] INFO Inference | section=hindi_section persons=9 objects=4
+[2026-06-18 11:55:28] [system] INFO [hindi_section] headcount=9 max_capacity=30 vacancy=21 inference=2110ms pipeline=2326ms
+[2026-06-18 11:55:28] [system] INFO Inference | section=cad_lab persons=4 objects=0
+[2026-06-18 11:55:28] [system] INFO [cad_lab] headcount=4 max_capacity=18 vacancy=14 inference=10927ms pipeline=11410ms
+[2026-06-18 11:55:28] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:28] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2327ms pipeline=2466ms
+[2026-06-18 11:55:29] [system] INFO Inference | section=ip_camera_19 persons=5 objects=1
+[2026-06-18 11:55:29] [system] INFO [ip_camera_19] headcount=5 max_capacity=11 vacancy=6 inference=2629ms pipeline=2907ms
+[2026-06-18 11:55:29] [system] INFO Inference | section=g_huss persons=18 objects=8
+[2026-06-18 11:55:29] [system] INFO [g_huss] headcount=18 max_capacity=30 vacancy=12 inference=11955ms pipeline=12245ms
+[2026-06-18 11:55:29] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:29] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=11831ms pipeline=12123ms
+[2026-06-18 11:55:29] [system] INFO Inference | section=g_hall_2 persons=10 objects=10
+[2026-06-18 11:55:29] [system] INFO [g_hall_2] headcount=10 max_capacity=30 vacancy=20 inference=12108ms pipeline=12481ms
+[2026-06-18 11:55:30] [system] INFO Inference | section=main_computer_room persons=4 objects=3
+[2026-06-18 11:55:30] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2904ms pipeline=2988ms
+[2026-06-18 11:55:30] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:30] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2863ms pipeline=3065ms
+[2026-06-18 11:55:31] [system] INFO Inference | section=reference_2 persons=10 objects=10
+[2026-06-18 11:55:31] [system] INFO [reference_2] headcount=10 max_capacity=18 vacancy=8 inference=2901ms pipeline=3122ms
+[2026-06-18 11:55:31] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-06-18 11:55:31] [system] INFO [weeding_out_area] headcount=1 max_capacity=8 vacancy=7 inference=2901ms pipeline=3113ms
+[2026-06-18 11:55:31] [system] INFO Inference | section=hindi_section persons=10 objects=3
+[2026-06-18 11:55:31] [system] INFO [hindi_section] headcount=10 max_capacity=30 vacancy=20 inference=2917ms pipeline=3114ms
+[2026-06-18 11:55:31] [system] INFO Inference | section=cad_lab persons=4 objects=0
+[2026-06-18 11:55:31] [system] INFO [cad_lab] headcount=4 max_capacity=18 vacancy=14 inference=2860ms pipeline=3210ms
+[2026-06-18 11:55:32] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:32] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2950ms pipeline=3070ms
+[2026-06-18 11:55:32] [system] INFO Inference | section=ip_camera_19 persons=5 objects=1
+[2026-06-18 11:55:32] [system] INFO [ip_camera_19] headcount=5 max_capacity=11 vacancy=6 inference=2721ms pipeline=3033ms
+[2026-06-18 11:55:32] [system] INFO Inference | section=g_huss persons=16 objects=10
+[2026-06-18 11:55:32] [system] INFO [g_huss] headcount=16 max_capacity=30 vacancy=14 inference=2684ms pipeline=2912ms
+[2026-06-18 11:55:32] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:32] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2705ms pipeline=2940ms
+[2026-06-18 11:55:32] [system] INFO Inference | section=g_hall_2 persons=8 objects=10
+[2026-06-18 11:55:32] [system] INFO [g_hall_2] headcount=8 max_capacity=30 vacancy=22 inference=2794ms pipeline=2992ms
+[2026-06-18 11:55:33] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:33] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2828ms pipeline=2900ms
+[2026-06-18 11:55:34] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:34] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2971ms pipeline=3146ms
+[2026-06-18 11:55:34] [system] INFO Inference | section=reference_2 persons=8 objects=10
+[2026-06-18 11:55:34] [system] INFO [reference_2] headcount=8 max_capacity=18 vacancy=10 inference=2817ms pipeline=3000ms
+[2026-06-18 11:55:34] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-06-18 11:55:34] [system] INFO [weeding_out_area] headcount=1 max_capacity=8 vacancy=7 inference=2935ms pipeline=3093ms
+[2026-06-18 11:55:34] [system] INFO Inference | section=hindi_section persons=10 objects=4
+[2026-06-18 11:55:34] [system] INFO [hindi_section] headcount=10 max_capacity=30 vacancy=20 inference=2840ms pipeline=3007ms
+[2026-06-18 11:55:34] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:34] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2783ms pipeline=2888ms
+[2026-06-18 11:55:35] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:55:35] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2909ms pipeline=3215ms
+[2026-06-18 11:55:35] [system] INFO Inference | section=ip_camera_19 persons=4 objects=1
+[2026-06-18 11:55:35] [system] INFO [ip_camera_19] headcount=4 max_capacity=11 vacancy=7 inference=2675ms pipeline=2924ms
+[2026-06-18 11:55:35] [system] INFO Inference | section=g_huss persons=17 objects=10
+[2026-06-18 11:55:35] [system] INFO [g_huss] headcount=17 max_capacity=30 vacancy=13 inference=2816ms pipeline=3005ms
+[2026-06-18 11:55:35] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:35] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2901ms pipeline=3058ms
+[2026-06-18 11:55:35] [system] INFO Inference | section=g_hall_2 persons=9 objects=10
+[2026-06-18 11:55:35] [system] INFO [g_hall_2] headcount=9 max_capacity=30 vacancy=21 inference=3004ms pipeline=3155ms
+[2026-06-18 11:55:36] [system] INFO Inference | section=main_computer_room persons=4 objects=3
+[2026-06-18 11:55:36] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2929ms pipeline=3001ms
+[2026-06-18 11:55:37] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:37] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2768ms pipeline=2969ms
+[2026-06-18 11:55:37] [system] INFO Inference | section=reference_2 persons=9 objects=10
+[2026-06-18 11:55:37] [system] INFO [reference_2] headcount=9 max_capacity=18 vacancy=9 inference=2822ms pipeline=2994ms
+[2026-06-18 11:55:37] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:55:37] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=2968ms pipeline=3152ms
+[2026-06-18 11:55:37] [system] INFO Inference | section=hindi_section persons=8 objects=4
+[2026-06-18 11:55:37] [system] INFO [hindi_section] headcount=8 max_capacity=30 vacancy=22 inference=2847ms pipeline=3019ms
+[2026-06-18 11:55:38] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:38] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2974ms pipeline=3074ms
+[2026-06-18 11:55:38] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:55:38] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2747ms pipeline=3092ms
+[2026-06-18 11:55:38] [system] INFO Inference | section=ip_camera_19 persons=5 objects=1
+[2026-06-18 11:55:38] [system] INFO [ip_camera_19] headcount=5 max_capacity=11 vacancy=6 inference=2832ms pipeline=3092ms
+[2026-06-18 11:55:38] [system] INFO Inference | section=g_huss persons=17 objects=10
+[2026-06-18 11:55:38] [system] INFO [g_huss] headcount=17 max_capacity=30 vacancy=13 inference=2968ms pipeline=3170ms
+[2026-06-18 11:55:38] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:38] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2848ms pipeline=2999ms
+[2026-06-18 11:55:39] [system] INFO Inference | section=g_hall_2 persons=8 objects=9
+[2026-06-18 11:55:39] [system] INFO [g_hall_2] headcount=8 max_capacity=30 vacancy=22 inference=2928ms pipeline=3097ms
+[2026-06-18 11:55:39] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:39] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2990ms pipeline=3062ms
+[2026-06-18 11:55:40] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:40] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2684ms pipeline=2853ms
+[2026-06-18 11:55:40] [system] INFO Inference | section=reference_2 persons=8 objects=10
+[2026-06-18 11:55:40] [system] INFO [reference_2] headcount=8 max_capacity=18 vacancy=10 inference=2898ms pipeline=3067ms
+[2026-06-18 11:55:40] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:55:40] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=2851ms pipeline=3030ms
+[2026-06-18 11:55:40] [system] INFO Inference | section=hindi_section persons=9 objects=4
+[2026-06-18 11:55:40] [system] INFO [hindi_section] headcount=9 max_capacity=30 vacancy=21 inference=2809ms pipeline=2982ms
+[2026-06-18 11:55:41] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:41] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2869ms pipeline=2977ms
+[2026-06-18 11:55:41] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:55:41] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2731ms pipeline=3070ms
+[2026-06-18 11:55:41] [system] INFO Inference | section=ip_camera_19 persons=3 objects=1
+[2026-06-18 11:55:41] [system] INFO [ip_camera_19] headcount=3 max_capacity=11 vacancy=8 inference=2808ms pipeline=3067ms
+[2026-06-18 11:55:41] [system] INFO Inference | section=g_huss persons=18 objects=7
+[2026-06-18 11:55:41] [system] INFO [g_huss] headcount=18 max_capacity=30 vacancy=12 inference=2748ms pipeline=2917ms
+[2026-06-18 11:55:41] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:41] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2929ms pipeline=3101ms
+[2026-06-18 11:55:42] [system] INFO Inference | section=g_hall_2 persons=9 objects=9
+[2026-06-18 11:55:42] [system] INFO [g_hall_2] headcount=9 max_capacity=30 vacancy=21 inference=2909ms pipeline=3075ms
+[2026-06-18 11:55:42] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:42] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2821ms pipeline=2898ms
+[2026-06-18 11:55:43] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:43] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2988ms pipeline=3157ms
+[2026-06-18 11:55:43] [system] INFO Inference | section=reference_2 persons=7 objects=9
+[2026-06-18 11:55:43] [system] INFO [reference_2] headcount=7 max_capacity=18 vacancy=11 inference=2977ms pipeline=3148ms
+[2026-06-18 11:55:43] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:55:43] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=2837ms pipeline=3030ms
+[2026-06-18 11:55:43] [system] INFO Inference | section=hindi_section persons=10 objects=5
+[2026-06-18 11:55:43] [system] INFO [hindi_section] headcount=10 max_capacity=30 vacancy=20 inference=2882ms pipeline=3076ms
+[2026-06-18 11:55:44] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:44] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2868ms pipeline=2967ms
+[2026-06-18 11:55:44] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:55:44] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2750ms pipeline=3076ms
+[2026-06-18 11:55:44] [system] INFO Inference | section=ip_camera_19 persons=5 objects=1
+[2026-06-18 11:55:44] [system] INFO [ip_camera_19] headcount=5 max_capacity=11 vacancy=6 inference=2875ms pipeline=3139ms
+[2026-06-18 11:55:45] [system] INFO Inference | section=g_huss persons=18 objects=10
+[2026-06-18 11:55:45] [system] INFO [g_huss] headcount=18 max_capacity=30 vacancy=12 inference=3010ms pipeline=3196ms
+[2026-06-18 11:55:45] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:45] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2935ms pipeline=3107ms
+[2026-06-18 11:55:45] [system] INFO Inference | section=g_hall_2 persons=8 objects=10
+[2026-06-18 11:55:45] [system] INFO [g_hall_2] headcount=8 max_capacity=30 vacancy=22 inference=2859ms pipeline=3058ms
+[2026-06-18 11:55:45] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:45] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2990ms pipeline=3064ms
+[2026-06-18 11:55:46] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:46] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2808ms pipeline=3004ms
+[2026-06-18 11:55:46] [system] INFO Inference | section=reference_2 persons=7 objects=8
+[2026-06-18 11:55:46] [system] INFO [reference_2] headcount=7 max_capacity=18 vacancy=11 inference=2728ms pipeline=2881ms
+[2026-06-18 11:55:46] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:55:46] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=2732ms pipeline=2908ms
+[2026-06-18 11:55:46] [system] INFO Inference | section=hindi_section persons=10 objects=5
+[2026-06-18 11:55:46] [system] INFO [hindi_section] headcount=10 max_capacity=30 vacancy=20 inference=2774ms pipeline=2952ms
+[2026-06-18 11:55:47] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:47] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2899ms pipeline=3000ms
+[2026-06-18 11:55:47] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:55:47] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2737ms pipeline=3076ms
+[2026-06-18 11:55:47] [system] INFO Inference | section=ip_camera_19 persons=4 objects=1
+[2026-06-18 11:55:47] [system] INFO [ip_camera_19] headcount=4 max_capacity=11 vacancy=7 inference=2774ms pipeline=3033ms
+[2026-06-18 11:55:48] [system] INFO Inference | section=g_huss persons=18 objects=9
+[2026-06-18 11:55:48] [system] INFO [g_huss] headcount=18 max_capacity=30 vacancy=12 inference=2819ms pipeline=3009ms
+[2026-06-18 11:55:48] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:48] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2886ms pipeline=3043ms
+[2026-06-18 11:55:48] [system] INFO Inference | section=g_hall_2 persons=8 objects=8
+[2026-06-18 11:55:48] [system] INFO [g_hall_2] headcount=8 max_capacity=30 vacancy=22 inference=2853ms pipeline=3050ms
+[2026-06-18 11:55:48] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:48] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2939ms pipeline=3014ms
+[2026-06-18 11:55:49] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:49] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2805ms pipeline=2959ms
+[2026-06-18 11:55:49] [system] INFO Inference | section=reference_2 persons=9 objects=9
+[2026-06-18 11:55:49] [system] INFO [reference_2] headcount=9 max_capacity=18 vacancy=9 inference=2884ms pipeline=3042ms
+[2026-06-18 11:55:49] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:55:49] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=2725ms pipeline=2877ms
+[2026-06-18 11:55:49] [system] INFO Inference | section=hindi_section persons=9 objects=6
+[2026-06-18 11:55:49] [system] INFO [hindi_section] headcount=9 max_capacity=30 vacancy=21 inference=2849ms pipeline=3015ms
+[2026-06-18 11:55:50] [system] INFO Inference | section=focused_reading_area persons=7 objects=5
+[2026-06-18 11:55:50] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2860ms pipeline=2978ms
+[2026-06-18 11:55:50] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:55:50] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2685ms pipeline=3024ms
+[2026-06-18 11:55:50] [system] INFO Inference | section=g_huss persons=18 objects=10
+[2026-06-18 11:55:50] [system] INFO [g_huss] headcount=18 max_capacity=30 vacancy=12 inference=2694ms pipeline=2903ms
+[2026-06-18 11:55:51] [system] INFO Inference | section=ip_camera_19 persons=2 objects=1
+[2026-06-18 11:55:51] [system] INFO [ip_camera_19] headcount=2 max_capacity=11 vacancy=9 inference=2784ms pipeline=3083ms
+[2026-06-18 11:55:51] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:51] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2818ms pipeline=3000ms
+[2026-06-18 11:55:51] [system] INFO Inference | section=g_hall_2 persons=8 objects=8
+[2026-06-18 11:55:51] [system] INFO [g_hall_2] headcount=8 max_capacity=30 vacancy=22 inference=2815ms pipeline=2994ms
+[2026-06-18 11:55:51] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:51] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2939ms pipeline=3020ms
+[2026-06-18 11:55:52] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:52] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2886ms pipeline=3057ms
+[2026-06-18 11:55:52] [system] INFO Inference | section=reference_2 persons=9 objects=9
+[2026-06-18 11:55:52] [system] INFO [reference_2] headcount=9 max_capacity=18 vacancy=9 inference=2861ms pipeline=3016ms
+[2026-06-18 11:55:52] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:55:52] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=2847ms pipeline=3010ms
+[2026-06-18 11:55:52] [system] INFO Inference | section=hindi_section persons=9 objects=5
+[2026-06-18 11:55:52] [system] INFO [hindi_section] headcount=9 max_capacity=30 vacancy=21 inference=2819ms pipeline=2977ms
+[2026-06-18 11:55:53] [system] INFO Inference | section=focused_reading_area persons=7 objects=4
+[2026-06-18 11:55:53] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2939ms pipeline=3035ms
+[2026-06-18 11:55:53] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:55:53] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2652ms pipeline=3021ms
+[2026-06-18 11:55:53] [system] INFO Inference | section=g_huss persons=16 objects=10
+[2026-06-18 11:55:53] [system] INFO [g_huss] headcount=16 max_capacity=30 vacancy=14 inference=2791ms pipeline=2997ms
+[2026-06-18 11:55:54] [system] INFO Inference | section=ip_camera_19 persons=3 objects=1
+[2026-06-18 11:55:54] [system] INFO [ip_camera_19] headcount=3 max_capacity=11 vacancy=8 inference=2812ms pipeline=3077ms
+[2026-06-18 11:55:54] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:54] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2841ms pipeline=3037ms
+[2026-06-18 11:55:54] [system] INFO Inference | section=g_hall_2 persons=8 objects=8
+[2026-06-18 11:55:54] [system] INFO [g_hall_2] headcount=8 max_capacity=30 vacancy=22 inference=2854ms pipeline=3032ms
+[2026-06-18 11:55:54] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:54] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2959ms pipeline=3049ms
+[2026-06-18 11:55:55] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:55] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2798ms pipeline=2992ms
+[2026-06-18 11:55:55] [system] INFO Inference | section=reference_2 persons=7 objects=10
+[2026-06-18 11:55:55] [system] INFO [reference_2] headcount=7 max_capacity=18 vacancy=11 inference=2812ms pipeline=3015ms
+[2026-06-18 11:55:55] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-18 11:55:55] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=2863ms pipeline=3037ms
+[2026-06-18 11:55:56] [system] INFO Inference | section=hindi_section persons=9 objects=4
+[2026-06-18 11:55:56] [system] INFO [hindi_section] headcount=9 max_capacity=30 vacancy=21 inference=2845ms pipeline=3036ms
+[2026-06-18 11:55:56] [system] INFO Inference | section=focused_reading_area persons=7 objects=2
+[2026-06-18 11:55:56] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2884ms pipeline=2992ms
+[2026-06-18 11:55:56] [system] INFO Inference | section=g_huss persons=18 objects=10
+[2026-06-18 11:55:56] [system] INFO [g_huss] headcount=18 max_capacity=30 vacancy=12 inference=2760ms pipeline=2948ms
+[2026-06-18 11:55:57] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:55:57] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2818ms pipeline=3200ms
+[2026-06-18 11:55:57] [system] INFO Inference | section=ip_camera_19 persons=2 objects=1
+[2026-06-18 11:55:57] [system] INFO [ip_camera_19] headcount=2 max_capacity=11 vacancy=9 inference=2778ms pipeline=3018ms
+[2026-06-18 11:55:57] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:55:57] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2855ms pipeline=3032ms
+[2026-06-18 11:55:57] [system] INFO Inference | section=g_hall_2 persons=9 objects=8
+[2026-06-18 11:55:57] [system] INFO [g_hall_2] headcount=9 max_capacity=30 vacancy=21 inference=2931ms pipeline=3105ms
+[2026-06-18 11:55:57] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:55:57] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2964ms pipeline=3062ms
+[2026-06-18 11:55:58] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-06-18 11:55:58] [system] INFO [ipc] headcount=3 max_capacity=16 vacancy=13 inference=2861ms pipeline=3032ms
+[2026-06-18 11:55:58] [system] INFO Inference | section=reference_2 persons=8 objects=11
+[2026-06-18 11:55:58] [system] INFO [reference_2] headcount=8 max_capacity=18 vacancy=10 inference=2839ms pipeline=3012ms
+[2026-06-18 11:55:58] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-06-18 11:55:58] [system] INFO [weeding_out_area] headcount=1 max_capacity=8 vacancy=7 inference=2883ms pipeline=3038ms
+[2026-06-18 11:55:59] [system] INFO Inference | section=hindi_section persons=8 objects=4
+[2026-06-18 11:55:59] [system] INFO [hindi_section] headcount=8 max_capacity=30 vacancy=22 inference=2830ms pipeline=2996ms
+[2026-06-18 11:55:59] [system] INFO Inference | section=focused_reading_area persons=7 objects=3
+[2026-06-18 11:55:59] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2912ms pipeline=3003ms
+[2026-06-18 11:56:00] [system] INFO Inference | section=g_huss persons=20 objects=11
+[2026-06-18 11:56:00] [system] INFO [g_huss] headcount=20 max_capacity=30 vacancy=10 inference=2853ms pipeline=3018ms
+[2026-06-18 11:56:00] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:56:00] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=2722ms pipeline=3088ms
+[2026-06-18 11:56:00] [system] INFO Inference | section=ip_camera_19 persons=2 objects=1
+[2026-06-18 11:56:00] [system] INFO [ip_camera_19] headcount=2 max_capacity=11 vacancy=9 inference=2782ms pipeline=3048ms
+[2026-06-18 11:56:00] [system] INFO Inference | section=reference_area persons=4 objects=1
+[2026-06-18 11:56:00] [system] INFO [reference_area] headcount=4 max_capacity=8 vacancy=4 inference=2934ms pipeline=3155ms
+[2026-06-18 11:56:00] [system] INFO [reference_area] Worker stopped.
+[2026-06-18 11:56:00] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-06-18 11:56:00] [system] INFO [main_computer_room] headcount=4 max_capacity=13 vacancy=9 inference=2854ms pipeline=2932ms
+[2026-06-18 11:56:00] [system] INFO [main_computer_room] Worker stopped.
+[2026-06-18 11:56:00] [system] INFO Inference | section=g_hall_2 persons=9 objects=9
+[2026-06-18 11:56:00] [system] INFO [g_hall_2] headcount=9 max_capacity=30 vacancy=21 inference=2919ms pipeline=3088ms
+[2026-06-18 11:56:00] [system] INFO [g_hall_2] Worker stopped.
+[2026-06-18 11:56:01] [system] INFO Inference | section=ipc persons=2 objects=0
+[2026-06-18 11:56:01] [system] INFO [ipc] headcount=2 max_capacity=16 vacancy=14 inference=2767ms pipeline=2921ms
+[2026-06-18 11:56:01] [system] INFO [ipc] Worker stopped.
+[2026-06-18 11:56:01] [system] INFO Inference | section=reference_2 persons=6 objects=12
+[2026-06-18 11:56:01] [system] INFO [reference_2] headcount=6 max_capacity=18 vacancy=12 inference=2739ms pipeline=2916ms
+[2026-06-18 11:56:01] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-06-18 11:56:01] [system] INFO [weeding_out_area] headcount=1 max_capacity=8 vacancy=7 inference=2676ms pipeline=2830ms
+[2026-06-18 11:56:01] [system] INFO [reference_2] Worker stopped.
+[2026-06-18 11:56:01] [system] INFO [weeding_out_area] Worker stopped.
+[2026-06-18 11:56:01] [system] INFO Inference | section=hindi_section persons=6 objects=4
+[2026-06-18 11:56:01] [system] INFO [hindi_section] headcount=6 max_capacity=30 vacancy=24 inference=2582ms pipeline=2737ms
+[2026-06-18 11:56:01] [system] INFO [hindi_section] Worker stopped.
+[2026-06-18 11:56:01] [system] INFO Inference | section=focused_reading_area persons=7 objects=2
+[2026-06-18 11:56:01] [system] INFO [focused_reading_area] headcount=7 max_capacity=27 vacancy=20 inference=2649ms pipeline=2746ms
+[2026-06-18 11:56:01] [system] INFO [focused_reading_area] Worker stopped.
+[2026-06-18 11:56:02] [system] INFO Inference | section=g_huss persons=17 objects=8
+[2026-06-18 11:56:02] [system] INFO [g_huss] headcount=17 max_capacity=30 vacancy=13 inference=2020ms pipeline=2184ms
+[2026-06-18 11:56:02] [system] INFO [g_huss] Worker stopped.
+[2026-06-18 11:56:02] [system] INFO Inference | section=ip_camera_19 persons=3 objects=1
+[2026-06-18 11:56:02] [system] INFO [ip_camera_19] headcount=3 max_capacity=11 vacancy=8 inference=1677ms pipeline=1951ms
+[2026-06-18 11:56:02] [system] INFO [ip_camera_19] Worker stopped.
+[2026-06-18 11:56:02] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-18 11:56:02] [system] INFO [cad_lab] headcount=5 max_capacity=18 vacancy=13 inference=1697ms pipeline=2072ms
+[2026-06-18 11:56:02] [system] INFO [cad_lab] Worker stopped.
+[2026-06-18 11:59:46] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-06-18 11:59:46] [system] INFO [cad_lab] Smoother reset.
+[2026-06-18 11:59:46] [system] INFO [cad_lab] Smoother reset.
+[2026-06-18 11:59:46] [system] INFO [cad_lab] Smoother reset.
+[2026-06-18 11:59:46] [system] INFO [cad_lab] Smoother reset.
+[2026-06-18 11:59:46] [system] INFO [cad_lab] Smoother reset.
+[2026-06-18 11:59:46] [system] INFO [cad_lab] Smoother reset.
+[2026-06-18 11:59:46] [system] INFO [cad_lab] Smoother reset.
+[2026-06-18 11:59:46] [system] INFO TemporalSmoother | section=sec_A window=10 ema_alpha=0.3
+[2026-06-18 11:59:46] [system] INFO TemporalSmoother | section=sec_B window=10 ema_alpha=0.3
+[2026-06-18 11:59:48] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-18 11:59:50] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-18 11:59:50] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=reference_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-18 11:59:50] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-06-18 11:59:50] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-06-18 11:59:52] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:52] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=1744ms pipeline=1949ms
+[2026-06-18 11:59:52] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:52] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=267ms pipeline=398ms
+[2026-06-18 11:59:53] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:53] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=268ms pipeline=401ms
+[2026-06-18 11:59:53] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:53] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=262ms pipeline=394ms
+[2026-06-18 11:59:53] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:53] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=274ms pipeline=406ms
+[2026-06-18 11:59:54] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:54] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=286ms pipeline=434ms
+[2026-06-18 11:59:54] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:54] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=284ms pipeline=415ms
+[2026-06-18 11:59:55] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:55] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=268ms pipeline=400ms
+[2026-06-18 11:59:55] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:55] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=267ms pipeline=403ms
+[2026-06-18 11:59:55] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:55] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=272ms pipeline=404ms
+[2026-06-18 11:59:56] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:56] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=274ms pipeline=418ms
+[2026-06-18 11:59:56] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:56] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=272ms pipeline=408ms
+[2026-06-18 11:59:57] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:57] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=274ms pipeline=407ms
+[2026-06-18 11:59:57] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:57] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=267ms pipeline=399ms
+[2026-06-18 11:59:58] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-18 11:59:58] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=279ms pipeline=415ms
+[2026-06-23 14:54:00] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:00] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:00] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:54:00] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 14:54:00] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:00] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:54:00] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 14:54:00] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:00] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:54:00] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cdrnm5ay\z.json
+[2026-06-23 14:54:00] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:00] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:00] [system] INFO Zone MID cleared.
+[2026-06-23 14:54:56] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:56] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:56] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:54:56] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 14:54:56] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:56] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:54:56] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 14:54:56] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:56] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:54:56] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_jhpvgrd0\z.json
+[2026-06-23 14:54:56] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:54:56] [system] INFO Auto-advanced to MID
+[2026-06-23 14:54:56] [system] INFO Zone MID cleared.
+[2026-06-23 14:55:05] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Auto-advanced to MID
+[2026-06-23 14:55:05] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Auto-advanced to MID
+[2026-06-23 14:55:05] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:55:05] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 14:55:05] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Auto-advanced to MID
+[2026-06-23 14:55:05] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:55:05] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 14:55:05] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Auto-advanced to MID
+[2026-06-23 14:55:05] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Auto-advanced to FAR
+[2026-06-23 14:55:05] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 14:55:05] [system] INFO Auto-advanced to MID
+[2026-06-23 14:55:05] [system] INFO Zone MID cleared.
+[2026-06-23 14:55:05] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_w74l280u\z.json
+[2026-06-23 14:55:05] [system] WARNING Need ≥3 points. Have 2.
+[2026-06-23 15:06:31] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:31] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:31] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:06:31] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 15:06:31] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:31] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:06:31] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 15:06:31] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:31] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:06:31] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_j7l5fis0\z.json
+[2026-06-23 15:06:31] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:31] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:31] [system] INFO Zone MID cleared.
+[2026-06-23 15:06:50] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:50] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:50] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:06:50] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 15:06:50] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:50] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:06:50] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 15:06:50] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:50] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:06:50] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_n0u8r68h\z.json
+[2026-06-23 15:06:50] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:06:50] [system] INFO Auto-advanced to MID
+[2026-06-23 15:06:50] [system] INFO Zone MID cleared.
+[2026-06-23 15:08:12] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Auto-advanced to MID
+[2026-06-23 15:08:12] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Auto-advanced to MID
+[2026-06-23 15:08:12] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:08:12] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 15:08:12] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Auto-advanced to MID
+[2026-06-23 15:08:12] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:08:12] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 15:08:12] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Auto-advanced to MID
+[2026-06-23 15:08:12] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:08:12] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:08:12] [system] INFO Auto-advanced to MID
+[2026-06-23 15:08:12] [system] INFO Zone NEAR cleared.
+[2026-06-23 15:08:12] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_fre8d06n\z.json
+[2026-06-23 15:08:12] [system] WARNING Need ≥3 points. Have 2.
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:10] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 15:14:10] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:10] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 15:14:10] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z_undo.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone NEAR cleared.
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z_minvert.json
+[2026-06-23 15:14:10] [system] WARNING Need ≥3 points. Have 2.
+[2026-06-23 15:14:10] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:10] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 15:14:10] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:10] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 15:14:10] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:10] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 15:14:10] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=focused_reading_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:10] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for focused_reading_area)
+[2026-06-23 15:14:10] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO ZoneAnnotator | section=g_hall_2 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:10] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:10] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:10] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:10] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for g_hall_2)
+[2026-06-23 15:14:10] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:11] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:11] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 15:14:11] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO ZoneAnnotator | section=hindi_section source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:11] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:11] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for hindi_section)
+[2026-06-23 15:14:11] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO ZoneAnnotator | section=ip_camera_19 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:11] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:11] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for ip_camera_19)
+[2026-06-23 15:14:11] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO ZoneAnnotator | section=ipc source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:11] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:11] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for ipc)
+[2026-06-23 15:14:11] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO ZoneAnnotator | section=main_computer_room source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:11] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:11] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for main_computer_room)
+[2026-06-23 15:14:11] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO ZoneAnnotator | section=reference_2 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:11] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:11] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for reference_2)
+[2026-06-23 15:14:11] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO ZoneAnnotator | section=reference_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:11] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:11] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for reference_area)
+[2026-06-23 15:14:11] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO ZoneAnnotator | section=weeding_out_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json
+[2026-06-23 15:14:11] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to MID
+[2026-06-23 15:14:11] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:14:11] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 15:14:11] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_vn_es4ko\z.json (3/3 zones confirmed for weeding_out_area)
+[2026-06-23 15:18:26] [system] INFO ZoneAnnotator | section=cad_lab source=data/sample_frames/cad_lab.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 15:19:47] [system] INFO Zone NEAR confirmed (8 vertices)
+[2026-06-23 15:19:47] [system] INFO Auto-advanced to MID
+[2026-06-23 15:20:00] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 15:20:00] [system] INFO Auto-advanced to FAR
+[2026-06-23 15:20:09] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 15:20:15] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 17:29:08] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:29:08] [system] INFO ZoneAnnotator | section=focused_reading_area source=data/sample_frames/focused_reading_area.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:29:44] [system] INFO Zone NEAR confirmed (7 vertices)
+[2026-06-23 17:29:44] [system] INFO Auto-advanced to MID
+[2026-06-23 17:30:30] [system] INFO Zone MID confirmed (15 vertices)
+[2026-06-23 17:30:30] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:30:43] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:30:44] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for focused_reading_area)
+[2026-06-23 17:31:11] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:31:11] [system] INFO ZoneAnnotator | section=g_hall_2 source=data/sample_frames/g_hall_2.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:31:45] [system] INFO Zone NEAR confirmed (9 vertices)
+[2026-06-23 17:31:45] [system] INFO Auto-advanced to MID
+[2026-06-23 17:32:07] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 17:32:07] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:32:20] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:32:22] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for g_hall_2)
+[2026-06-23 17:32:36] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:32:36] [system] INFO ZoneAnnotator | section=g_huss source=data/sample_frames/g_huss.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:33:03] [system] INFO Zone NEAR confirmed (7 vertices)
+[2026-06-23 17:33:03] [system] INFO Auto-advanced to MID
+[2026-06-23 17:33:27] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 17:33:27] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:33:44] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:33:46] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for g_huss)
+[2026-06-23 17:34:05] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:34:05] [system] INFO ZoneAnnotator | section=hindi_section source=data/sample_frames/hindi_section.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:34:57] [system] INFO Zone NEAR confirmed (12 vertices)
+[2026-06-23 17:34:57] [system] INFO Auto-advanced to MID
+[2026-06-23 17:35:56] [system] INFO Zone MID confirmed (15 vertices)
+[2026-06-23 17:35:56] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:36:51] [system] INFO Zone FAR confirmed (17 vertices)
+[2026-06-23 17:36:57] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for hindi_section)
+[2026-06-23 17:37:31] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:37:31] [system] INFO ZoneAnnotator | section=ip_camera_19 source=data/sample_frames/ip_camera_19.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:37:45] [system] INFO Zone NEAR confirmed (5 vertices)
+[2026-06-23 17:37:45] [system] INFO Auto-advanced to MID
+[2026-06-23 17:37:58] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 17:37:58] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:38:11] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:38:14] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for ip_camera_19)
+[2026-06-23 17:38:27] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:38:27] [system] INFO ZoneAnnotator | section=ipc source=data/sample_frames/ipc.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:38:47] [system] INFO Zone NEAR confirmed (7 vertices)
+[2026-06-23 17:38:47] [system] INFO Auto-advanced to MID
+[2026-06-23 17:38:57] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 17:38:57] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:39:09] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:39:10] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for ipc)
+[2026-06-23 17:39:30] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:39:30] [system] INFO ZoneAnnotator | section=main_computer_room source=data/sample_frames/main_computer_room.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:39:56] [system] INFO Zone NEAR confirmed (8 vertices)
+[2026-06-23 17:39:56] [system] INFO Auto-advanced to MID
+[2026-06-23 17:40:10] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 17:40:10] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:40:24] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:40:25] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for main_computer_room)
+[2026-06-23 17:40:49] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:40:49] [system] INFO ZoneAnnotator | section=reference_2 source=data/sample_frames/reference_2.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:41:11] [system] INFO Zone NEAR confirmed (6 vertices)
+[2026-06-23 17:41:11] [system] INFO Auto-advanced to MID
+[2026-06-23 17:41:29] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 17:41:29] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:41:50] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:42:04] [system] INFO Zone FAR confirmed (6 vertices)
+[2026-06-23 17:42:25] [system] WARNING Need ≥3 points. Have 0.
+[2026-06-23 17:42:39] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:42:45] [system] INFO Current polygon cleared.
+[2026-06-23 17:43:09] [system] INFO Zone FAR confirmed (8 vertices)
+[2026-06-23 17:43:11] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for reference_2)
+[2026-06-23 17:43:27] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:43:27] [system] INFO ZoneAnnotator | section=reference_area source=data/sample_frames/reference_area.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:43:48] [system] INFO Zone NEAR confirmed (6 vertices)
+[2026-06-23 17:43:48] [system] INFO Auto-advanced to MID
+[2026-06-23 17:43:59] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 17:43:59] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:44:10] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:44:11] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for reference_area)
+[2026-06-23 17:44:31] [system] INFO Loaded existing zone config: data\roi\zone_config.json
+[2026-06-23 17:44:31] [system] INFO ZoneAnnotator | section=weeding_out_area source=data/sample_frames/weeding_out_area.jpg zone_path=data/roi/zone_config.json
+[2026-06-23 17:44:47] [system] INFO Zone NEAR confirmed (7 vertices)
+[2026-06-23 17:44:47] [system] INFO Auto-advanced to MID
+[2026-06-23 17:44:58] [system] INFO Zone MID confirmed (5 vertices)
+[2026-06-23 17:44:58] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:45:10] [system] INFO Zone FAR confirmed (5 vertices)
+[2026-06-23 17:45:13] [system] INFO Saved zone config → data\roi\zone_config.json (3/3 zones confirmed for weeding_out_area)
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z_undo.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone NEAR cleared.
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z_minvert.json
+[2026-06-23 17:48:17] [system] WARNING Need ≥3 points. Have 2.
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=focused_reading_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for focused_reading_area)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=g_hall_2 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for g_hall_2)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for g_huss)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=hindi_section source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for hindi_section)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=ip_camera_19 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for ip_camera_19)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=ipc source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for ipc)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=main_computer_room source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for main_computer_room)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=reference_2 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for reference_2)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=reference_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for reference_area)
+[2026-06-23 17:48:17] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO ZoneAnnotator | section=weeding_out_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json
+[2026-06-23 17:48:17] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to MID
+[2026-06-23 17:48:17] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Auto-advanced to FAR
+[2026-06-23 17:48:17] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-23 17:48:17] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_cgiu6a2f\z.json (3/3 zones confirmed for weeding_out_area)
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for g_huss)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z_undo.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone NEAR cleared.
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z_minvert.json
+[2026-06-29 14:20:36] [system] WARNING Need ≥3 points. Have 2.
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for g_huss)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=cad_lab source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for cad_lab)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=focused_reading_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for focused_reading_area)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=g_hall_2 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for g_hall_2)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=g_huss source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for g_huss)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=hindi_section source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for hindi_section)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=ip_camera_19 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for ip_camera_19)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=ipc source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for ipc)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=main_computer_room source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for main_computer_room)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=reference_2 source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for reference_2)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=reference_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for reference_area)
+[2026-06-29 14:20:36] [system] INFO Loaded existing zone config: C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO ZoneAnnotator | section=weeding_out_area source=0 zone_path=C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json
+[2026-06-29 14:20:36] [system] INFO Zone NEAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to MID
+[2026-06-29 14:20:36] [system] INFO Zone MID confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Auto-advanced to FAR
+[2026-06-29 14:20:36] [system] INFO Zone FAR confirmed (4 vertices)
+[2026-06-29 14:20:36] [system] INFO Saved zone config → C:\Users\apoor\AppData\Local\Temp\zcp01_8j7zbhes\z.json (3/3 zones confirmed for weeding_out_area)
+[2026-06-29 14:27:32] [system] INFO Validation complete | sections=11/11 zones=33/33 errors=0 warnings=0
+[2026-06-29 14:27:32] [system] WARNING Missing sections: ['reference_area', 'weeding_out_area']
+[2026-06-29 14:27:32] [system] INFO Validation complete | sections=9/11 zones=27/27 errors=0 warnings=0
+[2026-06-29 14:27:32] [system] INFO Validation complete | sections=11/11 zones=32/33 errors=1 warnings=0
+[2026-06-29 14:27:32] [system] INFO Validation complete | sections=11/11 zones=32/33 errors=1 warnings=0
+[2026-06-29 14:27:32] [system] INFO Validation complete | sections=11/11 zones=32/33 errors=1 warnings=0
+[2026-06-29 14:27:32] [system] INFO Validation complete | sections=11/11 zones=32/33 errors=1 warnings=0
+[2026-06-29 14:27:32] [system] ERROR Zone config not found: C:\Users\apoor\AppData\Local\Temp\zcp02__cn_o6hg\nonexistent.json
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\cad_lab_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\focused_reading_area_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\g_hall_2_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\g_huss_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\hindi_section_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\ip_camera_19_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\ipc_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\main_computer_room_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\reference_2_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\reference_area_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Zone visualization saved → data\roi_previews\zones\weeding_out_area_zones.jpg
+[2026-06-29 14:27:33] [system] INFO Validation complete | sections=11/11 zones=33/33 errors=0 warnings=0
+[2026-06-29 14:37:03] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-29 14:37:06] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-29 14:37:06] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=0
+[2026-06-29 14:37:06] [system] WARNING [cad_lab] Near zone polygon not configured
+[2026-06-29 14:37:06] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=8
+[2026-06-29 14:37:08] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-29 14:37:08] [system] INFO [cad_lab] Near zone | persons=5 objects=0
+[2026-06-29 14:38:51] [system] INFO Validation complete | sections=11/11 zones=33/33 errors=0 warnings=0
+[2026-06-29 14:38:51] [system] WARNING Missing sections: ['reference_area', 'weeding_out_area']
+[2026-06-29 14:38:51] [system] INFO Validation complete | sections=9/11 zones=27/27 errors=0 warnings=0
+[2026-06-29 14:38:51] [system] INFO Validation complete | sections=11/11 zones=32/33 errors=1 warnings=0
+[2026-06-29 14:38:51] [system] INFO Validation complete | sections=11/11 zones=32/33 errors=1 warnings=0
+[2026-06-29 14:38:51] [system] INFO Validation complete | sections=11/11 zones=32/33 errors=1 warnings=0
+[2026-06-29 14:38:51] [system] INFO Validation complete | sections=11/11 zones=32/33 errors=1 warnings=0
+[2026-06-29 14:38:51] [system] ERROR Zone config not found: C:\Users\apoor\AppData\Local\Temp\zcp02_0s8b1dbp\nonexistent.json
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\cad_lab_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\focused_reading_area_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\g_hall_2_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\g_huss_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\hindi_section_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\ip_camera_19_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\ipc_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\main_computer_room_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\reference_2_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\reference_area_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Zone visualization saved → data\roi_previews\zones\weeding_out_area_zones.jpg
+[2026-06-29 14:38:51] [system] INFO Validation complete | sections=11/11 zones=33/33 errors=0 warnings=0
+[2026-06-29 14:39:20] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-29 14:39:21] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-29 14:39:21] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=0
+[2026-06-29 14:39:21] [system] WARNING [cad_lab] Near zone polygon not configured
+[2026-06-29 14:39:21] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=8
+[2026-06-29 14:39:23] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-29 14:39:23] [system] INFO [cad_lab] Near zone | persons=5 objects=0
+[2026-06-29 14:47:44] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-06-29 14:47:44] [system] INFO [cad_lab] Smoother reset.
+[2026-06-29 14:47:44] [system] INFO [cad_lab] Smoother reset.
+[2026-06-29 14:47:44] [system] INFO [cad_lab] Smoother reset.
+[2026-06-29 14:47:44] [system] INFO [cad_lab] Smoother reset.
+[2026-06-29 14:47:44] [system] INFO [cad_lab] Smoother reset.
+[2026-06-29 14:47:44] [system] INFO [cad_lab] Smoother reset.
+[2026-06-29 14:47:44] [system] INFO [cad_lab] Smoother reset.
+[2026-06-29 14:47:44] [system] INFO TemporalSmoother | section=sec_A window=10 ema_alpha=0.3
+[2026-06-29 14:47:44] [system] INFO TemporalSmoother | section=sec_B window=10 ema_alpha=0.3
+[2026-06-29 14:47:46] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-29 14:47:47] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-29 14:47:47] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=reference_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:47:47] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-06-29 14:47:47] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-06-29 14:47:49] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:49] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=2004ms pipeline=2224ms
+[2026-06-29 14:47:50] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:50] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=289ms pipeline=466ms
+[2026-06-29 14:47:50] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:50] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=279ms pipeline=441ms
+[2026-06-29 14:47:50] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:50] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=275ms pipeline=482ms
+[2026-06-29 14:47:51] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:51] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=277ms pipeline=437ms
+[2026-06-29 14:47:51] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:51] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=272ms pipeline=438ms
+[2026-06-29 14:47:52] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:52] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=273ms pipeline=432ms
+[2026-06-29 14:47:52] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:52] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=277ms pipeline=442ms
+[2026-06-29 14:47:53] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:53] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=306ms pipeline=492ms
+[2026-06-29 14:47:53] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:53] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=345ms pipeline=484ms
+[2026-06-29 14:47:54] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:54] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=269ms pipeline=410ms
+[2026-06-29 14:47:54] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:54] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=269ms pipeline=400ms
+[2026-06-29 14:47:54] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:54] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=288ms pipeline=424ms
+[2026-06-29 14:47:55] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:55] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=271ms pipeline=414ms
+[2026-06-29 14:47:55] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:47:55] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=281ms pipeline=419ms
+[2026-06-29 14:48:33] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-29 14:48:35] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-29 14:48:35] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-29 14:48:35] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:37] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-29 14:48:37] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=1808ms pipeline=2021ms
+[2026-06-29 14:48:37] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-29 14:48:37] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=504ms pipeline=643ms
+[2026-06-29 14:48:38] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-29 14:48:38] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=426ms pipeline=563ms
+[2026-06-29 14:48:38] [system] INFO [cad_lab] headcount=23 max_capacity=18 vacancy=0 inference=0ms pipeline=136ms
+[2026-06-29 14:48:38] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-06-29 14:48:38] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=325ms pipeline=474ms
+[2026-06-29 14:48:38] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-29 14:48:39] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-29 14:48:39] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=reference_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=8 (headcount mode — vacancy = max_capacity − headcount)
+[2026-06-29 14:48:39] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-06-29 14:48:40] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-06-29 14:48:40] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=818ms pipeline=951ms
+[2026-06-29 14:48:40] [system] INFO Inference | section=focused_reading_area persons=0 objects=0
+[2026-06-29 14:48:40] [system] INFO [focused_reading_area] headcount=0 max_capacity=27 vacancy=27 inference=274ms pipeline=411ms
+[2026-06-29 14:48:41] [system] INFO Inference | section=g_hall_2 persons=0 objects=0
+[2026-06-29 14:48:41] [system] INFO [g_hall_2] headcount=0 max_capacity=30 vacancy=30 inference=263ms pipeline=410ms
+[2026-06-29 14:48:41] [system] INFO Inference | section=g_huss persons=0 objects=0
+[2026-06-29 14:48:41] [system] INFO [g_huss] headcount=0 max_capacity=30 vacancy=30 inference=259ms pipeline=408ms
+[2026-06-29 14:48:41] [system] INFO Inference | section=hindi_section persons=0 objects=0
+[2026-06-29 14:48:41] [system] INFO [hindi_section] headcount=0 max_capacity=30 vacancy=30 inference=274ms pipeline=423ms
+[2026-06-29 14:48:42] [system] INFO Inference | section=ip_camera_19 persons=0 objects=0
+[2026-06-29 14:48:42] [system] INFO [ip_camera_19] headcount=0 max_capacity=11 vacancy=11 inference=271ms pipeline=422ms
+[2026-06-29 14:48:42] [system] INFO Inference | section=ipc persons=0 objects=0
+[2026-06-29 14:48:42] [system] INFO [ipc] headcount=0 max_capacity=16 vacancy=16 inference=259ms pipeline=394ms
+[2026-06-29 14:48:43] [system] INFO Inference | section=main_computer_room persons=0 objects=0
+[2026-06-29 14:48:43] [system] INFO [main_computer_room] headcount=0 max_capacity=13 vacancy=13 inference=275ms pipeline=415ms
+[2026-06-29 14:48:43] [system] INFO Inference | section=reference_2 persons=0 objects=0
+[2026-06-29 14:48:43] [system] INFO [reference_2] headcount=0 max_capacity=18 vacancy=18 inference=297ms pipeline=435ms
+[2026-06-29 14:48:43] [system] INFO Inference | section=reference_area persons=0 objects=0
+[2026-06-29 14:48:43] [system] INFO [reference_area] headcount=0 max_capacity=8 vacancy=8 inference=250ms pipeline=383ms
+[2026-06-29 14:48:44] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-29 14:48:44] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=260ms pipeline=406ms
+[2026-06-29 14:54:46] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-29 14:54:48] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-29 14:54:48] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=0
+[2026-06-29 14:54:48] [system] WARNING [cad_lab] Near zone polygon not configured
+[2026-06-29 14:54:48] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=8
+[2026-06-29 14:54:50] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-06-29 14:54:50] [system] INFO [cad_lab] Near zone | persons=5 objects=0
+[2026-06-29 14:58:17] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-29 14:58:19] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-29 14:58:19] [system] INFO NearZoneDetector | section=focused_reading_area near_polygon_vertices=0
+[2026-06-29 14:58:19] [system] WARNING [focused_reading_area] Near zone polygon not configured
+[2026-06-29 14:58:19] [system] INFO NearZoneDetector | section=focused_reading_area near_polygon_vertices=7
+[2026-06-29 14:58:21] [system] INFO Inference | section=focused_reading_area persons=6 objects=7
+[2026-06-29 14:58:21] [system] INFO [focused_reading_area] Near zone | persons=5 objects=5
+[2026-06-30 19:13:31] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:13:32] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:13:32] [system] INFO NearZoneDetector | section=g_hall_2 near_polygon_vertices=0
+[2026-06-30 19:13:32] [system] WARNING [g_hall_2] Near zone polygon not configured
+[2026-06-30 19:13:32] [system] INFO NearZoneDetector | section=g_hall_2 near_polygon_vertices=9
+[2026-06-30 19:13:35] [system] INFO Inference | section=g_hall_2 persons=12 objects=11
+[2026-06-30 19:13:35] [system] INFO [g_hall_2] Near zone | persons=7 objects=8
+[2026-06-30 19:14:24] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:14:26] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:14:26] [system] INFO NearZoneDetector | section=g_huss near_polygon_vertices=0
+[2026-06-30 19:14:26] [system] WARNING [g_huss] Near zone polygon not configured
+[2026-06-30 19:14:26] [system] INFO NearZoneDetector | section=g_huss near_polygon_vertices=7
+[2026-06-30 19:14:28] [system] INFO Inference | section=g_huss persons=26 objects=11
+[2026-06-30 19:14:28] [system] INFO [g_huss] Near zone | persons=15 objects=8
+[2026-06-30 19:16:19] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:16:30] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:16:31] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:16:31] [system] INFO NearZoneDetector | section=hindi_section near_polygon_vertices=0
+[2026-06-30 19:16:31] [system] WARNING [hindi_section] Near zone polygon not configured
+[2026-06-30 19:16:31] [system] INFO NearZoneDetector | section=hindi_section near_polygon_vertices=12
+[2026-06-30 19:16:34] [system] INFO Inference | section=hindi_section persons=13 objects=8
+[2026-06-30 19:16:34] [system] INFO [hindi_section] Near zone | persons=6 objects=7
+[2026-06-30 19:17:58] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:18:00] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:18:00] [system] INFO NearZoneDetector | section=ip_camera_19 near_polygon_vertices=0
+[2026-06-30 19:18:00] [system] WARNING [ip_camera_19] Near zone polygon not configured
+[2026-06-30 19:18:00] [system] INFO NearZoneDetector | section=ip_camera_19 near_polygon_vertices=5
+[2026-06-30 19:18:02] [system] INFO Inference | section=ip_camera_19 persons=3 objects=5
+[2026-06-30 19:18:02] [system] INFO [ip_camera_19] Near zone | persons=3 objects=5
+[2026-06-30 19:19:47] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:19:49] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:19:49] [system] INFO NearZoneDetector | section=ipc near_polygon_vertices=0
+[2026-06-30 19:19:49] [system] WARNING [ipc] Near zone polygon not configured
+[2026-06-30 19:19:49] [system] INFO NearZoneDetector | section=ipc near_polygon_vertices=7
+[2026-06-30 19:19:51] [system] INFO Inference | section=ipc persons=1 objects=1
+[2026-06-30 19:19:51] [system] INFO [ipc] Near zone | persons=1 objects=1
+[2026-06-30 19:23:25] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:23:27] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:23:27] [system] INFO NearZoneDetector | section=main_computer_room near_polygon_vertices=0
+[2026-06-30 19:23:27] [system] WARNING [main_computer_room] Near zone polygon not configured
+[2026-06-30 19:23:27] [system] INFO NearZoneDetector | section=main_computer_room near_polygon_vertices=8
+[2026-06-30 19:23:29] [system] INFO Inference | section=main_computer_room persons=3 objects=4
+[2026-06-30 19:23:29] [system] INFO [main_computer_room] Near zone | persons=3 objects=4
+[2026-06-30 19:27:52] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:27:54] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:27:54] [system] INFO NearZoneDetector | section=reference_2 near_polygon_vertices=0
+[2026-06-30 19:27:54] [system] WARNING [reference_2] Near zone polygon not configured
+[2026-06-30 19:27:54] [system] INFO NearZoneDetector | section=reference_2 near_polygon_vertices=6
+[2026-06-30 19:27:56] [system] INFO Inference | section=reference_2 persons=3 objects=4
+[2026-06-30 19:27:56] [system] INFO [reference_2] Near zone | persons=3 objects=4
+[2026-06-30 19:28:19] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:28:20] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:28:20] [system] INFO NearZoneDetector | section=reference_area near_polygon_vertices=0
+[2026-06-30 19:28:20] [system] WARNING [reference_area] Near zone polygon not configured
+[2026-06-30 19:28:20] [system] INFO NearZoneDetector | section=reference_area near_polygon_vertices=6
+[2026-06-30 19:28:22] [system] INFO Inference | section=reference_area persons=5 objects=5
+[2026-06-30 19:28:22] [system] INFO [reference_area] Near zone | persons=4 objects=5
+[2026-06-30 19:28:54] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-06-30 19:28:56] [system] INFO SAHI+YOLOv10 loaded.
+[2026-06-30 19:28:56] [system] INFO NearZoneDetector | section=weeding_out_area near_polygon_vertices=0
+[2026-06-30 19:28:56] [system] WARNING [weeding_out_area] Near zone polygon not configured
+[2026-06-30 19:28:56] [system] INFO NearZoneDetector | section=weeding_out_area near_polygon_vertices=7
+[2026-06-30 19:28:57] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-06-30 19:28:57] [system] INFO [weeding_out_area] Near zone | persons=0 objects=0
+[2026-07-06 14:33:25] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-07-06 14:33:27] [system] INFO SAHI+YOLOv10 loaded.
+[2026-07-06 14:34:17] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-07-06 14:34:17] [system] INFO SAHI+YOLOv10 loaded.
+[2026-07-06 15:08:10] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-07-06 15:08:12] [system] INFO SAHI+YOLOv10 loaded.
+[2026-07-06 15:08:14] [system] INFO MidZoneDetector | section=g_huss mid_polygon_vertices=5
+[2026-07-06 15:08:14] [system] INFO MidZoneDetector | section=g_huss mid_polygon_vertices=0
+[2026-07-06 15:08:14] [system] WARNING [g_huss] Mid zone polygon not configured
+[2026-07-06 15:08:16] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:16] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:17] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:17] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:17] [system] INFO [g_huss] MidZoneDetector reset.
+[2026-07-06 15:08:17] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:17] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:18] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:18] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:18] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:18] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:18] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:18] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:19] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:19] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:19] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:19] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:20] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:20] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:20] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:20] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:21] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:21] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:21] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:21] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:22] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:22] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:22] [system] INFO [g_huss] MidZoneDetector reset.
+[2026-07-06 15:08:22] [system] INFO [g_huss] MidZoneDetector reset.
+[2026-07-06 15:08:22] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-07-06 15:08:22] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[2026-07-06 15:08:22] [system] INFO [g_huss] MidZoneDetector reset.
+[2026-07-06 15:08:23] [system] INFO Inference | section=g_huss persons=24 objects=4
+[2026-07-06 15:08:23] [system] INFO [g_huss] Mid zone | detections=16 tracked=16 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+[2026-07-06 15:08:23] [system] INFO Inference | section=g_huss persons=25 objects=4
+[2026-07-06 15:08:23] [system] INFO [g_huss] Mid zone | detections=15 tracked=15 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[2026-07-06 15:08:24] [system] INFO Inference | section=g_huss persons=27 objects=5
+[2026-07-06 15:08:24] [system] INFO [g_huss] Mid zone | detections=14 tracked=14 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15]
+[2026-07-06 15:08:24] [system] INFO Inference | section=g_huss persons=26 objects=4
+[2026-07-06 15:08:24] [system] INFO [g_huss] Mid zone | detections=15 tracked=15 active_ids=[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 15, 17, 18]
+[2026-07-06 15:08:25] [system] INFO Inference | section=g_huss persons=26 objects=5
+[2026-07-06 15:08:25] [system] INFO [g_huss] Mid zone | detections=15 tracked=15 active_ids=[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 15, 17, 18]
+[2026-07-06 15:08:25] [system] INFO Inference | section=g_huss persons=25 objects=4
+[2026-07-06 15:08:25] [system] INFO [g_huss] Mid zone | detections=16 tracked=16 active_ids=[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18]
+[2026-07-09 11:38:44] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:38:44] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:38:45] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:38:45] [system] INFO FarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-09 11:38:45] [system] WARNING [test] Far zone polygon not configured
+[2026-07-09 11:40:55] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:40:55] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:40:56] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:40:56] [system] INFO FarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-09 11:40:56] [system] WARNING [test] Far zone polygon not configured
+[2026-07-09 11:40:57] [system] INFO [cad_lab] Far zone | raw_count=1.55 scale=1.0 count=2
+[2026-07-09 11:40:57] [system] INFO [cad_lab] Far zone | raw_count=1.55 scale=1.0 count=2
+[2026-07-09 11:40:57] [system] INFO [cad_lab] Far zone | raw_count=1.55 scale=1.0 count=2
+[2026-07-09 11:40:58] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:40:58] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:40:58] [system] INFO [cad_lab] Far zone | raw_count=16.94 scale=1.0 count=17
+[2026-07-09 11:40:59] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:40:59] [system] INFO FarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:40:59] [system] INFO [focused_reading_area] Far zone | raw_count=2.49 scale=1.0 count=2
+[2026-07-09 11:40:59] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:40:59] [system] INFO FarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:41:00] [system] INFO [g_hall_2] Far zone | raw_count=95.34 scale=1.0 count=95
+[2026-07-09 11:41:00] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:00] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:41:01] [system] INFO [g_huss] Far zone | raw_count=115.52 scale=1.0 count=116
+[2026-07-09 11:41:01] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:01] [system] INFO FarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-09 11:41:02] [system] INFO [hindi_section] Far zone | raw_count=181.04 scale=1.0 count=181
+[2026-07-09 11:41:03] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:03] [system] INFO FarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:41:03] [system] INFO [ip_camera_19] Far zone | raw_count=28.47 scale=1.0 count=28
+[2026-07-09 11:41:03] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:03] [system] INFO FarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:41:04] [system] INFO [ipc] Far zone | raw_count=11.16 scale=1.0 count=11
+[2026-07-09 11:41:04] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:04] [system] INFO FarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:41:04] [system] INFO [main_computer_room] Far zone | raw_count=25.21 scale=1.0 count=25
+[2026-07-09 11:41:05] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:05] [system] INFO FarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-09 11:41:05] [system] INFO [reference_2] Far zone | raw_count=125.19 scale=1.0 count=125
+[2026-07-09 11:41:06] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:06] [system] INFO FarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:41:07] [system] INFO [reference_area] Far zone | raw_count=3.49 scale=1.0 count=3
+[2026-07-09 11:41:07] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:07] [system] INFO FarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:41:07] [system] INFO [weeding_out_area] Far zone | raw_count=17.29 scale=1.0 count=17
+[2026-07-09 11:41:08] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:41:08] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:41:09] [system] INFO [g_huss] Far zone | raw_count=163.70 scale=1.0 count=164

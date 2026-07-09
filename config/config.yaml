@@ -1,6 +1,6 @@
 # ============================================================
 # Library Occupancy Detection System — Central Configuration
-# IIT Delhi Internship Project
+# 
 # ============================================================
 
 # ----------------------------------------------------------
@@ -192,7 +192,8 @@ classifier:
 # TEMPORAL SMOOTHING
 # ----------------------------------------------------------
 smoothing:
-  window_size: 10               # Number of past frames to use for majority vote
+  window_size: 10  
+  ema_alpha: 0.3              # EMA factor (0-1) for smoother transitions
 
 # ----------------------------------------------------------
 # STORAGE — REDIS (live state)
