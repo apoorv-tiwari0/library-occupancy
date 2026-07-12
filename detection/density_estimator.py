@@ -111,22 +111,32 @@ class FarZoneEstimator:
         self,
         zone_config:  dict[str, list[list[int]]],
         section_id:   str,
-        weights_path: str  = "models/dm_count_shb.pth",
-        device:       str  = "cuda" if torch.cuda.is_available() else "cpu",
-        scale_factor: float = 1.0,
+        weights_path: str   = "models/dm_count_shb.pth",
+        device:       str   = "cuda" if torch.cuda.is_available() else "cpu",
+        scale_factor: float | None = None,   # if None, reads from config.yaml
     ) -> None:
-        self.zone_config  = zone_config
-        self.section_id   = section_id
-        self.far_poly     = zone_config.get("far", [])
-        self.scale_factor = scale_factor
-        self.device       = device
+        self.zone_config = zone_config
+        self.section_id  = section_id
+        self.far_poly    = zone_config.get("far", [])
+        self.device      = device
+
+        # Read scale factor from config if not provided explicitly
+        if scale_factor is not None:
+            self.scale_factor = scale_factor
+        else:
+            from config.config_loader import cfg
+            self.scale_factor = next(
+                (getattr(c, "far_zone_scale", 1.0)
+                for c in cfg.cameras if c.section_id == section_id),
+                1.0
+            )
 
         self._model = self._load_model(weights_path)
 
         log.info(
             f"FarZoneEstimator | section={section_id} "
             f"far_polygon_vertices={len(self.far_poly)} "
-            f"device={device} scale_factor={scale_factor}"
+            f"device={device} scale_factor={self.scale_factor}"
         )
 
     # ── Public API ─────────────────────────────────────────────────────────────

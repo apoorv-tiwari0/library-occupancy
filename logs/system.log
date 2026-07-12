@@ -2521,3 +2521,121 @@
 [2026-07-09 11:41:08] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
 [2026-07-09 11:41:08] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
 [2026-07-09 11:41:09] [system] INFO [g_huss] Far zone | raw_count=163.70 scale=1.0 count=164
+[2026-07-09 11:50:24] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:24] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:25] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:25] [system] INFO FarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-09 11:50:25] [system] WARNING [test] Far zone polygon not configured
+[2026-07-09 11:50:25] [system] INFO [cad_lab] Far zone | raw_count=3.36 scale=1.0 count=3
+[2026-07-09 11:50:25] [system] INFO [cad_lab] Far zone | raw_count=3.37 scale=1.0 count=3
+[2026-07-09 11:50:25] [system] INFO [cad_lab] Far zone | raw_count=3.37 scale=1.0 count=3
+[2026-07-09 11:50:27] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:27] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:27] [system] INFO [cad_lab] Far zone | raw_count=16.09 scale=1.0 count=16
+[2026-07-09 11:50:28] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:28] [system] INFO FarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:29] [system] INFO [focused_reading_area] Far zone | raw_count=46.53 scale=1.0 count=47
+[2026-07-09 11:50:30] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:30] [system] INFO FarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:30] [system] INFO [g_hall_2] Far zone | raw_count=22.85 scale=1.0 count=23
+[2026-07-09 11:50:31] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:31] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:31] [system] INFO [g_huss] Far zone | raw_count=179.41 scale=1.0 count=179
+[2026-07-09 11:50:32] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:32] [system] INFO FarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-09 11:50:33] [system] INFO [hindi_section] Far zone | raw_count=76.78 scale=1.0 count=77
+[2026-07-09 11:50:34] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:34] [system] INFO FarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:34] [system] INFO [ip_camera_19] Far zone | raw_count=2.62 scale=1.0 count=3
+[2026-07-09 11:50:35] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:35] [system] INFO FarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:36] [system] INFO [ipc] Far zone | raw_count=8.72 scale=1.0 count=9
+[2026-07-09 11:50:37] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:37] [system] INFO FarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:37] [system] INFO [main_computer_room] Far zone | raw_count=21.62 scale=1.0 count=22
+[2026-07-09 11:50:38] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:38] [system] INFO FarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-09 11:50:39] [system] INFO [reference_2] Far zone | raw_count=161.55 scale=1.0 count=162
+[2026-07-09 11:50:40] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:40] [system] INFO FarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:40] [system] INFO [reference_area] Far zone | raw_count=19.86 scale=1.0 count=20
+[2026-07-09 11:50:41] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:41] [system] INFO FarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:41] [system] INFO [weeding_out_area] Far zone | raw_count=3.35 scale=1.0 count=3
+[2026-07-09 11:50:43] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-09 11:50:43] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-09 11:50:43] [system] INFO [g_huss] Far zone | raw_count=27.97 scale=1.0 count=28
+[2026-07-12 11:40:46] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:46] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:47] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:47] [system] INFO FarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-12 11:40:47] [system] WARNING [test] Far zone polygon not configured
+[2026-07-12 11:40:47] [system] INFO [cad_lab] Far zone | raw_count=5.90 scale=1.0 count=6
+[2026-07-12 11:40:47] [system] INFO [cad_lab] Far zone | raw_count=5.92 scale=1.0 count=6
+[2026-07-12 11:40:47] [system] INFO [cad_lab] Far zone | raw_count=5.92 scale=1.0 count=6
+[2026-07-12 11:40:48] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:48] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:48] [system] INFO [cad_lab] Far zone | raw_count=0.22 scale=1.0 count=0
+[2026-07-12 11:40:49] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:49] [system] INFO FarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:49] [system] INFO [focused_reading_area] Far zone | raw_count=39.44 scale=1.0 count=39
+[2026-07-12 11:40:50] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:50] [system] INFO FarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:50] [system] INFO [g_hall_2] Far zone | raw_count=70.94 scale=1.0 count=71
+[2026-07-12 11:40:51] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:51] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:51] [system] INFO [g_huss] Far zone | raw_count=107.43 scale=1.0 count=107
+[2026-07-12 11:40:52] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:52] [system] INFO FarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-12 11:40:52] [system] INFO [hindi_section] Far zone | raw_count=26.43 scale=1.0 count=26
+[2026-07-12 11:40:53] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:53] [system] INFO FarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:53] [system] INFO [ip_camera_19] Far zone | raw_count=33.09 scale=1.0 count=33
+[2026-07-12 11:40:54] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:54] [system] INFO FarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:54] [system] INFO [ipc] Far zone | raw_count=11.45 scale=1.0 count=11
+[2026-07-12 11:40:55] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:55] [system] INFO FarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:55] [system] INFO [main_computer_room] Far zone | raw_count=11.85 scale=1.0 count=12
+[2026-07-12 11:40:55] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:55] [system] INFO FarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-12 11:40:56] [system] INFO [reference_2] Far zone | raw_count=201.64 scale=1.0 count=202
+[2026-07-12 11:40:56] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:56] [system] INFO FarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:56] [system] INFO [reference_area] Far zone | raw_count=14.26 scale=1.0 count=14
+[2026-07-12 11:40:57] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:57] [system] INFO FarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:57] [system] INFO [weeding_out_area] Far zone | raw_count=4.15 scale=1.0 count=4
+[2026-07-12 11:40:58] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 11:40:58] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-12 11:40:59] [system] INFO [g_huss] Far zone | raw_count=70.03 scale=1.0 count=70
+[2026-07-12 12:01:13] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:13] [system] INFO FarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.2029
+[2026-07-12 12:01:13] [system] INFO [focused_reading_area] Far zone | raw_count=10.13 scale=0.2029 count=2
+[2026-07-12 12:01:14] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:14] [system] INFO FarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.8457
+[2026-07-12 12:01:14] [system] INFO [g_hall_2] Far zone | raw_count=54.92 scale=0.8457 count=46
+[2026-07-12 12:01:15] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:15] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=0.5212
+[2026-07-12 12:01:15] [system] INFO [g_huss] Far zone | raw_count=171.27 scale=0.5212 count=89
+[2026-07-12 12:01:16] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:16] [system] INFO FarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.5134
+[2026-07-12 12:01:16] [system] INFO [hindi_section] Far zone | raw_count=162.73 scale=1.5134 count=246
+[2026-07-12 12:01:17] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:17] [system] INFO FarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.1511
+[2026-07-12 12:01:17] [system] INFO [ip_camera_19] Far zone | raw_count=11.48 scale=0.1511 count=2
+[2026-07-12 12:01:18] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:18] [system] INFO FarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.5721
+[2026-07-12 12:01:18] [system] INFO [ipc] Far zone | raw_count=14.19 scale=1.5721 count=22
+[2026-07-12 12:01:19] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:19] [system] INFO FarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.4219
+[2026-07-12 12:01:19] [system] INFO [main_computer_room] Far zone | raw_count=12.23 scale=0.4219 count=5
+[2026-07-12 12:01:20] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:20] [system] INFO FarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.0794
+[2026-07-12 12:01:20] [system] INFO [reference_2] Far zone | raw_count=7.60 scale=0.0794 count=1
+[2026-07-12 12:01:20] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:20] [system] INFO FarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=0.4909
+[2026-07-12 12:01:21] [system] INFO [reference_area] Far zone | raw_count=4.33 scale=0.4909 count=2
+[2026-07-12 12:01:21] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
+[2026-07-12 12:01:21] [system] INFO FarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.2048
+[2026-07-12 12:01:21] [system] INFO [weeding_out_area] Far zone | raw_count=16.04 scale=1.2048 count=19

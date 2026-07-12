@@ -25,6 +25,7 @@ cameras:
     section_id: "cad_lab"
     stream_url: "rtsp://192.168.1.101:554/stream1"
     enabled: true
+    far_zone_scale: 1.0
     max_capacity: 18
     sahi_slicing:
       slice_height: 512
@@ -35,6 +36,7 @@ cameras:
     section_id: "focused_reading_area"
     stream_url: "rtsp://192.168.1.102:554/stream1"
     enabled: true
+    far_zone_scale: 0.2029
     max_capacity: 27
     sahi_slicing:
       slice_height: 512
@@ -45,6 +47,7 @@ cameras:
     section_id: "g_hall_2"
     stream_url: "rtsp://192.168.1.103:554/stream1"
     enabled: true
+    far_zone_scale: 0.8457
     max_capacity: 30
     sahi_slicing:
       slice_height: 384
@@ -55,6 +58,7 @@ cameras:
     section_id: "g_huss"
     stream_url: "rtsp://192.168.1.104:554/stream1"
     enabled: true
+    far_zone_scale: 0.5212
     max_capacity: 30
     sahi_slicing:
       slice_height: 384
@@ -65,6 +69,7 @@ cameras:
     section_id: "hindi_section"
     stream_url: "rtsp://192.168.1.105:554/stream1"
     enabled: true
+    far_zone_scale: 1.5134
     max_capacity: 30
     sahi_slicing:
       slice_height: 384
@@ -75,6 +80,7 @@ cameras:
     section_id: "ip_camera_19"
     stream_url: "rtsp://192.168.1.106:554/stream1"
     enabled: true
+    far_zone_scale: 0.1511
     max_capacity: 11
     sahi_slicing:
       slice_height: 384
@@ -85,6 +91,7 @@ cameras:
     section_id: "ipc"
     stream_url: "rtsp://192.168.1.107:554/stream1"
     enabled: true
+    far_zone_scale: 1.5721
     max_capacity: 16
     sahi_slicing:
       slice_height: 384
@@ -95,6 +102,7 @@ cameras:
     section_id: "main_computer_room"
     stream_url: "rtsp://192.168.1.108:554/stream1"
     enabled: true
+    far_zone_scale: 0.4219
     max_capacity: 13
     sahi_slicing:
       slice_height: 512
@@ -105,6 +113,7 @@ cameras:
     section_id: "reference_2"
     stream_url: "rtsp://192.168.1.109:554/stream1"
     enabled: true
+    far_zone_scale: 0.0794
     max_capacity: 18
     sahi_slicing:
       slice_height: 384
@@ -115,6 +124,7 @@ cameras:
     section_id: "reference_area"
     stream_url: "rtsp://192.168.1.110:554/stream1"
     enabled: true
+    far_zone_scale: 0.4909
     max_capacity: 8
     sahi_slicing:
       slice_height: 384
@@ -125,6 +135,7 @@ cameras:
     section_id: "weeding_out_area"
     stream_url: "rtsp://192.168.1.111:554/stream1"
     enabled: true
+    far_zone_scale: 1.2048
     max_capacity: 8
     sahi_slicing:
       slice_height: 512
