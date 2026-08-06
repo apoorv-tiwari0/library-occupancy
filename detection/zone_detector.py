@@ -23,6 +23,9 @@ Usage:
 """
 
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
+from dataclasses import dataclass
 from pathlib import Path
 
 import cv2
@@ -31,6 +34,7 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from detection.yolo_inference import YOLOInference
+from utils.helpers import get_timestamp
 from utils.logger import get_logger
 
 log = get_logger("system")
@@ -367,3 +371,282 @@ class FarZoneDetector:
         )
 
         return count
+
+
+# ── Zone boundary deduplication helpers ───────────────────────────────────────
+
+
+def _compute_iou(box_a: np.ndarray, box_b: np.ndarray) -> float:
+    """IoU of two boxes [x1, y1, x2, y2]."""
+    ix1 = max(box_a[0], box_b[0])
+    iy1 = max(box_a[1], box_b[1])
+    ix2 = min(box_a[2], box_b[2])
+    iy2 = min(box_a[3], box_b[3])
+    inter_w = max(0.0, ix2 - ix1)
+    inter_h = max(0.0, iy2 - iy1)
+    inter   = inter_w * inter_h
+    if inter == 0.0:
+        return 0.0
+    area_a = max(0.0, box_a[2] - box_a[0]) * max(0.0, box_a[3] - box_a[1])
+    area_b = max(0.0, box_b[2] - box_b[0]) * max(0.0, box_b[3] - box_b[1])
+    union  = area_a + area_b - inter
+    return inter / union if union > 0 else 0.0
+
+
+def _dedup_boxes(
+    list_a:        list[list[float]],
+    list_b:        list[list[float]],
+    iou_threshold: float = 0.30,
+) -> tuple[list[list[float]], list[list[float]], int]:
+    """
+    Remove duplicate person detections that straddle a zone boundary.
+
+    For every (a, b) pair with IoU > iou_threshold, the lower-confidence
+    detection is dropped.  Boxes are [x1, y1, x2, y2, conf, ...].
+
+    Returns:
+        (deduped_a, deduped_b, n_removed)
+    """
+    if not list_a or not list_b:
+        return list_a, list_b, 0
+
+    remove_a: set[int] = set()
+    remove_b: set[int] = set()
+
+    for i, ba in enumerate(list_a):
+        for j, bb in enumerate(list_b):
+            if i in remove_a or j in remove_b:
+                continue
+            iou = _compute_iou(
+                np.array(ba[:4], dtype=np.float32),
+                np.array(bb[:4], dtype=np.float32),
+            )
+            if iou > iou_threshold:
+                conf_a = ba[4] if len(ba) > 4 else 1.0
+                conf_b = bb[4] if len(bb) > 4 else 1.0
+                if conf_a >= conf_b:
+                    remove_b.add(j)
+                else:
+                    remove_a.add(i)
+
+    out_a     = [b for i, b in enumerate(list_a) if i not in remove_a]
+    out_b     = [b for j, b in enumerate(list_b) if j not in remove_b]
+    n_removed = len(remove_a) + len(remove_b)
+    return out_a, out_b, n_removed
+
+
+# ── ZoneResult ────────────────────────────────────────────────────────────────
+
+
+@dataclass
+class ZoneResult:
+    """
+    Fused detection result for one section from one frame.
+
+    Attributes:
+        section_id:    Section identifier.
+        timestamp:     ISO-8601 UTC string.
+        headcount:     near_count + mid_count + far_count.
+        near_count:    People detected in near zone (YOLO boxes).
+        mid_count:     People tracked in mid zone (YOLO + ByteTrack boxes).
+        far_count:     Estimated count in far zone (CSRNet, rounded int).
+        far_raw:       Pre-round far estimate (density_sum × scale_factor).
+        near_persons:  Near boxes [[x1,y1,x2,y2,conf],...] in full-frame coords.
+        mid_persons:   Mid boxes  [[x1,y1,x2,y2,conf],...] in full-frame coords.
+        mid_track_ids: ByteTrack IDs aligned with mid_persons.
+        dedup_removed: Duplicate boxes removed at near/mid boundary.
+        inference_ms:  Combined model time (near+mid sequential ∥ far CSRNet).
+        pipeline_ms:   Total ZonePipeline.run() wall time.
+    """
+    section_id:    str
+    timestamp:     str
+    headcount:     int
+    near_count:    int
+    mid_count:     int
+    far_count:     int
+    far_raw:       float
+    near_persons:  list[list[float]]
+    mid_persons:   list[list[float]]
+    mid_track_ids: list[int]
+    dedup_removed: int
+    inference_ms:  float
+    pipeline_ms:   float
+
+    def to_dict(self) -> dict:
+        """JSON-serialisable dict for Redis / API / dashboard."""
+        return {
+            "section_id":    self.section_id,
+            "timestamp":     self.timestamp,
+            "headcount":     self.headcount,
+            "near_count":    self.near_count,
+            "mid_count":     self.mid_count,
+            "far_count":     self.far_count,
+            "far_raw":       round(self.far_raw, 3),
+            "dedup_removed": self.dedup_removed,
+            "inference_ms":  round(self.inference_ms, 1),
+            "pipeline_ms":   round(self.pipeline_ms, 1),
+        }
+
+
+# ── ZonePipeline ──────────────────────────────────────────────────────────────
+
+
+class ZonePipeline:
+    """
+    Fused zone detection pipeline for one library section.
+
+    Splits each frame into near / mid / far zones and runs:
+        NEAR — SAHI+YOLOv10              (NearZoneDetector)
+        MID  — SAHI+YOLOv10 + ByteTrack  (MidZoneDetector)
+        FAR  — CSRNet density estimation  (CSRNetFarZoneEstimator)
+
+    Execution model
+    ---------------
+    Two threads run concurrently::
+
+        Thread A: near.detect() → mid.detect()   (sequential — share one YOLO)
+        Thread B: csrnet.estimate()              (parallel with Thread A)
+
+    Both threads join before results are merged.
+
+    Boundary deduplication
+    ----------------------
+    After near/mid complete, any near↔mid box pair with IoU > 0.30 has its
+    lower-confidence duplicate removed.
+    Mid/far boundary has no box-level dedup (far yields only a scalar count).
+
+    Headcount formula::
+
+        headcount = len(near_persons) + len(mid_persons) + round(far_raw)
+
+    Far-zone skip
+    -------------
+    ``cad_lab`` always returns far_count=0 (unreliable far zone).
+    Pass ``skip_far=True`` explicitly to disable far for any other section.
+
+    Args:
+        yolo:        Shared YOLOInference instance.
+        csrnet:      CSRNetFarZoneEstimator for this section, or None.
+        zone_config: Zone polygons {"near":..., "mid":..., "far":...}.
+        section_id:  Section identifier.
+        fps:         Frame rate hint for ByteTrack (default 10.0).
+        skip_far:    Override far-zone skip.  If None, determined per section.
+    """
+
+    #: Sections where far-zone CSRNet estimation is always disabled
+    _FAR_ZONE_SKIP: frozenset[str] = frozenset({"cad_lab"})
+
+    def __init__(
+        self,
+        yolo:        YOLOInference,
+        csrnet,                              # CSRNetFarZoneEstimator | None
+        zone_config: dict[str, list[list[int]]],
+        section_id:  str,
+        fps:         float = 10.0,
+        skip_far:    bool | None = None,
+    ) -> None:
+        self.section_id = section_id
+        self._csrnet    = csrnet
+        self._skip_far  = (
+            skip_far
+            if skip_far is not None
+            else section_id in self._FAR_ZONE_SKIP
+        )
+
+        self._near = NearZoneDetector(yolo, zone_config, section_id)
+        self._mid  = MidZoneDetector(yolo, zone_config, section_id, fps=fps)
+
+        log.info(
+            f"ZonePipeline | section={section_id} "
+            f"skip_far={self._skip_far} "
+            f"far={'CSRNet' if csrnet and not self._skip_far else 'disabled'}"
+        )
+
+    # ── Public API ──────────────────────────────────────────────────────────
+
+    def run(
+        self,
+        frame:    np.ndarray,
+        frame_id: int = 0,
+    ) -> ZoneResult:
+        """
+        Run the full zone fusion pipeline on one BGR frame.
+
+        Args:
+            frame:    Full BGR numpy array (any resolution).
+            frame_id: Monotonic frame index forwarded to ByteTrack.
+
+        Returns:
+            ZoneResult with per-zone counts and merged headcount.
+        """
+        t_start = time.perf_counter()
+
+        # ── Thread A: near then mid (sequential — shared YOLO) ─────────────
+        def _run_near_mid() -> tuple[
+            list[list[float]],   # near_persons
+            list[list[float]],   # mid_persons
+            list[int],           # mid_track_ids
+        ]:
+            near_persons, _objects = self._near.detect(frame)
+            mid_persons,  tids     = self._mid.detect(frame, frame_id=frame_id)
+            return near_persons, mid_persons, tids
+
+        # ── Thread B: far CSRNet (parallel with Thread A) ──────────────────
+        def _run_far() -> tuple[float, int]:
+            """Returns (far_raw_float, far_count_int)."""
+            if self._skip_far or self._csrnet is None:
+                return 0.0, 0
+            count, density_map = self._csrnet.estimate(frame)
+            raw = (
+                float(density_map.sum() * self._csrnet.scale_factor)
+                if density_map is not None
+                else float(count)
+            )
+            return raw, count
+
+        t_infer = time.perf_counter()
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            fut_nm  = pool.submit(_run_near_mid)
+            fut_far = pool.submit(_run_far)
+            near_persons, mid_persons, mid_track_ids = fut_nm.result()
+            far_raw, far_count = fut_far.result()
+        inference_ms = (time.perf_counter() - t_infer) * 1000
+
+        # ── Boundary dedup: near ↔ mid ─────────────────────────────────────
+        near_persons, mid_persons, dedup_removed = _dedup_boxes(
+            near_persons, mid_persons, iou_threshold=0.30
+        )
+
+        # ── Merge counts ───────────────────────────────────────────────────
+        near_count = len(near_persons)
+        mid_count  = len(mid_persons)
+        headcount  = near_count + mid_count + far_count
+
+        pipeline_ms = (time.perf_counter() - t_start) * 1000
+
+        log.info(
+            f"[{self.section_id}] ZonePipeline | "
+            f"near={near_count} mid={mid_count} far={far_count} "
+            f"dedup={dedup_removed} total={headcount} "
+            f"infer={inference_ms:.0f}ms pipeline={pipeline_ms:.0f}ms"
+        )
+
+        return ZoneResult(
+            section_id    = self.section_id,
+            timestamp     = get_timestamp(),
+            headcount     = headcount,
+            near_count    = near_count,
+            mid_count     = mid_count,
+            far_count     = far_count,
+            far_raw       = far_raw,
+            near_persons  = near_persons,
+            mid_persons   = mid_persons,
+            mid_track_ids = mid_track_ids,
+            dedup_removed = dedup_removed,
+            inference_ms  = inference_ms,
+            pipeline_ms   = pipeline_ms,
+        )
+
+    def reset_tracker(self) -> None:
+        """Reset MidZoneDetector ByteTracker (call on stream reconnect)."""
+        self._mid.reset()

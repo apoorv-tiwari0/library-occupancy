@@ -16,6 +16,7 @@ No seat-by-seat classification. No ROI polygon matching.
 max_capacity comes exclusively from config.yaml per section.
 """
 
+import json
 import sys
 import time
 from dataclasses import dataclass
@@ -233,6 +234,202 @@ class MultiSectionPipeline:
                 results[section_id] = self._pipelines[section_id].run(frame)
             else:
                 log.warning(f"run_all: no pipeline for '{section_id}' — skipped")
+        return results
+
+    def sections(self) -> list[str]:
+        """Return configured section IDs."""
+        return list(self._pipelines.keys())
+
+
+# ── ZoneSectionPipeline ───────────────────────────────────────────────────────
+
+
+class ZoneSectionPipeline:
+    """
+    Full zone-fusion pipeline for one library section.
+
+    Wraps ZonePipeline and emits SectionResult for drop-in compatibility
+    with the existing API.  Internally runs near+mid sequentially on
+    Thread A and far CSRNet in parallel on Thread B.
+
+    Args:
+        section_id:   Section identifier — must match config.yaml and
+                      zone_config.json.
+        yolo:         Shared YOLOInference instance.
+        zone_config:  Zone polygon dict for this section
+                      (one value from zone_config.json).
+        preprocessor: Optional shared Preprocessor.  Created if not given.
+        fps:          Frame rate hint for ByteTrack (default 10.0).
+    """
+
+    def __init__(
+        self,
+        section_id:   str,
+        yolo:         YOLOInference,
+        zone_config:  dict,
+        preprocessor: Preprocessor | None = None,
+        fps:          float = 10.0,
+    ) -> None:
+        from detection.csrnet_estimator import CSRNetFarZoneEstimator
+        from detection.zone_detector import ZonePipeline
+
+        self.section_id   = section_id
+        self.preprocessor = preprocessor or Preprocessor()
+        self.max_capacity = _get_max_capacity(section_id)
+
+        csrnet = CSRNetFarZoneEstimator(
+            zone_config  = zone_config,
+            section_id   = section_id,
+        )
+
+        self._zone_pipeline = ZonePipeline(
+            yolo        = yolo,
+            csrnet      = csrnet,
+            zone_config = zone_config,
+            section_id  = section_id,
+            fps         = fps,
+        )
+
+        log.info(
+            f"ZoneSectionPipeline ready | section={section_id} "
+            f"max_capacity={self.max_capacity}"
+        )
+
+    def run(self, frame: np.ndarray, frame_id: int = 0) -> SectionResult:
+        """
+        Run zone fusion pipeline on one raw BGR frame.
+
+        Args:
+            frame:    Raw BGR numpy array from the camera.
+            frame_id: Monotonic frame index (for ByteTrack continuity).
+
+        Returns:
+            SectionResult — API-compatible with SectionPipeline.
+        """
+        t_start = time.perf_counter()
+
+        # Preprocess once; ZonePipeline receives the clean frame
+        processed   = self.preprocessor.process(frame)
+        zone_result = self._zone_pipeline.run(processed, frame_id=frame_id)
+
+        headcount = zone_result.headcount
+        vacancy   = (
+            max(0, self.max_capacity - headcount)
+            if self.max_capacity is not None else None
+        )
+
+        pipeline_ms = (time.perf_counter() - t_start) * 1000
+
+        log.info(
+            f"[{self.section_id}] ZoneSectionPipeline | "
+            f"headcount={headcount} "
+            f"(near={zone_result.near_count} "
+            f"mid={zone_result.mid_count} "
+            f"far={zone_result.far_count}) "
+            f"max_capacity={self.max_capacity} vacancy={vacancy} "
+            f"pipeline={pipeline_ms:.0f}ms"
+        )
+
+        return SectionResult(
+            section_id   = self.section_id,
+            timestamp    = zone_result.timestamp,
+            headcount    = headcount,
+            max_capacity = self.max_capacity,
+            vacancy      = vacancy,
+            person_boxes = zone_result.near_persons + zone_result.mid_persons,
+            object_boxes = [],
+            inference_ms = zone_result.inference_ms,
+            pipeline_ms  = pipeline_ms,
+        )
+
+    def reset_tracker(self) -> None:
+        """Reset ByteTracker state (call on stream reconnect)."""
+        self._zone_pipeline.reset_tracker()
+
+
+# ── ZoneMultiSectionPipeline ──────────────────────────────────────────────────
+
+
+class ZoneMultiSectionPipeline:
+    """
+    Manages one ZoneSectionPipeline per library section.
+
+    Loads YOLO once and shares it.  Creates one CSRNetFarZoneEstimator per
+    section (scale factors differ per section).  Zone config is loaded
+    from data/roi/zone_config.json automatically.
+
+    Usage::
+
+        pipeline = ZoneMultiSectionPipeline()
+        result   = pipeline.run("g_huss", frame, frame_id=42)
+        results  = pipeline.run_all({"g_huss": frame1, "g_hall_2": frame2})
+    """
+
+    ZONE_CONFIG_PATH: Path = Path("data/roi/zone_config.json")
+
+    def __init__(self, fps: float = 10.0) -> None:
+        self._yolo         = YOLOInference()
+        self._preprocessor = Preprocessor()
+        self._pipelines: dict[str, ZoneSectionPipeline] = {}
+
+        if not self.ZONE_CONFIG_PATH.exists():
+            raise FileNotFoundError(
+                f"Zone config not found: {self.ZONE_CONFIG_PATH}. "
+                "Run from the project root directory."
+            )
+        zone_data = json.loads(self.ZONE_CONFIG_PATH.read_text())
+
+        for cam in cfg.cameras:
+            if not cam.enabled:
+                continue
+            sid = cam.section_id
+            if sid not in zone_data:
+                log.warning(
+                    f"ZoneMultiSectionPipeline: no zone config for "{sid}" — skipped"
+                )
+                continue
+            self._pipelines[sid] = ZoneSectionPipeline(
+                section_id   = sid,
+                yolo         = self._yolo,
+                zone_config  = zone_data[sid],
+                preprocessor = self._preprocessor,
+                fps          = fps,
+            )
+
+        log.info(
+            f"ZoneMultiSectionPipeline ready | "
+            f"sections={list(self._pipelines.keys())}"
+        )
+
+    def run(
+        self,
+        section_id: str,
+        frame:      np.ndarray,
+        frame_id:   int = 0,
+    ) -> SectionResult:
+        """Run zone pipeline for one section."""
+        if section_id not in self._pipelines:
+            raise KeyError(f"No zone pipeline for section '{section_id}'")
+        return self._pipelines[section_id].run(frame, frame_id=frame_id)
+
+    def run_all(
+        self,
+        frames:    dict[str, np.ndarray],
+        frame_ids: dict[str, int] | None = None,
+    ) -> dict[str, SectionResult]:
+        """Run zone pipeline for multiple sections."""
+        results   = {}
+        frame_ids = frame_ids or {}
+        for section_id, frame in frames.items():
+            if section_id in self._pipelines:
+                fid = frame_ids.get(section_id, 0)
+                results[section_id] = self._pipelines[section_id].run(
+                    frame, frame_id=fid
+                )
+            else:
+                log.warning(
+                    f"run_all: no zone pipeline for '{section_id}' — skipped"
+                )
         return results
 
     def sections(self) -> list[str]:

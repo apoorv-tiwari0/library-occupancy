@@ -69,7 +69,7 @@ cameras:
     section_id: "hindi_section"
     stream_url: "rtsp://192.168.1.105:554/stream1"
     enabled: true
-    far_zone_scale: 0.6623
+    far_zone_scale: 0.462
     max_capacity: 30
     sahi_slicing:
       slice_height: 384
@@ -91,7 +91,7 @@ cameras:
     section_id: "ipc"
     stream_url: "rtsp://192.168.1.107:554/stream1"
     enabled: true
-    far_zone_scale: 1.94
+    far_zone_scale: 1.80
     max_capacity: 16
     sahi_slicing:
       slice_height: 384
@@ -102,7 +102,7 @@ cameras:
     section_id: "main_computer_room"
     stream_url: "rtsp://192.168.1.108:554/stream1"
     enabled: true
-    far_zone_scale: 0.6565
+    far_zone_scale: 0.58
     max_capacity: 13
     sahi_slicing:
       slice_height: 512
