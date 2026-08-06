@@ -35,54 +35,50 @@ from utils.logger import get_logger
 from detection.zone_detector import get_zone_crop
 
 log = get_logger("system")
-
-# ── DM-Count model architecture ───────────────────────────────────────────────
-
-class DMCountModel(nn.Module):
-    """
-    DM-Count density estimation network.
-    VGG-19 backbone + regression head → density map.
-    """
-
-    def __init__(self) -> None:
-        super().__init__()
-        import torchvision.models as models
-
-        # Use torchvision VGG-19 — more stable feature extraction than timm
-        vgg = models.vgg19(weights=None)
-
-        # Frontend: first 28 layers of VGG-19 features (up to pool4, 512ch output)
-        self.frontend = nn.Sequential(*list(vgg.features.children())[:28])
-
-        self.backend = nn.Sequential(
-            nn.Conv2d(512, 512, 3, padding=2, dilation=2),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(512, 512, 3, padding=2, dilation=2),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(512, 512, 3, padding=2, dilation=2),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(512, 256, 3, padding=2, dilation=2),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(256, 128, 3, padding=2, dilation=2),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(128, 64,  3, padding=2, dilation=2),
-            nn.ReLU(inplace=True),
-        )
-        self.output_layer = nn.Conv2d(64, 1, 1)
-
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        x = self.frontend(x)
-        x = self.backend(x)
-        x = self.output_layer(x)
-        return torch.abs(x)
-
-# ── Transform ─────────────────────────────────────────────────────────────────
+import torchvision.transforms as T
 
 _TRANSFORM = T.Compose([
     T.ToTensor(),
     T.Normalize(mean=[0.485, 0.456, 0.406],
                 std =[0.229, 0.224, 0.225]),
 ])
+
+# ── DM-Count model architecture ───────────────────────────────────────────────
+
+class DMCountModel(nn.Module):
+    """
+    DM-Count density estimation network.
+    Architecture matches the checkpoint exactly:
+      features.* — VGG-19 backbone (all 35 feature layers)
+      reg_layer.* — regression head (512→256→128)
+      density_layer.* — output head (128→1)
+    """
+
+    def __init__(self) -> None:
+        super().__init__()
+        import torchvision.models as models
+
+        vgg = models.vgg19(weights=None)
+
+        # Full VGG-19 feature extractor (all layers including pool5)
+        self.features = vgg.features
+
+        self.reg_layer = nn.Sequential(
+            nn.Conv2d(512, 256, kernel_size=3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(256, 128, kernel_size=3, padding=1),
+            nn.ReLU(inplace=True),
+        )
+
+        self.density_layer = nn.Sequential(
+            nn.Conv2d(128, 1, kernel_size=1),
+        )
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        x = self.features(x)
+        x = self.reg_layer(x)
+        x = self.density_layer(x)
+        return torch.abs(x)
 
 
 # ── Far zone estimator ────────────────────────────────────────────────────────
@@ -245,23 +241,15 @@ class FarZoneEstimator:
         wp    = Path(weights_path)
 
         if not wp.exists():
-            log.warning(
-                f"DM-Count weights not found at {weights_path}. "
-                f"Model will run with random weights — calibrate after downloading."
-            )
+            log.warning(f"DM-Count weights not found at {weights_path}.")
             model.eval()
             return model
 
         try:
             state = torch.load(wp, map_location=self.device, weights_only=False)
-            # Handle various checkpoint formats
-            if isinstance(state, dict):
-                if "model" in state:
-                    state = state["model"]
-                elif "state_dict" in state:
-                    state = state["state_dict"]
-            model.load_state_dict(state, strict=False)
-            log.info(f"DM-Count weights loaded from {weights_path}")
+            # Keys match directly: features.*, reg_layer.*, density_layer.*
+            missing, unexpected = model.load_state_dict(state, strict=True)
+            log.info(f"DM-Count weights loaded from {weights_path} | strict=True")
         except Exception as e:
             log.warning(f"Could not load DM-Count weights: {e}")
 

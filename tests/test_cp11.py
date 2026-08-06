@@ -13,7 +13,7 @@ from pathlib import Path
 import numpy as np
 import cv2
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from detection.yolo_inference import YOLOInference, _nms, _box_iou, _class_label
 from config.constants import CocoClass, RESERVATION_CLASSES

@@ -2639,3 +2639,1426 @@
 [2026-07-12 12:01:21] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth
 [2026-07-12 12:01:21] [system] INFO FarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.2048
 [2026-07-12 12:01:21] [system] INFO [weeding_out_area] Far zone | raw_count=16.04 scale=1.2048 count=19
+[2026-07-16 04:52:28] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:52:28] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 04:52:29] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:52:29] [system] INFO FarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-16 04:52:29] [system] WARNING [test] Far zone polygon not configured
+[2026-07-16 04:54:07] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:07] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 04:54:08] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:08] [system] INFO FarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-16 04:54:08] [system] WARNING [test] Far zone polygon not configured
+[2026-07-16 04:54:09] [system] INFO [cad_lab] Far zone | raw_count=6.23 scale=1.0 count=6
+[2026-07-16 04:54:09] [system] INFO [cad_lab] Far zone | raw_count=21.96 scale=1.0 count=22
+[2026-07-16 04:54:09] [system] INFO [cad_lab] Far zone | raw_count=21.96 scale=1.0 count=22
+[2026-07-16 04:54:10] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:10] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 04:54:10] [system] INFO [cad_lab] Far zone | raw_count=21.96 scale=1.0 count=22
+[2026-07-16 04:54:11] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:11] [system] INFO FarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.2029
+[2026-07-16 04:54:11] [system] INFO [focused_reading_area] Far zone | raw_count=120.35 scale=0.2029 count=24
+[2026-07-16 04:54:12] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:12] [system] INFO FarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.8457
+[2026-07-16 04:54:12] [system] INFO [g_hall_2] Far zone | raw_count=132.74 scale=0.8457 count=112
+[2026-07-16 04:54:13] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:13] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=0.5212
+[2026-07-16 04:54:13] [system] INFO [g_huss] Far zone | raw_count=279.37 scale=0.5212 count=146
+[2026-07-16 04:54:14] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:14] [system] INFO FarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.5134
+[2026-07-16 04:54:15] [system] INFO [hindi_section] Far zone | raw_count=606.01 scale=1.5134 count=917
+[2026-07-16 04:54:16] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:16] [system] INFO FarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.1511
+[2026-07-16 04:54:16] [system] INFO [ip_camera_19] Far zone | raw_count=56.70 scale=0.1511 count=9
+[2026-07-16 04:54:17] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:17] [system] INFO FarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.5721
+[2026-07-16 04:54:17] [system] INFO [ipc] Far zone | raw_count=12.36 scale=1.5721 count=19
+[2026-07-16 04:54:18] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:18] [system] INFO FarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.4219
+[2026-07-16 04:54:18] [system] INFO [main_computer_room] Far zone | raw_count=52.90 scale=0.4219 count=22
+[2026-07-16 04:54:19] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:19] [system] INFO FarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.0794
+[2026-07-16 04:54:19] [system] INFO [reference_2] Far zone | raw_count=625.32 scale=0.0794 count=50
+[2026-07-16 04:54:20] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:20] [system] INFO FarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=0.4909
+[2026-07-16 04:54:20] [system] INFO [reference_area] Far zone | raw_count=22.22 scale=0.4909 count=11
+[2026-07-16 04:54:21] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:21] [system] INFO FarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.2048
+[2026-07-16 04:54:21] [system] INFO [weeding_out_area] Far zone | raw_count=36.20 scale=1.2048 count=44
+[2026-07-16 04:54:22] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-16 04:54:22] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=0.5212
+[2026-07-16 04:54:22] [system] INFO [g_huss] Far zone | raw_count=279.37 scale=0.5212 count=146
+[2026-07-16 05:21:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:21:58] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:21:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:21:58] [system] INFO CSRNetFarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-16 05:21:58] [system] WARNING [test] Far zone polygon not configured
+[2026-07-16 05:21:59] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:21:59] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:21:59] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:21:59] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:21:59] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:21:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:21:59] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:21:59] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:21:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:21:59] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:21:59] [system] INFO [focused_reading_area] CSRNet far zone | raw=1269.16 scale=1.0 count=1269
+[2026-07-16 05:21:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:21:59] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:21:59] [system] INFO [g_hall_2] CSRNet far zone | raw=3058.84 scale=1.0 count=3059
+[2026-07-16 05:21:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:21:59] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:21:59] [system] INFO [g_huss] CSRNet far zone | raw=2858.36 scale=1.0 count=2858
+[2026-07-16 05:21:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:21:59] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-16 05:21:59] [system] INFO [hindi_section] CSRNet far zone | raw=3457.44 scale=1.0 count=3457
+[2026-07-16 05:21:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:21:59] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:21:59] [system] INFO [ip_camera_19] CSRNet far zone | raw=213.57 scale=1.0 count=214
+[2026-07-16 05:22:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:22:00] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:22:00] [system] INFO [ipc] CSRNet far zone | raw=-2.86 scale=1.0 count=0
+[2026-07-16 05:22:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:22:00] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:22:00] [system] INFO [main_computer_room] CSRNet far zone | raw=442.35 scale=1.0 count=442
+[2026-07-16 05:22:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:22:00] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-16 05:22:00] [system] INFO [reference_2] CSRNet far zone | raw=3049.70 scale=1.0 count=3050
+[2026-07-16 05:22:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:22:00] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:22:00] [system] INFO [reference_area] CSRNet far zone | raw=439.22 scale=1.0 count=439
+[2026-07-16 05:22:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:22:00] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:22:00] [system] INFO [weeding_out_area] CSRNet far zone | raw=307.00 scale=1.0 count=307
+[2026-07-16 05:22:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:22:00] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:22:00] [system] INFO [g_huss] CSRNet far zone | raw=2858.36 scale=1.0 count=2858
+[2026-07-16 05:25:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:51] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:51] [system] INFO CSRNetFarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-16 05:25:51] [system] WARNING [test] Far zone polygon not configured
+[2026-07-16 05:25:51] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:25:51] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:25:51] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:25:51] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:25:52] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:25:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:52] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:52] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 05:25:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:52] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:52] [system] INFO [focused_reading_area] CSRNet far zone | raw=1269.16 scale=1.0 count=1269
+[2026-07-16 05:25:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:52] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:52] [system] INFO [g_hall_2] CSRNet far zone | raw=3058.84 scale=1.0 count=3059
+[2026-07-16 05:25:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:52] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:52] [system] INFO [g_huss] CSRNet far zone | raw=2858.36 scale=1.0 count=2858
+[2026-07-16 05:25:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:52] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-16 05:25:52] [system] INFO [hindi_section] CSRNet far zone | raw=3457.44 scale=1.0 count=3457
+[2026-07-16 05:25:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:52] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:52] [system] INFO [ip_camera_19] CSRNet far zone | raw=213.57 scale=1.0 count=214
+[2026-07-16 05:25:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:52] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:52] [system] INFO [ipc] CSRNet far zone | raw=-2.86 scale=1.0 count=0
+[2026-07-16 05:25:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:52] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:53] [system] INFO [main_computer_room] CSRNet far zone | raw=442.35 scale=1.0 count=442
+[2026-07-16 05:25:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:53] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-16 05:25:53] [system] INFO [reference_2] CSRNet far zone | raw=3049.70 scale=1.0 count=3050
+[2026-07-16 05:25:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:53] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:53] [system] INFO [reference_area] CSRNet far zone | raw=439.22 scale=1.0 count=439
+[2026-07-16 05:25:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:53] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:53] [system] INFO [weeding_out_area] CSRNet far zone | raw=307.00 scale=1.0 count=307
+[2026-07-16 05:25:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 05:25:53] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 05:25:53] [system] INFO [g_huss] CSRNet far zone | raw=2858.36 scale=1.0 count=2858
+[2026-07-16 19:00:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:06] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:06] [system] INFO CSRNetFarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-16 19:00:06] [system] WARNING [test] Far zone polygon not configured
+[2026-07-16 19:00:07] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 19:00:07] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 19:00:07] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 19:00:07] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 19:00:07] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 19:00:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:07] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:07] [system] INFO [cad_lab] CSRNet far zone | raw=171.40 scale=1.0 count=171
+[2026-07-16 19:00:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:07] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:07] [system] INFO [focused_reading_area] CSRNet far zone | raw=1269.16 scale=1.0 count=1269
+[2026-07-16 19:00:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:07] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:07] [system] INFO [g_hall_2] CSRNet far zone | raw=3058.84 scale=1.0 count=3059
+[2026-07-16 19:00:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:07] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:07] [system] INFO [g_huss] CSRNet far zone | raw=2858.36 scale=1.0 count=2858
+[2026-07-16 19:00:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:08] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-16 19:00:08] [system] INFO [hindi_section] CSRNet far zone | raw=3457.44 scale=1.0 count=3457
+[2026-07-16 19:00:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:08] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:08] [system] INFO [ip_camera_19] CSRNet far zone | raw=213.57 scale=1.0 count=214
+[2026-07-16 19:00:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:08] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:08] [system] INFO [ipc] CSRNet far zone | raw=-2.86 scale=1.0 count=0
+[2026-07-16 19:00:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:08] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:08] [system] INFO [main_computer_room] CSRNet far zone | raw=442.35 scale=1.0 count=442
+[2026-07-16 19:00:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:08] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-16 19:00:08] [system] INFO [reference_2] CSRNet far zone | raw=3049.70 scale=1.0 count=3050
+[2026-07-16 19:00:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:08] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:08] [system] INFO [reference_area] CSRNet far zone | raw=439.22 scale=1.0 count=439
+[2026-07-16 19:00:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:08] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:08] [system] INFO [weeding_out_area] CSRNet far zone | raw=307.00 scale=1.0 count=307
+[2026-07-16 19:00:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:00:08] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:00:08] [system] INFO [g_huss] CSRNet far zone | raw=2858.36 scale=1.0 count=2858
+[2026-07-16 19:07:13] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:13] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:33] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:33] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:33] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:33] [system] INFO CSRNetFarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-16 19:07:33] [system] WARNING [test] Far zone polygon not configured
+[2026-07-16 19:07:33] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:07:33] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:07:33] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:07:33] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:07:33] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:07:33] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:33] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:33] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:07:33] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:33] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:33] [system] INFO [focused_reading_area] CSRNet far zone | raw=15.09 scale=1.0 count=15
+[2026-07-16 19:07:33] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:33] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:33] [system] INFO [g_hall_2] CSRNet far zone | raw=48.87 scale=1.0 count=49
+[2026-07-16 19:07:33] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:33] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0 count=53
+[2026-07-16 19:07:34] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:34] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [hindi_section] CSRNet far zone | raw=60.40 scale=1.0 count=60
+[2026-07-16 19:07:34] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:34] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [ip_camera_19] CSRNet far zone | raw=6.98 scale=1.0 count=7
+[2026-07-16 19:07:34] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:34] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [ipc] CSRNet far zone | raw=2.98 scale=1.0 count=3
+[2026-07-16 19:07:34] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:34] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [main_computer_room] CSRNet far zone | raw=7.62 scale=1.0 count=8
+[2026-07-16 19:07:34] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:34] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [reference_2] CSRNet far zone | raw=49.47 scale=1.0 count=49
+[2026-07-16 19:07:34] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:34] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [reference_area] CSRNet far zone | raw=6.68 scale=1.0 count=7
+[2026-07-16 19:07:34] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:34] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [weeding_out_area] CSRNet far zone | raw=5.10 scale=1.0 count=5
+[2026-07-16 19:07:34] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:07:34] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:07:34] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0 count=53
+[2026-07-16 19:08:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:47] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:47] [system] INFO CSRNetFarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-16 19:08:47] [system] WARNING [test] Far zone polygon not configured
+[2026-07-16 19:08:47] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:08:47] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:08:47] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:08:47] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:08:47] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:08:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:47] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:47] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:08:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:47] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:47] [system] INFO [focused_reading_area] CSRNet far zone | raw=15.09 scale=1.0 count=15
+[2026-07-16 19:08:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:47] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:47] [system] INFO [g_hall_2] CSRNet far zone | raw=48.87 scale=1.0 count=49
+[2026-07-16 19:08:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:47] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:47] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0 count=53
+[2026-07-16 19:08:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:48] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-16 19:08:48] [system] INFO [hindi_section] CSRNet far zone | raw=60.40 scale=1.0 count=60
+[2026-07-16 19:08:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:48] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:48] [system] INFO [ip_camera_19] CSRNet far zone | raw=6.98 scale=1.0 count=7
+[2026-07-16 19:08:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:48] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:48] [system] INFO [ipc] CSRNet far zone | raw=2.98 scale=1.0 count=3
+[2026-07-16 19:08:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:48] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:48] [system] INFO [main_computer_room] CSRNet far zone | raw=7.62 scale=1.0 count=8
+[2026-07-16 19:08:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:48] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-16 19:08:48] [system] INFO [reference_2] CSRNet far zone | raw=49.47 scale=1.0 count=49
+[2026-07-16 19:08:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:48] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:48] [system] INFO [reference_area] CSRNet far zone | raw=6.68 scale=1.0 count=7
+[2026-07-16 19:08:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:48] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:48] [system] INFO [weeding_out_area] CSRNet far zone | raw=5.10 scale=1.0 count=5
+[2026-07-16 19:08:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:08:48] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:08:48] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0 count=53
+[2026-07-16 19:21:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:18] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:18] [system] INFO CSRNetFarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-16 19:21:18] [system] WARNING [test] Far zone polygon not configured
+[2026-07-16 19:21:19] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:21:19] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:21:19] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:21:19] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:21:19] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:21:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:19] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:19] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-16 19:21:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:19] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:19] [system] INFO [focused_reading_area] CSRNet far zone | raw=15.09 scale=1.0 count=15
+[2026-07-16 19:21:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:19] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:19] [system] INFO [g_hall_2] CSRNet far zone | raw=48.87 scale=1.0 count=49
+[2026-07-16 19:21:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:19] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:19] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0 count=53
+[2026-07-16 19:21:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:19] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-16 19:21:19] [system] INFO [hindi_section] CSRNet far zone | raw=60.40 scale=1.0 count=60
+[2026-07-16 19:21:20] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:20] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:20] [system] INFO [ip_camera_19] CSRNet far zone | raw=6.98 scale=1.0 count=7
+[2026-07-16 19:21:20] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:20] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:20] [system] INFO [ipc] CSRNet far zone | raw=2.98 scale=1.0 count=3
+[2026-07-16 19:21:20] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:20] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:20] [system] INFO [main_computer_room] CSRNet far zone | raw=7.62 scale=1.0 count=8
+[2026-07-16 19:21:20] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:20] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-16 19:21:20] [system] INFO [reference_2] CSRNet far zone | raw=49.47 scale=1.0 count=49
+[2026-07-16 19:21:20] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:20] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:20] [system] INFO [reference_area] CSRNet far zone | raw=6.68 scale=1.0 count=7
+[2026-07-16 19:21:20] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:20] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:20] [system] INFO [weeding_out_area] CSRNet far zone | raw=5.10 scale=1.0 count=5
+[2026-07-16 19:21:20] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-16 19:21:20] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-16 19:21:20] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0 count=53
+[2026-07-21 14:16:33] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:33] [system] INFO FarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-21 14:16:34] [system] INFO [focused_reading_area] Far zone | raw_count=120.35 scale=0.5303 count=64
+[2026-07-21 14:16:35] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:35] [system] INFO FarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-21 14:16:35] [system] INFO [g_hall_2] Far zone | raw_count=132.74 scale=1.2278 count=163
+[2026-07-21 14:16:36] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:36] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-21 14:16:36] [system] INFO [g_huss] Far zone | raw_count=279.37 scale=1.0513 count=294
+[2026-07-21 14:16:37] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:37] [system] INFO FarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-21 14:16:37] [system] INFO [hindi_section] Far zone | raw_count=606.01 scale=0.6623 count=401
+[2026-07-21 14:16:38] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:38] [system] INFO FarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-21 14:16:38] [system] INFO [ip_camera_19] Far zone | raw_count=56.70 scale=0.7162 count=41
+[2026-07-21 14:16:39] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:39] [system] INFO FarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-21 14:16:39] [system] INFO [ipc] Far zone | raw_count=12.36 scale=6.0495 count=75
+[2026-07-21 14:16:40] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:40] [system] INFO FarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-21 14:16:40] [system] INFO [main_computer_room] Far zone | raw_count=52.90 scale=0.6565 count=35
+[2026-07-21 14:16:41] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:41] [system] INFO FarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-21 14:16:41] [system] INFO [reference_2] Far zone | raw_count=625.32 scale=0.3234 count=202
+[2026-07-21 14:16:42] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:42] [system] INFO FarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-21 14:16:42] [system] INFO [reference_area] Far zone | raw_count=22.22 scale=1.0476 count=23
+[2026-07-21 14:16:43] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-21 14:16:43] [system] INFO FarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-21 14:16:43] [system] INFO [weeding_out_area] Far zone | raw_count=36.20 scale=0.9795 count=35
+[2026-07-21 14:32:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:02] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-21 14:32:02] [system] INFO [focused_reading_area] CSRNet far zone | raw=15.09 scale=0.5303 count=8
+[2026-07-21 14:32:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:02] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-21 14:32:02] [system] INFO [g_hall_2] CSRNet far zone | raw=48.87 scale=1.2278 count=60
+[2026-07-21 14:32:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:02] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-21 14:32:02] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0513 count=56
+[2026-07-21 14:32:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:02] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-21 14:32:02] [system] INFO [hindi_section] CSRNet far zone | raw=60.40 scale=0.6623 count=40
+[2026-07-21 14:32:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:02] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-21 14:32:02] [system] INFO [ip_camera_19] CSRNet far zone | raw=6.98 scale=0.7162 count=5
+[2026-07-21 14:32:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:02] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-21 14:32:02] [system] INFO [ipc] CSRNet far zone | raw=2.98 scale=6.0495 count=18
+[2026-07-21 14:32:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:03] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-21 14:32:03] [system] INFO [main_computer_room] CSRNet far zone | raw=7.62 scale=0.6565 count=5
+[2026-07-21 14:32:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:03] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-21 14:32:03] [system] INFO [reference_2] CSRNet far zone | raw=49.47 scale=0.3234 count=16
+[2026-07-21 14:32:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:03] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-21 14:32:03] [system] INFO [reference_area] CSRNet far zone | raw=6.68 scale=1.0476 count=7
+[2026-07-21 14:32:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:32:03] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-21 14:32:03] [system] INFO [weeding_out_area] CSRNet far zone | raw=5.10 scale=0.9795 count=5
+[2026-07-21 14:34:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:15] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:15] [system] INFO CSRNetFarZoneEstimator | section=test far_polygon_vertices=0 device=cuda scale_factor=1.0
+[2026-07-21 14:34:15] [system] WARNING [test] Far zone polygon not configured
+[2026-07-21 14:34:15] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-21 14:34:15] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-21 14:34:15] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-21 14:34:15] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-21 14:34:15] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-21 14:34:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:15] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:15] [system] INFO [cad_lab] CSRNet far zone | raw=3.01 scale=1.0 count=3
+[2026-07-21 14:34:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:15] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:15] [system] INFO [focused_reading_area] CSRNet far zone | raw=15.09 scale=1.0 count=15
+[2026-07-21 14:34:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:15] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:15] [system] INFO [g_hall_2] CSRNet far zone | raw=48.87 scale=1.0 count=49
+[2026-07-21 14:34:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:15] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:16] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0 count=53
+[2026-07-21 14:34:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:16] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-21 14:34:16] [system] INFO [hindi_section] CSRNet far zone | raw=60.40 scale=1.0 count=60
+[2026-07-21 14:34:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:16] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:16] [system] INFO [ip_camera_19] CSRNet far zone | raw=6.98 scale=1.0 count=7
+[2026-07-21 14:34:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:16] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:16] [system] INFO [ipc] CSRNet far zone | raw=2.98 scale=1.0 count=3
+[2026-07-21 14:34:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:16] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:16] [system] INFO [main_computer_room] CSRNet far zone | raw=7.62 scale=1.0 count=8
+[2026-07-21 14:34:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:16] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-21 14:34:16] [system] INFO [reference_2] CSRNet far zone | raw=49.47 scale=1.0 count=49
+[2026-07-21 14:34:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:16] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:16] [system] INFO [reference_area] CSRNet far zone | raw=6.68 scale=1.0 count=7
+[2026-07-21 14:34:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:16] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:16] [system] INFO [weeding_out_area] CSRNet far zone | raw=5.10 scale=1.0 count=5
+[2026-07-21 14:34:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-21 14:34:17] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-21 14:34:17] [system] INFO [g_huss] CSRNet far zone | raw=53.27 scale=1.0 count=53
+[2026-07-28 14:53:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:04] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 14:53:04] [system] INFO [cad_lab] CSRNet far zone | raw=2.83 scale=1.0 count=3
+[2026-07-28 14:53:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:05] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 14:53:05] [system] INFO [cad_lab] CSRNet far zone | raw=2.82 scale=1.0 count=3
+[2026-07-28 14:53:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:05] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 14:53:05] [system] INFO [focused_reading_area] CSRNet far zone | raw=15.79 scale=0.5303 count=8
+[2026-07-28 14:53:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:05] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 14:53:05] [system] INFO [focused_reading_area] CSRNet far zone | raw=15.83 scale=0.5303 count=8
+[2026-07-28 14:53:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:05] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 14:53:05] [system] INFO [g_hall_2] CSRNet far zone | raw=43.08 scale=1.2278 count=53
+[2026-07-28 14:53:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:05] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 14:53:05] [system] INFO [g_hall_2] CSRNet far zone | raw=49.58 scale=1.2278 count=61
+[2026-07-28 14:53:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:05] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 14:53:05] [system] INFO [g_huss] CSRNet far zone | raw=56.27 scale=1.0513 count=59
+[2026-07-28 14:53:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:06] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 14:53:06] [system] INFO [g_huss] CSRNet far zone | raw=53.71 scale=1.0513 count=56
+[2026-07-28 14:53:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:06] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 14:53:06] [system] INFO [hindi_section] CSRNet far zone | raw=66.15 scale=0.6623 count=44
+[2026-07-28 14:53:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:06] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 14:53:06] [system] INFO [hindi_section] CSRNet far zone | raw=63.61 scale=0.6623 count=42
+[2026-07-28 14:53:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:06] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 14:53:06] [system] INFO [ip_camera_19] CSRNet far zone | raw=9.38 scale=0.7162 count=7
+[2026-07-28 14:53:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:06] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 14:53:06] [system] INFO [ip_camera_19] CSRNet far zone | raw=7.41 scale=0.7162 count=5
+[2026-07-28 14:53:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:06] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 14:53:06] [system] INFO [ipc] CSRNet far zone | raw=4.45 scale=6.0495 count=27
+[2026-07-28 14:53:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:07] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 14:53:07] [system] INFO [ipc] CSRNet far zone | raw=5.06 scale=6.0495 count=31
+[2026-07-28 14:53:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:07] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 14:53:07] [system] INFO [main_computer_room] CSRNet far zone | raw=8.21 scale=0.6565 count=5
+[2026-07-28 14:53:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:07] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 14:53:07] [system] INFO [main_computer_room] CSRNet far zone | raw=8.01 scale=0.6565 count=5
+[2026-07-28 14:53:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:07] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 14:53:07] [system] INFO [reference_2] CSRNet far zone | raw=44.95 scale=0.3234 count=15
+[2026-07-28 14:53:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:07] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 14:53:07] [system] INFO [reference_2] CSRNet far zone | raw=45.02 scale=0.3234 count=15
+[2026-07-28 14:53:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:07] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 14:53:07] [system] INFO [reference_area] CSRNet far zone | raw=4.95 scale=1.0476 count=5
+[2026-07-28 14:53:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:07] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 14:53:07] [system] INFO [reference_area] CSRNet far zone | raw=4.30 scale=1.0476 count=5
+[2026-07-28 14:53:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:08] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 14:53:08] [system] INFO [weeding_out_area] CSRNet far zone | raw=5.08 scale=0.9795 count=5
+[2026-07-28 14:53:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 14:53:08] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 14:53:08] [system] INFO [weeding_out_area] CSRNet far zone | raw=5.14 scale=0.9795 count=5
+[2026-07-28 15:04:54] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:54] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:04:55] [system] INFO [cad_lab] CSRNet far zone | raw=2.16 scale=1.0 count=2
+[2026-07-28 15:04:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:55] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:04:55] [system] INFO [cad_lab] CSRNet far zone | raw=2.17 scale=1.0 count=2
+[2026-07-28 15:04:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:55] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:04:55] [system] INFO [focused_reading_area] CSRNet far zone | raw=11.07 scale=0.5303 count=6
+[2026-07-28 15:04:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:55] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:04:55] [system] INFO [focused_reading_area] CSRNet far zone | raw=11.47 scale=0.5303 count=6
+[2026-07-28 15:04:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:55] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:04:55] [system] INFO [g_hall_2] CSRNet far zone | raw=46.05 scale=1.2278 count=57
+[2026-07-28 15:04:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:55] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:04:55] [system] INFO [g_hall_2] CSRNet far zone | raw=53.99 scale=1.2278 count=66
+[2026-07-28 15:04:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:55] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:04:55] [system] INFO [g_huss] CSRNet far zone | raw=74.37 scale=1.0513 count=78
+[2026-07-28 15:04:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:56] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:04:56] [system] INFO [g_huss] CSRNet far zone | raw=71.31 scale=1.0513 count=75
+[2026-07-28 15:04:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:56] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:04:56] [system] INFO [hindi_section] CSRNet far zone | raw=90.90 scale=0.6623 count=60
+[2026-07-28 15:04:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:56] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:04:56] [system] INFO [hindi_section] CSRNet far zone | raw=90.66 scale=0.6623 count=60
+[2026-07-28 15:04:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:56] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:04:56] [system] INFO [ip_camera_19] CSRNet far zone | raw=9.46 scale=0.7162 count=7
+[2026-07-28 15:04:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:56] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:04:56] [system] INFO [ip_camera_19] CSRNet far zone | raw=7.44 scale=0.7162 count=5
+[2026-07-28 15:04:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:56] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:04:57] [system] INFO [ipc] CSRNet far zone | raw=3.54 scale=6.0495 count=21
+[2026-07-28 15:04:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:57] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:04:57] [system] INFO [ipc] CSRNet far zone | raw=4.45 scale=6.0495 count=27
+[2026-07-28 15:04:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:57] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:04:57] [system] INFO [main_computer_room] CSRNet far zone | raw=7.08 scale=0.6565 count=5
+[2026-07-28 15:04:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:57] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:04:57] [system] INFO [main_computer_room] CSRNet far zone | raw=7.46 scale=0.6565 count=5
+[2026-07-28 15:04:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:57] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:04:57] [system] INFO [reference_2] CSRNet far zone | raw=73.17 scale=0.3234 count=24
+[2026-07-28 15:04:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:57] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:04:57] [system] INFO [reference_2] CSRNet far zone | raw=74.48 scale=0.3234 count=24
+[2026-07-28 15:04:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:57] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:04:57] [system] INFO [reference_area] CSRNet far zone | raw=5.33 scale=1.0476 count=6
+[2026-07-28 15:04:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:58] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:04:58] [system] INFO [reference_area] CSRNet far zone | raw=4.29 scale=1.0476 count=4
+[2026-07-28 15:04:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:58] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:04:58] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.97 scale=0.9795 count=4
+[2026-07-28 15:04:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:04:58] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:04:58] [system] INFO [weeding_out_area] CSRNet far zone | raw=4.01 scale=0.9795 count=4
+[2026-07-28 15:06:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:05] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:06:05] [system] INFO [cad_lab] CSRNet far zone | raw=2.16 scale=1.0 count=2
+[2026-07-28 15:06:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:05] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:06:05] [system] INFO [cad_lab] CSRNet far zone | raw=2.17 scale=1.0 count=2
+[2026-07-28 15:06:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:05] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:06:05] [system] INFO [focused_reading_area] CSRNet far zone | raw=11.07 scale=0.5303 count=6
+[2026-07-28 15:06:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:05] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:06:05] [system] INFO [focused_reading_area] CSRNet far zone | raw=11.47 scale=0.5303 count=6
+[2026-07-28 15:06:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:06] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:06:06] [system] INFO [g_hall_2] CSRNet far zone | raw=46.05 scale=1.2278 count=57
+[2026-07-28 15:06:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:06] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:06:06] [system] INFO [g_hall_2] CSRNet far zone | raw=53.99 scale=1.2278 count=66
+[2026-07-28 15:06:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:06] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:06:06] [system] INFO [g_huss] CSRNet far zone | raw=74.37 scale=1.0513 count=78
+[2026-07-28 15:06:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:06] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:06:06] [system] INFO [g_huss] CSRNet far zone | raw=71.31 scale=1.0513 count=75
+[2026-07-28 15:06:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:06] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:06:06] [system] INFO [hindi_section] CSRNet far zone | raw=90.90 scale=0.6623 count=60
+[2026-07-28 15:06:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:06] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:06:06] [system] INFO [hindi_section] CSRNet far zone | raw=90.66 scale=0.6623 count=60
+[2026-07-28 15:06:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:07] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:06:07] [system] INFO [ip_camera_19] CSRNet far zone | raw=9.46 scale=0.7162 count=7
+[2026-07-28 15:06:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:07] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:06:07] [system] INFO [ip_camera_19] CSRNet far zone | raw=7.44 scale=0.7162 count=5
+[2026-07-28 15:06:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:07] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:06:07] [system] INFO [ipc] CSRNet far zone | raw=3.54 scale=6.0495 count=21
+[2026-07-28 15:06:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:07] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:06:07] [system] INFO [ipc] CSRNet far zone | raw=4.45 scale=6.0495 count=27
+[2026-07-28 15:06:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:07] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:06:07] [system] INFO [main_computer_room] CSRNet far zone | raw=7.08 scale=0.6565 count=5
+[2026-07-28 15:06:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:07] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:06:07] [system] INFO [main_computer_room] CSRNet far zone | raw=7.46 scale=0.6565 count=5
+[2026-07-28 15:06:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:07] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:06:07] [system] INFO [reference_2] CSRNet far zone | raw=73.17 scale=0.3234 count=24
+[2026-07-28 15:06:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:08] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:06:08] [system] INFO [reference_2] CSRNet far zone | raw=74.48 scale=0.3234 count=24
+[2026-07-28 15:06:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:08] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:06:08] [system] INFO [reference_area] CSRNet far zone | raw=5.33 scale=1.0476 count=6
+[2026-07-28 15:06:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:08] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:06:08] [system] INFO [reference_area] CSRNet far zone | raw=4.29 scale=1.0476 count=4
+[2026-07-28 15:06:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:08] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:06:08] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.97 scale=0.9795 count=4
+[2026-07-28 15:06:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:08] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:06:08] [system] INFO [weeding_out_area] CSRNet far zone | raw=4.01 scale=0.9795 count=4
+[2026-07-28 15:06:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:49] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:06:50] [system] INFO [cad_lab] CSRNet far zone | raw=2.16 scale=1.0 count=2
+[2026-07-28 15:06:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:50] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:06:50] [system] INFO [cad_lab] CSRNet far zone | raw=2.17 scale=1.0 count=2
+[2026-07-28 15:06:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:50] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:06:50] [system] INFO [focused_reading_area] CSRNet far zone | raw=11.07 scale=0.5303 count=6
+[2026-07-28 15:06:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:50] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:06:50] [system] INFO [focused_reading_area] CSRNet far zone | raw=11.47 scale=0.5303 count=6
+[2026-07-28 15:06:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:50] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:06:50] [system] INFO [g_hall_2] CSRNet far zone | raw=46.05 scale=1.2278 count=57
+[2026-07-28 15:06:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:50] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:06:50] [system] INFO [g_hall_2] CSRNet far zone | raw=53.99 scale=1.2278 count=66
+[2026-07-28 15:06:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:50] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:06:50] [system] INFO [g_huss] CSRNet far zone | raw=74.37 scale=1.0513 count=78
+[2026-07-28 15:06:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:51] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:06:51] [system] INFO [g_huss] CSRNet far zone | raw=71.31 scale=1.0513 count=75
+[2026-07-28 15:06:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:51] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:06:51] [system] INFO [hindi_section] CSRNet far zone | raw=90.90 scale=0.6623 count=60
+[2026-07-28 15:06:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:51] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:06:51] [system] INFO [hindi_section] CSRNet far zone | raw=90.66 scale=0.6623 count=60
+[2026-07-28 15:06:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:51] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:06:51] [system] INFO [ip_camera_19] CSRNet far zone | raw=9.46 scale=0.7162 count=7
+[2026-07-28 15:06:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:51] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:06:51] [system] INFO [ip_camera_19] CSRNet far zone | raw=7.44 scale=0.7162 count=5
+[2026-07-28 15:06:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:51] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:06:51] [system] INFO [ipc] CSRNet far zone | raw=3.54 scale=6.0495 count=21
+[2026-07-28 15:06:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:52] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:06:52] [system] INFO [ipc] CSRNet far zone | raw=4.45 scale=6.0495 count=27
+[2026-07-28 15:06:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:52] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:06:52] [system] INFO [main_computer_room] CSRNet far zone | raw=7.08 scale=0.6565 count=5
+[2026-07-28 15:06:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:52] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:06:52] [system] INFO [main_computer_room] CSRNet far zone | raw=7.46 scale=0.6565 count=5
+[2026-07-28 15:06:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:52] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:06:52] [system] INFO [reference_2] CSRNet far zone | raw=73.17 scale=0.3234 count=24
+[2026-07-28 15:06:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:52] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:06:52] [system] INFO [reference_2] CSRNet far zone | raw=74.48 scale=0.3234 count=24
+[2026-07-28 15:06:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:52] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:06:52] [system] INFO [reference_area] CSRNet far zone | raw=5.33 scale=1.0476 count=6
+[2026-07-28 15:06:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:52] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:06:53] [system] INFO [reference_area] CSRNet far zone | raw=4.29 scale=1.0476 count=4
+[2026-07-28 15:06:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:53] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:06:53] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.97 scale=0.9795 count=4
+[2026-07-28 15:06:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:06:53] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:06:53] [system] INFO [weeding_out_area] CSRNet far zone | raw=4.01 scale=0.9795 count=4
+[2026-07-28 15:09:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:50] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:09:50] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=1.0 count=1
+[2026-07-28 15:09:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:50] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:09:50] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=1.0 count=1
+[2026-07-28 15:09:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:51] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:09:51] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-07-28 15:09:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:51] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:09:51] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-07-28 15:09:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:51] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:09:51] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=1.2278 count=40
+[2026-07-28 15:09:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:51] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:09:51] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=1.2278 count=49
+[2026-07-28 15:09:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:51] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:09:51] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-07-28 15:09:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:51] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:09:51] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-07-28 15:09:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:52] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:09:52] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-07-28 15:09:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:52] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:09:52] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-07-28 15:09:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:52] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:09:52] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-07-28 15:09:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:52] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:09:52] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-07-28 15:09:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:52] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:09:52] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=6.0495 count=20
+[2026-07-28 15:09:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:53] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:09:53] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=6.0495 count=25
+[2026-07-28 15:09:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:53] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:09:53] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-07-28 15:09:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:53] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:09:53] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-07-28 15:09:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:53] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:09:53] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-07-28 15:09:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:53] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:09:53] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-07-28 15:09:54] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:54] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:09:54] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-07-28 15:09:54] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:54] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:09:54] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-07-28 15:09:54] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:54] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:09:54] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.9795 count=4
+[2026-07-28 15:09:54] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:09:54] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:09:54] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.9795 count=4
+[2026-07-28 15:11:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:55] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:11:55] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=1.0 count=1
+[2026-07-28 15:11:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:55] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:11:55] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=1.0 count=1
+[2026-07-28 15:11:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:55] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:11:55] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-07-28 15:11:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:55] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-07-28 15:11:55] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-07-28 15:11:55] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:55] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:11:55] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=1.2278 count=40
+[2026-07-28 15:11:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:56] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-07-28 15:11:56] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=1.2278 count=49
+[2026-07-28 15:11:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:56] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:11:56] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-07-28 15:11:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:56] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-07-28 15:11:56] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-07-28 15:11:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:56] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:11:56] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-07-28 15:11:56] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:56] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-07-28 15:11:56] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-07-28 15:11:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:57] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:11:57] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-07-28 15:11:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:57] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-07-28 15:11:57] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-07-28 15:11:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:57] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:11:57] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=6.0495 count=20
+[2026-07-28 15:11:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:57] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-07-28 15:11:57] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=6.0495 count=25
+[2026-07-28 15:11:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:57] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:11:57] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-07-28 15:11:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:57] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-07-28 15:11:57] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-07-28 15:11:57] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:57] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:11:57] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-07-28 15:11:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:58] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-07-28 15:11:58] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-07-28 15:11:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:58] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:11:58] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-07-28 15:11:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:58] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-07-28 15:11:58] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-07-28 15:11:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:58] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:11:58] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.9795 count=4
+[2026-07-28 15:11:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:11:58] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-07-28 15:11:58] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.9795 count=4
+[2026-07-28 15:18:45] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:45] [system] INFO FarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:45] [system] INFO [cad_lab] Far zone | raw_count=21.96 scale=1.0 count=22
+[2026-07-28 15:18:46] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:46] [system] INFO FarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:46] [system] INFO [focused_reading_area] Far zone | raw_count=120.35 scale=1.0 count=120
+[2026-07-28 15:18:47] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:47] [system] INFO FarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:47] [system] INFO [g_hall_2] Far zone | raw_count=132.74 scale=1.0 count=133
+[2026-07-28 15:18:48] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:48] [system] INFO FarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:48] [system] INFO [g_huss] Far zone | raw_count=279.37 scale=1.0 count=279
+[2026-07-28 15:18:49] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:49] [system] INFO FarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-28 15:18:49] [system] INFO [hindi_section] Far zone | raw_count=606.01 scale=1.0 count=606
+[2026-07-28 15:18:50] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:50] [system] INFO FarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:50] [system] INFO [ip_camera_19] Far zone | raw_count=56.70 scale=1.0 count=57
+[2026-07-28 15:18:51] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:51] [system] INFO FarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:51] [system] INFO [ipc] Far zone | raw_count=12.36 scale=1.0 count=12
+[2026-07-28 15:18:52] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:52] [system] INFO FarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:52] [system] INFO [main_computer_room] Far zone | raw_count=52.90 scale=1.0 count=53
+[2026-07-28 15:18:53] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:53] [system] INFO FarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-28 15:18:53] [system] INFO [reference_2] Far zone | raw_count=625.32 scale=1.0 count=625
+[2026-07-28 15:18:54] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:54] [system] INFO FarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:55] [system] INFO [reference_area] Far zone | raw_count=22.22 scale=1.0 count=22
+[2026-07-28 15:18:56] [system] INFO DM-Count weights loaded from models/dm_count_shb.pth | strict=True
+[2026-07-28 15:18:56] [system] INFO FarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:18:56] [system] INFO [weeding_out_area] Far zone | raw_count=36.20 scale=1.0 count=36
+[2026-07-28 15:38:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:15] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:15] [system] INFO [cad_lab] CSRNet far zone | raw=1.57 scale=1.0 count=2
+[2026-07-28 15:38:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:15] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:15] [system] INFO [focused_reading_area] CSRNet far zone | raw=8.63 scale=1.0 count=9
+[2026-07-28 15:38:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:15] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:15] [system] INFO [g_hall_2] CSRNet far zone | raw=38.39 scale=1.0 count=38
+[2026-07-28 15:38:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:15] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:16] [system] INFO [g_huss] CSRNet far zone | raw=37.42 scale=1.0 count=37
+[2026-07-28 15:38:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:16] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=1.0
+[2026-07-28 15:38:16] [system] INFO [hindi_section] CSRNet far zone | raw=25.93 scale=1.0 count=26
+[2026-07-28 15:38:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:16] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:16] [system] INFO [ip_camera_19] CSRNet far zone | raw=3.44 scale=1.0 count=3
+[2026-07-28 15:38:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:16] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:16] [system] INFO [ipc] CSRNet far zone | raw=2.01 scale=1.0 count=2
+[2026-07-28 15:38:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:16] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:16] [system] INFO [main_computer_room] CSRNet far zone | raw=5.51 scale=1.0 count=6
+[2026-07-28 15:38:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:16] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=1.0
+[2026-07-28 15:38:17] [system] INFO [reference_2] CSRNet far zone | raw=17.12 scale=1.0 count=17
+[2026-07-28 15:38:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:17] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:17] [system] INFO [reference_area] CSRNet far zone | raw=4.13 scale=1.0 count=4
+[2026-07-28 15:38:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-07-28 15:38:17] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-07-28 15:38:17] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.75 scale=1.0 count=4
+[2026-08-05 17:26:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:26:58] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-08-05 17:26:58] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=1.0 count=1
+[2026-08-05 17:26:58] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:26:58] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-08-05 17:26:58] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=1.0 count=1
+[2026-08-05 17:26:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:26:59] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-05 17:26:59] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-05 17:26:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:26:59] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-05 17:26:59] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-08-05 17:26:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:26:59] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-08-05 17:26:59] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=1.2278 count=40
+[2026-08-05 17:26:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:26:59] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=1.2278
+[2026-08-05 17:26:59] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=1.2278 count=49
+[2026-08-05 17:26:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:26:59] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-05 17:26:59] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-05 17:27:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:00] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-05 17:27:00] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-08-05 17:27:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:00] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-05 17:27:00] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-08-05 17:27:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:00] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-05 17:27:00] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-08-05 17:27:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:00] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-05 17:27:00] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-05 17:27:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:01] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-05 17:27:01] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-08-05 17:27:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:01] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-08-05 17:27:01] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=6.0495 count=20
+[2026-08-05 17:27:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:01] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=6.0495
+[2026-08-05 17:27:01] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=6.0495 count=25
+[2026-08-05 17:27:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:01] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-05 17:27:01] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-05 17:27:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:01] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-05 17:27:01] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-08-05 17:27:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:01] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-05 17:27:01] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-05 17:27:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:02] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-05 17:27:02] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-08-05 17:27:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:02] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-05 17:27:02] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-05 17:27:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:02] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-05 17:27:02] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-08-05 17:27:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:02] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-08-05 17:27:02] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.9795 count=4
+[2026-08-05 17:27:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-05 17:27:02] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-08-05 17:27:02] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.9795 count=4
+[2026-08-06 08:46:28] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:28] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:46:29] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=0.005 count=0
+[2026-08-06 08:46:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:29] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:46:29] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=0.005 count=0
+[2026-08-06 08:46:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:29] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:46:29] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-06 08:46:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:29] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:46:29] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-08-06 08:46:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:29] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:46:29] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-06 08:46:30] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:30] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:46:30] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=0.82 count=33
+[2026-08-06 08:46:30] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:30] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:46:30] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-06 08:46:30] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:30] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:46:30] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-08-06 08:46:30] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:30] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:46:30] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-08-06 08:46:30] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:30] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:46:30] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-08-06 08:46:30] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:30] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:46:30] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-06 08:46:31] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:31] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:46:31] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-08-06 08:46:31] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:31] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:46:31] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-06 08:46:31] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:31] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:46:31] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=1.94 count=8
+[2026-08-06 08:46:31] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:31] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:46:31] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-06 08:46:31] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:31] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:46:31] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-08-06 08:46:31] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:31] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:46:31] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-06 08:46:31] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:31] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:46:31] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-08-06 08:46:32] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:32] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:46:32] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-06 08:46:32] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:32] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:46:32] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-08-06 08:46:32] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:32] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.4
+[2026-08-06 08:46:32] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.4 count=1
+[2026-08-06 08:46:32] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:46:32] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.4
+[2026-08-06 08:46:32] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.4 count=2
+[2026-08-06 08:47:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:47] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:47:47] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=0.005 count=0
+[2026-08-06 08:47:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:48] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:47:48] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=0.005 count=0
+[2026-08-06 08:47:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:48] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:47:48] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-06 08:47:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:48] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:47:48] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-08-06 08:47:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:48] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:47:48] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-06 08:47:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:48] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:47:48] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=0.82 count=33
+[2026-08-06 08:47:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:48] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:47:48] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-06 08:47:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:48] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:47:48] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-08-06 08:47:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:49] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:47:49] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-08-06 08:47:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:49] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:47:49] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-08-06 08:47:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:49] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:47:49] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-06 08:47:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:49] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:47:49] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-08-06 08:47:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:49] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:47:49] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-06 08:47:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:49] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:47:49] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=1.94 count=8
+[2026-08-06 08:47:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:50] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:47:50] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-06 08:47:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:50] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:47:50] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-08-06 08:47:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:50] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:47:50] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-06 08:47:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:50] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:47:50] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-08-06 08:47:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:50] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:47:50] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-06 08:47:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:50] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:47:50] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-08-06 08:47:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:50] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.7954
+[2026-08-06 08:47:50] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.7954 count=3
+[2026-08-06 08:47:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:47:51] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.7954
+[2026-08-06 08:47:51] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.7954 count=3
+[2026-08-06 08:51:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:16] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:51:16] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=0.005 count=0
+[2026-08-06 08:51:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:16] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:51:16] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=0.005 count=0
+[2026-08-06 08:51:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:16] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:51:16] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-06 08:51:16] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:16] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:51:16] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-08-06 08:51:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:17] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:51:17] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-06 08:51:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:17] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:51:17] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=0.82 count=33
+[2026-08-06 08:51:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:17] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:51:17] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-06 08:51:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:17] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:51:17] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-08-06 08:51:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:17] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:51:17] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-08-06 08:51:17] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:17] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:51:17] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-08-06 08:51:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:18] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:51:18] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-06 08:51:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:18] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:51:18] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-08-06 08:51:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:18] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:51:18] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-06 08:51:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:18] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:51:18] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=1.94 count=8
+[2026-08-06 08:51:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:18] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:51:18] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-06 08:51:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:18] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:51:18] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-08-06 08:51:18] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:18] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:51:18] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-06 08:51:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:19] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:51:19] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-08-06 08:51:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:19] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:51:19] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-06 08:51:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:19] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:51:19] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-08-06 08:51:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:19] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-08-06 08:51:19] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.9795 count=4
+[2026-08-06 08:51:19] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:19] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.9795
+[2026-08-06 08:51:19] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.9795 count=4
+[2026-08-06 08:51:39] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:39] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:51:39] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=0.005 count=0
+[2026-08-06 08:51:39] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:39] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:51:39] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=0.005 count=0
+[2026-08-06 08:51:39] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:39] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:51:39] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-06 08:51:39] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:39] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:51:39] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-08-06 08:51:39] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:39] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:51:39] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-06 08:51:40] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:40] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:51:40] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=0.82 count=33
+[2026-08-06 08:51:40] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:40] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:51:40] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-06 08:51:40] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:40] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:51:40] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-08-06 08:51:40] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:40] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:51:40] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-08-06 08:51:40] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:40] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:51:40] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-08-06 08:51:40] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:40] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:51:40] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-06 08:51:41] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:41] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:51:41] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-08-06 08:51:41] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:41] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:51:41] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-06 08:51:41] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:41] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:51:41] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=1.94 count=8
+[2026-08-06 08:51:41] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:41] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:51:41] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-06 08:51:41] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:41] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:51:41] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-08-06 08:51:41] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:41] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:51:41] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-06 08:51:41] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:41] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:51:41] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-08-06 08:51:42] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:42] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:51:42] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-06 08:51:42] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:42] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:51:42] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-08-06 08:51:42] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:42] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.375
+[2026-08-06 08:51:42] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.375 count=1
+[2026-08-06 08:51:42] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:51:42] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.375
+[2026-08-06 08:51:42] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.375 count=1
+[2026-08-06 08:52:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:01] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:52:01] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=0.005 count=0
+[2026-08-06 08:52:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:01] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:52:02] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=0.005 count=0
+[2026-08-06 08:52:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:02] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:52:02] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-06 08:52:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:02] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:52:02] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-08-06 08:52:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:02] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:52:02] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-06 08:52:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:02] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:52:02] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=0.82 count=33
+[2026-08-06 08:52:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:02] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:52:02] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-06 08:52:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:02] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:52:02] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-08-06 08:52:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:03] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:52:03] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-08-06 08:52:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:03] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:52:03] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-08-06 08:52:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:03] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:52:03] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-06 08:52:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:03] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:52:03] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-08-06 08:52:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:03] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:52:03] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-06 08:52:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:03] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:52:03] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=1.94 count=8
+[2026-08-06 08:52:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:03] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:52:03] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-06 08:52:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:04] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:52:04] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-08-06 08:52:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:04] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:52:04] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-06 08:52:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:04] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:52:04] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-08-06 08:52:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:04] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:52:04] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-06 08:52:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:04] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:52:04] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-08-06 08:52:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:04] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3695
+[2026-08-06 08:52:04] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.3695 count=1
+[2026-08-06 08:52:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:52:04] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3695
+[2026-08-06 08:52:04] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.3695 count=1
+[2026-08-06 08:53:12] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:12] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:53:12] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=0.005 count=0
+[2026-08-06 08:53:12] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:12] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 08:53:12] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=0.005 count=0
+[2026-08-06 08:53:13] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:13] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:53:13] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-06 08:53:13] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:13] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 08:53:13] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-08-06 08:53:13] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:13] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:53:13] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-06 08:53:13] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:13] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 08:53:13] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=0.82 count=33
+[2026-08-06 08:53:13] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:13] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:53:13] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-06 08:53:13] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:13] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 08:53:13] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-08-06 08:53:13] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:13] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:53:13] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-08-06 08:53:14] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:14] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 08:53:14] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-08-06 08:53:14] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:14] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:53:14] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-06 08:53:14] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:14] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 08:53:14] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-08-06 08:53:14] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:14] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:53:14] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-06 08:53:14] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:14] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 08:53:14] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=1.94 count=8
+[2026-08-06 08:53:14] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:14] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:53:14] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-06 08:53:14] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:14] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 08:53:14] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-08-06 08:53:14] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:14] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:53:15] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-06 08:53:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:15] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 08:53:15] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-08-06 08:53:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:15] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:53:15] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-06 08:53:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:15] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 08:53:15] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-08-06 08:53:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:15] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-06 08:53:15] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.3682 count=1
+[2026-08-06 08:53:15] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 08:53:15] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-06 08:53:15] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.3682 count=1
+[2026-08-06 09:04:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:04] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 09:04:04] [system] INFO [cad_lab] CSRNet far zone | raw=1.33 scale=0.005 count=0
+[2026-08-06 09:04:04] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:04] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=0.005
+[2026-08-06 09:04:04] [system] INFO [cad_lab] CSRNet far zone | raw=1.27 scale=0.005 count=0
+[2026-08-06 09:04:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:05] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 09:04:05] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-06 09:04:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:05] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-06 09:04:05] [system] INFO [focused_reading_area] CSRNet far zone | raw=10.05 scale=0.5303 count=5
+[2026-08-06 09:04:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:05] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 09:04:05] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-06 09:04:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:05] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-06 09:04:05] [system] INFO [g_hall_2] CSRNet far zone | raw=40.04 scale=0.82 count=33
+[2026-08-06 09:04:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:05] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 09:04:05] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-06 09:04:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:05] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-06 09:04:05] [system] INFO [g_huss] CSRNet far zone | raw=37.75 scale=1.0513 count=40
+[2026-08-06 09:04:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:06] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 09:04:06] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.6623 count=20
+[2026-08-06 09:04:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:06] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.6623
+[2026-08-06 09:04:06] [system] INFO [hindi_section] CSRNet far zone | raw=30.14 scale=0.6623 count=20
+[2026-08-06 09:04:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:06] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 09:04:06] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-06 09:04:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:06] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-06 09:04:06] [system] INFO [ip_camera_19] CSRNet far zone | raw=4.25 scale=0.7162 count=3
+[2026-08-06 09:04:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:06] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 09:04:06] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-06 09:04:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:06] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-06 09:04:06] [system] INFO [ipc] CSRNet far zone | raw=4.14 scale=1.94 count=8
+[2026-08-06 09:04:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:06] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 09:04:06] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-06 09:04:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:07] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-06 09:04:07] [system] INFO [main_computer_room] CSRNet far zone | raw=5.97 scale=0.6565 count=4
+[2026-08-06 09:04:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:07] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 09:04:07] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-06 09:04:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:07] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-06 09:04:07] [system] INFO [reference_2] CSRNet far zone | raw=15.43 scale=0.3234 count=5
+[2026-08-06 09:04:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:07] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 09:04:07] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-06 09:04:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:07] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-06 09:04:07] [system] INFO [reference_area] CSRNet far zone | raw=2.14 scale=1.0476 count=2
+[2026-08-06 09:04:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:07] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-06 09:04:07] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.3682 count=1
+[2026-08-06 09:04:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-06 09:04:07] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-06 09:04:07] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.90 scale=0.3682 count=1

@@ -16,9 +16,9 @@ from pathlib import Path
 
 import cv2
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from detection.density_estimator import FarZoneEstimator
+from detection.csrnet_estimator import CSRNetFarZoneEstimator
 from config.config_loader import cfg
 
 ZONE_PATH  = Path(r"C:\IITD_Internship\library-occupancy\data\roi\zone_config.json")
@@ -61,7 +61,11 @@ def test_calibrated_accuracy() -> None:
             print(f"  {section:<30} NO IMAGE")
             continue
 
-        est   = FarZoneEstimator(zone_data[section], section_id=section)
+        est = CSRNetFarZoneEstimator(
+            zone_config  = zone_data[section],
+            section_id   = section,
+            weights_path = "models/csrnet_v3_best.pth",
+        )
         frame = cv2.imread(str(img_path))
         count, _ = est.estimate(frame)
 
