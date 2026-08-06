@@ -385,7 +385,7 @@ class ZoneMultiSectionPipeline:
             sid = cam.section_id
             if sid not in zone_data:
                 log.warning(
-                    f"ZoneMultiSectionPipeline: no zone config for "{sid}" — skipped"
+                    f"ZoneMultiSectionPipeline: no zone config for {sid} — skipped"
                 )
                 continue
             self._pipelines[sid] = ZoneSectionPipeline(
