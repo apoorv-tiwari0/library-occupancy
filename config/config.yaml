@@ -25,7 +25,7 @@ cameras:
     section_id: "cad_lab"
     stream_url: "rtsp://192.168.1.101:554/stream1"
     enabled: true
-    far_zone_scale: 0.005
+    far_zone_scale: 1.00
     max_capacity: 18
     sahi_slicing:
       slice_height: 512
@@ -48,7 +48,7 @@ cameras:
     stream_url: "rtsp://192.168.1.103:554/stream1"
     enabled: true
     far_zone_scale: 0.82
-    max_capacity: 30
+    max_capacity: 92
     sahi_slicing:
       slice_height: 384
       slice_width: 384
@@ -69,7 +69,7 @@ cameras:
     section_id: "hindi_section"
     stream_url: "rtsp://192.168.1.105:554/stream1"
     enabled: true
-    far_zone_scale: 0.462
+    far_zone_scale: 0.4633
     max_capacity: 30
     sahi_slicing:
       slice_height: 384
@@ -91,7 +91,7 @@ cameras:
     section_id: "ipc"
     stream_url: "rtsp://192.168.1.107:554/stream1"
     enabled: true
-    far_zone_scale: 1.80
+    far_zone_scale: 1.94
     max_capacity: 16
     sahi_slicing:
       slice_height: 384
@@ -102,8 +102,8 @@ cameras:
     section_id: "main_computer_room"
     stream_url: "rtsp://192.168.1.108:554/stream1"
     enabled: true
-    far_zone_scale: 0.58
-    max_capacity: 13
+    far_zone_scale: 0.6565
+    max_capacity: 15
     sahi_slicing:
       slice_height: 512
       slice_width: 512
@@ -114,7 +114,7 @@ cameras:
     stream_url: "rtsp://192.168.1.109:554/stream1"
     enabled: true
     far_zone_scale: 0.3234
-    max_capacity: 18
+    max_capacity: 24
     sahi_slicing:
       slice_height: 384
       slice_width: 384
@@ -125,7 +125,7 @@ cameras:
     stream_url: "rtsp://192.168.1.110:554/stream1"
     enabled: true
     far_zone_scale: 1.0476
-    max_capacity: 8
+    max_capacity: 13
     sahi_slicing:
       slice_height: 384
       slice_width: 384
@@ -136,7 +136,7 @@ cameras:
     stream_url: "rtsp://192.168.1.111:554/stream1"
     enabled: true
     far_zone_scale: 0.3682
-    max_capacity: 8
+    max_capacity: 12
     sahi_slicing:
       slice_height: 512
       slice_width: 512

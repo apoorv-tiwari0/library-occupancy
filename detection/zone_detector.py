@@ -394,46 +394,39 @@ def _compute_iou(box_a: np.ndarray, box_b: np.ndarray) -> float:
 
 
 def _dedup_boxes(
-    list_a:        list[list[float]],
-    list_b:        list[list[float]],
-    iou_threshold: float = 0.30,
+    near_boxes:     list[list[float]],
+    mid_boxes:      list[list[float]],
+    iou_threshold:  float = 0.30,
+    dist_threshold: float = 120.0,
 ) -> tuple[list[list[float]], list[list[float]], int]:
-    """
-    Remove duplicate person detections that straddle a zone boundary.
+    """Remove mid-zone boxes that duplicate a near-zone detection."""
+    if not near_boxes or not mid_boxes:
+        return near_boxes, mid_boxes, 0
 
-    For every (a, b) pair with IoU > iou_threshold, the lower-confidence
-    detection is dropped.  Boxes are [x1, y1, x2, y2, conf, ...].
+    kept    = []
+    removed = 0
 
-    Returns:
-        (deduped_a, deduped_b, n_removed)
-    """
-    if not list_a or not list_b:
-        return list_a, list_b, 0
+    for mb in mid_boxes:
+        mx_c = (mb[0] + mb[2]) / 2
+        my_c = (mb[1] + mb[3]) / 2
+        is_dup = False
 
-    remove_a: set[int] = set()
-    remove_b: set[int] = set()
+        for nb in near_boxes:
+            nx_c = (nb[0] + nb[2]) / 2
+            ny_c = (nb[1] + nb[3]) / 2
+            dist = ((mx_c - nx_c)**2 + (my_c - ny_c)**2) ** 0.5
+            iou  = _compute_iou(mb[:4], nb[:4])
 
-    for i, ba in enumerate(list_a):
-        for j, bb in enumerate(list_b):
-            if i in remove_a or j in remove_b:
-                continue
-            iou = _compute_iou(
-                np.array(ba[:4], dtype=np.float32),
-                np.array(bb[:4], dtype=np.float32),
-            )
-            if iou > iou_threshold:
-                conf_a = ba[4] if len(ba) > 4 else 1.0
-                conf_b = bb[4] if len(bb) > 4 else 1.0
-                if conf_a >= conf_b:
-                    remove_b.add(j)
-                else:
-                    remove_a.add(i)
+            if iou > iou_threshold or dist < dist_threshold:
+                is_dup = True
+                break
 
-    out_a     = [b for i, b in enumerate(list_a) if i not in remove_a]
-    out_b     = [b for j, b in enumerate(list_b) if j not in remove_b]
-    n_removed = len(remove_a) + len(remove_b)
-    return out_a, out_b, n_removed
+        if is_dup:
+            removed += 1
+        else:
+            kept.append(mb)
 
+    return near_boxes, kept, removed
 
 # ── ZoneResult ────────────────────────────────────────────────────────────────
 
@@ -614,7 +607,7 @@ class ZonePipeline:
 
         # ── Boundary dedup: near ↔ mid ─────────────────────────────────────
         near_persons, mid_persons, dedup_removed = _dedup_boxes(
-            near_persons, mid_persons, iou_threshold=0.30
+            near_persons, mid_persons, iou_threshold=0.30, dist_threshold=120.0
         )
 
         # ── Merge counts ───────────────────────────────────────────────────

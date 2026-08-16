@@ -308,9 +308,10 @@ class ZoneSectionPipeline:
         """
         t_start = time.perf_counter()
 
-        # Preprocess once; ZonePipeline receives the clean frame
-        processed   = self.preprocessor.process(frame)
-        zone_result = self._zone_pipeline.run(processed, frame_id=frame_id)
+        # We must pass the RAW frame to ZonePipeline because zone_config polygons
+        # are mapped to the original camera resolution (e.g., 1920x1080). 
+        # The preprocessor resizes the frame to 640x640, which breaks the polygon cropping.
+        zone_result = self._zone_pipeline.run(frame, frame_id=frame_id)
 
         headcount = zone_result.headcount
         vacancy   = (
