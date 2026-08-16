@@ -36,7 +36,7 @@ cameras:
     section_id: "focused_reading_area"
     stream_url: "rtsp://192.168.1.102:554/stream1"
     enabled: true
-    far_zone_scale: 0.5303
+    far_zone_scale: 0.360
     max_capacity: 27
     sahi_slicing:
       slice_height: 512
@@ -102,7 +102,7 @@ cameras:
     section_id: "main_computer_room"
     stream_url: "rtsp://192.168.1.108:554/stream1"
     enabled: true
-    far_zone_scale: 0.6565
+    far_zone_scale: 0.459
     max_capacity: 15
     sahi_slicing:
       slice_height: 512
@@ -124,7 +124,7 @@ cameras:
     section_id: "reference_area"
     stream_url: "rtsp://192.168.1.110:554/stream1"
     enabled: true
-    far_zone_scale: 1.0476
+    far_zone_scale: 1.5614
     max_capacity: 13
     sahi_slicing:
       slice_height: 384

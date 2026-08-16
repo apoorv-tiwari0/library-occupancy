@@ -131,8 +131,9 @@ class SectionPipeline:
         Run the full pipeline on one raw BGR frame.
 
         Steps:
-            1. Preprocess  — gamma → bilateral → CLAHE → resize 640×640
-            2. YOLO        — SAHI person detection
+            1. Preprocess  — gamma → bilateral → CLAHE (no resize; native res
+                             preserved so SAHI tiles are meaningful)
+            2. YOLO        — SAHI sliced person detection on full-res frame
             3. Vacancy     — max_capacity (config.yaml) − headcount
 
         Args:
@@ -144,10 +145,10 @@ class SectionPipeline:
         t_start = time.perf_counter()
         ts      = get_timestamp()
 
-        # Step 1 — preprocess
-        processed = self.preprocessor.process(frame)
+        # Step 1 — preprocess (skip resize so SAHI gets the native-res frame)
+        processed = self.preprocessor.process_for_sahi(frame)
 
-        # Step 2 — YOLO person detection
+        # Step 2 — YOLO person detection (SAHI slices the full-res frame)
         t_infer = time.perf_counter()
         persons, objects = self.yolo.run_inference(
             processed, section_id=self.section_id
@@ -184,6 +185,7 @@ class SectionPipeline:
         )
 
         return result
+
 
 
 class MultiSectionPipeline:

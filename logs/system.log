@@ -6418,3 +6418,1190 @@
 [2026-08-16 10:33:37] [system] INFO [reference_area] headcount=0 max_capacity=8 vacancy=8 inference=211ms pipeline=360ms
 [2026-08-16 10:33:38] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
 [2026-08-16 10:33:38] [system] INFO [weeding_out_area] headcount=0 max_capacity=8 vacancy=8 inference=212ms pipeline=361ms
+[2026-08-16 10:54:16] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-08-16 10:54:16] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 10:54:16] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 10:54:16] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 10:54:16] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 10:54:16] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 10:54:16] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 10:54:16] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 10:54:16] [system] INFO TemporalSmoother | section=sec_A window=10 ema_alpha=0.3
+[2026-08-16 10:54:16] [system] INFO TemporalSmoother | section=sec_B window=10 ema_alpha=0.3
+[2026-08-16 10:54:20] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 10:54:22] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 10:54:22] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=92 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=15 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=24 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=reference_area max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=12 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 10:54:22] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-08-16 10:54:22] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-08-16 10:54:25] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:25] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=2312ms pipeline=2526ms
+[2026-08-16 10:54:25] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:25] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=210ms pipeline=346ms
+[2026-08-16 10:54:25] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:25] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=209ms pipeline=347ms
+[2026-08-16 10:54:26] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:26] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=208ms pipeline=338ms
+[2026-08-16 10:54:26] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:26] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=210ms pipeline=341ms
+[2026-08-16 10:54:26] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:26] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=208ms pipeline=340ms
+[2026-08-16 10:54:27] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:27] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=255ms pipeline=393ms
+[2026-08-16 10:54:27] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:27] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=215ms pipeline=345ms
+[2026-08-16 10:54:28] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:28] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=206ms pipeline=339ms
+[2026-08-16 10:54:28] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:28] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=208ms pipeline=338ms
+[2026-08-16 10:54:28] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:28] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=210ms pipeline=340ms
+[2026-08-16 10:54:29] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:29] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=207ms pipeline=341ms
+[2026-08-16 10:54:29] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:29] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=209ms pipeline=342ms
+[2026-08-16 10:54:29] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:29] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=209ms pipeline=339ms
+[2026-08-16 10:54:30] [system] INFO Inference | section=cad_lab persons=6 objects=0
+[2026-08-16 10:54:30] [system] INFO [cad_lab] headcount=6 max_capacity=18 vacancy=12 inference=209ms pipeline=341ms
+[2026-08-16 11:03:41] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:03:43] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:03:43] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 11:03:43] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:45] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:03:45] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=1978ms pipeline=2185ms
+[2026-08-16 11:03:46] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:03:46] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=576ms pipeline=714ms
+[2026-08-16 11:03:47] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:03:47] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=568ms pipeline=701ms
+[2026-08-16 11:03:47] [system] INFO [cad_lab] headcount=23 max_capacity=18 vacancy=0 inference=0ms pipeline=136ms
+[2026-08-16 11:03:47] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:03:47] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=608ms pipeline=742ms
+[2026-08-16 11:03:47] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:03:48] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:03:48] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=92 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=15 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=24 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=reference_area max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=12 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:03:48] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-08-16 11:03:49] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:03:49] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=1064ms pipeline=1205ms
+[2026-08-16 11:03:50] [system] INFO Inference | section=focused_reading_area persons=0 objects=0
+[2026-08-16 11:03:50] [system] INFO [focused_reading_area] headcount=0 max_capacity=27 vacancy=27 inference=581ms pipeline=725ms
+[2026-08-16 11:03:51] [system] INFO Inference | section=g_hall_2 persons=0 objects=0
+[2026-08-16 11:03:51] [system] INFO [g_hall_2] headcount=0 max_capacity=92 vacancy=92 inference=1018ms pipeline=1156ms
+[2026-08-16 11:03:52] [system] INFO Inference | section=g_huss persons=0 objects=0
+[2026-08-16 11:03:52] [system] INFO [g_huss] headcount=0 max_capacity=30 vacancy=30 inference=1010ms pipeline=1151ms
+[2026-08-16 11:03:53] [system] INFO Inference | section=hindi_section persons=0 objects=0
+[2026-08-16 11:03:53] [system] INFO [hindi_section] headcount=0 max_capacity=30 vacancy=30 inference=1008ms pipeline=1149ms
+[2026-08-16 11:03:54] [system] INFO Inference | section=ip_camera_19 persons=0 objects=0
+[2026-08-16 11:03:54] [system] INFO [ip_camera_19] headcount=0 max_capacity=11 vacancy=11 inference=1006ms pipeline=1146ms
+[2026-08-16 11:03:55] [system] INFO Inference | section=ipc persons=0 objects=0
+[2026-08-16 11:03:55] [system] INFO [ipc] headcount=0 max_capacity=16 vacancy=16 inference=1006ms pipeline=1148ms
+[2026-08-16 11:03:56] [system] INFO Inference | section=main_computer_room persons=0 objects=0
+[2026-08-16 11:03:56] [system] INFO [main_computer_room] headcount=0 max_capacity=15 vacancy=15 inference=586ms pipeline=726ms
+[2026-08-16 11:03:57] [system] INFO Inference | section=reference_2 persons=0 objects=0
+[2026-08-16 11:03:57] [system] INFO [reference_2] headcount=0 max_capacity=24 vacancy=24 inference=1019ms pipeline=1163ms
+[2026-08-16 11:03:58] [system] INFO Inference | section=reference_area persons=0 objects=0
+[2026-08-16 11:03:58] [system] INFO [reference_area] headcount=0 max_capacity=13 vacancy=13 inference=1009ms pipeline=1150ms
+[2026-08-16 11:03:59] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-08-16 11:03:59] [system] INFO [weeding_out_area] headcount=0 max_capacity=12 vacancy=12 inference=588ms pipeline=750ms
+[2026-08-16 11:04:19] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-08-16 11:04:29] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-08-16 11:04:29] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:04:29] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:04:29] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:04:29] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:04:29] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:04:29] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:04:29] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:04:29] [system] INFO TemporalSmoother | section=sec_A window=10 ema_alpha=0.3
+[2026-08-16 11:04:29] [system] INFO TemporalSmoother | section=sec_B window=10 ema_alpha=0.3
+[2026-08-16 11:04:31] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:04:33] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:04:33] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=92 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=15 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=24 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=reference_area max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=12 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:04:33] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-08-16 11:04:33] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-08-16 11:04:35] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:35] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=2056ms pipeline=2264ms
+[2026-08-16 11:04:36] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:36] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=597ms pipeline=738ms
+[2026-08-16 11:04:37] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:37] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=590ms pipeline=725ms
+[2026-08-16 11:04:37] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:37] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=579ms pipeline=713ms
+[2026-08-16 11:04:38] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:38] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=580ms pipeline=714ms
+[2026-08-16 11:04:39] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:39] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=585ms pipeline=720ms
+[2026-08-16 11:04:39] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:39] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=645ms pipeline=778ms
+[2026-08-16 11:04:40] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:40] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=580ms pipeline=722ms
+[2026-08-16 11:04:41] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:41] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=585ms pipeline=719ms
+[2026-08-16 11:04:42] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:42] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=578ms pipeline=712ms
+[2026-08-16 11:04:42] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:42] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=576ms pipeline=708ms
+[2026-08-16 11:04:43] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:43] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=576ms pipeline=711ms
+[2026-08-16 11:04:44] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:44] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=583ms pipeline=721ms
+[2026-08-16 11:04:44] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:44] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=575ms pipeline=711ms
+[2026-08-16 11:04:45] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:04:45] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=582ms pipeline=715ms
+[2026-08-16 11:04:45] [system] INFO TemporalSmoother | section=focused_reading_area window=10 ema_alpha=0.3
+[2026-08-16 11:04:46] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:46] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=594ms pipeline=733ms
+[2026-08-16 11:04:47] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:47] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=577ms pipeline=713ms
+[2026-08-16 11:04:47] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:47] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=578ms pipeline=716ms
+[2026-08-16 11:04:48] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:48] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=594ms pipeline=733ms
+[2026-08-16 11:04:49] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:49] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=579ms pipeline=715ms
+[2026-08-16 11:04:50] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:50] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=583ms pipeline=717ms
+[2026-08-16 11:04:50] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:50] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=581ms pipeline=721ms
+[2026-08-16 11:04:51] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:51] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=583ms pipeline=721ms
+[2026-08-16 11:04:52] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:52] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=588ms pipeline=734ms
+[2026-08-16 11:04:52] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:52] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=587ms pipeline=730ms
+[2026-08-16 11:04:53] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:53] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=607ms pipeline=765ms
+[2026-08-16 11:04:54] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:54] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=593ms pipeline=740ms
+[2026-08-16 11:04:55] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:55] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=590ms pipeline=730ms
+[2026-08-16 11:04:55] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:55] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=598ms pipeline=746ms
+[2026-08-16 11:04:56] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:04:56] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=594ms pipeline=732ms
+[2026-08-16 11:04:56] [system] INFO TemporalSmoother | section=g_hall_2 window=10 ema_alpha=0.3
+[2026-08-16 11:04:57] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:04:57] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1040ms pipeline=1188ms
+[2026-08-16 11:04:59] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:04:59] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1038ms pipeline=1180ms
+[2026-08-16 11:05:00] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:00] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1042ms pipeline=1188ms
+[2026-08-16 11:05:01] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:01] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1042ms pipeline=1191ms
+[2026-08-16 11:05:02] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:02] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1045ms pipeline=1187ms
+[2026-08-16 11:05:03] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:03] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1045ms pipeline=1190ms
+[2026-08-16 11:05:04] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:04] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1046ms pipeline=1192ms
+[2026-08-16 11:05:06] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:06] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1045ms pipeline=1193ms
+[2026-08-16 11:05:07] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:07] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1042ms pipeline=1188ms
+[2026-08-16 11:05:08] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:08] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1043ms pipeline=1186ms
+[2026-08-16 11:05:09] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:09] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1043ms pipeline=1192ms
+[2026-08-16 11:05:10] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:10] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1049ms pipeline=1193ms
+[2026-08-16 11:05:12] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:12] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1049ms pipeline=1191ms
+[2026-08-16 11:05:13] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:13] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1045ms pipeline=1196ms
+[2026-08-16 11:05:14] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:05:14] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1037ms pipeline=1186ms
+[2026-08-16 11:05:14] [system] INFO TemporalSmoother | section=g_huss window=10 ema_alpha=0.3
+[2026-08-16 11:05:15] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:15] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1049ms pipeline=1197ms
+[2026-08-16 11:05:16] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:16] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1052ms pipeline=1215ms
+[2026-08-16 11:05:18] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:18] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1042ms pipeline=1191ms
+[2026-08-16 11:05:19] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:19] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1051ms pipeline=1205ms
+[2026-08-16 11:05:20] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:20] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1055ms pipeline=1203ms
+[2026-08-16 11:05:21] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:21] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1052ms pipeline=1213ms
+[2026-08-16 11:05:22] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:22] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1051ms pipeline=1207ms
+[2026-08-16 11:05:24] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:24] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1062ms pipeline=1212ms
+[2026-08-16 11:05:25] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:25] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1053ms pipeline=1211ms
+[2026-08-16 11:05:26] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:26] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1051ms pipeline=1210ms
+[2026-08-16 11:05:27] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:27] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1041ms pipeline=1200ms
+[2026-08-16 11:05:29] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:29] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1049ms pipeline=1209ms
+[2026-08-16 11:05:30] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:30] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1045ms pipeline=1206ms
+[2026-08-16 11:05:31] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:31] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1052ms pipeline=1204ms
+[2026-08-16 11:05:32] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:05:32] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1054ms pipeline=1213ms
+[2026-08-16 11:05:32] [system] INFO TemporalSmoother | section=hindi_section window=10 ema_alpha=0.3
+[2026-08-16 11:05:33] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:33] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1047ms pipeline=1209ms
+[2026-08-16 11:05:35] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:35] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1043ms pipeline=1228ms
+[2026-08-16 11:05:36] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:36] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1042ms pipeline=1214ms
+[2026-08-16 11:05:37] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:37] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1056ms pipeline=1218ms
+[2026-08-16 11:05:38] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:38] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1050ms pipeline=1214ms
+[2026-08-16 11:05:39] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:39] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1043ms pipeline=1207ms
+[2026-08-16 11:05:41] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:41] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1051ms pipeline=1221ms
+[2026-08-16 11:05:42] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:42] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1061ms pipeline=1234ms
+[2026-08-16 11:05:43] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:43] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1048ms pipeline=1218ms
+[2026-08-16 11:05:44] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:44] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1050ms pipeline=1218ms
+[2026-08-16 11:05:46] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:46] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1063ms pipeline=1238ms
+[2026-08-16 11:05:47] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:47] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1063ms pipeline=1234ms
+[2026-08-16 11:05:48] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:48] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1024ms pipeline=1192ms
+[2026-08-16 11:05:49] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:49] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1031ms pipeline=1193ms
+[2026-08-16 11:05:50] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:05:50] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1042ms pipeline=1235ms
+[2026-08-16 11:05:50] [system] INFO TemporalSmoother | section=ip_camera_19 window=10 ema_alpha=0.3
+[2026-08-16 11:05:52] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:05:52] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1057ms pipeline=1236ms
+[2026-08-16 11:05:53] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:05:53] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1042ms pipeline=1202ms
+[2026-08-16 11:05:54] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:05:54] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1020ms pipeline=1188ms
+[2026-08-16 11:05:55] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:05:55] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1020ms pipeline=1184ms
+[2026-08-16 11:05:56] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:05:56] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1035ms pipeline=1194ms
+[2026-08-16 11:05:58] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:05:58] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1031ms pipeline=1195ms
+[2026-08-16 11:05:59] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:05:59] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1028ms pipeline=1195ms
+[2026-08-16 11:06:00] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:06:00] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1039ms pipeline=1208ms
+[2026-08-16 11:06:01] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:06:01] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1145ms pipeline=1341ms
+[2026-08-16 11:06:03] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:06:03] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1102ms pipeline=1274ms
+[2026-08-16 11:06:04] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:06:04] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1092ms pipeline=1309ms
+[2026-08-16 11:06:05] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:06:05] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1072ms pipeline=1259ms
+[2026-08-16 11:06:07] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:06:07] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1092ms pipeline=1285ms
+[2026-08-16 11:06:08] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:06:08] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1066ms pipeline=1277ms
+[2026-08-16 11:06:09] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:06:09] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1124ms pipeline=1343ms
+[2026-08-16 11:06:09] [system] INFO TemporalSmoother | section=ipc window=10 ema_alpha=0.3
+[2026-08-16 11:06:11] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:11] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1111ms pipeline=1335ms
+[2026-08-16 11:06:11] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:06:12] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:06:12] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 11:06:12] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:12] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:12] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1278ms pipeline=1466ms
+[2026-08-16 11:06:14] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:14] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1279ms pipeline=1543ms
+[2026-08-16 11:06:15] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:06:15] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=2920ms pipeline=3190ms
+[2026-08-16 11:06:16] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:16] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1997ms pipeline=2216ms
+[2026-08-16 11:06:16] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:06:16] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=1010ms pipeline=1219ms
+[2026-08-16 11:06:18] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:06:18] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=1318ms pipeline=1509ms
+[2026-08-16 11:06:18] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:18] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2004ms pipeline=2222ms
+[2026-08-16 11:06:18] [system] INFO [cad_lab] headcount=23 max_capacity=18 vacancy=0 inference=0ms pipeline=174ms
+[2026-08-16 11:06:19] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:06:19] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=1341ms pipeline=1516ms
+[2026-08-16 11:06:20] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:06:20] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:20] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1878ms pipeline=2085ms
+[2026-08-16 11:06:20] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:06:20] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=92 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=15 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=24 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=reference_area max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=12 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:06:20] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-08-16 11:06:22] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:22] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1989ms pipeline=2181ms
+[2026-08-16 11:06:22] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:06:22] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=2044ms pipeline=2226ms
+[2026-08-16 11:06:24] [system] INFO Inference | section=focused_reading_area persons=0 objects=0
+[2026-08-16 11:06:24] [system] INFO [focused_reading_area] headcount=0 max_capacity=27 vacancy=27 inference=1335ms pipeline=1521ms
+[2026-08-16 11:06:25] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:25] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2161ms pipeline=2423ms
+[2026-08-16 11:06:26] [system] INFO Inference | section=g_hall_2 persons=0 objects=0
+[2026-08-16 11:06:26] [system] INFO [g_hall_2] headcount=0 max_capacity=92 vacancy=92 inference=2004ms pipeline=2185ms
+[2026-08-16 11:06:27] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:27] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2209ms pipeline=2434ms
+[2026-08-16 11:06:28] [system] INFO Inference | section=g_huss persons=0 objects=0
+[2026-08-16 11:06:28] [system] INFO [g_huss] headcount=0 max_capacity=30 vacancy=30 inference=2064ms pipeline=2240ms
+[2026-08-16 11:06:29] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:29] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2190ms pipeline=2393ms
+[2026-08-16 11:06:30] [system] INFO Inference | section=hindi_section persons=0 objects=0
+[2026-08-16 11:06:30] [system] INFO [hindi_section] headcount=0 max_capacity=30 vacancy=30 inference=1929ms pipeline=2105ms
+[2026-08-16 11:06:32] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:32] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2216ms pipeline=2479ms
+[2026-08-16 11:06:33] [system] INFO Inference | section=ip_camera_19 persons=0 objects=0
+[2026-08-16 11:06:33] [system] INFO [ip_camera_19] headcount=0 max_capacity=11 vacancy=11 inference=2034ms pipeline=2214ms
+[2026-08-16 11:06:34] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:34] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2181ms pipeline=2417ms
+[2026-08-16 11:06:35] [system] INFO Inference | section=ipc persons=0 objects=0
+[2026-08-16 11:06:35] [system] INFO [ipc] headcount=0 max_capacity=16 vacancy=16 inference=2077ms pipeline=2269ms
+[2026-08-16 11:06:36] [system] INFO Inference | section=main_computer_room persons=0 objects=0
+[2026-08-16 11:06:36] [system] INFO [main_computer_room] headcount=0 max_capacity=15 vacancy=15 inference=1397ms pipeline=1577ms
+[2026-08-16 11:06:37] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:37] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2139ms pipeline=2319ms
+[2026-08-16 11:06:39] [system] INFO Inference | section=reference_2 persons=0 objects=0
+[2026-08-16 11:06:39] [system] INFO [reference_2] headcount=0 max_capacity=24 vacancy=24 inference=2039ms pipeline=2227ms
+[2026-08-16 11:06:39] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:39] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2237ms pipeline=2459ms
+[2026-08-16 11:06:41] [system] INFO Inference | section=reference_area persons=0 objects=0
+[2026-08-16 11:06:41] [system] INFO [reference_area] headcount=0 max_capacity=13 vacancy=13 inference=2128ms pipeline=2309ms
+[2026-08-16 11:06:42] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:06:42] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=2213ms pipeline=2403ms
+[2026-08-16 11:06:42] [system] INFO TemporalSmoother | section=main_computer_room window=10 ema_alpha=0.3
+[2026-08-16 11:06:42] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-08-16 11:06:42] [system] INFO [weeding_out_area] headcount=0 max_capacity=12 vacancy=12 inference=843ms pipeline=1022ms
+[2026-08-16 11:06:43] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:43] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=696ms pipeline=1028ms
+[2026-08-16 11:06:43] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:43] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=653ms pipeline=847ms
+[2026-08-16 11:06:44] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:44] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=623ms pipeline=841ms
+[2026-08-16 11:06:45] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:45] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=617ms pipeline=821ms
+[2026-08-16 11:06:46] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:46] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=659ms pipeline=856ms
+[2026-08-16 11:06:47] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:47] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=623ms pipeline=816ms
+[2026-08-16 11:06:48] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:48] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=655ms pipeline=835ms
+[2026-08-16 11:06:48] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:48] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=628ms pipeline=827ms
+[2026-08-16 11:06:49] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:49] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=586ms pipeline=758ms
+[2026-08-16 11:06:50] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:50] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=584ms pipeline=765ms
+[2026-08-16 11:06:51] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:51] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=587ms pipeline=758ms
+[2026-08-16 11:06:51] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:51] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=580ms pipeline=748ms
+[2026-08-16 11:06:52] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:52] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=587ms pipeline=756ms
+[2026-08-16 11:06:53] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:53] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=585ms pipeline=757ms
+[2026-08-16 11:06:54] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:06:54] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=586ms pipeline=759ms
+[2026-08-16 11:06:54] [system] INFO TemporalSmoother | section=reference_2 window=10 ema_alpha=0.3
+[2026-08-16 11:06:55] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:06:55] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1021ms pipeline=1189ms
+[2026-08-16 11:06:56] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:06:56] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1022ms pipeline=1195ms
+[2026-08-16 11:06:57] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:06:57] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1039ms pipeline=1228ms
+[2026-08-16 11:06:59] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:06:59] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1025ms pipeline=1206ms
+[2026-08-16 11:07:00] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:00] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1022ms pipeline=1211ms
+[2026-08-16 11:07:01] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:01] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1035ms pipeline=1199ms
+[2026-08-16 11:07:02] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:02] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1030ms pipeline=1205ms
+[2026-08-16 11:07:03] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:03] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1022ms pipeline=1192ms
+[2026-08-16 11:07:05] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:05] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1027ms pipeline=1195ms
+[2026-08-16 11:07:06] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:06] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1027ms pipeline=1202ms
+[2026-08-16 11:07:07] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:07] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1056ms pipeline=1226ms
+[2026-08-16 11:07:08] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:08] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1058ms pipeline=1237ms
+[2026-08-16 11:07:09] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:07:10] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:10] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1128ms pipeline=1310ms
+[2026-08-16 11:07:10] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:07:10] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 11:07:10] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:11] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:11] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1192ms pipeline=1371ms
+[2026-08-16 11:07:13] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:07:13] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1862ms pipeline=2048ms
+[2026-08-16 11:07:13] [system] INFO TemporalSmoother | section=reference_area window=10 ema_alpha=0.3
+[2026-08-16 11:07:13] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:07:13] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=3354ms pipeline=3640ms
+[2026-08-16 11:07:15] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:07:15] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=1427ms pipeline=1614ms
+[2026-08-16 11:07:15] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:15] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1991ms pipeline=2174ms
+[2026-08-16 11:07:17] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:07:17] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=1264ms pipeline=1455ms
+[2026-08-16 11:07:17] [system] INFO [cad_lab] headcount=23 max_capacity=18 vacancy=0 inference=0ms pipeline=198ms
+[2026-08-16 11:07:17] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:17] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1844ms pipeline=2027ms
+[2026-08-16 11:07:18] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:07:18] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=1118ms pipeline=1308ms
+[2026-08-16 11:07:18] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:07:19] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:07:19] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=92 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=15 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=24 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=reference_area max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=12 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:07:19] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-08-16 11:07:19] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:19] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1561ms pipeline=1746ms
+[2026-08-16 11:07:21] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:21] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=2040ms pipeline=2230ms
+[2026-08-16 11:07:21] [system] INFO Inference | section=cad_lab persons=0 objects=0
+[2026-08-16 11:07:21] [system] INFO [cad_lab] headcount=0 max_capacity=18 vacancy=18 inference=2186ms pipeline=2377ms
+[2026-08-16 11:07:23] [system] INFO Inference | section=focused_reading_area persons=0 objects=0
+[2026-08-16 11:07:23] [system] INFO [focused_reading_area] headcount=0 max_capacity=27 vacancy=27 inference=1340ms pipeline=1518ms
+[2026-08-16 11:07:23] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:23] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1963ms pipeline=2143ms
+[2026-08-16 11:07:25] [system] INFO Inference | section=g_hall_2 persons=0 objects=0
+[2026-08-16 11:07:25] [system] INFO [g_hall_2] headcount=0 max_capacity=92 vacancy=92 inference=2118ms pipeline=2314ms
+[2026-08-16 11:07:26] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:26] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=2127ms pipeline=2307ms
+[2026-08-16 11:07:27] [system] INFO Inference | section=g_huss persons=0 objects=0
+[2026-08-16 11:07:27] [system] INFO [g_huss] headcount=0 max_capacity=30 vacancy=30 inference=2098ms pipeline=2284ms
+[2026-08-16 11:07:28] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:28] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=2124ms pipeline=2301ms
+[2026-08-16 11:07:30] [system] INFO Inference | section=hindi_section persons=0 objects=0
+[2026-08-16 11:07:30] [system] INFO [hindi_section] headcount=0 max_capacity=30 vacancy=30 inference=2106ms pipeline=2295ms
+[2026-08-16 11:07:30] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:30] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=2120ms pipeline=2304ms
+[2026-08-16 11:07:32] [system] INFO Inference | section=ip_camera_19 persons=0 objects=0
+[2026-08-16 11:07:32] [system] INFO [ip_camera_19] headcount=0 max_capacity=11 vacancy=11 inference=2115ms pipeline=2314ms
+[2026-08-16 11:07:33] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:33] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=2157ms pipeline=2336ms
+[2026-08-16 11:07:34] [system] INFO Inference | section=ipc persons=0 objects=0
+[2026-08-16 11:07:34] [system] INFO [ipc] headcount=0 max_capacity=16 vacancy=16 inference=2010ms pipeline=2196ms
+[2026-08-16 11:07:35] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:35] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=2119ms pipeline=2336ms
+[2026-08-16 11:07:35] [system] INFO Inference | section=main_computer_room persons=0 objects=0
+[2026-08-16 11:07:35] [system] INFO [main_computer_room] headcount=0 max_capacity=15 vacancy=15 inference=1039ms pipeline=1242ms
+[2026-08-16 11:07:37] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:37] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=2214ms pipeline=2430ms
+[2026-08-16 11:07:38] [system] INFO Inference | section=reference_2 persons=0 objects=0
+[2026-08-16 11:07:38] [system] INFO [reference_2] headcount=0 max_capacity=24 vacancy=24 inference=2207ms pipeline=2389ms
+[2026-08-16 11:07:40] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:40] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=2195ms pipeline=2386ms
+[2026-08-16 11:07:40] [system] INFO Inference | section=reference_area persons=0 objects=0
+[2026-08-16 11:07:40] [system] INFO [reference_area] headcount=0 max_capacity=13 vacancy=13 inference=2178ms pipeline=2368ms
+[2026-08-16 11:07:42] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-08-16 11:07:42] [system] INFO [weeding_out_area] headcount=0 max_capacity=12 vacancy=12 inference=1326ms pipeline=1522ms
+[2026-08-16 11:07:42] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:42] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1951ms pipeline=2152ms
+[2026-08-16 11:07:43] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:43] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1036ms pipeline=1222ms
+[2026-08-16 11:07:44] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:07:44] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1030ms pipeline=1209ms
+[2026-08-16 11:07:44] [system] INFO TemporalSmoother | section=weeding_out_area window=10 ema_alpha=0.3
+[2026-08-16 11:07:45] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:45] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=577ms pipeline=750ms
+[2026-08-16 11:07:46] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:46] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=577ms pipeline=753ms
+[2026-08-16 11:07:47] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:47] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=606ms pipeline=783ms
+[2026-08-16 11:07:47] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:47] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=600ms pipeline=784ms
+[2026-08-16 11:07:48] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:48] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=583ms pipeline=768ms
+[2026-08-16 11:07:49] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:49] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=577ms pipeline=766ms
+[2026-08-16 11:07:50] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:50] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=588ms pipeline=755ms
+[2026-08-16 11:07:50] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:50] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=578ms pipeline=748ms
+[2026-08-16 11:07:51] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:51] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=578ms pipeline=746ms
+[2026-08-16 11:07:52] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:52] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=572ms pipeline=738ms
+[2026-08-16 11:07:53] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:53] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=598ms pipeline=773ms
+[2026-08-16 11:07:53] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:53] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=582ms pipeline=751ms
+[2026-08-16 11:07:54] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:54] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=578ms pipeline=741ms
+[2026-08-16 11:07:55] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:55] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=581ms pipeline=758ms
+[2026-08-16 11:07:56] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:07:56] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=583ms pipeline=752ms
+[2026-08-16 11:09:42] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-08-16 11:09:42] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:09:42] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:09:42] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:09:42] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:09:42] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:09:42] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:09:42] [system] INFO [cad_lab] Smoother reset.
+[2026-08-16 11:09:42] [system] INFO TemporalSmoother | section=sec_A window=10 ema_alpha=0.3
+[2026-08-16 11:09:42] [system] INFO TemporalSmoother | section=sec_B window=10 ema_alpha=0.3
+[2026-08-16 11:09:43] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:09:45] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:09:45] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=focused_reading_area max_capacity=27 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=g_hall_2 max_capacity=92 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=g_huss max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=hindi_section max_capacity=30 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=ip_camera_19 max_capacity=11 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=ipc max_capacity=16 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=main_computer_room max_capacity=15 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=reference_2 max_capacity=24 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=reference_area max_capacity=13 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO SectionPipeline ready | section=weeding_out_area max_capacity=12 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 11:09:45] [system] INFO MultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-08-16 11:09:45] [system] INFO TemporalSmoother | section=cad_lab window=10 ema_alpha=0.3
+[2026-08-16 11:09:47] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:47] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=1865ms pipeline=2062ms
+[2026-08-16 11:09:48] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:48] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=576ms pipeline=708ms
+[2026-08-16 11:09:49] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:49] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=579ms pipeline=710ms
+[2026-08-16 11:09:50] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:50] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=574ms pipeline=705ms
+[2026-08-16 11:09:50] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:50] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=583ms pipeline=714ms
+[2026-08-16 11:09:51] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:51] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=571ms pipeline=703ms
+[2026-08-16 11:09:52] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:52] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=608ms pipeline=741ms
+[2026-08-16 11:09:52] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:52] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=569ms pipeline=701ms
+[2026-08-16 11:09:53] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:53] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=582ms pipeline=713ms
+[2026-08-16 11:09:54] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:54] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=575ms pipeline=707ms
+[2026-08-16 11:09:55] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:55] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=574ms pipeline=704ms
+[2026-08-16 11:09:55] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:55] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=574ms pipeline=705ms
+[2026-08-16 11:09:56] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:56] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=569ms pipeline=701ms
+[2026-08-16 11:09:57] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:57] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=567ms pipeline=699ms
+[2026-08-16 11:09:57] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 11:09:57] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=583ms pipeline=713ms
+[2026-08-16 11:09:57] [system] INFO TemporalSmoother | section=focused_reading_area window=10 ema_alpha=0.3
+[2026-08-16 11:09:58] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:09:58] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=570ms pipeline=704ms
+[2026-08-16 11:09:59] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:09:59] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=576ms pipeline=710ms
+[2026-08-16 11:09:59] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:09:59] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=571ms pipeline=702ms
+[2026-08-16 11:10:00] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:00] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=576ms pipeline=710ms
+[2026-08-16 11:10:01] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:01] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=570ms pipeline=701ms
+[2026-08-16 11:10:02] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:02] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=568ms pipeline=699ms
+[2026-08-16 11:10:02] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:02] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=575ms pipeline=707ms
+[2026-08-16 11:10:03] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:03] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=575ms pipeline=706ms
+[2026-08-16 11:10:04] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:04] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=574ms pipeline=707ms
+[2026-08-16 11:10:04] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:04] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=573ms pipeline=706ms
+[2026-08-16 11:10:05] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:05] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=576ms pipeline=707ms
+[2026-08-16 11:10:06] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:06] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=573ms pipeline=707ms
+[2026-08-16 11:10:07] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:07] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=583ms pipeline=713ms
+[2026-08-16 11:10:07] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:07] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=578ms pipeline=710ms
+[2026-08-16 11:10:08] [system] INFO Inference | section=focused_reading_area persons=9 objects=8
+[2026-08-16 11:10:08] [system] INFO [focused_reading_area] headcount=9 max_capacity=27 vacancy=18 inference=573ms pipeline=706ms
+[2026-08-16 11:10:08] [system] INFO TemporalSmoother | section=g_hall_2 window=10 ema_alpha=0.3
+[2026-08-16 11:10:09] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:09] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1007ms pipeline=1140ms
+[2026-08-16 11:10:10] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:10] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1016ms pipeline=1149ms
+[2026-08-16 11:10:11] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:11] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1010ms pipeline=1147ms
+[2026-08-16 11:10:13] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:13] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1002ms pipeline=1135ms
+[2026-08-16 11:10:14] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:14] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1018ms pipeline=1152ms
+[2026-08-16 11:10:15] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:15] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1009ms pipeline=1142ms
+[2026-08-16 11:10:16] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:16] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1015ms pipeline=1150ms
+[2026-08-16 11:10:17] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:17] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1007ms pipeline=1139ms
+[2026-08-16 11:10:18] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:18] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1005ms pipeline=1138ms
+[2026-08-16 11:10:19] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:19] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1014ms pipeline=1147ms
+[2026-08-16 11:10:21] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:21] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1014ms pipeline=1146ms
+[2026-08-16 11:10:22] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:22] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1015ms pipeline=1153ms
+[2026-08-16 11:10:23] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:23] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1014ms pipeline=1149ms
+[2026-08-16 11:10:24] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:24] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1005ms pipeline=1142ms
+[2026-08-16 11:10:25] [system] INFO Inference | section=g_hall_2 persons=30 objects=8
+[2026-08-16 11:10:25] [system] INFO [g_hall_2] headcount=30 max_capacity=92 vacancy=62 inference=1003ms pipeline=1142ms
+[2026-08-16 11:10:25] [system] INFO TemporalSmoother | section=g_huss window=10 ema_alpha=0.3
+[2026-08-16 11:10:26] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:26] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1024ms pipeline=1162ms
+[2026-08-16 11:10:27] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:27] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1018ms pipeline=1158ms
+[2026-08-16 11:10:29] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:29] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1011ms pipeline=1151ms
+[2026-08-16 11:10:30] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:30] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1004ms pipeline=1141ms
+[2026-08-16 11:10:31] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:31] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1025ms pipeline=1160ms
+[2026-08-16 11:10:32] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:32] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1026ms pipeline=1160ms
+[2026-08-16 11:10:33] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:33] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1017ms pipeline=1158ms
+[2026-08-16 11:10:34] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:34] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1020ms pipeline=1161ms
+[2026-08-16 11:10:36] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:36] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1017ms pipeline=1158ms
+[2026-08-16 11:10:37] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:37] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1029ms pipeline=1169ms
+[2026-08-16 11:10:38] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:38] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1008ms pipeline=1147ms
+[2026-08-16 11:10:39] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:39] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1010ms pipeline=1149ms
+[2026-08-16 11:10:40] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:40] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1020ms pipeline=1163ms
+[2026-08-16 11:10:41] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:41] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1037ms pipeline=1178ms
+[2026-08-16 11:10:43] [system] INFO Inference | section=g_huss persons=35 objects=16
+[2026-08-16 11:10:43] [system] INFO [g_huss] headcount=35 max_capacity=30 vacancy=0 inference=1024ms pipeline=1167ms
+[2026-08-16 11:10:43] [system] INFO TemporalSmoother | section=hindi_section window=10 ema_alpha=0.3
+[2026-08-16 11:10:44] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:44] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1022ms pipeline=1166ms
+[2026-08-16 11:10:45] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:45] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1014ms pipeline=1156ms
+[2026-08-16 11:10:46] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:46] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1021ms pipeline=1165ms
+[2026-08-16 11:10:47] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:47] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1025ms pipeline=1171ms
+[2026-08-16 11:10:48] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:48] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1017ms pipeline=1158ms
+[2026-08-16 11:10:50] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:50] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1021ms pipeline=1162ms
+[2026-08-16 11:10:51] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:51] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1013ms pipeline=1160ms
+[2026-08-16 11:10:52] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:52] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1025ms pipeline=1169ms
+[2026-08-16 11:10:53] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:53] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1031ms pipeline=1176ms
+[2026-08-16 11:10:54] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:54] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1016ms pipeline=1159ms
+[2026-08-16 11:10:55] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:55] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1031ms pipeline=1177ms
+[2026-08-16 11:10:57] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:57] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1014ms pipeline=1162ms
+[2026-08-16 11:10:58] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:58] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1029ms pipeline=1174ms
+[2026-08-16 11:10:59] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:10:59] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1037ms pipeline=1183ms
+[2026-08-16 11:11:00] [system] INFO Inference | section=hindi_section persons=18 objects=9
+[2026-08-16 11:11:00] [system] INFO [hindi_section] headcount=18 max_capacity=30 vacancy=12 inference=1020ms pipeline=1169ms
+[2026-08-16 11:11:00] [system] INFO TemporalSmoother | section=ip_camera_19 window=10 ema_alpha=0.3
+[2026-08-16 11:11:01] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:01] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1009ms pipeline=1149ms
+[2026-08-16 11:11:02] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:02] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1011ms pipeline=1157ms
+[2026-08-16 11:11:04] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:04] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1010ms pipeline=1153ms
+[2026-08-16 11:11:05] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:05] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1011ms pipeline=1154ms
+[2026-08-16 11:11:06] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:06] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1013ms pipeline=1155ms
+[2026-08-16 11:11:07] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:07] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1026ms pipeline=1170ms
+[2026-08-16 11:11:08] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:08] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1009ms pipeline=1150ms
+[2026-08-16 11:11:09] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:09] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1013ms pipeline=1160ms
+[2026-08-16 11:11:11] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:11] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1014ms pipeline=1160ms
+[2026-08-16 11:11:12] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:12] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1016ms pipeline=1163ms
+[2026-08-16 11:11:13] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:13] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1010ms pipeline=1155ms
+[2026-08-16 11:11:14] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:14] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1013ms pipeline=1157ms
+[2026-08-16 11:11:15] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:15] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1006ms pipeline=1148ms
+[2026-08-16 11:11:16] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:16] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1017ms pipeline=1160ms
+[2026-08-16 11:11:17] [system] INFO Inference | section=ip_camera_19 persons=6 objects=4
+[2026-08-16 11:11:17] [system] INFO [ip_camera_19] headcount=6 max_capacity=11 vacancy=5 inference=1029ms pipeline=1182ms
+[2026-08-16 11:11:17] [system] INFO TemporalSmoother | section=ipc window=10 ema_alpha=0.3
+[2026-08-16 11:11:19] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:19] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1007ms pipeline=1156ms
+[2026-08-16 11:11:20] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:20] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1006ms pipeline=1159ms
+[2026-08-16 11:11:21] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:21] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1010ms pipeline=1161ms
+[2026-08-16 11:11:22] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:22] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1014ms pipeline=1158ms
+[2026-08-16 11:11:23] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:23] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1008ms pipeline=1158ms
+[2026-08-16 11:11:24] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:24] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1002ms pipeline=1150ms
+[2026-08-16 11:11:26] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:26] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1004ms pipeline=1155ms
+[2026-08-16 11:11:27] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:27] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1016ms pipeline=1162ms
+[2026-08-16 11:11:28] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:28] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1012ms pipeline=1159ms
+[2026-08-16 11:11:29] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:29] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1013ms pipeline=1161ms
+[2026-08-16 11:11:30] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:30] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1005ms pipeline=1155ms
+[2026-08-16 11:11:31] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:31] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1002ms pipeline=1150ms
+[2026-08-16 11:11:33] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:33] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1016ms pipeline=1165ms
+[2026-08-16 11:11:34] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:34] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1003ms pipeline=1156ms
+[2026-08-16 11:11:35] [system] INFO Inference | section=ipc persons=5 objects=0
+[2026-08-16 11:11:35] [system] INFO [ipc] headcount=5 max_capacity=16 vacancy=11 inference=1001ms pipeline=1153ms
+[2026-08-16 11:11:35] [system] INFO TemporalSmoother | section=main_computer_room window=10 ema_alpha=0.3
+[2026-08-16 11:11:36] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:36] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=571ms pipeline=723ms
+[2026-08-16 11:11:36] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:36] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=577ms pipeline=728ms
+[2026-08-16 11:11:37] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:37] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=577ms pipeline=727ms
+[2026-08-16 11:11:38] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:38] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=573ms pipeline=727ms
+[2026-08-16 11:11:38] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:38] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=568ms pipeline=721ms
+[2026-08-16 11:11:39] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:39] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=576ms pipeline=727ms
+[2026-08-16 11:11:40] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:40] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=572ms pipeline=715ms
+[2026-08-16 11:11:41] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:41] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=573ms pipeline=717ms
+[2026-08-16 11:11:41] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:41] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=581ms pipeline=734ms
+[2026-08-16 11:11:42] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:42] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=570ms pipeline=716ms
+[2026-08-16 11:11:43] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:43] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=570ms pipeline=723ms
+[2026-08-16 11:11:44] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:44] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=570ms pipeline=715ms
+[2026-08-16 11:11:44] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:44] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=577ms pipeline=724ms
+[2026-08-16 11:11:45] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:45] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=579ms pipeline=729ms
+[2026-08-16 11:11:46] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:11:46] [system] INFO [main_computer_room] headcount=4 max_capacity=15 vacancy=11 inference=567ms pipeline=715ms
+[2026-08-16 11:11:46] [system] INFO TemporalSmoother | section=reference_2 window=10 ema_alpha=0.3
+[2026-08-16 11:11:47] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:47] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1000ms pipeline=1153ms
+[2026-08-16 11:11:48] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:48] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1005ms pipeline=1151ms
+[2026-08-16 11:11:49] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:49] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1011ms pipeline=1156ms
+[2026-08-16 11:11:50] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:50] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1010ms pipeline=1159ms
+[2026-08-16 11:11:51] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:51] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1008ms pipeline=1155ms
+[2026-08-16 11:11:53] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:53] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1014ms pipeline=1162ms
+[2026-08-16 11:11:54] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:54] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1009ms pipeline=1174ms
+[2026-08-16 11:11:55] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:55] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1005ms pipeline=1152ms
+[2026-08-16 11:11:56] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:56] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1001ms pipeline=1147ms
+[2026-08-16 11:11:57] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:57] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1013ms pipeline=1157ms
+[2026-08-16 11:11:58] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:11:58] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1014ms pipeline=1165ms
+[2026-08-16 11:12:00] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:12:00] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1026ms pipeline=1171ms
+[2026-08-16 11:12:01] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:12:01] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1003ms pipeline=1153ms
+[2026-08-16 11:12:02] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:12:02] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1025ms pipeline=1176ms
+[2026-08-16 11:12:03] [system] INFO Inference | section=reference_2 persons=11 objects=8
+[2026-08-16 11:12:03] [system] INFO [reference_2] headcount=11 max_capacity=24 vacancy=13 inference=1015ms pipeline=1160ms
+[2026-08-16 11:12:03] [system] INFO TemporalSmoother | section=reference_area window=10 ema_alpha=0.3
+[2026-08-16 11:12:04] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:04] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1027ms pipeline=1173ms
+[2026-08-16 11:12:05] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:05] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1011ms pipeline=1158ms
+[2026-08-16 11:12:07] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:07] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1023ms pipeline=1174ms
+[2026-08-16 11:12:08] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:08] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1008ms pipeline=1155ms
+[2026-08-16 11:12:09] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:09] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1012ms pipeline=1174ms
+[2026-08-16 11:12:10] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:10] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1005ms pipeline=1151ms
+[2026-08-16 11:12:11] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:11] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1016ms pipeline=1167ms
+[2026-08-16 11:12:12] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:12] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1003ms pipeline=1154ms
+[2026-08-16 11:12:14] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:14] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1028ms pipeline=1173ms
+[2026-08-16 11:12:15] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:15] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1015ms pipeline=1161ms
+[2026-08-16 11:12:16] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:16] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1026ms pipeline=1176ms
+[2026-08-16 11:12:17] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:17] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1011ms pipeline=1157ms
+[2026-08-16 11:12:18] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:18] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1022ms pipeline=1173ms
+[2026-08-16 11:12:19] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:19] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1027ms pipeline=1176ms
+[2026-08-16 11:12:21] [system] INFO Inference | section=reference_area persons=5 objects=2
+[2026-08-16 11:12:21] [system] INFO [reference_area] headcount=5 max_capacity=13 vacancy=8 inference=1018ms pipeline=1168ms
+[2026-08-16 11:12:21] [system] INFO TemporalSmoother | section=weeding_out_area window=10 ema_alpha=0.3
+[2026-08-16 11:12:21] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:21] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=568ms pipeline=717ms
+[2026-08-16 11:12:22] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:22] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=572ms pipeline=720ms
+[2026-08-16 11:12:23] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:23] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=577ms pipeline=723ms
+[2026-08-16 11:12:24] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:24] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=579ms pipeline=732ms
+[2026-08-16 11:12:24] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:24] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=581ms pipeline=727ms
+[2026-08-16 11:12:25] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:25] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=566ms pipeline=713ms
+[2026-08-16 11:12:26] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:26] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=575ms pipeline=719ms
+[2026-08-16 11:12:26] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:26] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=571ms pipeline=719ms
+[2026-08-16 11:12:27] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:27] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=576ms pipeline=726ms
+[2026-08-16 11:12:28] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:28] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=579ms pipeline=730ms
+[2026-08-16 11:12:29] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:29] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=571ms pipeline=718ms
+[2026-08-16 11:12:29] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:29] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=575ms pipeline=722ms
+[2026-08-16 11:12:30] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:30] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=570ms pipeline=721ms
+[2026-08-16 11:12:31] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:31] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=571ms pipeline=721ms
+[2026-08-16 11:12:31] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:12:31] [system] INFO [weeding_out_area] headcount=1 max_capacity=12 vacancy=11 inference=568ms pipeline=717ms
+[2026-08-16 11:18:42] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:18:42] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:18:43] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:43] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-08-16 11:18:43] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=8
+[2026-08-16 11:18:43] [system] INFO MidZoneDetector | section=cad_lab mid_polygon_vertices=5
+[2026-08-16 11:18:43] [system] INFO ZonePipeline | section=cad_lab skip_far=True far=disabled
+[2026-08-16 11:18:44] [system] INFO Inference | section=cad_lab persons=5 objects=1
+[2026-08-16 11:18:44] [system] INFO [cad_lab] Near zone | persons=5 objects=0
+[2026-08-16 11:18:44] [system] INFO Inference | section=cad_lab persons=1 objects=0
+[2026-08-16 11:18:44] [system] INFO [cad_lab] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 11:18:44] [system] INFO [cad_lab] ZonePipeline | near=5 mid=1 far=0 dedup=0 total=6 infer=1245ms pipeline=1245ms
+[2026-08-16 11:18:45] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:45] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.5303
+[2026-08-16 11:18:45] [system] INFO NearZoneDetector | section=focused_reading_area near_polygon_vertices=7
+[2026-08-16 11:18:45] [system] INFO MidZoneDetector | section=focused_reading_area mid_polygon_vertices=15
+[2026-08-16 11:18:45] [system] INFO ZonePipeline | section=focused_reading_area skip_far=False far=CSRNet
+[2026-08-16 11:18:45] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.5303 count=5
+[2026-08-16 11:18:45] [system] INFO Inference | section=focused_reading_area persons=8 objects=7
+[2026-08-16 11:18:45] [system] INFO [focused_reading_area] Near zone | persons=7 objects=5
+[2026-08-16 11:18:45] [system] INFO Inference | section=focused_reading_area persons=4 objects=3
+[2026-08-16 11:18:45] [system] INFO [focused_reading_area] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 11:18:45] [system] INFO [focused_reading_area] ZonePipeline | near=7 mid=1 far=5 dedup=2 total=13 infer=598ms pipeline=598ms
+[2026-08-16 11:18:45] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:45] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-16 11:18:45] [system] INFO NearZoneDetector | section=g_hall_2 near_polygon_vertices=9
+[2026-08-16 11:18:45] [system] INFO MidZoneDetector | section=g_hall_2 mid_polygon_vertices=5
+[2026-08-16 11:18:45] [system] INFO ZonePipeline | section=g_hall_2 skip_far=False far=CSRNet
+[2026-08-16 11:18:45] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-16 11:18:46] [system] INFO Inference | section=g_hall_2 persons=14 objects=8
+[2026-08-16 11:18:46] [system] INFO [g_hall_2] Near zone | persons=9 objects=7
+[2026-08-16 11:18:46] [system] INFO Inference | section=g_hall_2 persons=16 objects=9
+[2026-08-16 11:18:46] [system] INFO [g_hall_2] Mid zone | detections=11 tracked=11 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+[2026-08-16 11:18:46] [system] INFO [g_hall_2] ZonePipeline | near=9 mid=9 far=27 dedup=2 total=45 infer=652ms pipeline=652ms
+[2026-08-16 11:18:46] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:46] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-16 11:18:46] [system] INFO NearZoneDetector | section=g_huss near_polygon_vertices=7
+[2026-08-16 11:18:46] [system] INFO MidZoneDetector | section=g_huss mid_polygon_vertices=5
+[2026-08-16 11:18:46] [system] INFO ZonePipeline | section=g_huss skip_far=False far=CSRNet
+[2026-08-16 11:18:46] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-16 11:18:47] [system] INFO Inference | section=g_huss persons=23 objects=15
+[2026-08-16 11:18:47] [system] INFO [g_huss] Near zone | persons=14 objects=11
+[2026-08-16 11:18:47] [system] INFO Inference | section=g_huss persons=23 objects=7
+[2026-08-16 11:18:47] [system] INFO [g_huss] Mid zone | detections=12 tracked=12 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+[2026-08-16 11:18:47] [system] INFO [g_huss] ZonePipeline | near=14 mid=11 far=41 dedup=1 total=66 infer=1347ms pipeline=1347ms
+[2026-08-16 11:18:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:48] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.4633
+[2026-08-16 11:18:48] [system] INFO NearZoneDetector | section=hindi_section near_polygon_vertices=12
+[2026-08-16 11:18:48] [system] INFO MidZoneDetector | section=hindi_section mid_polygon_vertices=15
+[2026-08-16 11:18:48] [system] INFO ZonePipeline | section=hindi_section skip_far=False far=CSRNet
+[2026-08-16 11:18:48] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.4633 count=14
+[2026-08-16 11:18:48] [system] INFO Inference | section=hindi_section persons=14 objects=9
+[2026-08-16 11:18:48] [system] INFO [hindi_section] Near zone | persons=7 objects=8
+[2026-08-16 11:18:49] [system] INFO Inference | section=hindi_section persons=18 objects=7
+[2026-08-16 11:18:49] [system] INFO [hindi_section] Mid zone | detections=8 tracked=8 active_ids=[1, 2, 3, 4, 5, 6, 7, 8]
+[2026-08-16 11:18:49] [system] INFO [hindi_section] ZonePipeline | near=7 mid=6 far=14 dedup=2 total=27 infer=1177ms pipeline=1177ms
+[2026-08-16 11:18:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:49] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-16 11:18:49] [system] INFO NearZoneDetector | section=ip_camera_19 near_polygon_vertices=5
+[2026-08-16 11:18:49] [system] INFO MidZoneDetector | section=ip_camera_19 mid_polygon_vertices=5
+[2026-08-16 11:18:49] [system] INFO ZonePipeline | section=ip_camera_19 skip_far=False far=CSRNet
+[2026-08-16 11:18:49] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-16 11:18:49] [system] INFO Inference | section=ip_camera_19 persons=3 objects=6
+[2026-08-16 11:18:49] [system] INFO [ip_camera_19] Near zone | persons=3 objects=6
+[2026-08-16 11:18:50] [system] INFO Inference | section=ip_camera_19 persons=2 objects=2
+[2026-08-16 11:18:50] [system] INFO [ip_camera_19] Mid zone | detections=2 tracked=2 active_ids=[1, 2]
+[2026-08-16 11:18:50] [system] INFO [ip_camera_19] ZonePipeline | near=3 mid=2 far=4 dedup=0 total=9 infer=668ms pipeline=668ms
+[2026-08-16 11:18:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:50] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-16 11:18:50] [system] INFO NearZoneDetector | section=ipc near_polygon_vertices=7
+[2026-08-16 11:18:50] [system] INFO MidZoneDetector | section=ipc mid_polygon_vertices=5
+[2026-08-16 11:18:50] [system] INFO ZonePipeline | section=ipc skip_far=False far=CSRNet
+[2026-08-16 11:18:50] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-16 11:18:50] [system] INFO Inference | section=ipc persons=2 objects=1
+[2026-08-16 11:18:50] [system] INFO [ipc] Near zone | persons=2 objects=1
+[2026-08-16 11:18:50] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-08-16 11:18:50] [system] INFO [ipc] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 11:18:50] [system] INFO [ipc] ZonePipeline | near=2 mid=1 far=6 dedup=2 total=9 infer=451ms pipeline=451ms
+[2026-08-16 11:18:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:50] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.6565
+[2026-08-16 11:18:50] [system] INFO NearZoneDetector | section=main_computer_room near_polygon_vertices=8
+[2026-08-16 11:18:50] [system] INFO MidZoneDetector | section=main_computer_room mid_polygon_vertices=5
+[2026-08-16 11:18:50] [system] INFO ZonePipeline | section=main_computer_room skip_far=False far=CSRNet
+[2026-08-16 11:18:50] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.6565 count=4
+[2026-08-16 11:18:51] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:18:51] [system] INFO [main_computer_room] Near zone | persons=4 objects=4
+[2026-08-16 11:18:51] [system] INFO Inference | section=main_computer_room persons=3 objects=1
+[2026-08-16 11:18:51] [system] INFO [main_computer_room] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 11:18:51] [system] INFO [main_computer_room] ZonePipeline | near=4 mid=2 far=4 dedup=1 total=10 infer=506ms pipeline=506ms
+[2026-08-16 11:18:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:51] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-16 11:18:51] [system] INFO NearZoneDetector | section=reference_2 near_polygon_vertices=6
+[2026-08-16 11:18:51] [system] INFO MidZoneDetector | section=reference_2 mid_polygon_vertices=5
+[2026-08-16 11:18:51] [system] INFO ZonePipeline | section=reference_2 skip_far=False far=CSRNet
+[2026-08-16 11:18:51] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-16 11:18:52] [system] INFO Inference | section=reference_2 persons=4 objects=5
+[2026-08-16 11:18:52] [system] INFO [reference_2] Near zone | persons=3 objects=5
+[2026-08-16 11:18:52] [system] INFO Inference | section=reference_2 persons=3 objects=2
+[2026-08-16 11:18:52] [system] INFO [reference_2] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 11:18:52] [system] INFO [reference_2] ZonePipeline | near=3 mid=2 far=4 dedup=1 total=9 infer=938ms pipeline=938ms
+[2026-08-16 11:18:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:52] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.0476
+[2026-08-16 11:18:52] [system] INFO NearZoneDetector | section=reference_area near_polygon_vertices=6
+[2026-08-16 11:18:52] [system] INFO MidZoneDetector | section=reference_area mid_polygon_vertices=5
+[2026-08-16 11:18:52] [system] INFO ZonePipeline | section=reference_area skip_far=False far=CSRNet
+[2026-08-16 11:18:52] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.0476 count=3
+[2026-08-16 11:18:52] [system] INFO Inference | section=reference_area persons=3 objects=6
+[2026-08-16 11:18:52] [system] INFO [reference_area] Near zone | persons=3 objects=6
+[2026-08-16 11:18:52] [system] INFO Inference | section=reference_area persons=1 objects=2
+[2026-08-16 11:18:52] [system] INFO [reference_area] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 11:18:53] [system] INFO [reference_area] ZonePipeline | near=3 mid=0 far=3 dedup=1 total=6 infer=588ms pipeline=588ms
+[2026-08-16 11:18:53] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:18:53] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-16 11:18:53] [system] INFO NearZoneDetector | section=weeding_out_area near_polygon_vertices=7
+[2026-08-16 11:18:53] [system] INFO MidZoneDetector | section=weeding_out_area mid_polygon_vertices=5
+[2026-08-16 11:18:53] [system] INFO ZonePipeline | section=weeding_out_area skip_far=False far=CSRNet
+[2026-08-16 11:18:53] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.3682 count=1
+[2026-08-16 11:18:53] [system] INFO Inference | section=weeding_out_area persons=1 objects=1
+[2026-08-16 11:18:53] [system] INFO [weeding_out_area] Near zone | persons=1 objects=1
+[2026-08-16 11:18:53] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:18:53] [system] INFO [weeding_out_area] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 11:18:53] [system] INFO [weeding_out_area] ZonePipeline | near=1 mid=1 far=1 dedup=0 total=3 infer=441ms pipeline=441ms
+[2026-08-16 11:24:58] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:24:59] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:24:59] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:24:59] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-08-16 11:24:59] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=8
+[2026-08-16 11:24:59] [system] INFO MidZoneDetector | section=cad_lab mid_polygon_vertices=5
+[2026-08-16 11:24:59] [system] INFO ZonePipeline | section=cad_lab skip_far=True far=disabled
+[2026-08-16 11:25:00] [system] INFO Inference | section=cad_lab persons=5 objects=1
+[2026-08-16 11:25:00] [system] INFO [cad_lab] Near zone | persons=5 objects=0
+[2026-08-16 11:25:00] [system] INFO Inference | section=cad_lab persons=1 objects=0
+[2026-08-16 11:25:00] [system] INFO [cad_lab] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 11:25:00] [system] INFO [cad_lab] ZonePipeline | near=5 mid=1 far=0 dedup=0 total=6 infer=1197ms pipeline=1197ms
+[2026-08-16 11:25:00] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:00] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.36
+[2026-08-16 11:25:00] [system] INFO NearZoneDetector | section=focused_reading_area near_polygon_vertices=7
+[2026-08-16 11:25:00] [system] INFO MidZoneDetector | section=focused_reading_area mid_polygon_vertices=15
+[2026-08-16 11:25:00] [system] INFO ZonePipeline | section=focused_reading_area skip_far=False far=CSRNet
+[2026-08-16 11:25:00] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.36 count=4
+[2026-08-16 11:25:01] [system] INFO Inference | section=focused_reading_area persons=8 objects=7
+[2026-08-16 11:25:01] [system] INFO [focused_reading_area] Near zone | persons=7 objects=5
+[2026-08-16 11:25:01] [system] INFO Inference | section=focused_reading_area persons=4 objects=3
+[2026-08-16 11:25:01] [system] INFO [focused_reading_area] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 11:25:01] [system] INFO [focused_reading_area] ZonePipeline | near=7 mid=1 far=4 dedup=2 total=12 infer=591ms pipeline=591ms
+[2026-08-16 11:25:01] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:01] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-16 11:25:01] [system] INFO NearZoneDetector | section=g_hall_2 near_polygon_vertices=9
+[2026-08-16 11:25:01] [system] INFO MidZoneDetector | section=g_hall_2 mid_polygon_vertices=5
+[2026-08-16 11:25:01] [system] INFO ZonePipeline | section=g_hall_2 skip_far=False far=CSRNet
+[2026-08-16 11:25:01] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-16 11:25:02] [system] INFO Inference | section=g_hall_2 persons=14 objects=8
+[2026-08-16 11:25:02] [system] INFO [g_hall_2] Near zone | persons=9 objects=7
+[2026-08-16 11:25:02] [system] INFO Inference | section=g_hall_2 persons=16 objects=9
+[2026-08-16 11:25:02] [system] INFO [g_hall_2] Mid zone | detections=11 tracked=11 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+[2026-08-16 11:25:02] [system] INFO [g_hall_2] ZonePipeline | near=9 mid=9 far=27 dedup=2 total=45 infer=638ms pipeline=638ms
+[2026-08-16 11:25:02] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:02] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-16 11:25:02] [system] INFO NearZoneDetector | section=g_huss near_polygon_vertices=7
+[2026-08-16 11:25:02] [system] INFO MidZoneDetector | section=g_huss mid_polygon_vertices=5
+[2026-08-16 11:25:02] [system] INFO ZonePipeline | section=g_huss skip_far=False far=CSRNet
+[2026-08-16 11:25:02] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-16 11:25:03] [system] INFO Inference | section=g_huss persons=23 objects=15
+[2026-08-16 11:25:03] [system] INFO [g_huss] Near zone | persons=14 objects=11
+[2026-08-16 11:25:03] [system] INFO Inference | section=g_huss persons=23 objects=7
+[2026-08-16 11:25:03] [system] INFO [g_huss] Mid zone | detections=12 tracked=12 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+[2026-08-16 11:25:03] [system] INFO [g_huss] ZonePipeline | near=14 mid=11 far=41 dedup=1 total=66 infer=1304ms pipeline=1304ms
+[2026-08-16 11:25:03] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:03] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.4633
+[2026-08-16 11:25:03] [system] INFO NearZoneDetector | section=hindi_section near_polygon_vertices=12
+[2026-08-16 11:25:03] [system] INFO MidZoneDetector | section=hindi_section mid_polygon_vertices=15
+[2026-08-16 11:25:03] [system] INFO ZonePipeline | section=hindi_section skip_far=False far=CSRNet
+[2026-08-16 11:25:03] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.4633 count=14
+[2026-08-16 11:25:04] [system] INFO Inference | section=hindi_section persons=14 objects=9
+[2026-08-16 11:25:04] [system] INFO [hindi_section] Near zone | persons=7 objects=8
+[2026-08-16 11:25:04] [system] INFO Inference | section=hindi_section persons=18 objects=7
+[2026-08-16 11:25:04] [system] INFO [hindi_section] Mid zone | detections=8 tracked=8 active_ids=[1, 2, 3, 4, 5, 6, 7, 8]
+[2026-08-16 11:25:04] [system] INFO [hindi_section] ZonePipeline | near=7 mid=6 far=14 dedup=2 total=27 infer=1143ms pipeline=1143ms
+[2026-08-16 11:25:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:05] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-16 11:25:05] [system] INFO NearZoneDetector | section=ip_camera_19 near_polygon_vertices=5
+[2026-08-16 11:25:05] [system] INFO MidZoneDetector | section=ip_camera_19 mid_polygon_vertices=5
+[2026-08-16 11:25:05] [system] INFO ZonePipeline | section=ip_camera_19 skip_far=False far=CSRNet
+[2026-08-16 11:25:05] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-16 11:25:05] [system] INFO Inference | section=ip_camera_19 persons=3 objects=6
+[2026-08-16 11:25:05] [system] INFO [ip_camera_19] Near zone | persons=3 objects=6
+[2026-08-16 11:25:05] [system] INFO Inference | section=ip_camera_19 persons=2 objects=2
+[2026-08-16 11:25:05] [system] INFO [ip_camera_19] Mid zone | detections=2 tracked=2 active_ids=[1, 2]
+[2026-08-16 11:25:05] [system] INFO [ip_camera_19] ZonePipeline | near=3 mid=2 far=4 dedup=0 total=9 infer=630ms pipeline=630ms
+[2026-08-16 11:25:05] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:05] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-16 11:25:05] [system] INFO NearZoneDetector | section=ipc near_polygon_vertices=7
+[2026-08-16 11:25:05] [system] INFO MidZoneDetector | section=ipc mid_polygon_vertices=5
+[2026-08-16 11:25:05] [system] INFO ZonePipeline | section=ipc skip_far=False far=CSRNet
+[2026-08-16 11:25:05] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-16 11:25:06] [system] INFO Inference | section=ipc persons=2 objects=1
+[2026-08-16 11:25:06] [system] INFO [ipc] Near zone | persons=2 objects=1
+[2026-08-16 11:25:06] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-08-16 11:25:06] [system] INFO [ipc] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 11:25:06] [system] INFO [ipc] ZonePipeline | near=2 mid=1 far=6 dedup=2 total=9 infer=454ms pipeline=454ms
+[2026-08-16 11:25:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:06] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.459
+[2026-08-16 11:25:06] [system] INFO NearZoneDetector | section=main_computer_room near_polygon_vertices=8
+[2026-08-16 11:25:06] [system] INFO MidZoneDetector | section=main_computer_room mid_polygon_vertices=5
+[2026-08-16 11:25:06] [system] INFO ZonePipeline | section=main_computer_room skip_far=False far=CSRNet
+[2026-08-16 11:25:06] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.459 count=3
+[2026-08-16 11:25:06] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 11:25:06] [system] INFO [main_computer_room] Near zone | persons=4 objects=4
+[2026-08-16 11:25:06] [system] INFO Inference | section=main_computer_room persons=3 objects=1
+[2026-08-16 11:25:06] [system] INFO [main_computer_room] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 11:25:06] [system] INFO [main_computer_room] ZonePipeline | near=4 mid=2 far=3 dedup=1 total=9 infer=482ms pipeline=482ms
+[2026-08-16 11:25:06] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:06] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-16 11:25:06] [system] INFO NearZoneDetector | section=reference_2 near_polygon_vertices=6
+[2026-08-16 11:25:06] [system] INFO MidZoneDetector | section=reference_2 mid_polygon_vertices=5
+[2026-08-16 11:25:06] [system] INFO ZonePipeline | section=reference_2 skip_far=False far=CSRNet
+[2026-08-16 11:25:07] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-16 11:25:07] [system] INFO Inference | section=reference_2 persons=4 objects=5
+[2026-08-16 11:25:07] [system] INFO [reference_2] Near zone | persons=3 objects=5
+[2026-08-16 11:25:07] [system] INFO Inference | section=reference_2 persons=3 objects=2
+[2026-08-16 11:25:07] [system] INFO [reference_2] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 11:25:07] [system] INFO [reference_2] ZonePipeline | near=3 mid=2 far=4 dedup=1 total=9 infer=894ms pipeline=894ms
+[2026-08-16 11:25:07] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:07] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.5614
+[2026-08-16 11:25:07] [system] INFO NearZoneDetector | section=reference_area near_polygon_vertices=6
+[2026-08-16 11:25:07] [system] INFO MidZoneDetector | section=reference_area mid_polygon_vertices=5
+[2026-08-16 11:25:07] [system] INFO ZonePipeline | section=reference_area skip_far=False far=CSRNet
+[2026-08-16 11:25:07] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.5614 count=4
+[2026-08-16 11:25:08] [system] INFO Inference | section=reference_area persons=3 objects=6
+[2026-08-16 11:25:08] [system] INFO [reference_area] Near zone | persons=3 objects=6
+[2026-08-16 11:25:08] [system] INFO Inference | section=reference_area persons=1 objects=2
+[2026-08-16 11:25:08] [system] INFO [reference_area] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 11:25:08] [system] INFO [reference_area] ZonePipeline | near=3 mid=0 far=4 dedup=1 total=7 infer=572ms pipeline=572ms
+[2026-08-16 11:25:08] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 11:25:08] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-16 11:25:08] [system] INFO NearZoneDetector | section=weeding_out_area near_polygon_vertices=7
+[2026-08-16 11:25:08] [system] INFO MidZoneDetector | section=weeding_out_area mid_polygon_vertices=5
+[2026-08-16 11:25:08] [system] INFO ZonePipeline | section=weeding_out_area skip_far=False far=CSRNet
+[2026-08-16 11:25:08] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.3682 count=1
+[2026-08-16 11:25:08] [system] INFO Inference | section=weeding_out_area persons=1 objects=1
+[2026-08-16 11:25:08] [system] INFO [weeding_out_area] Near zone | persons=1 objects=1
+[2026-08-16 11:25:09] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 11:25:09] [system] INFO [weeding_out_area] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 11:25:09] [system] INFO [weeding_out_area] ZonePipeline | near=1 mid=1 far=1 dedup=0 total=3 infer=416ms pipeline=416ms
+[2026-08-16 11:26:45] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:26:46] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:27:17] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 11:27:18] [system] INFO SAHI+YOLOv10 loaded.

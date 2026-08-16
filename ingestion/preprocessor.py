@@ -111,6 +111,33 @@ class Preprocessor:
         frame = self._apply_resize(frame)
         return frame
 
+    def process_for_sahi(self, frame: np.ndarray) -> np.ndarray:
+        """
+        Run the preprocessing chain WITHOUT the final resize step.
+
+        SAHI sliced inference requires a high-resolution input frame so that
+        its tile slices (e.g. 384×384 or 512×512) cover meaningful image
+        regions. Pre-resizing to 640×640 before SAHI produces only 1–2 tiles
+        and shrinks people to ~10–40px blobs that YOLO cannot reliably detect.
+
+        Use this method when the frame will be passed to SAHI.
+        Use ``process()`` when you need a fixed-size 640×640 output (e.g.
+        for the full-frame object detection pass which sets imgsz=640 itself).
+
+        Steps:
+            gamma → bilateral denoise → CLAHE   (NO resize)
+
+        Args:
+            frame: Raw BGR frame from VideoCapture (H x W x 3, uint8).
+
+        Returns:
+            Preprocessed BGR frame at the original camera resolution.
+        """
+        frame = self._apply_gamma(frame)
+        frame = self._apply_bilateral(frame)
+        frame = self._apply_clahe(frame)
+        return frame
+
     # ── Pipeline steps ─────────────────────────────────────────────────────────
 
     def _apply_gamma(self, frame: np.ndarray) -> np.ndarray:

@@ -14,6 +14,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from tracking.smoother import TemporalSmoother, MultiSectionSmoother, _majority_vote
 from detection.pipeline import SectionResult, MultiSectionPipeline
+from config.config_loader import cfg
 
 
 def make_result(headcount=0, section_id="cad_lab", max_cap=18) -> SectionResult:
@@ -135,30 +136,66 @@ def test_multi_section_smoother() -> None:
     print(f"  ✅ MultiSectionSmoother — sec_A=5 sec_B=0, isolated correctly")
 
 
-def test_real_pipeline_integration() -> None:
-    """Smoother on top of real pipeline on cad_lab.jpg — 15 frames."""
-    img_path = Path("data/sample_frames/cad_lab.jpg")
-    if not img_path.exists():
-        print(f"  ⚠️  Skipped — {img_path} not found")
-        return
+def test_real_pipeline_all_sections() -> None:
+    """
+    Real pipeline + smoother integration for every enabled section.
 
-    frame    = cv2.imread(str(img_path))
+    For each section defined in config.yaml:
+      - Loads data/sample_frames/<section_id>.jpg
+      - Pushes 15 identical frames through SectionPipeline + TemporalSmoother
+      - Verifies non-negative headcount and vacancy after full buffer fill
+
+    Sections without a sample frame are skipped with a warning.
+    """
+    enabled_sections = [cam.section_id for cam in cfg.cameras if cam.enabled]
+    frames_dir = Path("data/sample_frames")
+
+    print(f"\n  Loading shared pipeline for {len(enabled_sections)} sections …")
     pipeline = MultiSectionPipeline()
-    smoother = TemporalSmoother(section_id="cad_lab")
 
-    raw_result = smoothed_result = None
-    for _ in range(15):
-        raw_result      = pipeline.run("cad_lab", frame)
-        smoothed_result = smoother.update(raw_result)
 
-    print(f"  ✅ Real pipeline + smoother (15 frames):")
-    print(f"     Raw      headcount={raw_result.headcount} vacancy={raw_result.vacancy}")
-    print(f"     Smoothed headcount={smoothed_result.headcount} vacancy={smoothed_result.vacancy}")
-    print(f"     Buffer fill: {smoother.buffer_fill():.0%}")
+    passed  = []
+    skipped = []
+    N_FRAMES = 15
 
-    assert smoothed_result.headcount >= 0
-    assert smoothed_result.vacancy   >= 0
-    assert smoother.buffer_fill()    == 1.0
+    for sid in enabled_sections:
+        img_path = frames_dir / f"{sid}.jpg"
+        if not img_path.exists():
+            print(f"  ⚠️  [{sid}] Skipped — {img_path} not found")
+            skipped.append(sid)
+            continue
+
+        frame   = cv2.imread(str(img_path))
+        smoother = TemporalSmoother(section_id=sid)
+
+        raw_result = smoothed_result = None
+        for _ in range(N_FRAMES):
+            raw_result      = pipeline.run(sid, frame)
+            smoothed_result = smoother.update(raw_result)
+
+        assert smoothed_result.headcount >= 0, \
+            f"[{sid}] Negative headcount: {smoothed_result.headcount}"
+        assert smoothed_result.vacancy >= 0, \
+            f"[{sid}] Negative vacancy: {smoothed_result.vacancy}"
+        assert smoother.buffer_fill() == 1.0, \
+            f"[{sid}] Buffer not full after {N_FRAMES} frames"
+
+        avail_str = "✅ available" if smoothed_result.is_available() else "🔴 full"
+        print(
+            f"  ✅ [{sid}]\n"
+            f"     Raw      headcount={raw_result.headcount:3d}  vacancy={raw_result.vacancy}\n"
+            f"     Smoothed headcount={smoothed_result.headcount:3d}  vacancy={smoothed_result.vacancy}"
+            f"/{smoothed_result.max_capacity}  occupancy={smoothed_result.occupancy_pct()}%  {avail_str}\n"
+            f"     Buffer fill: {smoother.buffer_fill():.0%}  "
+            f"inference≈{raw_result.inference_ms:.0f}ms"
+        )
+        passed.append(sid)
+
+    print(
+        f"\n  Summary: {len(passed)}/{len(enabled_sections)} sections passed"
+        + (f"  ({len(skipped)} skipped: {skipped})" if skipped else "")
+    )
+    assert len(passed) > 0, "No sections could be tested — check sample_frames directory"
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -198,9 +235,9 @@ if __name__ == "__main__":
     print("\n[10] MultiSectionSmoother isolation:")
     test_multi_section_smoother()
 
-    print("\n[11] Real pipeline integration (15 frames):")
-    test_real_pipeline_integration()
+    print("\n[11] Real pipeline + smoother — ALL sections (15 frames each):")
+    test_real_pipeline_all_sections()
 
     print("\n" + "=" * 55)
     print("🎉 CP-13 PASSED — temporal smoother ready")
-    print("=" * 55)
+    print("=" * 55)
