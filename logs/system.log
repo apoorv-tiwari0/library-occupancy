@@ -7605,3 +7605,513 @@
 [2026-08-16 11:26:46] [system] INFO SAHI+YOLOv10 loaded.
 [2026-08-16 11:27:17] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
 [2026-08-16 11:27:18] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 11:35:25] [system] WARNING RedisLiveStore connection failed (localhost:6379): Timeout connecting to server. Live state will fallback to memory.
+[2026-08-16 11:35:25] [system] WARNING PostgreSQL connection failed (localhost:5432): connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "occupancy_user"
+. Falling back to SQLite.
+[2026-08-16 11:35:25] [system] INFO DatabaseLogger SQLite fallback ready | db_path=data\occupancy_history.db
+[2026-08-16 11:35:46] [system] WARNING RedisLiveStore connection failed (localhost:6379): Timeout connecting to server. Live state will fallback to memory.
+[2026-08-16 11:35:46] [system] WARNING PostgreSQL connection failed (localhost:5432): connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "occupancy_user"
+. Falling back to SQLite.
+[2026-08-16 11:35:46] [system] INFO DatabaseLogger SQLite fallback ready | db_path=data\occupancy_history.db
+[2026-08-16 11:35:50] [system] WARNING RedisLiveStore connection failed (localhost:6379): Timeout connecting to server. Live state will fallback to memory.
+[2026-08-16 11:35:50] [system] WARNING PostgreSQL connection failed (localhost:5432): connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "occupancy_user"
+. Falling back to SQLite.
+[2026-08-16 11:35:50] [system] INFO DatabaseLogger SQLite fallback ready | db_path=data\occupancy_history.db
+[2026-08-16 11:35:50] [system] INFO StorageManager initialized | redis_connected=False db_connected=True
+[2026-08-16 11:36:23] [system] WARNING RedisLiveStore connection failed (localhost:6379): Timeout connecting to server. Live state will fallback to memory.
+[2026-08-16 11:36:23] [system] WARNING PostgreSQL connection failed (localhost:5432): connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "occupancy_user"
+. Falling back to SQLite.
+[2026-08-16 11:36:23] [system] INFO DatabaseLogger SQLite fallback ready | db_path=data\occupancy_history.db
+[2026-08-16 11:36:25] [system] WARNING RedisLiveStore connection failed (localhost:6379): Timeout connecting to server. Live state will fallback to memory.
+[2026-08-16 11:36:25] [system] WARNING PostgreSQL connection failed (localhost:5432): connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "occupancy_user"
+. Falling back to SQLite.
+[2026-08-16 11:36:25] [system] INFO DatabaseLogger SQLite fallback ready | db_path=data\occupancy_history.db
+[2026-08-16 11:36:25] [system] INFO StorageManager initialized | redis_connected=False db_connected=True
+[2026-08-16 21:17:07] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:17:07] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:17:24] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:17:24] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:17:24] [system] ERROR DBLogger write failed [cad_lab]: (psycopg2.errors.SyntaxError) syntax error at or near ":"
+LINE 7:                             :time::TIMESTAMPTZ,
+                                    ^
+
+[SQL: 
+                        INSERT INTO occupancy_log (
+                            time, section_id, headcount, max_capacity,
+                            vacancy, occupancy_pct, is_available,
+                            inference_ms, pipeline_ms
+                        ) VALUES (
+                            :time::TIMESTAMPTZ,
+                            %(section_id)s, %(headcount)s, %(max_capacity)s,
+                            %(vacancy)s, %(occupancy_pct)s, %(is_available)s,
+                            %(inference_ms)s, %(pipeline_ms)s
+                        )
+                    ]
+[parameters: {'section_id': 'cad_lab', 'headcount': 6, 'max_capacity': 18, 'vacancy': 12, 'occupancy_pct': 33.3, 'is_available': True, 'inference_ms': 222.5, 'pipeline_ms': 354.1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-08-16 21:17:49] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:17:49] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:17:54] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 21:17:56] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 21:17:56] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 21:17:56] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 21:18:00] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 21:18:00] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=3021ms pipeline=3249ms
+[2026-08-16 21:18:05] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:18:16] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:18:17] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:18:17] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:18:17] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:18:17] [system] INFO StorageManager initialized | redis_connected=True db_connected=True
+[2026-08-16 21:18:37] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:18:37] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:18:39] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 21:18:41] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 21:18:41] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 21:18:41] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 21:18:44] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 21:18:44] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=2130ms pipeline=2337ms
+[2026-08-16 21:18:56] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:18:56] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:18:56] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:18:56] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:18:56] [system] INFO StorageManager initialized | redis_connected=True db_connected=True
+[2026-08-16 21:23:16] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:23:16] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:23:19] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 21:23:21] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 21:23:21] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 21:23:21] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 21:23:23] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 21:23:23] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=2235ms pipeline=2448ms
+[2026-08-16 21:23:29] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:23:29] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:23:29] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:23:29] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:23:29] [system] INFO StorageManager initialized | redis_connected=True db_connected=True
+[2026-08-16 21:24:39] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 21:24:40] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 21:24:40] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:40] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-08-16 21:24:40] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=8
+[2026-08-16 21:24:40] [system] INFO MidZoneDetector | section=cad_lab mid_polygon_vertices=5
+[2026-08-16 21:24:40] [system] INFO ZonePipeline | section=cad_lab skip_far=True far=disabled
+[2026-08-16 21:24:42] [system] INFO Inference | section=cad_lab persons=5 objects=1
+[2026-08-16 21:24:42] [system] INFO [cad_lab] Near zone | persons=5 objects=0
+[2026-08-16 21:24:42] [system] INFO Inference | section=cad_lab persons=1 objects=0
+[2026-08-16 21:24:42] [system] INFO [cad_lab] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 21:24:42] [system] INFO [cad_lab] ZonePipeline | near=5 mid=1 far=0 dedup=0 total=6 infer=1255ms pipeline=1255ms
+[2026-08-16 21:24:42] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:42] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.36
+[2026-08-16 21:24:42] [system] INFO NearZoneDetector | section=focused_reading_area near_polygon_vertices=7
+[2026-08-16 21:24:42] [system] INFO MidZoneDetector | section=focused_reading_area mid_polygon_vertices=15
+[2026-08-16 21:24:42] [system] INFO ZonePipeline | section=focused_reading_area skip_far=False far=CSRNet
+[2026-08-16 21:24:42] [system] INFO [focused_reading_area] CSRNet far zone | raw=9.86 scale=0.36 count=4
+[2026-08-16 21:24:42] [system] INFO Inference | section=focused_reading_area persons=8 objects=7
+[2026-08-16 21:24:42] [system] INFO [focused_reading_area] Near zone | persons=7 objects=5
+[2026-08-16 21:24:42] [system] INFO Inference | section=focused_reading_area persons=4 objects=3
+[2026-08-16 21:24:42] [system] INFO [focused_reading_area] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 21:24:42] [system] INFO [focused_reading_area] ZonePipeline | near=7 mid=1 far=4 dedup=2 total=12 infer=625ms pipeline=625ms
+[2026-08-16 21:24:43] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:43] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-16 21:24:43] [system] INFO NearZoneDetector | section=g_hall_2 near_polygon_vertices=9
+[2026-08-16 21:24:43] [system] INFO MidZoneDetector | section=g_hall_2 mid_polygon_vertices=5
+[2026-08-16 21:24:43] [system] INFO ZonePipeline | section=g_hall_2 skip_far=False far=CSRNet
+[2026-08-16 21:24:43] [system] INFO [g_hall_2] CSRNet far zone | raw=32.39 scale=0.82 count=27
+[2026-08-16 21:24:43] [system] INFO Inference | section=g_hall_2 persons=14 objects=8
+[2026-08-16 21:24:43] [system] INFO [g_hall_2] Near zone | persons=9 objects=7
+[2026-08-16 21:24:43] [system] INFO Inference | section=g_hall_2 persons=16 objects=9
+[2026-08-16 21:24:43] [system] INFO [g_hall_2] Mid zone | detections=11 tracked=11 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+[2026-08-16 21:24:43] [system] INFO [g_hall_2] ZonePipeline | near=9 mid=9 far=27 dedup=2 total=45 infer=665ms pipeline=665ms
+[2026-08-16 21:24:43] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:43] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-16 21:24:43] [system] INFO NearZoneDetector | section=g_huss near_polygon_vertices=7
+[2026-08-16 21:24:43] [system] INFO MidZoneDetector | section=g_huss mid_polygon_vertices=5
+[2026-08-16 21:24:43] [system] INFO ZonePipeline | section=g_huss skip_far=False far=CSRNet
+[2026-08-16 21:24:43] [system] INFO [g_huss] CSRNet far zone | raw=39.39 scale=1.0513 count=41
+[2026-08-16 21:24:44] [system] INFO Inference | section=g_huss persons=23 objects=15
+[2026-08-16 21:24:44] [system] INFO [g_huss] Near zone | persons=14 objects=11
+[2026-08-16 21:24:45] [system] INFO Inference | section=g_huss persons=23 objects=7
+[2026-08-16 21:24:45] [system] INFO [g_huss] Mid zone | detections=12 tracked=12 active_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+[2026-08-16 21:24:45] [system] INFO [g_huss] ZonePipeline | near=14 mid=11 far=41 dedup=1 total=66 infer=1364ms pipeline=1364ms
+[2026-08-16 21:24:45] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:45] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.4633
+[2026-08-16 21:24:45] [system] INFO NearZoneDetector | section=hindi_section near_polygon_vertices=12
+[2026-08-16 21:24:45] [system] INFO MidZoneDetector | section=hindi_section mid_polygon_vertices=15
+[2026-08-16 21:24:45] [system] INFO ZonePipeline | section=hindi_section skip_far=False far=CSRNet
+[2026-08-16 21:24:45] [system] INFO [hindi_section] CSRNet far zone | raw=30.31 scale=0.4633 count=14
+[2026-08-16 21:24:46] [system] INFO Inference | section=hindi_section persons=14 objects=9
+[2026-08-16 21:24:46] [system] INFO [hindi_section] Near zone | persons=7 objects=8
+[2026-08-16 21:24:46] [system] INFO Inference | section=hindi_section persons=18 objects=7
+[2026-08-16 21:24:46] [system] INFO [hindi_section] Mid zone | detections=8 tracked=8 active_ids=[1, 2, 3, 4, 5, 6, 7, 8]
+[2026-08-16 21:24:46] [system] INFO [hindi_section] ZonePipeline | near=7 mid=6 far=14 dedup=2 total=27 infer=1185ms pipeline=1185ms
+[2026-08-16 21:24:46] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:46] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-16 21:24:46] [system] INFO NearZoneDetector | section=ip_camera_19 near_polygon_vertices=5
+[2026-08-16 21:24:46] [system] INFO MidZoneDetector | section=ip_camera_19 mid_polygon_vertices=5
+[2026-08-16 21:24:46] [system] INFO ZonePipeline | section=ip_camera_19 skip_far=False far=CSRNet
+[2026-08-16 21:24:46] [system] INFO [ip_camera_19] CSRNet far zone | raw=5.32 scale=0.7162 count=4
+[2026-08-16 21:24:47] [system] INFO Inference | section=ip_camera_19 persons=3 objects=6
+[2026-08-16 21:24:47] [system] INFO [ip_camera_19] Near zone | persons=3 objects=6
+[2026-08-16 21:24:47] [system] INFO Inference | section=ip_camera_19 persons=2 objects=2
+[2026-08-16 21:24:47] [system] INFO [ip_camera_19] Mid zone | detections=2 tracked=2 active_ids=[1, 2]
+[2026-08-16 21:24:47] [system] INFO [ip_camera_19] ZonePipeline | near=3 mid=2 far=4 dedup=0 total=9 infer=664ms pipeline=664ms
+[2026-08-16 21:24:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:47] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-16 21:24:47] [system] INFO NearZoneDetector | section=ipc near_polygon_vertices=7
+[2026-08-16 21:24:47] [system] INFO MidZoneDetector | section=ipc mid_polygon_vertices=5
+[2026-08-16 21:24:47] [system] INFO ZonePipeline | section=ipc skip_far=False far=CSRNet
+[2026-08-16 21:24:47] [system] INFO [ipc] CSRNet far zone | raw=3.29 scale=1.94 count=6
+[2026-08-16 21:24:47] [system] INFO Inference | section=ipc persons=2 objects=1
+[2026-08-16 21:24:47] [system] INFO [ipc] Near zone | persons=2 objects=1
+[2026-08-16 21:24:47] [system] INFO Inference | section=ipc persons=3 objects=0
+[2026-08-16 21:24:47] [system] INFO [ipc] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 21:24:47] [system] INFO [ipc] ZonePipeline | near=2 mid=1 far=6 dedup=2 total=9 infer=455ms pipeline=455ms
+[2026-08-16 21:24:47] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:47] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.459
+[2026-08-16 21:24:47] [system] INFO NearZoneDetector | section=main_computer_room near_polygon_vertices=8
+[2026-08-16 21:24:47] [system] INFO MidZoneDetector | section=main_computer_room mid_polygon_vertices=5
+[2026-08-16 21:24:47] [system] INFO ZonePipeline | section=main_computer_room skip_far=False far=CSRNet
+[2026-08-16 21:24:48] [system] INFO [main_computer_room] CSRNet far zone | raw=6.03 scale=0.459 count=3
+[2026-08-16 21:24:48] [system] INFO Inference | section=main_computer_room persons=4 objects=4
+[2026-08-16 21:24:48] [system] INFO [main_computer_room] Near zone | persons=4 objects=4
+[2026-08-16 21:24:48] [system] INFO Inference | section=main_computer_room persons=3 objects=1
+[2026-08-16 21:24:48] [system] INFO [main_computer_room] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 21:24:48] [system] INFO [main_computer_room] ZonePipeline | near=4 mid=2 far=3 dedup=1 total=9 infer=493ms pipeline=494ms
+[2026-08-16 21:24:48] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:48] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-16 21:24:48] [system] INFO NearZoneDetector | section=reference_2 near_polygon_vertices=6
+[2026-08-16 21:24:48] [system] INFO MidZoneDetector | section=reference_2 mid_polygon_vertices=5
+[2026-08-16 21:24:48] [system] INFO ZonePipeline | section=reference_2 skip_far=False far=CSRNet
+[2026-08-16 21:24:48] [system] INFO [reference_2] CSRNet far zone | raw=13.85 scale=0.3234 count=4
+[2026-08-16 21:24:49] [system] INFO Inference | section=reference_2 persons=4 objects=5
+[2026-08-16 21:24:49] [system] INFO [reference_2] Near zone | persons=3 objects=5
+[2026-08-16 21:24:49] [system] INFO Inference | section=reference_2 persons=3 objects=2
+[2026-08-16 21:24:49] [system] INFO [reference_2] Mid zone | detections=3 tracked=3 active_ids=[1, 2, 3]
+[2026-08-16 21:24:49] [system] INFO [reference_2] ZonePipeline | near=3 mid=2 far=4 dedup=1 total=9 infer=916ms pipeline=916ms
+[2026-08-16 21:24:49] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:49] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.5614
+[2026-08-16 21:24:49] [system] INFO NearZoneDetector | section=reference_area near_polygon_vertices=6
+[2026-08-16 21:24:49] [system] INFO MidZoneDetector | section=reference_area mid_polygon_vertices=5
+[2026-08-16 21:24:49] [system] INFO ZonePipeline | section=reference_area skip_far=False far=CSRNet
+[2026-08-16 21:24:49] [system] INFO [reference_area] CSRNet far zone | raw=2.69 scale=1.5614 count=4
+[2026-08-16 21:24:50] [system] INFO Inference | section=reference_area persons=3 objects=6
+[2026-08-16 21:24:50] [system] INFO [reference_area] Near zone | persons=3 objects=6
+[2026-08-16 21:24:50] [system] INFO Inference | section=reference_area persons=1 objects=2
+[2026-08-16 21:24:50] [system] INFO [reference_area] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 21:24:50] [system] INFO [reference_area] ZonePipeline | near=3 mid=0 far=4 dedup=1 total=7 infer=597ms pipeline=597ms
+[2026-08-16 21:24:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:24:50] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-16 21:24:50] [system] INFO NearZoneDetector | section=weeding_out_area near_polygon_vertices=7
+[2026-08-16 21:24:50] [system] INFO MidZoneDetector | section=weeding_out_area mid_polygon_vertices=5
+[2026-08-16 21:24:50] [system] INFO ZonePipeline | section=weeding_out_area skip_far=False far=CSRNet
+[2026-08-16 21:24:50] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.65 scale=0.3682 count=1
+[2026-08-16 21:24:50] [system] INFO Inference | section=weeding_out_area persons=1 objects=1
+[2026-08-16 21:24:50] [system] INFO [weeding_out_area] Near zone | persons=1 objects=1
+[2026-08-16 21:24:50] [system] INFO Inference | section=weeding_out_area persons=1 objects=0
+[2026-08-16 21:24:50] [system] INFO [weeding_out_area] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 21:24:50] [system] INFO [weeding_out_area] ZonePipeline | near=1 mid=1 far=1 dedup=0 total=3 infer=442ms pipeline=442ms
+[2026-08-16 21:27:26] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:27:27] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:27:29] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 21:27:31] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 21:27:31] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 21:27:31] [system] INFO SectionPipeline ready | section=cad_lab max_capacity=18 (headcount mode — vacancy = max_capacity − headcount)
+[2026-08-16 21:27:34] [system] INFO Inference | section=cad_lab persons=7 objects=0
+[2026-08-16 21:27:34] [system] INFO [cad_lab] headcount=7 max_capacity=18 vacancy=11 inference=2364ms pipeline=2575ms
+[2026-08-16 21:33:45] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:33:45] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:33:47] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 21:33:49] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 21:33:49] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 21:33:50] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:50] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-08-16 21:33:50] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=8
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=cad_lab mid_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=cad_lab skip_far=True far=disabled
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=cad_lab max_capacity=18
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.36
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=focused_reading_area near_polygon_vertices=7
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=focused_reading_area mid_polygon_vertices=15
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=focused_reading_area skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=focused_reading_area max_capacity=27
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=g_hall_2 near_polygon_vertices=9
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=g_hall_2 mid_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=g_hall_2 skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=g_hall_2 max_capacity=92
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=g_huss near_polygon_vertices=7
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=g_huss mid_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=g_huss skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=g_huss max_capacity=30
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.4633
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=hindi_section near_polygon_vertices=12
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=hindi_section mid_polygon_vertices=15
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=hindi_section skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=hindi_section max_capacity=30
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=ip_camera_19 near_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=ip_camera_19 mid_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=ip_camera_19 skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=ip_camera_19 max_capacity=11
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=ipc near_polygon_vertices=7
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=ipc mid_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=ipc skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=ipc max_capacity=16
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.459
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=main_computer_room near_polygon_vertices=8
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=main_computer_room mid_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=main_computer_room skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=main_computer_room max_capacity=15
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=reference_2 near_polygon_vertices=6
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=reference_2 mid_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=reference_2 skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=reference_2 max_capacity=24
+[2026-08-16 21:33:51] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:51] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.5614
+[2026-08-16 21:33:51] [system] INFO NearZoneDetector | section=reference_area near_polygon_vertices=6
+[2026-08-16 21:33:51] [system] INFO MidZoneDetector | section=reference_area mid_polygon_vertices=5
+[2026-08-16 21:33:51] [system] INFO ZonePipeline | section=reference_area skip_far=False far=CSRNet
+[2026-08-16 21:33:51] [system] INFO ZoneSectionPipeline ready | section=reference_area max_capacity=13
+[2026-08-16 21:33:52] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:33:52] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-16 21:33:52] [system] INFO NearZoneDetector | section=weeding_out_area near_polygon_vertices=7
+[2026-08-16 21:33:52] [system] INFO MidZoneDetector | section=weeding_out_area mid_polygon_vertices=5
+[2026-08-16 21:33:52] [system] INFO ZonePipeline | section=weeding_out_area skip_far=False far=CSRNet
+[2026-08-16 21:33:52] [system] INFO ZoneSectionPipeline ready | section=weeding_out_area max_capacity=12
+[2026-08-16 21:33:52] [system] INFO ZoneMultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-08-16 21:33:53] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-08-16 21:33:53] [system] INFO [cad_lab] Near zone | persons=5 objects=0
+[2026-08-16 21:33:53] [system] INFO Inference | section=cad_lab persons=1 objects=0
+[2026-08-16 21:33:53] [system] INFO [cad_lab] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 21:33:53] [system] INFO [cad_lab] ZonePipeline | near=5 mid=1 far=0 dedup=0 total=6 infer=1396ms pipeline=1396ms
+[2026-08-16 21:33:53] [system] INFO [cad_lab] ZoneSectionPipeline | headcount=6 (near=5 mid=1 far=0) max_capacity=18 vacancy=12 pipeline=1396ms
+[2026-08-16 21:33:53] [system] INFO [focused_reading_area] CSRNet far zone | raw=8.63 scale=0.36 count=3
+[2026-08-16 21:33:53] [system] INFO Inference | section=focused_reading_area persons=6 objects=7
+[2026-08-16 21:33:53] [system] INFO [focused_reading_area] Near zone | persons=5 objects=5
+[2026-08-16 21:33:54] [system] INFO Inference | section=focused_reading_area persons=2 objects=4
+[2026-08-16 21:33:54] [system] INFO [focused_reading_area] Mid zone | detections=2 tracked=2 active_ids=[2, 3]
+[2026-08-16 21:33:54] [system] INFO [focused_reading_area] ZonePipeline | near=5 mid=2 far=3 dedup=0 total=10 infer=641ms pipeline=641ms
+[2026-08-16 21:33:54] [system] INFO [focused_reading_area] ZoneSectionPipeline | headcount=10 (near=5 mid=2 far=3) max_capacity=27 vacancy=17 pipeline=641ms
+[2026-08-16 21:33:54] [system] INFO [g_hall_2] CSRNet far zone | raw=38.39 scale=0.82 count=31
+[2026-08-16 21:33:54] [system] INFO Inference | section=g_hall_2 persons=12 objects=11
+[2026-08-16 21:33:54] [system] INFO [g_hall_2] Near zone | persons=7 objects=8
+[2026-08-16 21:33:54] [system] INFO Inference | section=g_hall_2 persons=17 objects=7
+[2026-08-16 21:33:54] [system] INFO [g_hall_2] Mid zone | detections=12 tracked=12 active_ids=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[2026-08-16 21:33:54] [system] INFO [g_hall_2] ZonePipeline | near=7 mid=11 far=31 dedup=1 total=49 infer=706ms pipeline=707ms
+[2026-08-16 21:33:54] [system] INFO [g_hall_2] ZoneSectionPipeline | headcount=49 (near=7 mid=11 far=31) max_capacity=92 vacancy=43 pipeline=707ms
+[2026-08-16 21:33:54] [system] INFO [g_huss] CSRNet far zone | raw=37.42 scale=1.0513 count=39
+[2026-08-16 21:33:55] [system] INFO Inference | section=g_huss persons=26 objects=11
+[2026-08-16 21:33:55] [system] INFO [g_huss] Near zone | persons=15 objects=8
+[2026-08-16 21:33:56] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-08-16 21:33:56] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+[2026-08-16 21:33:56] [system] INFO [g_huss] ZonePipeline | near=15 mid=11 far=39 dedup=2 total=65 infer=1391ms pipeline=1392ms
+[2026-08-16 21:33:56] [system] INFO [g_huss] ZoneSectionPipeline | headcount=65 (near=15 mid=11 far=39) max_capacity=30 vacancy=0 pipeline=1392ms
+[2026-08-16 21:33:56] [system] INFO [hindi_section] CSRNet far zone | raw=25.93 scale=0.4633 count=12
+[2026-08-16 21:33:56] [system] INFO Inference | section=hindi_section persons=13 objects=8
+[2026-08-16 21:33:56] [system] INFO [hindi_section] Near zone | persons=6 objects=7
+[2026-08-16 21:33:57] [system] INFO Inference | section=hindi_section persons=15 objects=7
+[2026-08-16 21:33:57] [system] INFO [hindi_section] Mid zone | detections=8 tracked=8 active_ids=[29, 30, 31, 32, 33, 34, 35, 36]
+[2026-08-16 21:33:57] [system] INFO [hindi_section] ZonePipeline | near=6 mid=6 far=12 dedup=2 total=24 infer=1203ms pipeline=1203ms
+[2026-08-16 21:33:57] [system] INFO [hindi_section] ZoneSectionPipeline | headcount=24 (near=6 mid=6 far=12) max_capacity=30 vacancy=6 pipeline=1203ms
+[2026-08-16 21:33:57] [system] INFO [ip_camera_19] CSRNet far zone | raw=3.44 scale=0.7162 count=2
+[2026-08-16 21:33:58] [system] INFO Inference | section=ip_camera_19 persons=3 objects=5
+[2026-08-16 21:33:58] [system] INFO [ip_camera_19] Near zone | persons=3 objects=5
+[2026-08-16 21:33:58] [system] INFO Inference | section=ip_camera_19 persons=2 objects=0
+[2026-08-16 21:33:58] [system] INFO [ip_camera_19] Mid zone | detections=2 tracked=2 active_ids=[37, 38]
+[2026-08-16 21:33:58] [system] INFO [ip_camera_19] ZonePipeline | near=3 mid=2 far=2 dedup=0 total=7 infer=677ms pipeline=677ms
+[2026-08-16 21:33:58] [system] INFO [ip_camera_19] ZoneSectionPipeline | headcount=7 (near=3 mid=2 far=2) max_capacity=11 vacancy=4 pipeline=677ms
+[2026-08-16 21:33:58] [system] INFO [ipc] CSRNet far zone | raw=2.01 scale=1.94 count=4
+[2026-08-16 21:33:58] [system] INFO Inference | section=ipc persons=1 objects=1
+[2026-08-16 21:33:58] [system] INFO [ipc] Near zone | persons=1 objects=1
+[2026-08-16 21:33:58] [system] INFO Inference | section=ipc persons=2 objects=1
+[2026-08-16 21:33:58] [system] INFO [ipc] Mid zone | detections=2 tracked=2 active_ids=[39, 40]
+[2026-08-16 21:33:58] [system] INFO [ipc] ZonePipeline | near=1 mid=2 far=4 dedup=0 total=7 infer=473ms pipeline=473ms
+[2026-08-16 21:33:58] [system] INFO [ipc] ZoneSectionPipeline | headcount=7 (near=1 mid=2 far=4) max_capacity=16 vacancy=9 pipeline=474ms
+[2026-08-16 21:33:58] [system] INFO [main_computer_room] CSRNet far zone | raw=5.51 scale=0.459 count=3
+[2026-08-16 21:33:59] [system] INFO Inference | section=main_computer_room persons=3 objects=4
+[2026-08-16 21:33:59] [system] INFO [main_computer_room] Near zone | persons=3 objects=4
+[2026-08-16 21:33:59] [system] INFO Inference | section=main_computer_room persons=4 objects=1
+[2026-08-16 21:33:59] [system] INFO [main_computer_room] Mid zone | detections=3 tracked=3 active_ids=[41, 42, 43]
+[2026-08-16 21:33:59] [system] INFO [main_computer_room] ZonePipeline | near=3 mid=1 far=3 dedup=2 total=7 infer=521ms pipeline=521ms
+[2026-08-16 21:33:59] [system] INFO [main_computer_room] ZoneSectionPipeline | headcount=7 (near=3 mid=1 far=3) max_capacity=15 vacancy=8 pipeline=522ms
+[2026-08-16 21:33:59] [system] INFO [reference_2] CSRNet far zone | raw=17.12 scale=0.3234 count=6
+[2026-08-16 21:34:00] [system] INFO Inference | section=reference_2 persons=3 objects=4
+[2026-08-16 21:34:00] [system] INFO [reference_2] Near zone | persons=3 objects=4
+[2026-08-16 21:34:00] [system] INFO Inference | section=reference_2 persons=4 objects=2
+[2026-08-16 21:34:00] [system] INFO [reference_2] Mid zone | detections=4 tracked=4 active_ids=[44, 45, 46, 47]
+[2026-08-16 21:34:00] [system] INFO [reference_2] ZonePipeline | near=3 mid=3 far=6 dedup=1 total=12 infer=932ms pipeline=932ms
+[2026-08-16 21:34:00] [system] INFO [reference_2] ZoneSectionPipeline | headcount=12 (near=3 mid=3 far=6) max_capacity=24 vacancy=12 pipeline=933ms
+[2026-08-16 21:34:00] [system] INFO [reference_area] CSRNet far zone | raw=4.13 scale=1.5614 count=6
+[2026-08-16 21:34:00] [system] INFO Inference | section=reference_area persons=5 objects=5
+[2026-08-16 21:34:00] [system] INFO [reference_area] Near zone | persons=4 objects=5
+[2026-08-16 21:34:00] [system] INFO Inference | section=reference_area persons=2 objects=0
+[2026-08-16 21:34:00] [system] INFO [reference_area] Mid zone | detections=2 tracked=2 active_ids=[48, 49]
+[2026-08-16 21:34:00] [system] INFO [reference_area] ZonePipeline | near=4 mid=1 far=6 dedup=1 total=11 infer=572ms pipeline=572ms
+[2026-08-16 21:34:00] [system] INFO [reference_area] ZoneSectionPipeline | headcount=11 (near=4 mid=1 far=6) max_capacity=13 vacancy=2 pipeline=572ms
+[2026-08-16 21:34:00] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.75 scale=0.3682 count=1
+[2026-08-16 21:34:01] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-08-16 21:34:01] [system] INFO [weeding_out_area] Near zone | persons=0 objects=0
+[2026-08-16 21:34:01] [system] INFO Inference | section=weeding_out_area persons=1 objects=1
+[2026-08-16 21:34:01] [system] INFO [weeding_out_area] Mid zone | detections=1 tracked=1 active_ids=[50]
+[2026-08-16 21:34:01] [system] INFO [weeding_out_area] ZonePipeline | near=0 mid=1 far=1 dedup=0 total=2 infer=440ms pipeline=440ms
+[2026-08-16 21:34:01] [system] INFO [weeding_out_area] ZoneSectionPipeline | headcount=2 (near=0 mid=1 far=1) max_capacity=12 vacancy=10 pipeline=440ms
+[2026-08-16 21:34:24] [system] INFO RedisStore connected | localhost:6379
+[2026-08-16 21:34:24] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-16 21:34:26] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-16 21:34:27] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-16 21:34:27] [system] INFO Preprocessor ready | gamma=1.2 bilateral_d=9 sigma_color=75 sigma_space=75 clahe_clip=2.0 tile_grid=(8, 8) target=(640, 640)
+[2026-08-16 21:34:28] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:28] [system] INFO CSRNetFarZoneEstimator | section=cad_lab far_polygon_vertices=5 device=cuda scale_factor=1.0
+[2026-08-16 21:34:28] [system] INFO NearZoneDetector | section=cad_lab near_polygon_vertices=8
+[2026-08-16 21:34:28] [system] INFO MidZoneDetector | section=cad_lab mid_polygon_vertices=5
+[2026-08-16 21:34:28] [system] INFO ZonePipeline | section=cad_lab skip_far=True far=disabled
+[2026-08-16 21:34:28] [system] INFO ZoneSectionPipeline ready | section=cad_lab max_capacity=18
+[2026-08-16 21:34:28] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:28] [system] INFO CSRNetFarZoneEstimator | section=focused_reading_area far_polygon_vertices=5 device=cuda scale_factor=0.36
+[2026-08-16 21:34:28] [system] INFO NearZoneDetector | section=focused_reading_area near_polygon_vertices=7
+[2026-08-16 21:34:28] [system] INFO MidZoneDetector | section=focused_reading_area mid_polygon_vertices=15
+[2026-08-16 21:34:28] [system] INFO ZonePipeline | section=focused_reading_area skip_far=False far=CSRNet
+[2026-08-16 21:34:28] [system] INFO ZoneSectionPipeline ready | section=focused_reading_area max_capacity=27
+[2026-08-16 21:34:28] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:28] [system] INFO CSRNetFarZoneEstimator | section=g_hall_2 far_polygon_vertices=5 device=cuda scale_factor=0.82
+[2026-08-16 21:34:28] [system] INFO NearZoneDetector | section=g_hall_2 near_polygon_vertices=9
+[2026-08-16 21:34:28] [system] INFO MidZoneDetector | section=g_hall_2 mid_polygon_vertices=5
+[2026-08-16 21:34:28] [system] INFO ZonePipeline | section=g_hall_2 skip_far=False far=CSRNet
+[2026-08-16 21:34:28] [system] INFO ZoneSectionPipeline ready | section=g_hall_2 max_capacity=92
+[2026-08-16 21:34:28] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:28] [system] INFO CSRNetFarZoneEstimator | section=g_huss far_polygon_vertices=5 device=cuda scale_factor=1.0513
+[2026-08-16 21:34:28] [system] INFO NearZoneDetector | section=g_huss near_polygon_vertices=7
+[2026-08-16 21:34:28] [system] INFO MidZoneDetector | section=g_huss mid_polygon_vertices=5
+[2026-08-16 21:34:28] [system] INFO ZonePipeline | section=g_huss skip_far=False far=CSRNet
+[2026-08-16 21:34:28] [system] INFO ZoneSectionPipeline ready | section=g_huss max_capacity=30
+[2026-08-16 21:34:28] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:28] [system] INFO CSRNetFarZoneEstimator | section=hindi_section far_polygon_vertices=17 device=cuda scale_factor=0.4633
+[2026-08-16 21:34:28] [system] INFO NearZoneDetector | section=hindi_section near_polygon_vertices=12
+[2026-08-16 21:34:28] [system] INFO MidZoneDetector | section=hindi_section mid_polygon_vertices=15
+[2026-08-16 21:34:28] [system] INFO ZonePipeline | section=hindi_section skip_far=False far=CSRNet
+[2026-08-16 21:34:28] [system] INFO ZoneSectionPipeline ready | section=hindi_section max_capacity=30
+[2026-08-16 21:34:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:29] [system] INFO CSRNetFarZoneEstimator | section=ip_camera_19 far_polygon_vertices=5 device=cuda scale_factor=0.7162
+[2026-08-16 21:34:29] [system] INFO NearZoneDetector | section=ip_camera_19 near_polygon_vertices=5
+[2026-08-16 21:34:29] [system] INFO MidZoneDetector | section=ip_camera_19 mid_polygon_vertices=5
+[2026-08-16 21:34:29] [system] INFO ZonePipeline | section=ip_camera_19 skip_far=False far=CSRNet
+[2026-08-16 21:34:29] [system] INFO ZoneSectionPipeline ready | section=ip_camera_19 max_capacity=11
+[2026-08-16 21:34:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:29] [system] INFO CSRNetFarZoneEstimator | section=ipc far_polygon_vertices=5 device=cuda scale_factor=1.94
+[2026-08-16 21:34:29] [system] INFO NearZoneDetector | section=ipc near_polygon_vertices=7
+[2026-08-16 21:34:29] [system] INFO MidZoneDetector | section=ipc mid_polygon_vertices=5
+[2026-08-16 21:34:29] [system] INFO ZonePipeline | section=ipc skip_far=False far=CSRNet
+[2026-08-16 21:34:29] [system] INFO ZoneSectionPipeline ready | section=ipc max_capacity=16
+[2026-08-16 21:34:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:29] [system] INFO CSRNetFarZoneEstimator | section=main_computer_room far_polygon_vertices=5 device=cuda scale_factor=0.459
+[2026-08-16 21:34:29] [system] INFO NearZoneDetector | section=main_computer_room near_polygon_vertices=8
+[2026-08-16 21:34:29] [system] INFO MidZoneDetector | section=main_computer_room mid_polygon_vertices=5
+[2026-08-16 21:34:29] [system] INFO ZonePipeline | section=main_computer_room skip_far=False far=CSRNet
+[2026-08-16 21:34:29] [system] INFO ZoneSectionPipeline ready | section=main_computer_room max_capacity=15
+[2026-08-16 21:34:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:29] [system] INFO CSRNetFarZoneEstimator | section=reference_2 far_polygon_vertices=8 device=cuda scale_factor=0.3234
+[2026-08-16 21:34:29] [system] INFO NearZoneDetector | section=reference_2 near_polygon_vertices=6
+[2026-08-16 21:34:29] [system] INFO MidZoneDetector | section=reference_2 mid_polygon_vertices=5
+[2026-08-16 21:34:29] [system] INFO ZonePipeline | section=reference_2 skip_far=False far=CSRNet
+[2026-08-16 21:34:29] [system] INFO ZoneSectionPipeline ready | section=reference_2 max_capacity=24
+[2026-08-16 21:34:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:29] [system] INFO CSRNetFarZoneEstimator | section=reference_area far_polygon_vertices=5 device=cuda scale_factor=1.5614
+[2026-08-16 21:34:29] [system] INFO NearZoneDetector | section=reference_area near_polygon_vertices=6
+[2026-08-16 21:34:29] [system] INFO MidZoneDetector | section=reference_area mid_polygon_vertices=5
+[2026-08-16 21:34:29] [system] INFO ZonePipeline | section=reference_area skip_far=False far=CSRNet
+[2026-08-16 21:34:29] [system] INFO ZoneSectionPipeline ready | section=reference_area max_capacity=13
+[2026-08-16 21:34:29] [system] INFO CSRNet weights loaded | models/csrnet_v3_best.pth
+[2026-08-16 21:34:29] [system] INFO CSRNetFarZoneEstimator | section=weeding_out_area far_polygon_vertices=5 device=cuda scale_factor=0.3682
+[2026-08-16 21:34:29] [system] INFO NearZoneDetector | section=weeding_out_area near_polygon_vertices=7
+[2026-08-16 21:34:29] [system] INFO MidZoneDetector | section=weeding_out_area mid_polygon_vertices=5
+[2026-08-16 21:34:29] [system] INFO ZonePipeline | section=weeding_out_area skip_far=False far=CSRNet
+[2026-08-16 21:34:29] [system] INFO ZoneSectionPipeline ready | section=weeding_out_area max_capacity=12
+[2026-08-16 21:34:29] [system] INFO ZoneMultiSectionPipeline ready | sections=['cad_lab', 'focused_reading_area', 'g_hall_2', 'g_huss', 'hindi_section', 'ip_camera_19', 'ipc', 'main_computer_room', 'reference_2', 'reference_area', 'weeding_out_area']
+[2026-08-16 21:34:30] [system] INFO Inference | section=cad_lab persons=5 objects=0
+[2026-08-16 21:34:30] [system] INFO [cad_lab] Near zone | persons=5 objects=0
+[2026-08-16 21:34:30] [system] INFO Inference | section=cad_lab persons=1 objects=0
+[2026-08-16 21:34:30] [system] INFO [cad_lab] Mid zone | detections=1 tracked=1 active_ids=[1]
+[2026-08-16 21:34:30] [system] INFO [cad_lab] ZonePipeline | near=5 mid=1 far=0 dedup=0 total=6 infer=1188ms pipeline=1188ms
+[2026-08-16 21:34:30] [system] INFO [cad_lab] ZoneSectionPipeline | headcount=6 (near=5 mid=1 far=0) max_capacity=18 vacancy=12 pipeline=1188ms
+[2026-08-16 21:34:30] [system] INFO [focused_reading_area] CSRNet far zone | raw=8.63 scale=0.36 count=3
+[2026-08-16 21:34:31] [system] INFO Inference | section=focused_reading_area persons=6 objects=7
+[2026-08-16 21:34:31] [system] INFO [focused_reading_area] Near zone | persons=5 objects=5
+[2026-08-16 21:34:31] [system] INFO Inference | section=focused_reading_area persons=2 objects=4
+[2026-08-16 21:34:31] [system] INFO [focused_reading_area] Mid zone | detections=2 tracked=2 active_ids=[2, 3]
+[2026-08-16 21:34:31] [system] INFO [focused_reading_area] ZonePipeline | near=5 mid=2 far=3 dedup=0 total=10 infer=617ms pipeline=618ms
+[2026-08-16 21:34:31] [system] INFO [focused_reading_area] ZoneSectionPipeline | headcount=10 (near=5 mid=2 far=3) max_capacity=27 vacancy=17 pipeline=618ms
+[2026-08-16 21:34:31] [system] INFO [g_hall_2] CSRNet far zone | raw=38.39 scale=0.82 count=31
+[2026-08-16 21:34:31] [system] INFO Inference | section=g_hall_2 persons=12 objects=11
+[2026-08-16 21:34:31] [system] INFO [g_hall_2] Near zone | persons=7 objects=8
+[2026-08-16 21:34:32] [system] INFO Inference | section=g_hall_2 persons=17 objects=7
+[2026-08-16 21:34:32] [system] INFO [g_hall_2] Mid zone | detections=12 tracked=12 active_ids=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[2026-08-16 21:34:32] [system] INFO [g_hall_2] ZonePipeline | near=7 mid=11 far=31 dedup=1 total=49 infer=663ms pipeline=664ms
+[2026-08-16 21:34:32] [system] INFO [g_hall_2] ZoneSectionPipeline | headcount=49 (near=7 mid=11 far=31) max_capacity=92 vacancy=43 pipeline=664ms
+[2026-08-16 21:34:32] [system] INFO [g_huss] CSRNet far zone | raw=37.42 scale=1.0513 count=39
+[2026-08-16 21:34:32] [system] INFO Inference | section=g_huss persons=26 objects=11
+[2026-08-16 21:34:32] [system] INFO [g_huss] Near zone | persons=15 objects=8
+[2026-08-16 21:34:33] [system] INFO Inference | section=g_huss persons=25 objects=6
+[2026-08-16 21:34:33] [system] INFO [g_huss] Mid zone | detections=13 tracked=13 active_ids=[16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+[2026-08-16 21:34:33] [system] INFO [g_huss] ZonePipeline | near=15 mid=11 far=39 dedup=2 total=65 infer=1330ms pipeline=1331ms
+[2026-08-16 21:34:33] [system] INFO [g_huss] ZoneSectionPipeline | headcount=65 (near=15 mid=11 far=39) max_capacity=30 vacancy=0 pipeline=1331ms
+[2026-08-16 21:34:33] [system] INFO [hindi_section] CSRNet far zone | raw=25.93 scale=0.4633 count=12
+[2026-08-16 21:34:34] [system] INFO Inference | section=hindi_section persons=13 objects=8
+[2026-08-16 21:34:34] [system] INFO [hindi_section] Near zone | persons=6 objects=7
+[2026-08-16 21:34:34] [system] INFO Inference | section=hindi_section persons=15 objects=7
+[2026-08-16 21:34:34] [system] INFO [hindi_section] Mid zone | detections=8 tracked=8 active_ids=[29, 30, 31, 32, 33, 34, 35, 36]
+[2026-08-16 21:34:34] [system] INFO [hindi_section] ZonePipeline | near=6 mid=6 far=12 dedup=2 total=24 infer=1177ms pipeline=1177ms
+[2026-08-16 21:34:34] [system] INFO [hindi_section] ZoneSectionPipeline | headcount=24 (near=6 mid=6 far=12) max_capacity=30 vacancy=6 pipeline=1177ms
+[2026-08-16 21:34:34] [system] INFO [ip_camera_19] CSRNet far zone | raw=3.44 scale=0.7162 count=2
+[2026-08-16 21:34:35] [system] INFO Inference | section=ip_camera_19 persons=3 objects=5
+[2026-08-16 21:34:35] [system] INFO [ip_camera_19] Near zone | persons=3 objects=5
+[2026-08-16 21:34:35] [system] INFO Inference | section=ip_camera_19 persons=2 objects=0
+[2026-08-16 21:34:35] [system] INFO [ip_camera_19] Mid zone | detections=2 tracked=2 active_ids=[37, 38]
+[2026-08-16 21:34:35] [system] INFO [ip_camera_19] ZonePipeline | near=3 mid=2 far=2 dedup=0 total=7 infer=649ms pipeline=649ms
+[2026-08-16 21:34:35] [system] INFO [ip_camera_19] ZoneSectionPipeline | headcount=7 (near=3 mid=2 far=2) max_capacity=11 vacancy=4 pipeline=649ms
+[2026-08-16 21:34:35] [system] INFO [ipc] CSRNet far zone | raw=2.01 scale=1.94 count=4
+[2026-08-16 21:34:35] [system] INFO Inference | section=ipc persons=1 objects=1
+[2026-08-16 21:34:35] [system] INFO [ipc] Near zone | persons=1 objects=1
+[2026-08-16 21:34:35] [system] INFO Inference | section=ipc persons=2 objects=1
+[2026-08-16 21:34:35] [system] INFO [ipc] Mid zone | detections=2 tracked=2 active_ids=[39, 40]
+[2026-08-16 21:34:35] [system] INFO [ipc] ZonePipeline | near=1 mid=2 far=4 dedup=0 total=7 infer=476ms pipeline=476ms
+[2026-08-16 21:34:35] [system] INFO [ipc] ZoneSectionPipeline | headcount=7 (near=1 mid=2 far=4) max_capacity=16 vacancy=9 pipeline=477ms
+[2026-08-16 21:34:35] [system] INFO [main_computer_room] CSRNet far zone | raw=5.51 scale=0.459 count=3
+[2026-08-16 21:34:36] [system] INFO Inference | section=main_computer_room persons=3 objects=4
+[2026-08-16 21:34:36] [system] INFO [main_computer_room] Near zone | persons=3 objects=4
+[2026-08-16 21:34:36] [system] INFO Inference | section=main_computer_room persons=4 objects=1
+[2026-08-16 21:34:36] [system] INFO [main_computer_room] Mid zone | detections=3 tracked=3 active_ids=[41, 42, 43]
+[2026-08-16 21:34:36] [system] INFO [main_computer_room] ZonePipeline | near=3 mid=1 far=3 dedup=2 total=7 infer=494ms pipeline=494ms
+[2026-08-16 21:34:36] [system] INFO [main_computer_room] ZoneSectionPipeline | headcount=7 (near=3 mid=1 far=3) max_capacity=15 vacancy=8 pipeline=494ms
+[2026-08-16 21:34:36] [system] INFO [reference_2] CSRNet far zone | raw=17.12 scale=0.3234 count=6
+[2026-08-16 21:34:37] [system] INFO Inference | section=reference_2 persons=3 objects=4
+[2026-08-16 21:34:37] [system] INFO [reference_2] Near zone | persons=3 objects=4
+[2026-08-16 21:34:37] [system] INFO Inference | section=reference_2 persons=4 objects=2
+[2026-08-16 21:34:37] [system] INFO [reference_2] Mid zone | detections=4 tracked=4 active_ids=[44, 45, 46, 47]
+[2026-08-16 21:34:37] [system] INFO [reference_2] ZonePipeline | near=3 mid=3 far=6 dedup=1 total=12 infer=927ms pipeline=927ms
+[2026-08-16 21:34:37] [system] INFO [reference_2] ZoneSectionPipeline | headcount=12 (near=3 mid=3 far=6) max_capacity=24 vacancy=12 pipeline=928ms
+[2026-08-16 21:34:37] [system] INFO [reference_area] CSRNet far zone | raw=4.13 scale=1.5614 count=6
+[2026-08-16 21:34:37] [system] INFO Inference | section=reference_area persons=5 objects=5
+[2026-08-16 21:34:37] [system] INFO [reference_area] Near zone | persons=4 objects=5
+[2026-08-16 21:34:37] [system] INFO Inference | section=reference_area persons=2 objects=0
+[2026-08-16 21:34:37] [system] INFO [reference_area] Mid zone | detections=2 tracked=2 active_ids=[48, 49]
+[2026-08-16 21:34:37] [system] INFO [reference_area] ZonePipeline | near=4 mid=1 far=6 dedup=1 total=11 infer=589ms pipeline=589ms
+[2026-08-16 21:34:37] [system] INFO [reference_area] ZoneSectionPipeline | headcount=11 (near=4 mid=1 far=6) max_capacity=13 vacancy=2 pipeline=589ms
+[2026-08-16 21:34:37] [system] INFO [weeding_out_area] CSRNet far zone | raw=3.75 scale=0.3682 count=1
+[2026-08-16 21:34:38] [system] INFO Inference | section=weeding_out_area persons=0 objects=0
+[2026-08-16 21:34:38] [system] INFO [weeding_out_area] Near zone | persons=0 objects=0
+[2026-08-16 21:34:38] [system] INFO Inference | section=weeding_out_area persons=1 objects=1
+[2026-08-16 21:34:38] [system] INFO [weeding_out_area] Mid zone | detections=1 tracked=1 active_ids=[50]
+[2026-08-16 21:34:38] [system] INFO [weeding_out_area] ZonePipeline | near=0 mid=1 far=1 dedup=0 total=2 infer=431ms pipeline=431ms
+[2026-08-16 21:34:38] [system] INFO [weeding_out_area] ZoneSectionPipeline | headcount=2 (near=0 mid=1 far=1) max_capacity=12 vacancy=10 pipeline=432ms

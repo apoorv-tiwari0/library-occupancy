@@ -1,14 +1,31 @@
-__pycache__/ 
-*.pyc 
-*.pyo 
-*.pyd 
-.env 
-venv/ 
-env/ 
-.venv/ 
-.idea/ 
-.vscode/ 
-models/ 
-data/ 
-data/ 
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments & Secrets
+.env
+.env.local
+.env.*
+!.env.example
+venv/
+env/
+.venv/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+
+# Logs & Output
+logs/
+*.log
+
+# Models & Data
+models/
+data/
+
+# Miscellaneous
 PROJECT_REPORT.md
+temp.py

@@ -1,0 +1,41 @@
+version: "5.3"
+
+services:
+
+  redis:
+    image: redis:7-alpine
+    container_name: library_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --save 60 1 --loglevel warning
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  postgres:
+    image: timescale/timescaledb:latest-pg15
+    container_name: library_postgres
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: library_occupancy
+      POSTGRES_USER: library_user
+      POSTGRES_PASSWORD: library_pass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./storage/init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U library_user -d library_occupancy" ]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  redis_data:
+  postgres_data:
