@@ -8115,3 +8115,30 @@ LINE 7:                             :time::TIMESTAMPTZ,
 [2026-08-16 21:34:38] [system] INFO [weeding_out_area] Mid zone | detections=1 tracked=1 active_ids=[50]
 [2026-08-16 21:34:38] [system] INFO [weeding_out_area] ZonePipeline | near=0 mid=1 far=1 dedup=0 total=2 infer=431ms pipeline=431ms
 [2026-08-16 21:34:38] [system] INFO [weeding_out_area] ZoneSectionPipeline | headcount=2 (near=0 mid=1 far=1) max_capacity=12 vacancy=10 pipeline=432ms
+[2026-08-17 18:58:52] [system] INFO ZONE-BASED OCCUPANCY APPROACH ENABLED (ZCP-14).
+[2026-08-17 18:58:52] [system] INFO Launching FastAPI Server on http://0.0.0.0:8000
+[2026-08-17 18:58:53] [system] INFO RedisStore connected | localhost:6379
+[2026-08-17 18:58:53] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-17 18:58:53] [system] INFO StorageManager initialized | redis_connected=True db_connected=True
+[2026-08-17 18:58:53] [system] INFO Starting Background Pipeline Worker | zone_based=True
+[2026-08-17 18:58:53] [system] INFO FastAPI backend started successfully.
+[2026-08-17 18:58:53] [system] INFO Loaded Zone Config for 11 sections from C:\IITD_Internship\library-occupancy\data\roi\zone_config.json
+[2026-08-17 18:58:57] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-17 18:59:00] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-17 18:59:00] [system] INFO Initialized shared YOLOInference for Zone-Based Detection.
+[2026-08-17 18:59:45] [system] INFO [WebSocket] Client connected. Total clients: 1
+[2026-08-17 19:01:22] [system] INFO [WebSocket] Client disconnected. Total clients: 0
+[2026-08-17 19:06:48] [system] INFO RedisStore connected | localhost:6379
+[2026-08-17 19:06:48] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-17 19:06:48] [system] INFO RedisStore connected | localhost:6379
+[2026-08-17 19:06:48] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-17 19:06:48] [system] INFO StorageManager initialized | redis_connected=True db_connected=True
+[2026-08-17 19:07:00] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-17 19:07:01] [system] INFO SAHI+YOLOv10 loaded.
+[2026-08-17 19:08:00] [system] INFO RedisStore connected | localhost:6379
+[2026-08-17 19:08:00] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-17 19:08:00] [system] INFO RedisStore connected | localhost:6379
+[2026-08-17 19:08:00] [system] INFO DBLogger connected | 127.0.0.1:5433/library_occupancy
+[2026-08-17 19:08:00] [system] INFO StorageManager initialized | redis_connected=True db_connected=True
+[2026-08-17 19:08:03] [system] INFO Loading SAHI+YOLOv10 | weights=models/yolov10x.pt device=cuda conf=0.45
+[2026-08-17 19:08:03] [system] INFO SAHI+YOLOv10 loaded.
