@@ -1,0 +1,74 @@
+.skeletonCard {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+  min-height: 156px;
+}
+
+.shimmerBox {
+  background: linear-gradient(
+    90deg,
+    #E5E3DE 0%,
+    #F0EEEA 50%,
+    #E5E3DE 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 4px;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badgeSkeleton {
+  width: 70px;
+  height: 12px;
+}
+
+.dotSkeleton {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.titleSkeleton {
+  width: 55%;
+  height: 20px;
+  margin-top: 2px;
+}
+
+.barRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.barSkeleton {
+  flex: 1;
+  height: 6px;
+  border-radius: 2px;
+}
+
+.fractionSkeleton {
+  width: 35px;
+  height: 14px;
+}
+
+.secondarySkeleton {
+  width: 65%;
+  height: 12px;
+}
+
+.timestampSkeleton {
+  width: 40%;
+  height: 10px;
+  margin-top: auto;
+}

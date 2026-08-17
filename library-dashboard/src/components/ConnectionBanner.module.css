@@ -1,0 +1,23 @@
+.banner {
+  width: 100%;
+  background-color: #FEF3CD;
+  border-bottom: 1px solid #F0C040;
+  color: #856404;
+  padding: 8px 24px;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.iconDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #B5850A;
+  animation: pulse 1s infinite ease-in-out;
+}
