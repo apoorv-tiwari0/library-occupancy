@@ -17,15 +17,30 @@ env/
 .idea/
 .vscode/
 *.swp
+.DS_Store
 
 # Logs & Output
 logs/
 *.log
 
-# Models & Data
+# Databases & Cache
+*.db
+*.sqlite
+*.sqlite3
+
+# Node & Frontend Build
+node_modules/
+library-dashboard/node_modules/
+library-dashboard/dist/
+library-dashboard/.env
+library-dashboard/.env.local
+
+# Large Models & Heavy Media Data
 models/
+data/test_videos/
 data/
+data/*.db
 
 # Miscellaneous
-PROJECT_REPORT.md
 temp.py
+PROJECT_REPORT.md
