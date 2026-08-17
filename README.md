@@ -43,24 +43,7 @@ Camera Streams / Video Feeds
 
 ---
 
-## Section Capacities
 
-| Section ID | Display Name | Max Capacity |
-| :--- | :--- | :---: |
-| `cad_lab` | CAD Lab | 18 |
-| `focused_reading_area` | Focused Reading Area | 27 |
-| `g_hall_2` | General Hall 2 | 30 |
-| `g_huss` | G. Huss Reading Hall | 30 |
-| `hindi_section` | Hindi Section | 30 |
-| `ip_camera_19` | Reading Lounge | 15 |
-| `ipc` | IPC Computer Lab | 20 |
-| `main_computer_room` | Main Computer Room | 25 |
-| `reference_2` | Reference Section 2 | 18 |
-| `reference_area` | Reference Area | 20 |
-| `weeding_out_area` | Weeding Out Area | 8 |
-| **Total** | | **241** |
-
----
 
 ## Prerequisites
 
