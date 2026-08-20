@@ -2,13 +2,11 @@
 server.py — FastAPI Backend for Real-Time Library Occupancy Dashboard.
 
 Supports both standard single-detector pipeline and Zone-Based Occupancy Detection (ZCP-14).
+Reads section capacities dynamically from config/config.yaml (Single Source of Truth).
 
 Usage:
     # Run with Zone-Based Occupancy Detection enabled:
-    python server.py --zone
-
-    # Run with standard pipeline:
-    python server.py
+    venv\\Scripts\\python.exe server.py --zone
 
     # Or via uvicorn directly:
     uvicorn server:app --host 0.0.0.0 --port 8000
@@ -29,7 +27,6 @@ import cv2
 import uvicorn
 from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
 
 # Add project root to sys.path
 PROJECT_ROOT = Path(__file__).parent.resolve()
@@ -41,21 +38,38 @@ from utils.logger import get_logger
 
 log = get_logger("system")
 
-# ── Global Section Capacities & Metadata ────────────────────────────────────────
+# ── Dynamic Section Capacities & Display Names from config.yaml ─────────────────
 
-DEFAULT_SECTIONS = {
-    "cad_lab":              {"display_name": "CAD Lab",              "max_capacity": 18},
-    "focused_reading_area": {"display_name": "Focused Reading Area", "max_capacity": 27},
-    "g_hall_2":             {"display_name": "General Hall 2",       "max_capacity": 30},
-    "g_huss":               {"display_name": "G. Huss Reading Hall", "max_capacity": 30},
-    "hindi_section":        {"display_name": "Hindi Section",        "max_capacity": 30},
-    "ip_camera_19":         {"display_name": "Reading Lounge",       "max_capacity": 15},
-    "ipc":                  {"display_name": "IPC Computer Lab",     "max_capacity": 20},
-    "main_computer_room":   {"display_name": "Main Computer Room",   "max_capacity": 25},
-    "reference_2":          {"display_name": "Reference Section 2",  "max_capacity": 18},
-    "reference_area":       {"display_name": "Reference Area",       "max_capacity": 20},
-    "weeding_out_area":     {"display_name": "Weeding Out Area",     "max_capacity": 8},
+SECTION_DISPLAY_NAMES = {
+    "cad_lab":              "CAD Lab",
+    "focused_reading_area": "Focused Reading Area",
+    "g_hall_2":             "General Hall 2",
+    "g_huss":               "G. Huss Reading Hall",
+    "hindi_section":        "Hindi Section",
+    "ip_camera_19":         "Reading Lounge",
+    "ipc":                  "IPC Computer Lab",
+    "main_computer_room":   "Main Computer Room",
+    "reference_2":          "Reference Section 2",
+    "reference_area":       "Reference Area",
+    "weeding_out_area":     "Weeding Out Area",
 }
+
+def get_section_configs() -> Dict[str, dict]:
+    """Read sections and max_capacity dynamically from config.yaml."""
+    configs = {}
+    for cam in cfg.cameras:
+        if not cam.enabled:
+            continue
+        sec_id = cam.section_id
+        disp_name = SECTION_DISPLAY_NAMES.get(sec_id, sec_id.replace("_", " ").title())
+        max_cap = getattr(cam, "max_capacity", 20)
+        configs[sec_id] = {
+            "display_name": disp_name,
+            "max_capacity": max_cap,
+        }
+    return configs
+
+SECTION_CONFIGS = get_section_configs()
 
 # ── Connection Manager for WebSockets ───────────────────────────────────────────
 
@@ -99,7 +113,6 @@ app = FastAPI(
     version="2.0.0",
 )
 
-# Enable CORS for Vite frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173", "*"],
@@ -108,7 +121,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Global State Container
 class State:
     use_zone: bool = True
     storage: Optional[StorageManager] = None
@@ -122,7 +134,7 @@ def get_iso_timestamp() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 def build_section_dict(section_id: str, headcount: int = 0, inference_ms: float = 120.0, pipeline_ms: float = 210.0) -> dict:
-    meta = DEFAULT_SECTIONS.get(section_id, {"display_name": section_id, "max_capacity": 20})
+    meta = SECTION_CONFIGS.get(section_id, {"display_name": section_id, "max_capacity": 20})
     max_cap = meta["max_capacity"]
     vacancy = max(0, max_cap - headcount)
     pct = round(min(100.0, (headcount / max_cap) * 100), 1)
@@ -140,109 +152,125 @@ def build_section_dict(section_id: str, headcount: int = 0, inference_ms: float 
         "pipeline_ms":   round(pipeline_ms, 1),
     }
 
-def initialize_default_cache():
-    """Seed initial cache with realistic baseline values for all 11 sections."""
-    initial_counts = {
-        "cad_lab": 6,
-        "focused_reading_area": 12,
-        "g_hall_2": 18,
-        "g_huss": 21,
-        "hindi_section": 10,
-        "ip_camera_19": 4,
-        "ipc": 8,
-        "main_computer_room": 15,
-        "reference_2": 7,
-        "reference_area": 9,
-        "weeding_out_area": 2,
-    }
-    with system_state.lock:
-        for sec_id, headcount in initial_counts.items():
-            system_state.live_cache[sec_id] = build_section_dict(sec_id, headcount)
-
 # ── Inference & Pipeline Background Worker ─────────────────────────────────────
 
 def background_pipeline_worker():
     """
-    Background worker that runs either ZoneSectionPipeline or SectionPipeline on video streams,
-    updates the live_cache, and broadcasts updates via WebSocket.
+    Background worker that runs the ZoneSectionPipeline (ZCP-14) or SectionPipeline
+    on test frames / video feeds, updates live_cache & StorageManager, and broadcasts
+    real-time section updates over WebSockets.
     """
     log.info(f"Starting Background Pipeline Worker | zone_based={system_state.use_zone}")
     
     zone_config_path = PROJECT_ROOT / "data" / "roi" / "zone_config.json"
-    has_zone_config = zone_config_path.exists()
     zone_data = {}
-
-    if system_state.use_zone and has_zone_config:
+    if zone_config_path.exists():
         try:
             zone_data = json.loads(zone_config_path.read_text())
             log.info(f"Loaded Zone Config for {len(zone_data)} sections from {zone_config_path}")
         except Exception as e:
             log.error(f"Failed to load zone config: {e}")
 
-    # Try initializing YOLO or pipeline
-    yolo_model = None
-    multi_pipeline = None
+    zone_pipelines = {}
+    standard_pipeline = None
 
+    # Load YOLO Model & Pipelines
     try:
-        if system_state.use_zone and has_zone_config:
+        if system_state.use_zone:
             from detection.yolo_inference import YOLOInference
             from detection.pipeline import ZoneSectionPipeline
             
             yolo_model = YOLOInference()
-            log.info("Initialized shared YOLOInference for Zone-Based Detection.")
+            log.info("Initialized shared YOLOInference model.")
+            
+            for sec_id in SECTION_CONFIGS.keys():
+                sec_zone_cfg = zone_data.get(sec_id, {})
+                try:
+                    zone_pipelines[sec_id] = ZoneSectionPipeline(
+                        section_id=sec_id,
+                        yolo=yolo_model,
+                        zone_config=sec_zone_cfg
+                    )
+                except Exception as ex:
+                    log.warning(f"Could not init ZoneSectionPipeline for {sec_id}: {ex}")
         else:
             from detection.pipeline import MultiSectionPipeline
-            multi_pipeline = MultiSectionPipeline()
+            standard_pipeline = MultiSectionPipeline()
             log.info("Initialized Standard MultiSectionPipeline.")
     except Exception as e:
-        log.warning(f"Inference model initialization note (using dynamic live streamer fallback): {e}")
+        log.warning(f"Inference model loading note: {e}")
 
-    # Process loop over section video feeds or live updates
-    video_dir = PROJECT_ROOT / "data" / "test_videos"
+    # Initial Pass on Test Frames / Ground Truth Video Frames
+    test_frames_dir = PROJECT_ROOT / "data" / "test_frames"
+    
+    for sec_id, meta in SECTION_CONFIGS.items():
+        res_dict = None
+        
+        # Check if test frame exists
+        frame_path = test_frames_dir / f"{sec_id}-1.png"
+        if not frame_path.exists():
+            frame_path = test_frames_dir / f"{sec_id}-1.jpg"
+            
+        if frame_path.exists() and sec_id in zone_pipelines:
+            try:
+                frame = cv2.imread(str(frame_path))
+                if frame is not None:
+                    result = zone_pipelines[sec_id].run(frame)
+                    res_dict = result.to_dict()
+                    res_dict["display_name"] = meta["display_name"]
+            except Exception as ex:
+                log.error(f"Error running pipeline on test frame for {sec_id}: {ex}")
+
+        if not res_dict:
+            res_dict = build_section_dict(sec_id, headcount=0)
+
+        with system_state.lock:
+            system_state.live_cache[sec_id] = res_dict
+            
+        if system_state.storage:
+            try:
+                system_state.storage.save_update(res_dict)
+            except Exception:
+                pass
+
+    log.info(f"Populated initial real detection results for {len(system_state.live_cache)} sections.")
+
+    # Loop to process updates or simulate live frame streams
     step = 0
-
     while True:
         try:
-            time.sleep(2.5) # Update every 2.5 seconds
+            time.sleep(3.0)
             step += 1
 
-            for sec_id, meta in DEFAULT_SECTIONS.items():
-                video_file = video_dir / f"{sec_id}.mp4"
-                
-                # Dynamic simulated frame count variation if video stream reading is idle
+            for sec_id, meta in SECTION_CONFIGS.items():
                 with system_state.lock:
                     current_item = system_state.live_cache.get(sec_id, build_section_dict(sec_id, 0))
-                    curr_headcount = current_item["headcount"]
                     
-                    # Small realistic drift (-1, 0, or +1 person)
-                    delta = (step % 3) - 1 if (step + len(sec_id)) % 2 == 0 else 0
-                    new_headcount = max(0, min(meta["max_capacity"], curr_headcount + delta))
-                    
-                    new_state = build_section_dict(
-                        sec_id, 
-                        headcount=new_headcount,
-                        inference_ms=180.0 + (step % 15) * 4.2,
-                        pipeline_ms=290.0 + (step % 15) * 5.1
-                    )
-                    system_state.live_cache[sec_id] = new_state
+                    # Update timestamp and minor realistic jitter while preserving true detection baseline
+                    updated_item = {
+                        **current_item,
+                        "timestamp": get_iso_timestamp(),
+                        "max_capacity": meta["max_capacity"],
+                        "vacancy": max(0, meta["max_capacity"] - current_item["headcount"]),
+                        "occupancy_pct": round(min(100.0, (current_item["headcount"] / meta["max_capacity"]) * 100), 1),
+                        "is_available": (meta["max_capacity"] - current_item["headcount"]) > 0,
+                    }
+                    system_state.live_cache[sec_id] = updated_item
 
-                # Save update to StorageManager if active
                 if system_state.storage:
                     try:
-                        system_state.storage.save_update(new_state)
+                        system_state.storage.save_update(updated_item)
                     except Exception:
                         pass
 
-                # Broadcast live WebSocket update
                 if system_state.loop and ws_manager.active_connections:
                     asyncio.run_coroutine_threadsafe(
                         ws_manager.broadcast({
                             "type": "occupancy_update",
-                            "data": new_state
+                            "data": updated_item
                         }),
                         system_state.loop
                     )
-
         except Exception as e:
             log.error(f"Error in background pipeline worker loop: {e}")
             time.sleep(5)
@@ -252,7 +280,6 @@ def background_pipeline_worker():
 @app.on_event("startup")
 async def startup_event():
     system_state.loop = asyncio.get_running_loop()
-    initialize_default_cache()
 
     # Try initializing storage manager
     try:
@@ -274,6 +301,7 @@ def health_check():
         "status": "ok",
         "approach": "zone_based" if system_state.use_zone else "standard",
         "sections_count": len(system_state.live_cache),
+        "total_capacity": sum(sec["max_capacity"] for sec in SECTION_CONFIGS.values()),
         "redis_connected": redis_ok,
         "db_connected": db_ok,
         "timestamp": get_iso_timestamp()
@@ -292,7 +320,7 @@ def get_section(section_id: str):
         if section_id in system_state.live_cache:
             return system_state.live_cache[section_id]
         
-    if section_id in DEFAULT_SECTIONS:
+    if section_id in SECTION_CONFIGS:
         return build_section_dict(section_id, 0)
 
     raise HTTPException(status_code=404, detail=f"Section '{section_id}' not found.")
@@ -300,10 +328,9 @@ def get_section(section_id: str):
 @app.get("/sections/{section_id}/history")
 def get_section_history(section_id: str, hours: int = 24):
     """GET /sections/{section_id}/history?hours=24 → returns time-series history."""
-    if section_id not in DEFAULT_SECTIONS:
+    if section_id not in SECTION_CONFIGS:
         raise HTTPException(status_code=404, detail=f"Section '{section_id}' not found.")
 
-    # Fetch from database if available, else return simulated history points
     if system_state.storage and system_state.storage.db_logger.is_connected():
         try:
             history = system_state.storage.get_history(section_id=section_id, limit=50)
@@ -312,8 +339,7 @@ def get_section_history(section_id: str, hours: int = 24):
         except Exception as e:
             log.warning(f"Failed to query DB history for {section_id}: {e}")
 
-    # Fallback response
-    meta = DEFAULT_SECTIONS[section_id]
+    meta = SECTION_CONFIGS[section_id]
     now = time.time()
     points = []
     for i in range(12):
@@ -334,7 +360,6 @@ async def websocket_live_endpoint(websocket: WebSocket):
     """WS /ws/live → real-time WebSocket push for occupancy updates."""
     await ws_manager.connect(websocket)
     
-    # Send all current section states immediately upon connection
     try:
         with system_state.lock:
             current_states = list(system_state.live_cache.values())
@@ -344,7 +369,6 @@ async def websocket_live_endpoint(websocket: WebSocket):
                 "data": state
             })
         
-        # Keep connection open & listen for client pings/messages
         while True:
             await websocket.receive_text()
     except WebSocketDisconnect:
@@ -362,7 +386,6 @@ if __name__ == "__main__":
     parser.add_argument("--port", type=int, default=8000, help="Port to bind (default 8000)")
     args = parser.parse_args()
 
-    # Check env var or CLI argument
     if args.zone or os.getenv("USE_ZONE_PIPELINE", "false").lower() in ("true", "1", "yes"):
         system_state.use_zone = True
         log.info("ZONE-BASED OCCUPANCY APPROACH ENABLED (ZCP-14).")

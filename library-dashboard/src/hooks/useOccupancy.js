@@ -134,13 +134,14 @@ export function useOccupancy() {
   // Derived summary numbers
   const summary = useMemo(() => {
     const sectionList = Object.values(sectionsMap);
+    const totalCapacity = sectionList.reduce((sum, sec) => sum + (sec.max_capacity || 0), 0) || TOTAL_LIBRARY_CAPACITY;
     const totalOccupied = sectionList.reduce((sum, sec) => sum + (sec.headcount || 0), 0);
-    const totalAvailable = Math.max(0, TOTAL_LIBRARY_CAPACITY - totalOccupied);
+    const totalAvailable = Math.max(0, totalCapacity - totalOccupied);
     const openSectionsCount = sectionList.filter((sec) => sec.is_available !== false).length;
     const totalSections = sectionList.length;
 
     return {
-      totalCapacity: TOTAL_LIBRARY_CAPACITY,
+      totalCapacity,
       totalOccupied,
       totalAvailable,
       openSectionsCount,

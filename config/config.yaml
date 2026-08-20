@@ -47,7 +47,7 @@ cameras:
     stream_url: "${CAM_04_URL:rtsp://camera-ip:554/stream1}"
     enabled: true
     far_zone_scale: 1.0513
-    max_capacity: 30
+    max_capacity: 96
     sahi_slicing:
       slice_height: 384
       slice_width: 384
@@ -58,7 +58,7 @@ cameras:
     stream_url: "${CAM_05_URL:rtsp://camera-ip:554/stream1}"
     enabled: true
     far_zone_scale: 0.4633
-    max_capacity: 30
+    max_capacity: 84
     sahi_slicing:
       slice_height: 384
       slice_width: 384
